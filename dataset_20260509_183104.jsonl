@@ -1,0 +1,79 @@
+{"question": "What is cancer immunotherapy?", "answer": "A therapy used to treat cancer patients that involves or uses components of the immune system."}
+{"question": "What is the goal of cancer immunotherapy?", "answer": "To enhance the body's immune response against cancer cells."}
+{"question": "What are the different types of immunotherapy?", "answer": "Active immunotherapy, passive immunotherapy, and adoptive immunotherapy."}
+{"question": "What are the benefits of immunotherapy?", "answer": "Increased survival rates, reduced side effects, and improved quality of life."}
+{"question": "What are the side effects of immunotherapy?", "answer": "Fatigue, skin reactions, and immune-related adverse events."}
+{"question": "Who is a candidate for cancer immunotherapy?", "answer": "Patients with advanced or metastatic cancer, or those who have not responded to other treatments."}
+{"question": "What are the potential risks of immunotherapy?", "answer": "Increased risk of infections, autoimmune disorders, and cancer progression."}
+{"question": "What is checkpoint inhibitor therapy?", "answer": "A type of immunotherapy that blocks the PD-1/PD-L1 checkpoint to enhance immune response."}
+{"question": "What is CAR-T cell therapy?", "answer": "A type of immunotherapy that involves removing T cells, modifying them, and reinfusing them to attack cancer cells."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system helps to recognize and eliminate cancer cells."}
+{"question": "What is the difference between cancer and tumor?", "answer": "Cancer refers to a disease of uncontrolled cell growth, while a tumor is a mass of abnormal cells."}
+{"question": "What are the different stages of cancer?", "answer": "Stage 0, stage I, stage II, stage III, and stage IV."}
+{"question": "What is cancer staging?", "answer": "The process of determining the extent of cancer spread and growth."}
+{"question": "What are the symptoms of cancer?", "answer": "Unexplained weight loss, fatigue, pain, and changes in bowel or bladder habits."}
+{"question": "What is the role of genetics in cancer?", "answer": "Genetic mutations can increase the risk of developing certain types of cancer."}
+{"question": "What is the difference between benign and malignant tumors?", "answer": "Benign tumors are non-cancerous, while malignant tumors are cancerous."}
+{"question": "What is cancer metastasis?", "answer": "The process by which cancer cells spread to other parts of the body."}
+{"question": "What is the role of the immune system in preventing cancer?", "answer": "The immune system helps to recognize and eliminate abnormal cells."}
+{"question": "What is the difference between cancer cells and normal cells?", "answer": "Cancer cells have uncontrolled growth, genetic mutations, and altered morphology."}
+{"question": "What is cancer treatment?", "answer": "A range of therapies, including surgery, chemotherapy, radiation, and immunotherapy."}
+{"question": "What is the role of nutrition in cancer treatment?", "answer": "A balanced diet can help to support the immune system and improve treatment outcomes."}
+{"question": "What are the different types of cancer?", "answer": "Carcinomas, sarcomas, lymphomas, leukemias, and melanomas."}
+{"question": "What is the role of the doctor in cancer diagnosis?", "answer": "The doctor will order tests and exams to determine the type and stage of cancer."}
+{"question": "What is the role of the patient in cancer diagnosis?", "answer": "The patient will provide medical history and undergo tests and exams."}
+{"question": "What are the different types of cancer treatment?", "answer": "Surgery, chemotherapy, radiation, immunotherapy, and targeted therapy."}
+{"question": "What is the role of the nurse in cancer treatment?", "answer": "The nurse will provide emotional support, administer medications, and monitor treatment side effects."}
+{"question": "What is the role of the oncologist in cancer treatment?", "answer": "The oncologist will develop a treatment plan and monitor treatment progress."}
+{"question": "What is cancer rehabilitation?", "answer": "A range of therapies to help patients recover from cancer treatment and improve quality of life."}
+{"question": "What is cancer recurrence?", "answer": "The return of cancer after treatment."}
+{"question": "What is cancer metastasis?", "answer": "The spread of cancer cells to other parts of the body."}
+{"question": "What is the role of the family in cancer care?", "answer": "Family members can provide emotional support and help with daily tasks."}
+{"question": "What is cancer support group?", "answer": "A group of patients and family members who meet to share experiences and receive support."}
+{"question": "What is cancer advocacy?", "answer": "Supporting patients and families affected by cancer through education and awareness."}
+{"question": "What is cancer research?", "answer": "Scientific studies to develop new treatments and improve cancer outcomes."}
+{"question": "What is the role of the researcher in cancer research?", "answer": "The researcher will design and conduct studies to develop new treatments."}
+{"question": "What is the role of the patient in cancer research?", "answer": "The patient will participate in studies and provide data."}
+{"question": "What is cancer clinical trials?", "answer": "Studies to evaluate the safety and effectiveness of new treatments."}
+{"question": "What is the role of the doctor in cancer clinical trials?", "answer": "The doctor will explain the trial to the patient and obtain informed consent."}
+{"question": "What is cancer patient education?", "answer": "Providing patients with information to make informed decisions about their care."}
+{"question": "What is cancer survivorship?", "answer": "The period after cancer treatment, during which patients can experience physical, emotional, and psychological challenges."}
+{"question": "What is cancer relapse?", "answer": "The return of cancer after treatment."}
+{"question": "What is cancer recurrence?", "answer": "The return of cancer after treatment."}
+{"question": "What is cancer screening?", "answer": "Tests to detect cancer at an early stage."}
+{"question": "What is cancer prevention?", "answer": "Strategies to reduce the risk of developing cancer."}
+{"question": "What is the role of lifestyle in cancer prevention?", "answer": "A healthy diet, regular exercise, and not smoking can reduce cancer risk."}
+{"question": "What is cancer genetics?", "answer": "The study of genetic mutations that increase cancer risk."}
+{"question": "What is cancer epigenetics?", "answer": "The study of gene expression and its role in cancer."}
+{"question": "What is cancer cell signaling?", "answer": "The process by which cancer cells communicate with each other."}
+{"question": "What is cancer angiogenesis?", "answer": "The process by which cancer cells grow new blood vessels."}
+{"question": "What is cancer metastasis?", "answer": "The spread of cancer cells to other parts of the body."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the body’s immune system to detect and destroy cancer cells."}
+{"question": "Which cells are primarily involved in tumor-directed immunotherapy?", "answer": "T‑cells, especially cytotoxic CD8⁺ T‑cells and engineered CAR‑T cells."}
+{"question": "How does a CAR‑T cell therapy work?", "answer": "Patient T‑cells are extracted, genetically modified to express a chimeric antigen receptor, expanded, and reinfused to target tumor antigens."}
+{"question": "What is a checkpoint inhibitor?", "answer": "A drug that blocks proteins like PD‑1 or CTLA‑4, releasing the brakes on T‑cells so they can attack cancer."}
+{"question": "Which cancers have FDA‑approved checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, bladder cancer, head and neck squamous cell carcinoma, and others."}
+{"question": "Are there common side effects of checkpoint inhibitors?", "answer": "Yes; immune‑related adverse events include colitis, dermatitis, hepatitis, endocrinopathies, and pneumonitis."}
+{"question": "How is immune‑related colitis managed?", "answer": "With corticosteroids, and if refractory, with anti‑TNF or other immunosuppressants."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "A therapy that infuses patients with tumor‑reactive lymphocytes, often expanded ex vivo, to boost anti‑tumor immunity."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; some trials show synergy, improving response rates and survival in certain cancers."}
+{"question": "What is the role of tumor mutational burden (TMB)?", "answer": "High TMB often predicts better response to checkpoint inhibitors due to more neoantigens."}
+{"question": "How is TMB measured?", "answer": "Sequencing tumor DNA to count nonsynonymous mutations per megabase."}
+{"question": "What are oncolytic viruses?", "answer": "Viruses engineered to selectively infect and kill tumor cells while stimulating an anti‑cancer immune response."}
+{"question": "Which oncolytic virus is FDA‑approved?", "answer": "T‑VEC (talimogene laherparepvec) for melanoma."}
+{"question": "What is the concept of “immunoediting”?", "answer": "The process by which the immune system shapes tumor evolution, eliminating, equilibrating, or promoting tumor growth."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the patient’s own immune system; passive involves administering ready‑made immune components like antibodies."}
+{"question": "What are bispecific T‑cell engagers (BiTEs)?", "answer": "Antibodies that bind both a tumor antigen and CD3 on T‑cells, redirecting T‑cells to kill cancer cells."}
+{"question": "How do immune checkpoint inhibitors differ from cancer vaccines?", "answer": "Checkpoint inhibitors release brakes on T‑cells; vaccines prime T‑cells against specific tumor antigens."}
+{"question": "What is a cancer vaccine target?", "answer": "Tumor‑specific or tumor‑associated antigens such as HER‑2/neu, MAGE‑A3, or NY‑ESO‑1."}
+{"question": "Are there liver‑specific immunotherapies?", "answer": "Yes; for hepatocellular carcinoma, checkpoint inhibitors and combination therapies are investigated."}
+{"question": "What is the significance of the \"tumor microenvironment\" (TME)?", "answer": "The TME includes immune cells, stromal cells, and cytokines that can either support or inhibit anti‑tumor immunity."}
+{"question": "How can the TME be modulated to improve immunotherapy?", "answer": "By targeting immunosuppressive cells (Tregs, MDSCs), cytokines, or metabolic pathways."}
+{"question": "What is the emerging role of microbiome in immunotherapy?", "answer": "Gut bacteria composition can influence patient responses to checkpoint inhibitors."}
+{"question": "How is the microbiome altered to enhance therapy?", "answer": "Through diet, probiotics, or fecal microbiota transplantation to promote beneficial bacterial strains."}
+{"question": "What is the main goal of combination immunotherapy trials?", "answer": "To increase response rates, durability, and overcome resistance to single agents."}
+{"question": "What is tumor neoantigen vaccination?", "answer": "A personalized vaccine designed from patient‑specific tumor mutations to elicit T‑cell responses."}
+{"question": "What is the current status of neoantigen vaccines?", "answer": "Early trials show safety and immune activation; larger studies are ongoing."}
+{"question": "How are CAR‑NK cells different from CAR‑T cells?", "answer": "CAR‑NK cells are natural killer cells engineered with a chimeric antigen receptor, offering potential off‑the‑shelf options."}
+{"question": "Are there any off‑the‑shelf CAR therapies?", "answer": "Yes; CAR‑NK cells and allogeneic CAR‑T products are under development."}
+{"question": "What safety concerns exist with CAR therapies?", "answer": "Cytokine release syndrome, neurotoxicity, and on"}
