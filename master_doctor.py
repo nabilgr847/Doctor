@@ -4,8 +4,6 @@ from agents.search_team import search_all_unrestricted, search_serpapi
 from agents.medical_team import query_all_medical_apis
 import pypdf
 
-# ================== LLM ব্রেইন (প্রত্যেকটি স্বাধীন ও ফল্ট-টলারেন্ট) ==================
-
 def call_huggingface(text):
     url = "https://api-inference.huggingface.co/models/google/flan-t5-large"
     prompt = f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"
@@ -13,7 +11,14 @@ def call_huggingface(text):
         try:
             r = requests.post(url, json={"inputs": prompt}, timeout=90)
             if r.status_code == 200:
-                return r.json()
+                data = r.json()
+                # Hugging Face আউটপুট কখনো dict, কখনো list-এ আসে
+                if isinstance(data, list):
+                    return data
+                elif isinstance(data, dict) and 'generated_text' in data:
+                    return json.loads(data['generated_text'])
+                else:
+                    return json.loads(data)
         except:
             pass
         time.sleep(30)
@@ -21,19 +26,15 @@ def call_huggingface(text):
 
 def call_groq(text):
     key = os.getenv("GROQ_API_KEY")
-    if not key:
-        return []
+    if not key: return []
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
-    payload = {
-        "model": "llama3-8b-8192",
-        "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}],
-        "temperature": 0.7
-    }
+    payload = {"model": "llama3-8b-8192", "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}], "temperature": 0.7}
     for i in range(3):
         try:
             r = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload, timeout=90)
             if r.status_code == 200:
-                return json.loads(r.json()["choices"][0]["message"]["content"])
+                content = r.json()["choices"][0]["message"]["content"]
+                return json.loads(content)
         except:
             pass
         time.sleep(10)
@@ -41,18 +42,15 @@ def call_groq(text):
 
 def call_deepseek(text):
     key = os.getenv("DEEPSEEK_API_KEY")
-    if not key:
-        return []
+    if not key: return []
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
-    payload = {
-        "model": "deepseek-chat",
-        "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}]
-    }
+    payload = {"model": "deepseek-chat", "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}]}
     for i in range(3):
         try:
             r = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=90)
             if r.status_code == 200:
-                return json.loads(r.json()["choices"][0]["message"]["content"])
+                content = r.json()["choices"][0]["message"]["content"]
+                return json.loads(content)
         except:
             pass
         time.sleep(10)
@@ -60,8 +58,7 @@ def call_deepseek(text):
 
 def call_gemini(text):
     key = os.getenv("GEMINI_API_KEY")
-    if not key:
-        return []
+    if not key: return []
     from google import genai
     from google.genai import types
     client = genai.Client(api_key=key)
@@ -76,30 +73,22 @@ def call_gemini(text):
         return []
 
 def call_github_model(text, token):
-    if not token:
-        return []
+    if not token: return []
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    payload = {
-        "model": "gpt-4o-mini",
-        "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}],
-        "temperature": 0.7
-    }
+    payload = {"model": "gpt-4o-mini", "messages": [{"role": "user", "content": f"Generate 15 unique medical Q&A pairs in JSON array format. Output ONLY the JSON array, no extra text.\nContext:\n{text[:4000]}"}], "temperature": 0.7}
     try:
         r = requests.post("https://models.inference.ai.azure.com/v1/chat/completions", headers=headers, json=payload, timeout=90)
         if r.status_code == 200:
-            return json.loads(r.json()["choices"][0]["message"]["content"])
+            content = r.json()["choices"][0]["message"]["content"]
+            return json.loads(content)
     except:
         pass
     return []
 
-# ================== পিডিএফ থেকে টেক্সট আনা ==================
-
 def process_uploaded_books():
     book_text = ""
     folder = "upload_books"
-    if not os.path.exists(folder):
-        print("ℹ️ upload_books/ ফোল্ডার নেই।")
-        return book_text
+    if not os.path.exists(folder): return book_text
     for filename in os.listdir(folder):
         if filename.endswith(".pdf"):
             filepath = os.path.join(folder, filename)
@@ -115,16 +104,12 @@ def process_uploaded_books():
                 processed_folder = "upload_books/processed"
                 os.makedirs(processed_folder, exist_ok=True)
                 os.rename(filepath, os.path.join(processed_folder, filename))
-                print(f"✅ {filename} প্রসেস করা হয়েছে।")
             except Exception as e:
                 print(f"❌ {filename} সমস্যা: {e}")
     return book_text
 
-# ================== ফাইল সাইজ ম্যানেজমেন্ট ==================
-
 def get_current_output_file():
-    base = "dataset"
-    ext = ".jsonl"
+    base, ext = "dataset", ".jsonl"
     counter = 1
     filename = f"{base}{ext}"
     while os.path.exists(filename):
@@ -134,55 +119,35 @@ def get_current_output_file():
         filename = f"{base}_{counter}{ext}"
     return filename
 
-# ================== মূল কাজ ==================
-
 def main():
     print(f"🚀 Doctor Run @ {datetime.now()}")
-    
-    # 0. পিডিএফ
-    print("📚 পিডিএফ চেক করা হচ্ছে...")
     book_data = process_uploaded_books()
-    
-    # 1. তথ্য সংগ্রহ
-    print("🔍 সার্চ এজেন্ট কাজ করছে...")
     search_data = search_all_unrestricted()
-    
-    print("⚕️ মেডিকেল এজেন্ট কাজ করছে...")
     medical_data = query_all_medical_apis()
-    
     current_hour = datetime.utcnow().hour
     serp_data = search_serpapi() if current_hour in [0, 8, 16] else ""
-    if serp_data:
-        print("🕒 SerpAPI কল করা হয়েছে")
-    
     combined_text = book_data + "\n" + search_data + "\n" + medical_data + "\n" + serp_data
     print(f"📊 মোট ডেটা দৈর্ঘ্য: {len(combined_text)} অক্ষর")
-    
     all_entries = []
-    
-    # 2. LLM ব্রেইন (যেকোনো একটি ফেইল করলেও বাকিগুলো কাজ করবে)
     for func, name in [(call_huggingface, "Hugging Face"), (call_groq, "Groq"), (call_deepseek, "DeepSeek"), (call_gemini, "Gemini")]:
         print(f"🧠 {name} কাজ করছে...")
         entries = func(combined_text)
         if isinstance(entries, list):
             all_entries.extend(entries)
         print(f"  -> {len(entries) if isinstance(entries, list) else 0} entries")
-    
     print("🧠 GitHub Models কাজ করছে...")
     token = os.getenv("GH_TOKEN")
     entries = call_github_model(combined_text, token)
     if isinstance(entries, list):
         all_entries.extend(entries)
     print(f"  -> {len(entries) if isinstance(entries, list) else 0} entries")
-    
-    # 3. ফাইলে লেখা
     if all_entries:
         output_file = get_current_output_file()
         with open(output_file, "a", encoding="utf-8") as f:
             for entry in all_entries:
                 if isinstance(entry, dict) and "question" in entry:
                     f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-        print(f"✅ {len(all_entries)} টি নতুন ডেটাসেট {output_file}-তে জমা হয়েছে। ({datetime.now()})")
+        print(f"✅ {len(all_entries)} ডেটাসেট {output_file}-তে জমা হয়েছে।")
     else:
         print("⚠️ কোনো ডেটাসেট জেনারেট হয়নি।")
 
