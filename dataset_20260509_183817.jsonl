@@ -1,0 +1,108 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the body’s immune system to detect and destroy cancer cells."}
+{"question": "Which cells are primarily involved in tumor-directed immunotherapy?", "answer": "T‑cells, especially cytotoxic CD8⁺ T‑cells and engineered CAR‑T cells."}
+{"question": "How does a CAR‑T cell therapy work?", "answer": "Patient T‑cells are extracted, genetically modified to express a chimeric antigen receptor, expanded, and reinfused to target tumor antigens."}
+{"question": "What is a checkpoint inhibitor?", "answer": "A drug that blocks proteins like PD‑1 or CTLA‑4, releasing the brakes on T‑cells so they can attack cancer."}
+{"question": "Which cancers have FDA‑approved checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, bladder cancer, head and neck squamous cell carcinoma, and others."}
+{"question": "Are there common side effects of checkpoint inhibitors?", "answer": "Yes; immune‑related adverse events include colitis, dermatitis, hepatitis, endocrinopathies, and pneumonitis."}
+{"question": "How is immune‑related colitis managed?", "answer": "With corticosteroids, and if refractory, with anti‑TNF or other immunosuppressants."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "A therapy that infuses patients with tumor‑reactive lymphocytes, often expanded ex vivo, to boost anti‑tumor immunity."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; some trials show synergy, improving response rates and survival in certain cancers."}
+{"question": "What is the role of tumor mutational burden (TMB)?", "answer": "High TMB often predicts better response to checkpoint inhibitors due to more neoantigens."}
+{"question": "How is TMB measured?", "answer": "Sequencing tumor DNA to count nonsynonymous mutations per megabase."}
+{"question": "What are oncolytic viruses?", "answer": "Viruses engineered to selectively infect and kill tumor cells while stimulating an anti‑cancer immune response."}
+{"question": "Which oncolytic virus is FDA‑approved?", "answer": "T‑VEC (talimogene laherparepvec) for melanoma."}
+{"question": "What is the concept of “immunoediting”?", "answer": "The process by which the immune system shapes tumor evolution, eliminating, equilibrating, or promoting tumor growth."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the patient’s own immune system; passive involves administering ready‑made immune components like antibodies."}
+{"question": "What are bispecific T‑cell engagers (BiTEs)?", "answer": "Antibodies that bind both a tumor antigen and CD3 on T‑cells, redirecting T‑cells to kill cancer cells."}
+{"question": "How do immune checkpoint inhibitors differ from cancer vaccines?", "answer": "Checkpoint inhibitors release brakes on T‑cells; vaccines prime T‑cells against specific tumor antigens."}
+{"question": "What is a cancer vaccine target?", "answer": "Tumor‑specific or tumor‑associated antigens such as HER‑2/neu, MAGE‑A3, or NY‑ESO‑1."}
+{"question": "Are there liver‑specific immunotherapies?", "answer": "Yes; for hepatocellular carcinoma, checkpoint inhibitors and combination therapies are investigated."}
+{"question": "What is the significance of the \"tumor microenvironment\" (TME)?", "answer": "The TME includes immune cells, stromal cells, and cytokines that can either support or inhibit anti‑tumor immunity."}
+{"question": "How can the TME be modulated to improve immunotherapy?", "answer": "By targeting immunosuppressive cells (Tregs, MDSCs), cytokines, or metabolic pathways."}
+{"question": "What is the emerging role of microbiome in immunotherapy?", "answer": "Gut bacteria composition can influence patient responses to checkpoint inhibitors."}
+{"question": "How is the microbiome altered to enhance therapy?", "answer": "Through diet, probiotics, or fecal microbiota transplantation to promote beneficial bacterial strains."}
+{"question": "What is the main goal of combination immunotherapy trials?", "answer": "To increase response rates, durability, and overcome resistance to single agents."}
+{"question": "What is tumor neoantigen vaccination?", "answer": "A personalized vaccine designed from patient‑specific tumor mutations to elicit T‑cell responses."}
+{"question": "What is the current status of neoantigen vaccines?", "answer": "Early trials show safety and immune activation; larger studies are ongoing."}
+{"question": "How are CAR‑NK cells different from CAR‑T cells?", "answer": "CAR‑NK cells are natural killer cells engineered with a chimeric antigen receptor, offering potential off‑the‑shelf options."}
+{"question": "Are there any off‑the‑shelf CAR therapies?", "answer": "Yes; CAR‑NK cells and allogeneic CAR‑T products are under development."}
+{"question": "What safety concerns exist with CAR therapies?", "answer": "Cytokine release syndrome, neurotoxicity, and on"}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the body’s immune system to detect and destroy cancer cells."}
+{"question": "Which cells are primarily involved in tumor-directed immunotherapy?", "answer": "T‑cells, especially cytotoxic CD8⁺ T‑cells and engineered CAR‑T cells."}
+{"question": "How does a CAR‑T cell therapy work?", "answer": "Patient T‑cells are extracted, genetically modified to express a chimeric antigen receptor, expanded, and reinfused to target tumor antigens."}
+{"question": "What is a checkpoint inhibitor?", "answer": "A drug that blocks proteins like PD‑1 or CTLA‑4, releasing the brakes on T‑cells so they can attack cancer."}
+{"question": "Which cancers have FDA‑approved checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, bladder cancer, head and neck squamous cell carcinoma, and others."}
+{"question": "Are there common side effects of checkpoint inhibitors?", "answer": "Yes; immune‑related adverse events include colitis, dermatitis, hepatitis, endocrinopathies, and pneumonitis."}
+{"question": "How is immune‑related colitis managed?", "answer": "With corticosteroids, and if refractory, with anti‑TNF or other immunosuppressants."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "A therapy that infuses patients with tumor‑reactive lymphocytes, often expanded ex vivo, to boost anti‑tumor immunity."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; some trials show synergy, improving response rates and survival in certain cancers."}
+{"question": "What is the role of tumor mutational burden (TMB)?", "answer": "High TMB often predicts better response to checkpoint inhibitors due to more neoantigens."}
+{"question": "How is TMB measured?", "answer": "Sequencing tumor DNA to count nonsynonymous mutations per megabase."}
+{"question": "What are oncolytic viruses?", "answer": "Viruses engineered to selectively infect and kill tumor cells while stimulating an anti‑cancer immune response."}
+{"question": "Which oncolytic virus is FDA‑approved?", "answer": "T‑VEC (talimogene laherparepvec) for melanoma."}
+{"question": "What is the concept of “immunoediting”?", "answer": "The process by which the immune system shapes tumor evolution, eliminating, equilibrating, or promoting tumor growth."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the patient’s own immune system; passive involves administering ready‑made immune components like antibodies."}
+{"question": "What are bispecific T‑cell engagers (BiTEs)?", "answer": "Antibodies that bind both a tumor antigen and CD3 on T‑cells, redirecting T‑cells to kill cancer cells."}
+{"question": "How do immune checkpoint inhibitors differ from cancer vaccines?", "answer": "Checkpoint inhibitors release brakes on T‑cells; vaccines prime T‑cells against specific tumor antigens."}
+{"question": "What is a cancer vaccine target?", "answer": "Tumor‑specific or tumor‑associated antigens such as HER‑2/neu, MAGE‑A3, or NY‑ESO‑1."}
+{"question": "Are there liver‑specific immunotherapies?", "answer": "Yes; for hepatocellular carcinoma, checkpoint inhibitors and combination therapies are investigated."}
+{"question": "What is the significance of the \"tumor microenvironment\" (TME)?", "answer": "The TME includes immune cells, stromal cells, and cytokines that can either support or inhibit anti‑tumor immunity."}
+{"question": "How can the TME be modulated to improve immunotherapy?", "answer": "By targeting immunosuppressive cells (Tregs, MDSCs), cytokines, or metabolic pathways."}
+{"question": "What is the emerging role of microbiome in immunotherapy?", "answer": "Gut bacteria composition can influence patient responses to checkpoint inhibitors."}
+{"question": "How is the microbiome altered to enhance therapy?", "answer": "Through diet, probiotics, or fecal microbiota transplantation to promote beneficial bacterial strains."}
+{"question": "What is the main goal of combination immunotherapy trials?", "answer": "To increase response rates, durability, and overcome resistance to single agents."}
+{"question": "What is tumor neoantigen vaccination?", "answer": "A personalized vaccine designed from patient‑specific tumor mutations to elicit T‑cell responses."}
+{"question": "What is the current status of neoantigen vaccines?", "answer": "Early trials show safety and immune activation; larger studies are ongoing."}
+{"question": "How are CAR‑NK cells different from CAR‑T cells?", "answer": "CAR‑NK cells are natural killer cells engineered with a chimeric antigen receptor, offering potential off‑the‑shelf options."}
+{"question": "Are there any off‑the‑shelf CAR therapies?", "answer": "Yes; CAR‑NK cells and allogeneic CAR‑T products are under development."}
+{"question": "What safety concerns exist with CAR therapies?", "answer": "Cytokine release syndrome, neurotoxicity, and on"}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses the immune system to fight cancer."}
+{"question": "What is immunotherapy?", "answer": "A treatment that uses the immune system to fight diseases."}
+{"question": "Can cancer immunotherapy cure cancer?", "answer": "Not all cancers can be cured with immunotherapy, but it can extend life and reduce symptoms."}
+{"question": "What are the benefits of cancer immunotherapy?", "answer": "Improved quality of life, reduced symptoms, and increased survival rates."}
+{"question": "What are the side effects of cancer immunotherapy?", "answer": "Fatigue, skin rash, and immune system suppression."}
+{"question": "Is immunotherapy safe?", "answer": "Generally safe, but rare side effects can occur."}
+{"question": "What is the goal of cancer immunotherapy research?", "answer": "To develop more effective treatments and improve patient outcomes."}
+{"question": "What are the different types of immunotherapy?", "answer": "Monoclonal antibodies, checkpoint inhibitors, and adoptive T-cell therapy."}
+{"question": "Can immunotherapy be used to treat other diseases?", "answer": "Yes, it is being researched for other diseases such as autoimmune disorders and allergies."}
+{"question": "How does cancer immunotherapy work?", "answer": "It boosts the immune system's ability to recognize and attack cancer cells."}
+{"question": "What are cancer immunotherapy trials?", "answer": "Clinical trials testing new cancer treatments and therapies."}
+{"question": "Can I participate in a cancer immunotherapy trial?", "answer": "Check with your doctor or a clinical trial website to see if you qualify."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system can recognize and attack cancer cells, but sometimes needs help."}
+{"question": "What is the difference between cancer immunotherapy and targeted therapy?", "answer": "Immunotherapy boosts the immune system, while targeted therapy targets specific cancer cells."}
+{"question": "Can cancer immunotherapy be used in combination with other treatments?", "answer": "Yes, often used in combination with chemotherapy, radiation, or surgery."}
+{"question": "What are the challenges of cancer immunotherapy research?", "answer": "Developing effective treatments and managing side effects."}
+{"question": "What is the future of cancer immunotherapy?", "answer": "Continuing to develop more effective treatments and improve patient outcomes."}
+{"question": "Can cancer immunotherapy be used to prevent cancer?", "answer": "Research is ongoing to explore its potential for cancer prevention."}
+{"question": "What is the current state of cancer immunotherapy research?", "answer": "Ongoing research aims to improve treatment options and patient outcomes."}
+{"question": "What are the limitations of cancer immunotherapy?", "answer": "Not all cancers respond to treatment, and side effects can occur."}
+{"question": "Can cancer immunotherapy be used to treat different types of cancer?", "answer": "Yes, including melanoma, lung cancer, and kidney cancer."}
+{"question": "What is the role of biomarkers in cancer immunotherapy?", "answer": "Biomarkers help identify patients who may benefit from treatment."}
+{"question": "Can cancer immunotherapy be used in combination with other treatments?", "answer": "Yes, often used in combination with chemotherapy or radiation."}
+{"question": "What are the benefits of cancer immunotherapy for patients?", "answer": "Improved quality of life, reduced symptoms, and increased survival rates."}
+{"question": "What is the current cost of cancer immunotherapy?", "answer": "Varies depending on the treatment and location."}
+{"question": "Can cancer immunotherapy be used to treat pediatric cancer?", "answer": "Research is ongoing to explore its potential in pediatric cancer."}
+{"question": "What is the role of artificial intelligence in cancer immunotherapy?", "answer": "AI is being used to improve treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat brain cancer?", "answer": "Research is ongoing to explore its potential in brain cancer."}
+{"question": "What are the potential long-term effects of cancer immunotherapy?", "answer": "Ongoing research aims to understand its long-term effects."}
+{"question": "Can cancer immunotherapy be used to treat other types of cancer?", "answer": "Yes, including pancreatic cancer and stomach cancer."}
+{"question": "What is the role of nutrition in cancer immunotherapy?", "answer": "Nutrition plays a role in supporting the immune system."}
+{"question": "Can cancer immunotherapy be used to treat cancer in older adults?", "answer": "Research is ongoing to explore its potential in older adults."}
+{"question": "What is the current understanding of cancer immunotherapy?", "answer": "Ongoing research aims to improve treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in children?", "answer": "Research is ongoing to explore its potential in pediatric cancer."}
+{"question": "What is the role of cancer immunotherapy in cancer prevention?", "answer": "Research is ongoing to explore its potential for cancer prevention."}
+{"question": "Can cancer immunotherapy be used to treat cancer in rare types of cancer?", "answer": "Research is ongoing to explore its potential in rare types of cancer."}
+{"question": "What is the current understanding of the immune system in cancer?", "answer": "The immune system can recognize and attack cancer cells, but sometimes needs help."}
+{"question": "Can cancer immunotherapy be used to treat cancer in combination with surgery?", "answer": "Yes, often used in combination with surgery."}
+{"question": "What is the role of cancer immunotherapy in cancer treatment?", "answer": "Improving treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in combination with radiation?", "answer": "Yes, often used in combination with radiation."}
+{"question": "What is the current understanding of the potential of cancer immunotherapy?", "answer": "Ongoing research aims to improve treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in combination with chemotherapy?", "answer": "Yes, often used in combination with chemotherapy."}
+{"question": "What is the role of cancer immunotherapy in cancer treatment research?", "answer": "Improving treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in pregnant women?", "answer": "Research is ongoing to explore its potential in pregnant women."}
+{"question": "What is the current understanding of the side effects of cancer immunotherapy?", "answer": "Ongoing research aims to understand its side effects."}
+{"question": "Can cancer immunotherapy be used to treat cancer in combination with other treatments?", "answer": "Yes, often used in combination with other treatments."}
+{"question": "What is the role of cancer immunotherapy in cancer treatment development?", "answer": "Improving treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in patients with a weakened immune system?", "answer": "Research is ongoing to explore its potential in immunocompromised patients."}
+{"question": "What is the current understanding of the potential of cancer immunotherapy in combination with other treatments?", "answer": "Ongoing research aims to improve treatment options and patient outcomes."}
+{"question": "Can cancer immunotherapy be used to treat cancer in patients who have failed other treatments?", "answer": "Research is ongoing to explore its potential in patients with refractory cancer."}
