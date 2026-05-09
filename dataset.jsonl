@@ -1195,3 +1195,33 @@
 {"question": "What is the role of cancer immunotherapy in cancer prevention?", "answer": "Cancer immunotherapy has potential applications in cancer prevention, particularly in preventing cancer recurrence."}
 {"question": "What are the potential risks of overimmunization in cancer immunotherapy?", "answer": "Potential risks of overimmunization in cancer immunotherapy include autoimmune reactions and increased risk of infections."}
 {"question": "What is the significance of combination therapies in cancer immunotherapy?", "answer": "Combination therapies have shown promise in cancer immunotherapy, as they can enhance treatment efficacy and reduce side effects."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses the immune system to fight cancer, involving components like T cells and antibodies to target cancer cells."}
+{"question": "What is the goal of cancer immunotherapy?", "answer": "To enhance the body's natural immune response to recognize and destroy cancer cells."}
+{"question": "What are the types of cancer immunotherapy?", "answer": "There are several types, including checkpoint inhibitors, monoclonal antibodies, and adoptive T-cell therapy."}
+{"question": "How does checkpoint inhibitor therapy work?", "answer": "It blocks proteins that inhibit the immune system, allowing T cells to attack cancer cells."}
+{"question": "What is CAR-T cell therapy?", "answer": "A type of immunotherapy that involves extracting T cells, modifying them to recognize cancer cells, and reinfusing them into the body."}
+{"question": "How effective is cancer immunotherapy?", "answer": "It has shown significant promise in treating various types of cancer, including melanoma, lung cancer, and leukemia."}
+{"question": "What are the side effects of cancer immunotherapy?", "answer": "Common side effects include fatigue, skin rash, and immune-related toxicities."}
+{"question": "How is cancer immunotherapy monitored?", "answer": "Patients are closely monitored for response, side effects, and potential complications."}
+{"question": "Can cancer immunotherapy be used in combination with other treatments?", "answer": "Yes, it can be used in combination with chemotherapy, radiation, and other therapies to enhance treatment outcomes."}
+{"question": "What are the challenges in developing cancer immunotherapy?", "answer": "Challenges include identifying effective targets, optimizing treatment schedules, and managing side effects."}
+{"question": "How has cancer immunotherapy evolved over time?", "answer": "It has progressed from early research to FDA-approved treatments, with ongoing research to improve efficacy and safety."}
+{"question": "What is the future of cancer immunotherapy?", "answer": "It is expected to continue evolving, with potential advancements in personalized medicine, combination therapies, and novel targets."}
+{"question": "How does cancer immunotherapy differ from traditional cancer treatments?", "answer": "It targets the immune system rather than cancer cells directly, offering potential long-term benefits."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system can recognize and attack cancer cells, but cancer often evades immune detection."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active immunotherapy stimulates the immune system, while passive immunotherapy involves external antibodies or therapies."}
+{"question": "How does cancer immunotherapy affect the microbiome?", "answer": "It can alter the gut microbiome, which may impact treatment outcomes and immune response."}
+{"question": "Can cancer immunotherapy be used in combination with cancer vaccines?", "answer": "Yes, it can be used to enhance the immune response to cancer vaccines."}
+{"question": "What is the relationship between cancer immunotherapy and cancer stem cells?", "answer": "Cancer immunotherapy targets cancer stem cells, which are thought to be responsible for cancer recurrence."}
+{"question": "How does cancer immunotherapy impact cancer progression?", "answer": "It can slow or reverse cancer progression by targeting cancer cells and their microenvironment."}
+{"question": "What is the impact of cancer immunotherapy on cancer-related fatigue?", "answer": "It can improve fatigue levels by reducing tumor burden and enhancing overall well-being."}
+{"question": "Can cancer immunotherapy be used to prevent cancer recurrence?", "answer": "Research is ongoing to determine its potential as a preventive measure."}
+{"question": "What is the role of cancer immunotherapy in cancer prevention?", "answer": "It may offer potential in preventing cancer by targeting high-risk populations and early cancer stages."}
+{"question": "How does cancer immunotherapy compare to other cancer treatments?", "answer": "It offers a unique approach by targeting the immune system, with potential advantages in terms of efficacy and side effects."}
+{"question": "What is the importance of cancer immunotherapy research?", "answer": "It has the potential to revolutionize cancer treatment and improve patient outcomes."}
+{"question": "Can cancer immunotherapy be used in combination with other therapies for cancer-related symptoms?", "answer": "Yes, it can be used to manage symptoms like pain, fatigue, and nausea."}
+{"question": "What is the relationship between cancer immunotherapy and mental health?", "answer": "It can impact mental health by reducing treatment-related stress and anxiety."}
+{"question": "How does cancer immunotherapy affect cancer-related quality of life?", "answer": "It can improve quality of life by reducing symptoms and enhancing functional capacity."}
+{"question": "Can cancer immunotherapy be used in combination with other therapies for cancer-related infections?", "answer": "Yes, it can be used to manage infections and reduce treatment-related complications."}
+{"question": "What is the impact of cancer immunotherapy on cancer-related mortality?", "answer": "Research suggests it may improve survival rates and reduce cancer-related mortality."}
+{"question": "How does cancer immunotherapy compare to traditional cancer treatments in terms of cost-effectiveness?", "answer": "It may offer cost savings by reducing treatment-related complications and improving outcomes."}
