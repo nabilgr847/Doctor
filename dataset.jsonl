@@ -401,3 +401,33 @@
 {"question": "What are the potential applications of cancer immunotherapy in the treatment of cancer patients with comorbidities?", "answer": "Cancer immunotherapy may have the potential to treat cancer patients with comorbidities, such as cardiovascular disease or diabetes."}
 {"question": "What is the current understanding of cancer immunotherapy in relation to cancer recurrence?", "answer": "Research is ongoing to understand the relationship between cancer immunotherapy and cancer recurrence, including its potential impact on treatment outcomes."}
 {"question": "What are the future directions for cancer immunotherapy research?", "answer": "Future directions for cancer immunotherapy research include developing more effective treatments, reducing side effects, and improving treatment outcomes for a wider range of cancer types."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a therapy that uses components of the immune system to treat cancer patients."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system helps to identify and destroy cancer cells."}
+{"question": "What types of cancer can be treated with immunotherapy?", "answer": "Various types of cancer, including melanoma, lung cancer, and kidney cancer, can be treated with immunotherapy."}
+{"question": "What is CAR-T cell therapy?", "answer": "CAR-T cell therapy is a type of immunotherapy that uses genetically modified T cells to attack cancer cells."}
+{"question": "What are the benefits of immunotherapy?", "answer": "Immunotherapy can improve survival rates and quality of life for cancer patients."}
+{"question": "What are the side effects of immunotherapy?", "answer": "Common side effects include fatigue, fever, and skin rash."}
+{"question": "How does immunotherapy work?", "answer": "Immunotherapy stimulates the immune system to attack cancer cells."}
+{"question": "What is the difference between immunotherapy and chemotherapy?", "answer": "Immunotherapy targets the immune system, while chemotherapy targets rapidly dividing cells."}
+{"question": "Can immunotherapy be used in combination with other cancer treatments?", "answer": "Yes, immunotherapy can be used in combination with other cancer treatments, such as surgery and radiation."}
+{"question": "What are the latest advancements in cancer immunotherapy?", "answer": "Researchers are exploring new ways to enhance the effectiveness of immunotherapy."}
+{"question": "What is the role of the tumor microenvironment in cancer?", "answer": "The tumor microenvironment can affect the growth and spread of cancer cells."}
+{"question": "What is the impact of immunotherapy on the tumor microenvironment?", "answer": "Immunotherapy can alter the tumor microenvironment to make it less favorable for cancer cells."}
+{"question": "Can immunotherapy be used to prevent cancer recurrence?", "answer": "Researchers are studying the use of immunotherapy to prevent cancer recurrence."}
+{"question": "What are the potential side effects of immunotherapy on the immune system?", "answer": "Immunotherapy can cause immune-related side effects, such as autoimmune disorders."}
+{"question": "How does immunotherapy affect the gut microbiome?", "answer": "Immunotherapy can alter the gut microbiome, which may affect cancer treatment outcomes."}
+{"question": "Can immunotherapy be used to treat other diseases, such as autoimmune disorders?", "answer": "Yes, immunotherapy is being explored as a treatment for autoimmune disorders."}
+{"question": "What is the role of checkpoint inhibitors in immunotherapy?", "answer": "Checkpoint inhibitors are a type of immunotherapy that release the brakes on the immune system."}
+{"question": "What are the benefits of checkpoint inhibitors?", "answer": "Checkpoint inhibitors have improved survival rates and quality of life for cancer patients."}
+{"question": "What are the side effects of checkpoint inhibitors?", "answer": "Common side effects include fatigue, diarrhea, and skin rash."}
+{"question": "Can checkpoint inhibitors be used in combination with other cancer treatments?", "answer": "Yes, checkpoint inhibitors can be used in combination with other cancer treatments."}
+{"question": "What is the role of T cells in cancer immunotherapy?", "answer": "T cells play a crucial role in recognizing and attacking cancer cells."}
+{"question": "What is the difference between CD4+ and CD8+ T cells?", "answer": "CD4+ T cells help activate immune cells, while CD8+ T cells directly kill cancer cells."}
+{"question": "Can T cells be engineered to target cancer cells?", "answer": "Yes, researchers are exploring ways to engineer T cells to target cancer cells."}
+{"question": "What is the role of natural killer cells in cancer immunotherapy?", "answer": "Natural killer cells can recognize and kill cancer cells."}
+{"question": "Can natural killer cells be used to treat cancer?", "answer": "Researchers are studying the use of natural killer cells as a cancer treatment."}
+{"question": "What is the role of the immune system in preventing cancer?", "answer": "The immune system helps to identify and destroy cancer cells before they develop."}
+{"question": "Can immunotherapy be used to prevent cancer?", "answer": "Researchers are exploring the use of immunotherapy to prevent cancer."}
+{"question": "What is the role of inflammation in cancer?", "answer": "Chronic inflammation can contribute to cancer development and progression."}
+{"question": "Can immunotherapy be used to treat cancer-related inflammation?", "answer": "Researchers are studying the use of immunotherapy to treat cancer-related inflammation."}
+{"question": "What is the role of precision medicine in cancer immunotherapy?", "answer": "Precision medicine involves tailoring cancer treatments to individual patient profiles."}
