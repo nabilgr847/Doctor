@@ -90,16 +90,18 @@ def main():
         entries = parse_qa_text(raw)
         print(f"📝 {len(entries)} entries extracted")
         
-        # 3. ফাইলে লেখা ও পুশ
+        # 3. ফাইলে লেখা ও পুশ (সিনট্যাক্স এরর ফিক্স করা হয়েছে)
         if entries:
             out_file = get_output_file()
             with open(out_file, "a", encoding="utf-8") as f:
                 for e in entries:
                     f.write(json.dumps(e, ensure_ascii=False) + "\n")
+            
+            timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
             os.system("git config user.name 'God-Doctor-Bot'")
             os.system("git config user.email 'bot@doctor.ai'")
             os.system(f"git add {out_file}")
-            os.system(f"git commit -m 'Auto-update dataset {datetime.utcnow().strftime(\"%Y-%m-%d %H:%M\")}' || echo 'No changes'")
+            os.system(f"git commit -m 'Auto-update dataset {timestamp}' || echo 'No changes'")
             os.system("git push")
             print(f"✅ {len(entries)} entries pushed to repo")
         
