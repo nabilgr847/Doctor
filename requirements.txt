@@ -1,6 +1,6 @@
 requests
 duckduckgo_search
-serpapi
+google-search-results
 gdeltdoc
 google-generativeai
 PyPDF2
