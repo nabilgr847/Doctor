@@ -34,12 +34,14 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python master_doctor.py
       - name: Commit and Push dataset
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "God-Doctor-Bot"
           git config user.email "bot@doctor.ai"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git add dataset*.jsonl
-          git commit -m "Auto-update dataset $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          if ls dataset*.jsonl 1> /dev/null 2>&1; then
+            git add dataset*.jsonl
+            git commit -m "Auto-update dataset $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+            git push
+          else
+            echo "No dataset files to commit"
+          fi
