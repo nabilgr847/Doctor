@@ -1,0 +1,94 @@
+{"question": "What is cancer immunotherapy?", "answer": "A therapy used to treat cancer patients that involves or uses components of the immune system."}
+{"question": "What is the purpose of cancer immunotherapy?", "answer": "To attack and destroy cancer cells."}
+{"question": "What is a type of cancer immunotherapy?", "answer": "Antibodies that bind to and inhibit cancer cells."}
+{"question": "What is a comprehensive overview of current immunotherapy approaches?", "answer": "A summary of current treatments and strategies used to improve cancer immunotherapy effectiveness."}
+{"question": "What is a nonprofit organization dedicated to advancing immune-based treatments for cancer?", "answer": "The Cancer Research Institute (CRI)."}
+{"question": "What is the Cancer Research Institute's inaugural report on cancer immunotherapy?", "answer": "The 2025 Cancer Immunotherapy Insights and Impact report."}
+{"question": "What is a new form of personalized cancer immunotherapy?", "answer": "Tumor infiltrating lymphocyte (TIL) therapy."}
+{"question": "What cancer type does TIL therapy improve the treatment's effectiveness in?", "answer": "Metastatic gastrointestinal cancers."}
+{"question": "What is a research journal focused on immune-based cancer therapies and tumor immunology breakthroughs?", "answer": "Frontiers in Immunology."}
+{"question": "What is the title of a research article on Global Cancer Statistics 2020?", "answer": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries."}
+{"question": "What is GLOBOCAN?", "answer": "A database of global cancer statistics."}
+{"question": "What is the estimated total count of cancer cases worldwide?", "answer": "9080436."}
+{"question": "What is the average response time for a database query in milliseconds?", "answer": "178."}
+{"question": "What is the total cost of a database query in USD?", "answer": "$0.001."}
+{"question": "What is the display name of a research article?", "answer": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries."}
+{"question": "What is the ID of a research article?", "answer": "https://openalex.org/W3128646645."}
+{"question": "What is the DOI of a research article?", "answer": "https://doi.org/10.3322/caac.21660."}
+{"question": "What are the estimated incidence and mortality rates of 36 cancers worldwide?", "answer": "GLOBOCAN Estimates."}
+{"question": "How many countries are included in the GLOBOCAN database?", "answer": "185."}
+{"question": "What is the estimated number of cancer cases in 185 countries?", "answer": "9080436."}
+{"question": "What is the estimated number of cancer deaths worldwide?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in the United States?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in the United States?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the purpose of the Cancer Research Institute's report?", "answer": "To present an authoritative review of the evolution of cancer immunotherapy."}
+{"question": "What is the format of the Cancer Research Institute's report?", "answer": "In-depth look at the topic with data-driven review."}
+{"question": "What is the estimated number of cancer cases in Europe?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in Europe?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in Asia?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in Asia?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in Africa?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in Africa?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in South America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in South America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in North America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in North America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in Australia and New Zealand?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in Australia and New Zealand?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in Central America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in Central America?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in the Caribbean?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in the Caribbean?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases in the Pacific Islands?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths in the Pacific Islands?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the Cancer Research Institute's mission?", "answer": "To advance immune-based treatments for cancer."}
+{"question": "What is the Cancer Research Institute's goal?", "answer": "To improve cancer treatment options."}
+{"question": "What is the Cancer Research Institute's strategy?", "answer": "To fund research and education on cancer immunotherapy."}
+{"question": "What is the estimated number of cancer cases worldwide by 2025?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths worldwide by 2025?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer cases worldwide by 2030?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is the estimated number of cancer deaths worldwide by 2030?", "answer": "Included in GLOBOCAN Estimates."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses or stimulates the immune system to fight cancer cells."}
+{"question": "Which immune cells are most commonly targeted in checkpoint inhibitors?", "answer": "T‑cells, specifically PD‑1/PD‑L1 and CTLA‑4 pathways."}
+{"question": "Name a key antibody used in PD‑1 blockade.", "answer": "Pembrolizumab."}
+{"question": "What is CAR‑T cell therapy?", "answer": "Genetically engineered T cells that express a chimeric antigen receptor to target tumor antigens."}
+{"question": "Which cancer type has seen the most success with CAR‑T therapy?", "answer": "B‑cell acute lymphoblastic leukemia."}
+{"question": "What is a tumor infiltrating lymphocyte (TIL) therapy?", "answer": "Autologous lymphocytes extracted from a tumor, expanded ex vivo, and reinfused to attack cancer."}
+{"question": "Which organ cancer was highlighted in the 2025 NCI study for TIL efficacy?", "answer": "Metastatic gastrointestinal cancers."}
+{"question": "What does the term “immune checkpoint” refer to?", "answer": "Regulatory molecules that modulate T‑cell activation to prevent autoimmunity."}
+{"question": "Name one side effect common to checkpoint inhibitors.", "answer": "Colitis."}
+{"question": "How is immune‑related adverse event (irAE) severity graded?", "answer": "By the Common Terminology Criteria for Adverse Events (CTCAE)."}
+{"question": "What biomarker predicts response to PD‑1 therapy?", "answer": "Tumor PD‑L1 expression level."}
+{"question": "Which genomic feature is associated with high neoantigen load?", "answer": "Microsatellite instability-high (MSI‑H) status."}
+{"question": "What is the role of tumor mutational burden (TMB)?", "answer": "Higher TMB often correlates with better response to immunotherapy."}
+{"question": "Name a combination strategy that improves immunotherapy efficacy.", "answer": "Checkpoint inhibitor plus radiation therapy."}
+{"question": "Which cytokine is frequently used in TIL expansion?", "answer": "Interleukin‑2 (IL‑2)."}
+{"question": "What is the typical dosing schedule for pembrolizumab in melanoma?", "answer": "200 mg IV every three weeks."}
+{"question": "How does sipuleucel‑T work?", "answer": "It activates patient’s antigen‑presenting cells with prostatic acid phosphatase to stimulate an immune response."}
+{"question": "What is the main risk of CAR‑T therapy?", "answer": "Cytokine release syndrome (CRS)."}
+{"question": "Which drug is used to manage CRS?", "answer": "Tocilizumab, an IL‑6 receptor antagonist."}
+{"question": "What is the significance of the 2025 CRI Cancer Immunotherapy Insights report?", "answer": "It provides a data‑driven review of immunotherapy evolution over the past decade."}
+{"question": "Which organ system is most affected by immune‑mediated pneumonitis?", "answer": "Lungs."}
+{"question": "How is immune‑mediated pneumonitis treated?", "answer": "Corticosteroids and temporary discontinuation of therapy."}
+{"question": "What is the FDA‑approved indication for atezolizumab?", "answer": "Platinum‑based chemotherapy for non‑small cell lung cancer with PD‑L1 expression ≥1%."}
+{"question": "What is a common laboratory test to monitor immunotherapy patients?", "answer": "Complete blood count (CBC) with differential."}
+{"question": "Which imaging modality is preferred for evaluating immunotherapy responses?", "answer": "PET‑CT using FDG."}
+{"question": "What phenomenon can cause pseudoprogression on imaging?", "answer": "Infiltration of immune cells into the tumor site."}
+{"question": "How is pseudoprogression distinguished from true progression?", "answer": "By clinical stability, serial imaging, and sometimes biopsy."}
+{"question": "Which therapy uses a fusion protein of IL‑15 and an IgG Fc fragment?", "answer": "N-803 (Bempegaldesleukin)."}
+{"question": "What does “CAR‑NK” refer to?", "answer": "Chimeric antigen receptor–modified natural killer cells."}
+{"question": "Name a checkpoint protein other than PD‑1 and CTLA‑4.", "answer": "LAG‑3."}
+{"question": "Which drug targets LAG‑3?", "answer": "Relatlimab."}
+{"question": "What is the primary mechanism of action for sipuleucel‑T?", "answer": "Activation of dendritic cells to present prostate cancer antigens."}
+{"question": "In which tumor type is MSI‑H testing routine before immunotherapy?", "answer": "Colorectal cancer."}
+{"question": "What is the term for non‑invasive tumor profiling via blood?", "answer": "Liquid biopsy."}
+{"question": "Which circulating biomarker is emerging for immunotherapy monitoring?", "answer": "Circulating tumor DNA (ctDNA)."}
+{"question": "What is a major challenge in treating solid tumors with CAR‑T?", "answer": "Tumor microenvironment immunosuppression."}
+{"question": "Name an approach to overcome immunosuppression in solid tumors.", "answer": "Combining CAR‑T with checkpoint blockade."}
+{"question": "Which vaccine approach uses tumor‑derived RNA?", "answer": "RNA‑based cancer vaccines."}
+{"question": "What is a key safety concern with RNA vaccines?", "answer": "Rare severe allergic reactions."}
+{"question": "Which disease has a newly approved bispecific T‑cell engager?", "answer": "Acute lymphoblastic leukemia (blinatumomab)."}
+{"question": "What does “bispecific” mean in this context?", "answer": "Targets both a tumor antigen and CD3 on T cells."}
+{"question": "Which organ’s function is monitored when administering blinatumomab?", "answer": "Kidneys, due to risk of renal toxicity."}
+{"question": "What is the role of the gut microbiome in immunotherapy?", "answer": "Modulates systemic immune responses and can influence efficacy."}
+{"question": "Which bacterial genus is associated with better checkpoint response?", "answer": "Bifidobacterium."}
