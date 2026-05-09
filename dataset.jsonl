@@ -2032,3 +2032,34 @@
 {"question": "What is the typical age range for immunotherapy trials?", "answer": "Usually adults 18–70, though pediatric trials are expanding for certain cancers."}
 {"question": "Are there immunotherapy options for pediatric cancers?", "answer": "Yes, including CAR‑T for leukemia and checkpoint inhibitors for some solid tumors."}
 {"question": "What is the FDA approval status of immunotherapy for melanoma?", "answer": "Multiple checkpoint inhibitors and"}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy uses parts of the immune system to target and destroy cancer cells, helping the body fight tumors more effectively. It includes therapies like checkpoint inhibitors and CAR‑T cells."}
+{"question": "Which journal published the 2020 global cancer statistics?", "answer": "The 2020 Global Cancer Statistics were published in *CA: A Cancer Journal for Clinicians* with DOI https://doi.org/10.3322/caac.21660."}
+{"question": "When were the global cancer statistics released?", "answer": "They were released on February 4, 2021, summarizing incidence and mortality for 36 cancers across 185 countries."}
+{"question": "How many cancers are covered in the 2020 statistics?", "answer": "The study covers 36 distinct cancer types worldwide."}
+{"question": "Which organization hosts the 2020 statistics article?", "answer": "Wiley hosts the article, and it is open‑access under a diamond license."}
+{"question": "What is the focus of the Fred Hutch immunotherapy research?", "answer": "Fred Hutch collaborates across basic cancer biology, immune system function, statistics, data science, bioengineering, and survivorship to advance immunotherapy."}
+{"question": "Where can the latest Fred Hutch immunotherapy news be found?", "answer": "On the Fred Hutch website under “Research Areas > Immunotherapy.”"}
+{"question": "What does Phys.org offer regarding cancer immunotherapy?", "answer": "Phys.org provides up‑to‑date science news, breakthroughs, and research on cancer immunotherapy, including studies on mechanical forces affecting cell death."}
+{"question": "What type of research does Medical Xpress highlight on immunotherapy?", "answer": "Medical Xpress covers news, research findings, and medical breakthroughs in cancer immunotherapy."}
+{"question": "Where can one find innovative immunotherapy solutions?", "answer": "The IGMIN Research website lists groundbreaking studies and recent advances in immunotherapy treatments."}
+{"question": "What is the primary mechanism of checkpoint inhibitors?", "answer": "Checkpoint inhibitors block proteins that restrain immune cells, enabling T‑cells to attack tumor cells more aggressively."}
+{"question": "How does CAR‑T therapy work?", "answer": "CAR‑T cells are engineered T‑cells that recognize specific tumor antigens, then attack and kill cancer cells."}
+{"question": "What are the common side effects of immunotherapy?", "answer": "Side effects include fatigue, rash, diarrhea, and immune‑related events like colitis or pneumonitis, depending on the drug."}
+{"question": "Which cancers have shown the most success with immunotherapy?", "answer": "Melanoma, lung cancer, renal cell carcinoma, and head‑and‑neck cancers have had notable responses to checkpoint inhibitors."}
+{"question": "What is the role of data science in immunotherapy research?", "answer": "Data science analyzes large datasets to identify biomarkers, predict responses, and optimize treatment protocols."}
+{"question": "How does mechanical force influence cancer treatment?", "answer": "Research explores how physical forces can trigger programmed cell death, potentially enhancing the effectiveness of immunotherapy."}
+{"question": "What does \"immunotherapy\" encompass beyond checkpoint inhibitors?", "answer": "It includes vaccines, cytokine therapy, monoclonal antibodies, adoptive cell transfer, and oncolytic viruses."}
+{"question": "Are there immunotherapy treatments for solid tumors?", "answer": "Yes, several checkpoint inhibitors and CAR‑T therapies have been approved for solid tumors like lung and pancreatic cancer."}
+{"question": "What is a biomarker in immunotherapy?", "answer": "A biomarker predicts how well a patient will respond to immunotherapy, guiding personalized treatment plans."}
+{"question": "How is survivorship studied in immunotherapy research?", "answer": "Researchers track long‑term outcomes, quality of life, and late side effects in patients who have completed immunotherapy."}
+{"question": "What is the significance of open access for cancer research?", "answer": "Open access allows researchers worldwide to read and build upon findings without paywalls, accelerating scientific progress."}
+{"question": "How many countries are included in the GLOBOCAN 2020 report?", "answer": "The report covers 185 countries."}
+{"question": "What does \"diamond\" OA mean?", "answer": "Diamond open access offers free public access without author fees."}
+{"question": "What is the publication year of the 2020 global cancer statistics?", "answer": "2021, though the data reflect 2020."}
+{"question": "Where can PDFs of the global statistics be downloaded?", "answer": "At https://onlinelibrary.wiley.com/doi/pdfdirect/10.3322/caac.21660."}
+{"question": "Which disease statistics are most alarming in the 2020 report?", "answer": "While the report covers all cancers, lung and colorectal cancers consistently rank high in incidence and mortality."}
+{"question": "What is the role of bioengineering in immunotherapy?", "answer": "Bioengineering designs delivery systems, scaffolds, and synthetic biology tools to improve therapy efficacy and reduce side effects."}
+{"question": "How does immunotherapy differ from chemotherapy?", "answer": "Immunotherapy harnesses the immune system, whereas chemotherapy directly kills rapidly dividing cells, often affecting healthy tissue."}
+{"question": "Is immunotherapy suitable for all cancer patients?", "answer": "Suitability depends on tumor type, genetic markers, and overall health; not all patients respond."}
+{"question": "What is \"survivorship\" in cancer care?", "answer": "Survivorship refers to the phase after treatment, focusing on ongoing health, monitoring, and quality of life."}
+{"question": "How does the Fred Hutch team approach statistics?", "answer": "They apply advanced statistical models to interpret clinical trial data and real‑world evidence."}
