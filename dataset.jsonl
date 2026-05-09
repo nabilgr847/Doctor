@@ -2159,3 +2159,53 @@
 {"question": "What is the mechanism of action of anti‑CTLA‑4 therapy?", "answer": "Anti‑CTLA‑4 antibodies prevent CTLA‑4 from binding B7 ligands, sustaining T‑cell priming in lymph nodes."}
 {"question": "What is the main drawback of CAR T therapy?", "answer": "Cytokine release syndrome and neurotoxicity, especially in aggressive or high‑tumor‑burden patients."}
 {"question": "How is cytokine release syndrome monitored?", "answer": "Regular"}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy uses the patient’s immune system or its components to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins like PD‑1 or CTLA‑4 that suppress T‑cells, allowing the immune system to attack tumors."}
+{"question": "Which cancers have FDA‑approved checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, renal cell carcinoma, Hodgkin lymphoma, and several others."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "It genetically modifies a patient’s T‑cells to express a chimeric antigen receptor that targets a specific tumor antigen."}
+{"question": "Name a common side effect of checkpoint inhibitor therapy.", "answer": "Immune‑related colitis, which can cause diarrhea and abdominal pain."}
+{"question": "How is cytokine release syndrome managed in CAR‑T therapy?", "answer": "With supportive care and cytokine‑blocking agents such as tocilizumab."}
+{"question": "What biomarker predicts response to pembrolizumab in lung cancer?", "answer": "High tumor mutational burden (TMB) or PD‑L1 expression ≥ 50%."}
+{"question": "Why is hormone replacement therapy linked to breast cancer risk?", "answer": "Exogenous estrogen and progesterone can stimulate growth of hormone‑responsive breast tissue."}
+{"question": "At what age does breast cancer incidence rise sharply in women?", "answer": "After age 50, with a notable increase during menopause."}
+{"question": "What is the most common type of lung cancer in non‑smokers?", "answer": "Adenocarcinoma."}
+{"question": "How does secondhand smoke affect lung cancer risk in women?", "answer": "It increases risk by about 20‑30% compared with non‑exposed individuals."}
+{"question": "What screening method reduces breast cancer mortality?", "answer": "Annual mammography for women aged 40‑74."}
+{"question": "What is the recommended low‑dose CT screening interval for high‑risk smokers?", "answer": "Annually for adults aged 50‑80 with a ≥20 pack‑year history who currently smoke or quit within 15 years."}
+{"question": "Which hormone is implicated in menopausal bone loss?", "answer": "Declining estrogen levels."}
+{"question": "What medication is first‑line for osteoporosis prevention in postmenopausal women?", "answer": "Oral bisphosphonates such as alendronate."}
+{"question": "What is the typical latency period for radiation‑induced sarcoma?", "answer": "5‑10 years after exposure."}
+{"question": "How does chronic inflammation contribute to cancer development?", "answer": "It promotes DNA damage, angiogenesis, and suppresses immune surveillance."}
+{"question": "What is the role of tumor‑infiltrating lymphocytes (TILs) in prognosis?", "answer": "High TIL density often correlates with better outcomes and response to immunotherapy."}
+{"question": "Which viral infection is a known cause of cervical cancer?", "answer": "Human papillomavirus (HPV) types 16 and 18."}
+{"question": "What preventive vaccine reduces cervical cancer risk?", "answer": "The HPV vaccine (e.g., Gardasil 9)."}
+{"question": "What is the most common cause of acute pancreatitis?", "answer": "Gallstones."}
+{"question": "Which lab value is elevated in acute myocardial infarction?", "answer": "Troponin I or T."}
+{"question": "What is the first‑line treatment for hypertension in patients with chronic kidney disease?", "answer": "An ACE inhibitor or ARB."}
+{"question": "How does diabetes mellitus increase infection risk?", "answer": "Hyperglycemia impairs neutrophil function and cytokine production."}
+{"question": "What is the diagnostic criterion for major depressive disorder?", "answer": "Five or more depressive symptoms present for at least two weeks, causing functional impairment."}
+{"question": "Which vaccine is recommended for adults over 65 to prevent pneumonia?", "answer": "The 13‑valent pneumococcal conjugate vaccine (PCV13) followed by PPSV23."}
+{"question": "What is the most common cause of community‑acquired pneumonia?", "answer": "Streptococcus pneumoniae."}
+{"question": "Which drug class is used for primary prophylaxis of deep vein thrombosis in hospitalized patients?", "answer": "Low‑molecular‑weight heparin (e.g., enoxaparin)."}
+{"question": "What is the target of trastuzumab in breast cancer?", "answer": "HER2/neu (ErbB2) receptor overexpression."}
+{"question": "How is HER2‑positive breast cancer typically treated?", "answer": "Combination of trastuzumab (or pertuzumab) with chemotherapy."}
+{"question": "What symptom distinguishes ulcerative colitis from Crohn’s disease?", "answer": "Continuous colonic involvement without skip lesions."}
+{"question": "Which electrolyte imbalance can cause Torsades de Pointes?", "answer": "Prolonged QT due to hypokalemia or hypomagnesemia."}
+{"question": "What is the gold standard for diagnosing pulmonary embolism?", "answer": "CT pulmonary angiography."}
+{"question": "Which lifestyle factor reduces risk of Alzheimer’s disease?", "answer": "Regular aerobic exercise."}
+{"question": "What is the most sensitive test for detecting early HIV infection?", "answer": "Fourth‑generation antigen/antibody combination assay."}
+{"question": "Which organ is primarily affected in systemic lupus erythematosus?", "answer": "The kidneys (lupus nephritis) are a common target, though the disease is multisystemic."}
+{"question": "What is the mechanism of action of aspirin as a cardioprotective agent?", "answer": "Irreversible inhibition of platelet COX‑1, reducing thromboxane A2 synthesis."}
+{"question": "Which dietary component is linked to reduced colorectal cancer risk?", "answer": "High fiber intake."}
+{"question": "What is the recommended daily sodium limit for adults with hypertension?", "answer": "Less than 2,300 mg (≈1 g of salt) per day, ideally 1,500 mg."}
+{"question": "How does chronic hepatitis B infection lead to hepatocellular carcinoma?", "answer": "Persistent inflammation causes cirrhosis and viral DNA integration, promoting malignant transformation."}
+{"question": "What imaging modality is preferred for evaluating soft‑tissue sarcomas?", "answer": "MRI with contrast."}
+{"question": "Which mutation is most commonly associated with familial breast cancer?", "answer": "BRCA1 or BRCA2 germline mutations."}
+{"question": "What is the first‑line therapy for newly diagnosed type 2 diabetes?", "answer": "Lifestyle modification plus metformin."}
+{"question": "How does nicotine replacement therapy aid smoking cessation?", "answer": "It delivers controlled nicotine doses to reduce withdrawal while eliminating harmful tobacco combustion products."}
+{"question": "What is the hallmark histologic feature of melanoma?", "answer": "Atypical melanocytes with pagetoid spread and asymmetrical nests."}
+{"question": "Which test is used to assess renal function in acute settings?", "answer": "Serum creatinine with estimated glomerular filtration rate (eGFR)."}
+{"question": "What is the primary cause of iron‑deficiency anemia worldwide?", "answer": "Chronic blood loss, most often from gastrointestinal sources."}
+{"question": "Which antiviral medication is first‑line for chronic hepatitis C genotype 1?", "answer": "Sofosbuvir/ledipasvir combination."}
+{"question": "What is the clinical significance of a positive ANA test?", "answer": "It suggests an autoimmune process but is not diagnostic without specific clinical correlation."}
+{"question": "How does vitamin D deficiency affect bone health?", "answer": "It impairs calcium absorption, leading to osteomalacia in adults and rickets in children."}
