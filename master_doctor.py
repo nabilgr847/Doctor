@@ -4,9 +4,11 @@ from agents.search_team import search_all_unrestricted, search_serpapi
 from agents.medical_team import query_all_medical_apis
 import pypdf
 
-# ---------- LLM কল (সরল টেক্সট ফরম্যাট) ----------
+# ---------- LLM কল (কাঁচা রেসপন্স লগ করবে) ----------
 def ask_llm(api_name, text):
-    prompt = f"Generate 10 unique medical question-answer pairs from the text below.\nUse exactly this format for each pair:\nQuestion: <question>\nAnswer: <answer>\n\nText:\n{text[:6000]}"
+    prompt = f"Generate 10 unique medical question-answer pairs from the text below.\nUse exactly this format:\nQuestion: <question>\nAnswer: <answer>\n\nText:\n{text[:4000]}"  # প্রম্পট সীমিত ৪০০০
+    
+    raw_response = ""
     
     # Hugging Face
     if api_name == "huggingface":
@@ -17,12 +19,13 @@ def ask_llm(api_name, text):
                 if r.status_code == 200:
                     data = r.json()
                     if isinstance(data, list) and len(data) > 0:
-                        return data[0].get("generated_text", "")
+                        raw_response = data[0].get("generated_text", "")
                     elif isinstance(data, dict):
-                        return data.get("generated_text", "")
-            except: pass
+                        raw_response = data.get("generated_text", "")
+                    break
+            except Exception as e:
+                print(f"  [HF error: {e}]")
             time.sleep(30)
-        return ""
     
     # Groq
     elif api_name == "groq":
@@ -34,10 +37,13 @@ def ask_llm(api_name, text):
             try:
                 r = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload, timeout=90)
                 if r.status_code == 200:
-                    return r.json()["choices"][0]["message"]["content"]
-            except: pass
+                    raw_response = r.json()["choices"][0]["message"]["content"]
+                    break
+                else:
+                    print(f"  [Groq HTTP {r.status_code}]")
+            except Exception as e:
+                print(f"  [Groq error: {e}]")
             time.sleep(10)
-        return ""
     
     # DeepSeek
     elif api_name == "deepseek":
@@ -49,10 +55,13 @@ def ask_llm(api_name, text):
             try:
                 r = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=90)
                 if r.status_code == 200:
-                    return r.json()["choices"][0]["message"]["content"]
-            except: pass
+                    raw_response = r.json()["choices"][0]["message"]["content"]
+                    break
+                else:
+                    print(f"  [DeepSeek HTTP {r.status_code}]")
+            except Exception as e:
+                print(f"  [DeepSeek error: {e}]")
             time.sleep(10)
-        return ""
     
     # Gemini
     elif api_name == "gemini":
@@ -63,8 +72,9 @@ def ask_llm(api_name, text):
         client = genai.Client(api_key=key)
         try:
             response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt, config=types.GenerateContentConfig(temperature=0.7))
-            return response.text
-        except: return ""
+            raw_response = response.text
+        except Exception as e:
+            print(f"  [Gemini error: {e}]")
     
     # GitHub Models
     elif api_name == "github":
@@ -75,17 +85,39 @@ def ask_llm(api_name, text):
         try:
             r = requests.post("https://models.inference.ai.azure.com/v1/chat/completions", headers=headers, json=payload, timeout=90)
             if r.status_code == 200:
-                return r.json()["choices"][0]["message"]["content"]
-        except: pass
-        return ""
+                raw_response = r.json()["choices"][0]["message"]["content"]
+            else:
+                print(f"  [GitHub Models HTTP {r.status_code}]")
+        except Exception as e:
+            print(f"  [GitHub Models error: {e}]")
+    
+    print(f"  [Raw from {api_name}] {raw_response[:300]}")  # ডিবাগ
+    return raw_response
 
-# ---------- টেক্সট থেকে Q&A পার্সিং (নিখুঁত) ----------
+# ---------- ফ্লেক্সিবল Q&A পার্সিং ----------
 def parse_qa_text(raw_text):
     if not raw_text: return []
-    # Question: ... Answer: ... ফরম্যাট ধরা
-    pattern = r"Question:\s*(.*?)\s*Answer:\s*(.*?)(?=\s*Question:|$)"
-    matches = re.findall(pattern, raw_text, re.DOTALL | re.IGNORECASE)
-    return [{"question": q.strip(), "answer": a.strip()} for q, a in matches]
+    qa_pairs = []
+    # 1. "Question: ... Answer: ..." অথবা "Q: ... A: ..." ধরবে
+    matches = re.findall(r'(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*(?:Question|Q):|$)',
+                         raw_text, re.DOTALL | re.IGNORECASE)
+    if matches:
+        for q, a in matches:
+            qa_pairs.append({"question": q.strip(), "answer": a.strip()})
+        return qa_pairs
+    
+    # 2. যদি JSON অ্যারে থাকে (ফলব্যাক)
+    try:
+        json_match = re.search(r'\[.*\]', raw_text, re.DOTALL)
+        if json_match:
+            data = json.loads(json_match.group())
+            if isinstance(data, list):
+                for item in data:
+                    if "question" in item and "answer" in item:
+                        qa_pairs.append({"question": item["question"], "answer": item["answer"]})
+    except:
+        pass
+    return qa_pairs
 
 # ---------- পিডিএফ প্রসেসিং ----------
 def process_uploaded_books():
@@ -109,7 +141,6 @@ def process_uploaded_books():
                 print(f"PDF error {filename}: {e}")
     return book_text
 
-# ---------- ফাইল সাইজ ----------
 def get_output_file():
     base, ext = "dataset", ".jsonl"
     num = 1
@@ -121,7 +152,6 @@ def get_output_file():
         fname = f"{base}_{num}{ext}"
     return fname
 
-# ---------- মেইন ----------
 def main():
     print(f"🚀 Doctor Run @ {datetime.now()}")
     book_data = process_uploaded_books()
