@@ -10,19 +10,16 @@ def ask_groq(text):
     if not key: return ""
     client = Groq(api_key=key)
     prompt = f"Generate 10 medical Q&A pairs. Use format:\nQuestion: <question>\nAnswer: <answer>\n\nText:\n{text[:4000]}"
-    for attempt in range(3):
-        try:
-            chat = client.chat.completions.create(
-                model="llama-3.1-8b-instant",  # Groq-এ নিশ্চিত, কাজ করবে
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.7
-            )
-            return chat.choices[0].message.content
-        except Exception as e:
-            print(f"Groq err attempt {attempt+1}: {e}")
-            time.sleep(10)
-    return ""
-
+    try:
+        chat = client.chat.completions.create(
+            model="openai/gpt-oss-120b",   # তোর curl থেকে নেওয়া
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.7
+        )
+        return chat.choices[0].message.content
+    except Exception as e:
+        print(f"Groq error: {e}")
+        return ""
 def parse_qa_text(raw):
     qa = []
     matches = re.findall(r'(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
