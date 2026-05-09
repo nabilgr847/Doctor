@@ -1881,3 +1881,37 @@
 {"question": "What cancers have FDA‑approved CAR‑T therapies?", "answer": "Certain leukemias and lymphomas."}
 {"question": "What emerging targets are being explored in CAR‑T research?", "answer": "Solid‑tumor antigens like HER2 and mesothelin."}
 {"question": "What are checkpoint inhibitors targeting?", "answer": "PD‑1/PD‑L1, CTLA‑4"}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses or enhances the immune system to recognize and destroy cancer cells, using vaccines, checkpoint inhibitors, CAR‑T cells, or oncolytic viruses."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that suppress immune activation, freeing T‑cells to attack tumor cells and restore the body’s natural tumor surveillance."}
+{"question": "What is CAR‑T cell therapy?", "answer": "Patient T‑cells are engineered to express chimeric antigen receptors that target specific tumor antigens, then expanded and reinfused to attack cancer."}
+{"question": "Which cancers have FDA‑approved CAR‑T therapies?", "answer": "Leukemia, acute lymphoblastic leukemia, and certain lymphomas; recent trials target solid tumors but face delivery challenges."}
+{"question": "What are the main side effects of checkpoint inhibitors?", "answer": "Immune‑related adverse events like colitis, dermatitis, hepatitis, and endocrinopathies, managed by steroids or immunosuppressants."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, many regimens pair chemo to reduce tumor burden and release antigens, enhancing immune activation."}
+{"question": "What role does the tumor microenvironment play?", "answer": "It can suppress immune cells; therapies aim to re‑educate macrophages, reduce TGF‑β, or block inhibitory cytokines to boost responses."}
+{"question": "Are there biomarkers to predict immunotherapy success?", "answer": "PD‑L1 expression, tumor mutational burden, microsatellite instability, and neoantigen load help forecast response likelihood."}
+{"question": "What is the significance of tumor mutational burden?", "answer": "High mutation rates produce more neoantigens, increasing visibility to immune cells and improving checkpoint inhibitor effectiveness."}
+{"question": "How does PD‑L1 expression affect therapy choice?", "answer": "Tumors with high PD‑L1 may respond better to PD‑1/PD‑L1 inhibitors; testing guides treatment decisions."}
+{"question": "What is the latest breakthrough in immunotherapy?", "answer": "Combining mechanical forces with checkpoint inhibition to alter tumor stiffness, improving immune cell infiltration and killing efficiency."}
+{"question": "How does tumor stiffness influence treatment?", "answer": "Stiffer tumors hinder immune cell migration; reducing stiffness can enhance immune cell penetration and therapeutic outcomes."}
+{"question": "What is the role of bioengineering in immunotherapy?", "answer": "Designing nanocarriers, scaffolds, and 3D‑printed tissues to deliver drugs, monitor immune responses, and modulate the microenvironment."}
+{"question": "Why is data science important in cancer immunology?", "answer": "It analyzes vast genomic, proteomic, and clinical datasets to identify predictive patterns and optimize personalized treatment plans."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the body’s own immune system; passive transfers pre‑made immune components like antibodies or engineered cells."}
+{"question": "When is immunotherapy suitable for patients?", "answer": "Typically for advanced or metastatic disease, but expanding to early-stage and adjuvant settings as evidence grows."}
+{"question": "What are the cost concerns with immunotherapy?", "answer": "High price tags and variable insurance coverage create disparities; research focuses on more affordable biologics and streamlined manufacturing."}
+{"question": "How does immunotherapy affect survivorship?", "answer": "It can improve long‑term remission rates and quality of life, but long‑term side effects and monitoring remain essential."}
+{"question": "Can healthy lifestyle influence immunotherapy outcomes?", "answer": "Diet, exercise, and sleep may modulate immune function; ongoing studies evaluate their impact on treatment efficacy."}
+{"question": "Are there gender differences in immunotherapy response?", "answer": "Some data suggest women may have higher response rates, possibly due to hormonal or genetic immune modulation."}
+{"question": "What is the impact of age on immunotherapy?", "answer": "Older patients may experience lower efficacy but similar toxicity profiles; careful dose adjustments and monitoring are advised."}
+{"question": "How does viral oncolytic therapy work?", "answer": "Engineered viruses selectively infect and kill tumor cells, releasing antigens that further stimulate adaptive immunity."}
+{"question": "What is the role of tumor vaccines in therapy?", "answer": "They present tumor antigens to immune cells, priming a targeted response, often combined with checkpoint blockade for synergy."}
+{"question": "Can immunotherapy prevent cancer recurrence?", "answer": "In some cancers, adjuvant immunotherapy reduces relapse risk, but long‑term data are still accumulating."}
+{"question": "What are the challenges in solid‑tumor immunotherapy?", "answer": "Physical barriers, immunosuppressive microenvironments, and antigen heterogeneity limit T‑cell infiltration and effectiveness."}
+{"question": "How does the gut microbiome influence immunotherapy?", "answer": "Certain bacterial species can enhance checkpoint inhibitor response; probiotics and fecal transplants are under investigation."}
+{"question": "What is the current FDA stance on immunotherapy trials?", "answer": "The FDA promotes accelerated approval pathways for promising immunotherapies, especially those showing significant clinical benefit."}
+{"question": "How is immunotherapy monitored during treatment?", "answer": "Imaging, tumor markers, immune profiling, and patient symptoms guide ongoing assessment and adjustments."}
+{"question": "What is the role of precision medicine in immunotherapy?", "answer": "Genomic profiling identifies actionable targets and predicts response, enabling tailored therapy combinations."}
+{"question": "Are there any novel immunotherapy targets?", "answer": "Yes, targets like LAG‑3, TIM‑3, and TIGIT are being explored to overcome resistance to PD‑1/PD‑L1 blockade."}
+{"question": "How does cancer immunotherapy differ from vaccines?", "answer": "Vaccines expose the immune system to antigens, whereas immunotherapy modulates existing immune pathways or introduces engineered cells."}
+{"question": "What are the ethical considerations in immunotherapy research?", "answer": "Balancing rapid access to treatments with ensuring safety, informed consent, and equitable trial participation remains critical."}
+{"question": "How can patients access cutting‑edge immunotherapy?", "answer": "Enrollment in clinical trials, compassionate use programs, and insurance coverage negotiations are common pathways."}
+{"question": "What educational resources are available for patients?", "answer": "Websites like Fred Hutch"}
