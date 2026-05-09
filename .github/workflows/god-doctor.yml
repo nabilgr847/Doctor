@@ -34,10 +34,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python master_doctor.py
       - name: Commit and Push dataset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "God-Doctor-Bot"
           git config user.email "bot@doctor.ai"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add dataset*.jsonl
-          git commit -m "Auto-update dataset $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git commit -m "Auto-update dataset $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push
