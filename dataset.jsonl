@@ -2359,3 +2359,53 @@
 {"question": "What are the benefits of artificial intelligence?", "answer": "Artificial intelligence can provide improved treatment outcomes and reduced costs."}
 {"question": "What is the role of 3D printing in cancer treatment?", "answer": "3D printing is a type of cancer treatment that involves using a 3D printer to create custom implants and prosthetics."}
 {"question": "What are the benefits of 3D printing?", "answer": "3D printing can provide improved outcomes and reduced costs for cancer patients."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a type of treatment that uses the body's immune system to fight cancer."}
+{"question": "How does immunotherapy work?", "answer": "Immunotherapy works by stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What are the benefits of immunotherapy?", "answer": "Immunotherapy can improve treatment outcomes, increase survival rates, and reduce side effects."}
+{"question": "What are the types of immunotherapy?", "answer": "There are several types of immunotherapy, including checkpoint inhibitors, cancer vaccines, and adoptive T-cell therapy."}
+{"question": "What is a checkpoint inhibitor?", "answer": "A checkpoint inhibitor is a type of immunotherapy that blocks certain proteins on cancer cells, allowing the immune system to attack."}
+{"question": "What is cancer vaccine immunotherapy?", "answer": "Cancer vaccine immunotherapy involves using vaccines to stimulate the immune system to recognize and attack cancer cells."}
+{"question": "What is adoptive T-cell therapy?", "answer": "Adoptive T-cell therapy involves removing T-cells from the body, modifying them, and reinfusing them to attack cancer cells."}
+{"question": "What is the tumor microenvironment?", "answer": "The tumor microenvironment is the area surrounding a tumor, including immune cells, blood vessels, and other factors."}
+{"question": "How does immunotherapy affect the tumor microenvironment?", "answer": "Immunotherapy can alter the tumor microenvironment by changing the types and numbers of immune cells present."}
+{"question": "What is a liquid biopsy?", "answer": "A liquid biopsy is a non-invasive test that uses blood or urine to detect DNA or other biomarkers from cancer cells."}
+{"question": "How does immunotherapy respond to liquid biopsies?", "answer": "Immunotherapy response can be predicted using liquid biopsies, which can detect changes in the tumor microenvironment."}
+{"question": "What is STING-induced regulatory B cell expansion?", "answer": "STING-induced regulatory B cell expansion is a process where regulatory B cells are activated by the STING protein, promoting cancer growth."}
+{"question": "How can STING-induced regulatory B cell expansion be overcome?", "answer": "STING-induced regulatory B cell expansion can be overcome by combining STING agonism with inhibition of PI3Kγ signaling in B cells."}
+{"question": "What is PI3Kγ signaling?", "answer": "PI3Kγ signaling is a pathway involved in the regulation of immune cells, including B cells."}
+{"question": "How does PI3Kγ signaling affect immunotherapy?", "answer": "PI3Kγ signaling can affect immunotherapy by regulating the activity of immune cells, including B cells."}
+{"question": "What is Fc-FcγR disulfide-linked complex?", "answer": "Fc-FcγR disulfide-linked complex is a type of antibody complex that can be used for modular delivery of diverse payloads."}
+{"question": "What are the benefits of Fc-FcγR disulfide-linked complex?", "answer": "Fc-FcγR disulfide-linked complex can be used for modular delivery of diverse payloads, making it a valuable tool in immunotherapy."}
+{"question": "What is multispecific antibody?", "answer": "Multispecific antibody is a type of antibody that can bind to multiple targets, including cancer cells."}
+{"question": "How can multispecific antibodies be engineered?", "answer": "Multispecific antibodies can be engineered using complex techniques, such as Fc-FcγR disulfide-linked complex."}
+{"question": "What is the role of NK cells in immunotherapy?", "answer": "NK cells play a crucial role in immunotherapy, as they can recognize and attack cancer cells."}
+{"question": "What is IL-15?", "answer": "IL-15 is a cytokine that can stimulate NK cells to attack cancer cells."}
+{"question": "How does IL-15 affect NK cells?", "answer": "IL-15 can \"wake up\" NK cells inside tumors, re-enabling their ability to attack cancer cells."}
+{"question": "What is the timing of immunotherapy treatment?", "answer": "The timing of immunotherapy treatment may matter, with some research suggesting that patients dosed early in the day fare better."}
+{"question": "What is the combination of immunotherapy with other cancer treatments?", "answer": "Combining immunotherapy with other cancer treatments, such as radiation or ultrasound, may boost response rates."}
+{"question": "What is the role of biomarkers in immunotherapy?", "answer": "Biomarkers can predict immunotherapy response, allowing for more personalized treatment."}
+{"question": "What is tumor biology in immunotherapy?", "answer": "Tumor biology involves understanding the characteristics of cancer cells and the tumor microenvironment."}
+{"question": "What is AACR 2026?", "answer": "AACR 2026 is a conference where researchers present advances in immunotherapy, biomarkers, and tumor biology."}
+{"question": "What is the role of Mayo Clinic researchers in immunotherapy?", "answer": "Mayo Clinic researchers are presenting advances in immunotherapy, biomarkers, and tumor biology at AACR 2026."}
+{"question": "What is the liquid biopsy approach to profile the tumor microenvironment?", "answer": "A liquid biopsy approach involves using blood or urine to detect DNA or other biomarkers from cancer cells."}
+{"question": "What is the benefit of using liquid biopsies in immunotherapy?", "answer": "Liquid biopsies can predict immunotherapy response, allowing for more personalized treatment."}
+{"question": "What is the role of IL-15 in immunotherapy?", "answer": "IL-15 can stimulate NK cells to attack cancer cells, making it a potential tool in immunotherapy."}
+{"question": "How can IL-15 be used in immunotherapy?", "answer": "IL-15 can be used to \"wake up\" NK cells inside tumors, re-enabling their ability to attack cancer cells."}
+{"question": "What is the role of NK cells in cancer treatment?", "answer": "NK cells play a crucial role in cancer treatment, as they can recognize and attack cancer cells."}
+{"question": "What is the benefit of using NK cells in immunotherapy?", "answer": "NK cells can be used to attack cancer cells, making them a valuable tool in immunotherapy."}
+{"question": "What is the role of STING agonism in immunotherapy?", "answer": "STING agonism involves activating the STING protein, which can promote cancer growth."}
+{"question": "How can STING agonism be overcome?", "answer": "STING agonism can be overcome by combining STING agonism with inhibition of PI3Kγ signaling in B cells."}
+{"question": "What is the role of PI3Kγ signaling in immunotherapy?", "answer": "PI3Kγ signaling can affect immunotherapy by regulating the activity of immune cells, including B cells."}
+{"question": "How does PI3Kγ signaling affect immunotherapy response?", "answer": "PI3Kγ signaling can affect immunotherapy response by regulating the activity of immune cells, including B cells."}
+{"question": "What is the role of Fc-FcγR disulfide-linked complex in immunotherapy?", "answer": "Fc-FcγR disulfide-linked complex can be used for modular delivery of diverse payloads, making it a valuable tool in immunotherapy."}
+{"question": "How can Fc-FcγR disulfide-linked complex be used in immunotherapy?", "answer": "Fc-FcγR disulfide-linked complex can be used to deliver diverse payloads, such as cancer-killing agents."}
+{"question": "What is the role of multispecific antibodies in immunotherapy?", "answer": "Multispecific antibodies can be used to attack cancer cells, making them a valuable tool in immunotherapy."}
+{"question": "How can multispecific antibodies be engineered?", "answer": "Multispecific antibodies can be engineered using complex techniques, such as Fc-FcγR disulfide-linked complex."}
+{"question": "What is the role of IL-15 in cancer treatment?", "answer": "IL-15 can stimulate NK cells to attack cancer cells, making it a potential tool in cancer treatment."}
+{"question": "How can IL-15 be used in cancer treatment?", "answer": "IL-15 can be used to \"wake up\" NK cells inside tumors, re-enabling their ability to attack cancer cells."}
+{"question": "What is the role of NK cells in cancer treatment?", "answer": "NK cells play a crucial role in cancer treatment, as they can recognize and attack cancer cells."}
+{"question": "What is the benefit of using NK cells in cancer treatment?", "answer": "NK cells can be used to attack cancer cells, making them a valuable tool in cancer treatment."}
+{"question": "What is the role of STING agonism in cancer treatment?", "answer": "STING agonism involves activating the STING protein, which can promote cancer growth."}
+{"question": "How can STING agonism be overcome?", "answer": "STING agonism can be overcome by combining STING agonism with inhibition of PI3Kγ signaling in B cells."}
+{"question": "What is the role of PI3Kγ signaling in cancer treatment?", "answer": "PI3Kγ signaling can affect cancer treatment by regulating the activity of immune cells, including B cells."}
+{"question": "How does PI3Kγ signaling affect cancer treatment response?", "answer": "PI3Kγ signaling can affect cancer treatment response by regulating the activity of immune cells, including B cells."}
