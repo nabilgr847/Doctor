@@ -2127,3 +2127,35 @@
 {"question": "Is immunotherapy suitable for all cancer patients?", "answer": "Suitability depends on tumor type, genetic markers, and overall health; not all patients respond."}
 {"question": "What is \"survivorship\" in cancer care?", "answer": "Survivorship refers to the phase after treatment, focusing on ongoing health, monitoring, and quality of life."}
 {"question": "How does the Fred Hutch team approach statistics?", "answer": "They apply advanced statistical models to interpret clinical trial data and real‑world evidence."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy strengthens the immune system to target and eliminate tumor cells using agents such as checkpoint inhibitors, CAR T cells, or cancer vaccines."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that suppress immune activation, freeing T cells to attack cancer cells more effectively."}
+{"question": "What are CAR T‑cell therapies?", "answer": "Patient T cells are engineered to express chimeric antigen receptors that specifically bind tumor antigens, enabling targeted cell‑mediated killing."}
+{"question": "Which cancers currently use CAR T therapy?", "answer": "Hematologic malignancies like acute lymphoblastic leukemia and certain lymphomas, with trials expanding into solid tumors."}
+{"question": "What common side effect of checkpoint inhibitors is cytokine release syndrome?", "answer": "An acute surge of inflammatory cytokines causing fever, hypotension, and organ dysfunction, managed with supportive care and steroids."}
+{"question": "Can immunotherapy cure cancer?", "answer": "In some cases it leads to durable remissions, but outcomes vary; ongoing research aims to improve efficacy across more cancer types."}
+{"question": "What is the role of myeloid‑derived suppressor cells in tumors?", "answer": "They dampen immune responses by inhibiting T‑cell activity, promoting tumor growth; targeting them may enhance immunotherapy."}
+{"question": "Are there biomarkers predicting response to immunotherapy?", "answer": "Tumor mutational burden, PD‑L1 expression, and mismatch repair deficiency are common markers guiding therapy selection."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the body’s own immune response; passive supplies ready‑made immune components like antibodies or engineered cells."}
+{"question": "How does a cancer vaccine work?", "answer": "It introduces tumor antigens to prime T cells, training them to recognize and attack cancer cells."}
+{"question": "What is adoptive cell transfer?", "answer": "Harvesting, expanding, and reinfusing a patient’s immune cells (e.g., T cells) to fight cancer with enhanced potency."}
+{"question": "Does immunotherapy replace surgery?", "answer": "Not typically; it often complements surgery, radiation, or chemotherapy to eradicate residual disease."}
+{"question": "What is the FDA‑approved first checkpoint inhibitor?", "answer": "Ipilimumab, targeting CTLA‑4, approved in 2011 for metastatic melanoma."}
+{"question": "Are there immune‑related adverse events?", "answer": "Yes—colitis, dermatitis, hepatitis, endocrinopathies, and pneumonitis can arise from immune overactivation."}
+{"question": "What is the typical management of immune‑related colitis?", "answer": "High‑dose corticosteroids, followed by gradual taper; severe cases may need additional immunosuppressants like infliximab."}
+{"question": "How long does a typical checkpoint inhibitor course last?", "answer": "Often 2–4 years, or until disease progression or unacceptable toxicity."}
+{"question": "Can immunotherapy be used in early‑stage cancer?", "answer": "Emerging trials show benefit in adjuvant settings, reducing recurrence after surgery."}
+{"question": "What is a therapeutic cancer vaccine?", "answer": "A vaccine designed to elicit a robust anti‑tumor immune response against specific tumor antigens."}
+{"question": "How does neoantigen targeting improve therapy?", "answer": "Neoantigens arise from tumor mutations and are unique to cancer cells, offering highly specific immune targets."}
+{"question": "What is the significance of PD‑L1 expression?", "answer": "Higher PD‑L1 levels on tumor cells often correlate with better responses to PD‑1/PD‑L1 inhibitors."}
+{"question": "What is an oncolytic virus?", "answer": "Engineered viruses that selectively infect and lyse tumor cells while stimulating anti‑cancer immunity."}
+{"question": "How is CAR‑NK therapy different from CAR‑T?", "answer": "CAR‑NK uses natural killer cells, which require less HLA matching and may have lower cytokine‑release risks."}
+{"question": "What is a biomarker‑driven immunotherapy trial?", "answer": "Studies selecting patients based on molecular markers to predict treatment response."}
+{"question": "Are there gender differences in immunotherapy efficacy?", "answer": "Some data suggest women may respond better to certain checkpoint inhibitors, but findings are not conclusive."}
+{"question": "How do tumor microenvironments suppress immunity?", "answer": "By secreting immunosuppressive cytokines, recruiting regulatory cells, and expressing inhibitory ligands that block T‑cell activation."}
+{"question": "What is a bispecific T‑cell engager?", "answer": "A molecule that simultaneously binds a tumor antigen and CD3 on T cells, directing T‑cell cytotoxicity toward cancer cells."}
+{"question": "Can diet influence immunotherapy outcomes?", "answer": "Emerging evidence links microbiome composition and certain nutrients to immune modulation and treatment response."}
+{"question": "What is the role of gut microbiota in checkpoint therapy?", "answer": "Certain bacterial species enhance systemic antitumor immunity, improving response rates."}
+{"question": "How are immune checkpoints regulated?", "answer": "Proteins like CTLA‑4 and PD‑1 inhibit T‑cell activation; blocking them releases the brake on immune responses."}
+{"question": "What is the mechanism of action of anti‑CTLA‑4 therapy?", "answer": "Anti‑CTLA‑4 antibodies prevent CTLA‑4 from binding B7 ligands, sustaining T‑cell priming in lymph nodes."}
+{"question": "What is the main drawback of CAR T therapy?", "answer": "Cytokine release syndrome and neurotoxicity, especially in aggressive or high‑tumor‑burden patients."}
+{"question": "How is cytokine release syndrome monitored?", "answer": "Regular"}
