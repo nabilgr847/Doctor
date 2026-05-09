@@ -1,0 +1,112 @@
+{"question": "What is the role of Fc‑FcγR disulfide‑linked complexes in cancer immunotherapy?", "answer": "They serve as modular platforms to attach diverse therapeutic payloads, enabling multispecific antibody engineering."}
+{"question": "How can STING agonism improve immunotherapy response in pancreatic cancer?", "answer": "By activating STING, it expands regulatory B cells, but combining with PI3Kγ inhibition reverses resistance and enhances anti‑tumor immunity."}
+{"question": "Why might the time of day affect immunotherapy efficacy?", "answer": "Circadian rhythms influence immune cell activity, with early‑day dosing linked to stronger responses in some studies."}
+{"question": "What benefit does combining radiation with immunotherapy provide?", "answer": "Radiation can increase tumor antigen release, priming the immune system and boosting immunotherapy effectiveness."}
+{"question": "How does ultrasound enhance cancer immunotherapy?", "answer": "Focused ultrasound can disrupt tumor vasculature and promote antigen presentation, synergizing with immune checkpoint inhibitors."}
+{"question": "What is a liquid biopsy and how is it used to predict immunotherapy response?", "answer": "It analyzes circulating tumor DNA or cells from blood to assess the tumor microenvironment, helping forecast treatment success."}
+{"question": "Which biomarker is commonly used to select melanoma patients for checkpoint blockade?", "answer": "High tumor mutational burden (TMB) or PD‑L1 expression."}
+{"question": "What advantage does IL‑15 have in tumor immunity?", "answer": "IL‑15 activates and expands natural killer (NK) cells within tumors, restoring their cytotoxic function."}
+{"question": "How do multispecific antibodies differ from traditional monoclonal antibodies?", "answer": "They can bind multiple targets simultaneously, allowing coordinated engagement of tumor and immune cells."}
+{"question": "What is PI3Kγ signaling’s role in B cells within the tumor microenvironment?", "answer": "It promotes regulatory B cell functions that suppress anti‑tumor immunity."}
+{"question": "How can modular delivery systems improve immunotherapy safety?", "answer": "They enable precise payload release at the tumor site, reducing systemic toxicity."}
+{"question": "What is the principle behind checkpoint inhibitors?", "answer": "They block inhibitory pathways (e.g., PD‑1/PD‑L1) that restrain T‑cell activity, restoring immune attack on cancer."}
+{"question": "Why are early‑phase clinical trials important for novel immunotherapies?", "answer": "They assess safety, dosing, and preliminary efficacy before larger studies."}
+{"question": "What does “immunotherapy resistance” refer to?", "answer": "The failure of the immune system to eradicate tumor cells despite treatment, often due to adaptive tumor mechanisms."}
+{"question": "How can combining PI3Kγ inhibitors with STING agonists overcome resistance?", "answer": "The combination suppresses regulatory B cells while enhancing innate immune activation, restoring tumor susceptibility."}
+{"question": "What is the significance of tumor microenvironment profiling?", "answer": "It reveals immune cell composition and signaling pathways that predict treatment outcomes."}
+{"question": "How does circadian timing influence T‑cell trafficking?", "answer": "Hormonal fluctuations throughout the day affect T‑cell circulation and homing to tumors."}
+{"question": "What is a “multispecific antibody” in the context of cancer therapy?", "answer": "An engineered antibody that can simultaneously engage multiple antigens or immune receptors."}
+{"question": "How does radiation therapy increase neo‑antigen availability?", "answer": "It induces DNA damage, leading to mutated proteins that can be presented as new antigens."}
+{"question": "What role does PD‑L1 expression play in selecting patients for therapy?", "answer": "High PD‑L1 levels often correlate with better responses to PD‑1/PD‑L1 inhibitors."}
+{"question": "How does IL‑15 differ from IL‑2 in immune activation?", "answer": "IL‑15 stimulates NK and memory CD8⁺ T cells without expanding regulatory T cells, reducing toxicity."}
+{"question": "What is the purpose of engineering disulfide links in antibody complexes?", "answer": "To create stable yet reversible connections that allow controlled payload release."}
+{"question": "How can ultrasound be used to deliver immunotherapeutic agents?", "answer": "By transiently opening cell membranes (sonoporation), facilitating drug uptake in tumors."}
+{"question": "What is the clinical relevance of high tumor mutational burden?", "answer": "It predicts a higher likelihood of response to checkpoint blockade due to more neo‑antigens."}
+{"question": "Why is combination therapy a focus in modern oncology?", "answer": "Targeting multiple pathways can overcome resistance and improve overall response rates."}
+{"question": "How does PI3Kγ inhibition affect myeloid cells?", "answer": "It reprograms suppressive myeloid cells toward a pro‑inflammatory phenotype."}
+{"question": "What is the advantage of using a blood‑based liquid biopsy over tissue biopsy?", "answer": "It is less invasive, can be repeated frequently, and captures tumor heterogeneity."}
+{"question": "How does STING activation lead to anti‑tumor immunity?", "answer": "It triggers type I interferon production, enhancing dendritic cell activation and T‑cell priming."}
+{"question": "What is the main safety concern with multispecific antibodies?", "answer": "Potential off‑target effects due to binding multiple antigens."}
+{"question": "How can early‑day dosing improve checkpoint inhibitor outcomes?", "answer": "Aligning treatment with peak immune activity may enhance T‑cell activation."}
+{"question": "What does “modular delivery” refer to in antibody engineering?", "answer": "A system where interchangeable payloads can be attached to a common scaffold."}
+{"question": "How does radiation‑induced immunogenic cell death aid therapy?", "answer": "It releases danger signals that attract and activate immune cells."}
+{"question": "What is the function of regulatory B cells in cancer?", "answer": "They produce immunosuppressive cytokines that dampen anti‑tumor T‑cell responses."}
+{"question": "How does the tumor microenvironment influence immunotherapy success?", "answer": "Factors like hypoxia, suppressive cells, and cytokines can hinder immune activation."}
+{"question": "What is the therapeutic goal of targeting PI3Kγ in B cells?", "answer": "To block their regulatory function and restore effective anti‑tumor immunity."}
+{"question": "How does IL‑15 “wake up” NK cells inside tumors?", "answer": "By binding to the IL‑15 receptor complex, it stimulates NK cell proliferation and cytotoxicity."}
+{"question": "What is a key challenge in delivering multispecific antibodies?", "answer": "Ensuring correct folding and stability of complex protein structures."}
+{"question": "How can circadian biology be integrated into cancer treatment schedules?", "answer": "By timing drug administration to coincide with optimal immune responsiveness."}
+{"question": "What does “immune checkpoint” mean?", "answer": "A regulatory pathway that limits immune activation to prevent autoimmunity; tumors exploit it to evade attack."}
+{"question": "Why are B‑cell targeting strategies emerging in immunotherapy?", "answer": "B cells can modulate T‑cell activity, and their inhibition may lift immunosuppression."}
+{"question": "How does a disulfide bond affect antibody complex stability?", "answer": "It provides covalent linkage that can be reduced intracellularly for payload release."}
+{"question": "What is the purpose of combining immunotherapy with ultrasound?", "answer": "To increase tumor permeability and enhance immune cell infiltration."}
+{"question": "How does a high PD‑L1 score guide treatment decisions?", "answer": "It identifies patients more likely to benefit from PD‑1/PD‑L1 blockade."}
+{"question": "What is the significance of “regulatory B cell expansion” in pancreatic adenocarcinoma?", "answer": "It contributes to resistance against immunotherapies by suppressing immune responses."}
+{"question": "How can a practical liquid biopsy profile the tumor microenvironment?", "answer": "By detecting circulating immune cells, cytokines, and tumor‑derived nucleic acids."}
+{"question": "What is the rationale for using STING agonists in cancer?", "answer": "To activate innate immunity and promote a robust adaptive anti‑tumor response."}
+{"question": "How can multispecific antibodies be engineered to reduce toxicity?", "answer": "By designing them to activate only in the presence of tumor‑specific antigens."}
+{"question": "What role does PI3Kγ play in myeloid‑derived suppressor cells?", "answer": "It drives their immunosuppressive functions within tumors."}
+{"question": "How does early‑day immunotherapy dosing align with cortisol rhythms?", "answer": "Lower cortisol levels in the morning reduce immunosuppression, enhancing therapy."}
+{"question": "What future direction is highlighted for cancer immunotherapy research?", "answer": "Developing modular, combinatorial platforms that integrate checkpoint blockade, innate agonists, and targeted inhibitors."}
+{"question": "What is a multispecific antibody in cancer immunotherapy?", "answer": "An engineered antibody that can bind multiple targets simultaneously, enhancing tumor targeting and immune activation."}
+{"question": "How are Fc‑FcγR disulfide‑linked complexes used?", "answer": "They serve as modular platforms to deliver diverse therapeutic payloads to cancer cells."}
+{"question": "What role does STING play in pancreatic adenocarcinoma resistance?", "answer": "STING activation can expand regulatory B cells that suppress immune responses, leading to therapy resistance."}
+{"question": "How can STING‑induced resistance be overcome?", "answer": "By combining STING agonists with PI3Kγ inhibition in B cells to block the suppressive B‑cell expansion."}
+{"question": "Why might the time of day affect immunotherapy efficacy?", "answer": "Circadian rhythms influence immune cell activity, with early‑day dosing often enhancing treatment response."}
+{"question": "What is a liquid biopsy in the context of immunotherapy?", "answer": "A minimally invasive blood test that analyzes circulating tumor DNA and immune markers to predict treatment response."}
+{"question": "How can liquid biopsies predict melanoma response to immunotherapy?", "answer": "By profiling tumor‑derived DNA and immune‑related biomarkers that correlate with therapeutic outcomes."}
+{"question": "What is the significance of IL‑15 in tumor immunity?", "answer": "IL‑15 activates and expands natural killer (NK) cells within tumors, restoring their cytotoxic function."}
+{"question": "How does IL‑15 “wake up” NK cells?", "answer": "It stimulates NK‑cell proliferation and enhances their ability to recognize and kill cancer cells."}
+{"question": "What is a “modular delivery” system in antibody therapy?", "answer": "A flexible platform that allows interchangeable attachment of drugs, toxins, or imaging agents to antibodies."}
+{"question": "What does PI3Kγ signaling regulate in B cells?", "answer": "It controls B‑cell survival and suppressive functions that can dampen anti‑tumor immunity."}
+{"question": "How does combining radiation with immunotherapy boost response rates?", "answer": "Radiation releases tumor antigens and inflammatory signals, making cancer cells more visible to the immune system."}
+{"question": "What is the benefit of ultrasound‑guided immunotherapy?", "answer": "Focused ultrasound can increase tumor permeability, enhancing immune‑cell infiltration and drug delivery."}
+{"question": "What are “regulatory B cells” (Bregs) in cancer?", "answer": "A subset of B cells that produce immunosuppressive cytokines, hindering effective anti‑tumor immunity."}
+{"question": "How does a STING agonist affect Bregs?", "answer": "It can inadvertently expand Bregs, which may counteract its intended immune‑stimulating effects."}
+{"question": "What is the purpose of engineering disulfide bonds in antibody complexes?", "answer": "To create stable, covalent links that maintain complex integrity under physiological conditions."}
+{"question": "How does circadian timing influence immune checkpoint inhibitor efficacy?", "answer": "Immune checkpoints fluctuate daily; dosing when they are naturally lower can improve drug effectiveness."}
+{"question": "What is an “immune checkpoint inhibitor”?", "answer": "A drug that blocks proteins like PD‑1 or CTLA‑4, releasing brakes on T‑cell activity against tumors."}
+{"question": "What is a “biomarker” for immunotherapy response?", "answer": "A measurable biological feature, such as PD‑L1 expression or tumor mutational burden, that predicts treatment success."}
+{"question": "How does tumor mutational burden (TMB) relate to immunotherapy?", "answer": "Higher TMB often generates more neoantigens, making tumors more recognizable to the immune system."}
+{"question": "What is “tumor microenvironment profiling”?", "answer": "Analyzing the cellular and molecular composition surrounding a tumor to understand immune interactions."}
+{"question": "Why are multispecific antibodies considered complex to manufacture?", "answer": "They require precise engineering to ensure correct folding, binding affinity, and stability for multiple targets."}
+{"question": "What is the advantage of using a “practical” liquid biopsy?", "answer": "It offers rapid, repeatable monitoring without invasive tissue biopsies, guiding therapy adjustments."}
+{"question": "How does PI3Kγ inhibition affect tumor‑associated macrophages (TAMs)?", "answer": "It reprograms TAMs from a suppressive to a pro‑inflammatory phenotype, supporting anti‑tumor immunity."}
+{"question": "What is the role of NK cells in cancer immunotherapy?", "answer": "NK cells can directly kill tumor cells without prior sensitization and produce cytokines that shape adaptive immunity."}
+{"question": "How does IL‑15 differ from IL‑2 in immune activation?", "answer": "IL‑15 expands NK and memory CD8⁺ T cells without inducing regulatory T‑cell expansion, reducing toxicity."}
+{"question": "What is “STING agonism” in cancer treatment?", "answer": "Activation of the STING pathway to stimulate innate immune sensing and type‑I interferon production."}
+{"question": "Why might early‑day dosing improve checkpoint inhibitor outcomes?", "answer": "Immune cell trafficking and cytokine levels peak in the morning, enhancing drug‑mediated T‑cell activation."}
+{"question": "What is a “checkpoint blockade” therapy?", "answer": "Treatment that blocks inhibitory pathways (e.g., PD‑1/PD‑L1) to boost T‑cell mediated tumor destruction."}
+{"question": "How can ultrasound enhance immunotherapy delivery?", "answer": "By transiently disrupting tumor vasculature, allowing larger immune molecules to penetrate the tumor."}
+{"question": "What does “regulatory B cell expansion” imply for patients?", "answer": "An increase in immunosuppressive B cells that may reduce the effectiveness of immunotherapies."}
+{"question": "How does combining PI3Kγ inhibitors with STING agonists help?", "answer": "It prevents Breg‑mediated suppression while maintaining STING‑driven immune activation."}
+{"question": "What is the clinical relevance of Fc‑γ receptor engagement?", "answer": "Binding to Fc‑γ receptors on immune cells can trigger antibody‑dependent cellular cytotoxicity (ADCC)."}
+{"question": "What is antibody‑dependent cellular cytotoxicity (ADCC)?", "answer": "A mechanism where immune cells kill target cells coated with antibodies via Fc‑γ receptor signaling."}
+{"question": "How does tumor‑derived DNA in blood inform treatment?", "answer": "It reflects genetic alterations and can be used to track tumor evolution and response to therapy."}
+{"question": "What is “personalized immunotherapy”?", "answer": "Tailoring immune‑based treatments based on an individual’s tumor genetics and immune profile."}
+{"question": "How does the tumor microenvironment influence immunotherapy success?", "answer": "Presence of suppressive cells, cytokines, and metabolic conditions can hinder immune activation."}
+{"question": "What are “neoantigens”?", "answer": "Novel peptide fragments arising from tumor mutations that can be recognized as foreign by T cells."}
+{"question": "How can multispecific antibodies target neoantigens?", "answer": "By designing one arm to bind a tumor‑specific neoantigen and another to engage immune effector cells."}
+{"question": "What is the significance of “disulfide‑linked” antibody complexes?", "answer": "Disulfide bonds provide stable, reversible connections that can be engineered for controlled release."}
+{"question": "How does PI3Kγ signaling affect immune cell metabolism?", "answer": "It promotes fatty acid oxidation in suppressive myeloid cells, supporting their immunosuppressive phenotype."}
+{"question": "What is “immune‑editing” in cancer?", "answer": "The process by which the immune system shapes tumor immunogenicity, leading to escape variants."}
+{"question": "How can early‑day dosing be implemented clinically?", "answer": "Scheduling immunotherapy infusions in the morning hours, typically between 8–10 a.m."}
+{"question": "What is “radiation‑induced immunogenic cell death”?", "answer": "A form of tumor cell death that releases antigens and danger signals, priming an anti‑tumor immune response."}
+{"question": "How does STING activation lead to type‑I interferon production?", "answer": "Cytosolic DNA activates STING, which triggers TBK1‑IRF3 signaling, resulting in interferon‑β release."}
+{"question": "What is a “checkpoint inhibitor resistance” mechanism?", "answer": "Tumor adaptations such as loss of antigen presentation or upregulation of alternative inhibitory pathways."}
+{"question": "How can biomarkers guide combination therapy choices?", "answer": "Biomarker profiles identify which pathways are active, suggesting rational combinations (e.g., PI3Kγ inhibitor + STING agonist)."}
+{"question": "What does “modular” mean in antibody therapeutics?", "answer": "The ability to swap or add functional components (payloads, targeting domains) without redesigning the entire molecule."}
+{"question": "How does the presence of Bregs correlate with patient outcomes?", "answer": "Higher Breg frequencies often associate with poorer responses to immunotherapy and reduced survival."}
+{"question": "What is the therapeutic goal of “re‑programming” tumor‑associated macrophages?", "answer": "To shift them from a tumor‑promoting (M2) to a tumor‑fighting (M1) phenotype."}
+{"question": "How does IL‑15 administration differ from cytokine‑gene therapy?", "answer": "IL‑15 protein can be given directly, while cytokine‑gene therapy introduces DNA/RNA to produce IL‑15 in vivo."}
+{"question": "What is the advantage of “dual‑targeting” antibodies?", "answer": "Simultaneous engagement of two tumor antigens reduces escape via antigen loss."}
+{"question": "How does tumor heterogeneity impact immunotherapy design?", "answer": "Diverse cell populations require multi‑epitope or multispecific approaches to achieve comprehensive targeting."}
+{"question": "What is “immune‑related adverse event” (irAE)?", "answer": "An unintended immune attack on normal tissues caused by checkpoint inhibitor therapy."}
+{"question": "How can irAEs be managed without compromising anti‑tumor immunity?", "answer": "Using corticosteroids or targeted immunosuppressants while monitoring tumor response closely."}
+{"question": "What is the role of “Fc engineering” in antibody therapeutics?", "answer": "Modifying the Fc region to enhance or reduce binding to Fc‑γ receptors, tailoring effector functions."}
+{"question": "How does STING agonist therapy differ from traditional vaccines?", "answer": "STING agonists directly activate innate immunity, whereas vaccines primarily prime adaptive immune responses."}
+{"question": "What is “personalized liquid biopsy” monitoring?", "answer": "Serial blood sampling to track patient‑specific tumor mutations and immune markers over time."}
+{"question": "How can ultrasound‑mediated microbubble destruction aid immunotherapy?", "answer": "It creates localized inflammation and improves drug penetration into the tumor mass."}
+{"question": "What does “immune checkpoint blockade synergy” refer to?", "answer": "The enhanced anti‑tumor effect when two or more checkpoint inhibitors are used together."}
+{"question": "How does combining PI3Kγ inhibition with radiation improve outcomes?", "answer": "It reduces immunosuppressive myeloid cells while radiation releases tumor antigens, amplifying immunity."}
+{"question": "What is the clinical relevance of “early‑day dosing” findings?", "answer": "It suggests chronotherapy could be a simple, cost‑effective strategy to boost existing immunotherapies."}
