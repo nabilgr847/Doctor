@@ -2,8 +2,8 @@ name: God-Doctor-Continuous
 
 on:
   schedule:
-    - cron: '0 * * * *'          # প্রতি ১ ঘণ্টায় চালু হবে
-  workflow_dispatch:              # ম্যানুয়ালি চালু/বন্ধ করার জন্য
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 concurrency:
   group: doctor-nonstop
@@ -12,21 +12,19 @@ concurrency:
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 360          # ৬ ঘণ্টা ধরে চলবে, তারপর আবার নতুন করে চালু হবে
-
+    timeout-minutes: 360
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: কোড লোড করা হচ্ছে
-        uses: actions/checkout@v4
-
-      - name: পাইথন সেটআপ
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: জরুরি লাইব্রেরি ইন্সটল
+      - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: মাস্টার ডক্টর ইঞ্জিন চালু
+      - name: Run Master Doctor
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
@@ -34,8 +32,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python master_doctor.py
-
-      - name: নতুন ডেটাসেট গিটহাবে জমা করা
+      - name: Commit dataset
         run: |
           git config user.name "God-Doctor-Bot"
           git config user.email "bot@doctor.ai"
