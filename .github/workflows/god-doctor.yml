@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 concurrency:
   group: doctor-nonstop
   cancel-in-progress: false
@@ -13,12 +16,10 @@ jobs:
   train:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -32,10 +33,11 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python master_doctor.py
-      - name: Commit dataset
+      - name: Commit and Push dataset
         run: |
           git config user.name "God-Doctor-Bot"
           git config user.email "bot@doctor.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
           git add dataset*.jsonl
           git commit -m "Auto-update dataset $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git push
