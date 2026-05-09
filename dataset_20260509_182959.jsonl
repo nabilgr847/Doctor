@@ -1,0 +1,62 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses components of the immune system to fight cancer."}
+{"question": "Which components of the immune system are used in cancer immunotherapy?", "answer": "Cells and molecules that recognize and attack tumor cells."}
+{"question": "Where can I find the latest research on cancer immunotherapy from Nature?", "answer": "On the Nature “Cancer immunotherapy” page: https://www.nature.com/subjects/cancer-immunotherapy."}
+{"question": "When was the British Journal of Cancer article on immunotherapy published?", "answer": "5 September 2025."}
+{"question": "What does the Fred Hutch immunotherapy research involve?", "answer": "Collaboration among experts in cancer biology, immune function, statistics, data science, bioengineering, and survivorship."}
+{"question": "Which disciplines collaborate at Fred Hutch for immunotherapy research?", "answer": "Basic cancer biology, immune system function, statistics, data science, bioengineering, survivorship."}
+{"question": "Where can I find the latest immunotherapy news?", "answer": "On the Fred Hutch immunotherapy page and its news section."}
+{"question": "What does Phys.org offer regarding cancer immunotherapy?", "answer": "The latest science news, advancements, and breakthroughs in the field."}
+{"question": "How does physical force affect cancer treatment according to Phys.org?", "answer": "Research explores the mechanics of programmed cell death."}
+{"question": "Where can I find news on cancer immunotherapy at Medical Xpress?", "answer": "On the Medical Xpress cancer immunotherapy tag page."}
+{"question": "What type of research is highlighted on igminresearch.com regarding immunotherapy?", "answer": "Groundbreaking studies and recent advances in cancer immunotherapy."}
+{"question": "According to the Global Cancer Statistics 2020, how many countries were studied?", "answer": "185 countries."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses or enhances the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "Name two main types of cancer immunotherapy.", "answer": "Checkpoint inhibitors and CAR T‑cell therapy."}
+{"question": "Which protein does the drug pembrolizumab block?", "answer": "PD‑1 (programmed death‑1) receptor on T cells."}
+{"question": "What is the purpose of a checkpoint inhibitor?", "answer": "To release the “brakes” on immune cells, allowing them to attack tumors."}
+{"question": "How does CAR T‑cell therapy work?", "answer": "Patient T cells are engineered to express chimeric antigen receptors that target specific tumor antigens, then reinfused."}
+{"question": "Give an example of a CAR T‑cell product approved for leukemia.", "answer": "Tisagenlecleucel (Kymriah)."}
+{"question": "What is a common immune‑related adverse event of checkpoint inhibitors?", "answer": "Colitis (inflammation of the colon)."}
+{"question": "Which cytokine‑storm symptom may require ICU care?", "answer": "Severe hypotension and multi‑organ failure."}
+{"question": "What does “immune checkpoint” refer to?", "answer": "Regulatory pathways that modulate T‑cell activation to prevent autoimmunity."}
+{"question": "What is the role of PD‑L1 in cancer?", "answer": "Tumor cells express PD‑L1 to bind PD‑1 on T cells, suppressing their activity."}
+{"question": "Name a biomarker used to select patients for pembrolizumab.", "answer": "Tumor PD‑L1 expression ≥ 1% by immunohistochemistry."}
+{"question": "What is the significance of the 2020 GLOBOCAN report?", "answer": "It provides worldwide incidence and mortality estimates for 36 cancers."}
+{"question": "Which cancer has the highest global incidence according to GLOBOCAN 2020?", "answer": "Breast cancer in women."}
+{"question": "What is “immune‑related response criteria” (irRC) used for?", "answer": "To assess tumor response to immunotherapy, accounting for atypical patterns."}
+{"question": "How does radiation therapy synergize with immunotherapy?", "answer": "It can increase tumor antigen release and enhance immune activation (abscopal effect)."}
+{"question": "What is the “abscopal effect”?", "answer": "Regression of distant, untreated tumors following localized radiation, mediated by immune mechanisms."}
+{"question": "Which immune cell is primarily targeted by checkpoint inhibitors?", "answer": "Cytotoxic CD8⁺ T lymphocytes."}
+{"question": "What is a “neoantigen”?", "answer": "A novel peptide arising from tumor‑specific mutations that can be recognized by the immune system."}
+{"question": "Why are combination therapies being explored in immuno‑oncology?", "answer": "To overcome resistance and improve response rates by targeting multiple pathways."}
+{"question": "What is the function of CTLA‑4 in T‑cell regulation?", "answer": "CTLA‑4 down‑regulates early T‑cell activation by outcompeting CD28 for B7 ligands."}
+{"question": "Name an FDA‑approved CTLA‑4 inhibitor.", "answer": "Ipilimumab (Yervoy)."}
+{"question": "What is “immune surveillance”?", "answer": "The process by which the immune system monitors and eliminates emerging malignant cells."}
+{"question": "How can gut microbiota influence immunotherapy efficacy?", "answer": "Certain bacterial species enhance T‑cell activation and improve treatment response."}
+{"question": "What is a “pseudoprogression” in immunotherapy imaging?", "answer": "Initial tumor enlargement due to immune cell infiltration before eventual shrinkage."}
+{"question": "Which laboratory test monitors thyroid function during checkpoint therapy?", "answer": "Serum TSH (thyroid‑stimulating hormone)."}
+{"question": "What is the typical onset time for dermatologic toxicity from PD‑1 inhibitors?", "answer": "Within 2–4 weeks of treatment start."}
+{"question": "Define “adoptive cell transfer”.", "answer": "Infusion of ex vivo expanded or engineered immune cells into a patient to fight cancer."}
+{"question": "What is the main advantage of bispecific antibodies in cancer treatment?", "answer": "They simultaneously bind a tumor antigen and a T‑cell receptor, directing cytotoxicity."}
+{"question": "Give an example of a bispecific T‑cell engager (BiTE).", "answer": "Blinatumomab, which links CD19 on B‑cell malignancies to CD3 on T cells."}
+{"question": "What is “immune checkpoint blockade resistance”?", "answer": "Failure of tumors to respond due to lack of antigen presentation, immunosuppressive microenvironment, or alternative pathways."}
+{"question": "Which cytokine is commonly elevated during cytokine release syndrome?", "answer": "Interleukin‑6 (IL‑6)."}
+{"question": "What medication is used to treat severe cytokine release syndrome?", "answer": "Tocilizumab, an IL‑6 receptor antagonist."}
+{"question": "How does tumor mutational burden (TMB) affect immunotherapy?", "answer": "Higher TMB often correlates with increased neoantigen load and better response."}
+{"question": "What is the purpose of a “washout period” before starting immunotherapy after chemotherapy?", "answer": "To reduce overlapping toxicities and allow immune recovery."}
+{"question": "Which cancer type showed a landmark response to nivolumab in 2015?", "answer": "Metastatic melanoma."}
+{"question": "What is the role of dendritic cells in cancer vaccines?", "answer": "To present tumor antigens to T cells and initiate an adaptive immune response."}
+{"question": "Name an FDA‑approved therapeutic cancer vaccine.", "answer": "Sipuleucel‑T for metastatic prostate cancer."}
+{"question": "What does “immune editing” describe?", "answer": "The dynamic process where the immune system eliminates, shapes, or tolerates tumor cells."}
+{"question": "Which pathway is targeted by the drug atezolizumab?", "answer": "PD‑L1 inhibition."}
+{"question": "What is a common laboratory marker for monitoring liver toxicity from immunotherapy?", "answer": "Serum ALT (alanine aminotransferase)."}
+{"question": "How does the “cold tumor” phenotype limit immunotherapy?", "answer": "Low immune cell infiltration reduces antigen presentation and response."}
+{"question": "What strategy converts a cold tumor into a hot one?", "answer": "Use of oncolytic viruses or radiation to increase immune cell infiltration."}
+{"question": "Which immune checkpoint is primarily expressed on regulatory T cells (Tregs)?", "answer": "CTLA‑4."}
+{"question": "What is the significance of “HLA loss” in tumor cells?", "answer": "It impairs antigen presentation, leading to immune evasion."}
+{"question": "What is the typical dosing schedule for pembrolizumab in solid tumors?", "answer": "200 mg IV every 3 weeks (or 400 mg every 6 weeks)."}
+{"question": "Which adverse event is monitored by checking serum creatine kinase?", "answer": "Myositis or muscle inflammation from immunotherapy."}
+{"question": "What does “immune‑related adverse event” (irAE) mean?", "answer": "Side effects caused by off‑target activation of the immune system against normal tissues."}
+{"question": "How long can checkpoint inhibitor benefits persist after treatment discontinuation?", "answer": "Responses may last months to years, sometimes indefinitely."}
+{"question": "What is the purpose of “biomarker‑driven trials” in immuno‑oncology?", "answer": "To match patients with therapies based on predictive molecular or immunologic markers."}
+{"question": "Which research institution is noted for multidisciplinary immunotherapy collaborations?", "answer": "Fred Hutchinson Cancer Research Center."}
