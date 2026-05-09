@@ -1,0 +1,145 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that uses or modifies the immune system to recognize and destroy cancer cells."}
+{"question": "How do immune checkpoint inhibitors work?", "answer": "They block proteins like PD‑1 or CTLA‑4 that restrain T‑cells, allowing the immune system to attack tumors."}
+{"question": "Name a common checkpoint inhibitor drug.", "answer": "Pembrolizumab."}
+{"question": "What is CAR‑T cell therapy?", "answer": "It engineers a patient’s T‑cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "Which cancer type was the first approved for CAR‑T therapy?", "answer": "Relapsed or refractory B‑cell acute lymphoblastic leukemia."}
+{"question": "What are tumor‑infiltrating lymphocytes (TILs)?", "answer": "TILs are immune cells extracted from a tumor, expanded ex vivo, and reinfused to boost anti‑tumor immunity."}
+{"question": "What advantage does TIL therapy offer for gastrointestinal cancers?", "answer": "It has shown dramatic improvement in response rates for metastatic gastrointestinal tumors."}
+{"question": "Define a monoclonal antibody used in immunotherapy.", "answer": "A lab‑produced antibody that specifically binds to a tumor antigen to block growth signals or flag the cell for immune attack."}
+{"question": "Give an example of an antibody that targets HER2.", "answer": "Trastuzumab."}
+{"question": "What is an immune‑related adverse event (irAE)?", "answer": "Side effects caused by overactivation of the immune system, affecting organs like the skin, colon, or endocrine glands."}
+{"question": "How are irAEs typically managed?", "answer": "With corticosteroids or other immunosuppressants while monitoring cancer response."}
+{"question": "What does “neoantigen” refer to?", "answer": "A novel peptide arising from tumor mutations that can be recognized as foreign by T‑cells."}
+{"question": "Why are neoantigens important for personalized vaccines?", "answer": "They enable vaccines to train the immune system against tumor‑specific targets."}
+{"question": "What is the role of cytokines in immunotherapy?", "answer": "Cytokines like IL‑2 stimulate immune cell proliferation and activation against cancer."}
+{"question": "Name a cytokine approved for cancer treatment.", "answer": "Interleukin‑2 (IL‑2)."}
+{"question": "How does oncolytic virus therapy work?", "answer": "The virus selectively infects and kills cancer cells while stimulating an anti‑tumor immune response."}
+{"question": "Provide an example of an FDA‑approved oncolytic virus.", "answer": "Talimogene laherparepvec (T‑VEC)."}
+{"question": "What is the tumor microenvironment (TME)?", "answer": "The surrounding cells, blood vessels, and signaling molecules that influence tumor growth and immune response."}
+{"question": "How can the TME hinder immunotherapy?", "answer": "By recruiting suppressive cells like regulatory T‑cells and myeloid‑derived suppressor cells."}
+{"question": "What strategy is used to remodel the TME?", "answer": "Combining immunotherapy with agents that deplete suppressive cells or normalize blood vessels."}
+{"question": "What does immune checkpoint blockade aim to achieve?", "answer": "Reactivation of exhausted T‑cells to restore anti‑tumor activity."}
+{"question": "Which biomarker predicts response to PD‑1 inhibitors in lung cancer?", "answer": "High PD‑L1 expression on tumor cells."}
+{"question": "What is the significance of microsatellite instability (MSI‑H)?", "answer": "MSI‑high tumors often respond well to checkpoint inhibitors."}
+{"question": "Which cancer type is commonly MSI‑high?", "answer": "Colorectal cancer."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "Infusing patients with ex vivo expanded or engineered immune cells to fight cancer."}
+{"question": "How does bispecific T‑cell engager (BiTE) therapy function?", "answer": "It links T‑cells to tumor cells by binding CD3 on T‑cells and a tumor antigen, prompting cytotoxic attack."}
+{"question": "Name a BiTE approved for leukemia.", "answer": "Blinatumomab."}
+{"question": "What is the primary goal of cancer vaccine research?", "answer": "To prime the immune system to recognize and eliminate cancer cells."}
+{"question": "How are dendritic cells used in cancer vaccines?", "answer": "They are loaded with tumor antigens and reintroduced to activate T‑cells."}
+{"question": "What recent trend is seen in immunotherapy research (2024‑2025)?", "answer": "Development of combination regimens that pair checkpoint inhibitors with targeted therapies or radiation."}
+{"question": "Why combine immunotherapy with radiation therapy?", "answer": "Radiation can increase tumor antigen release, enhancing immune recognition."}
+{"question": "What does “immune priming” refer to?", "answer": "Initial activation of the immune system to recognize tumor antigens before therapeutic intervention."}
+{"question": "Which organ transplant patients are at higher risk for irAEs?", "answer": "Those receiving checkpoint inhibitors, due to potential graft rejection."}
+{"question": "What is “immune escape” in cancer?", "answer": "Mechanisms by which tumors avoid detection, such as downregulating antigen presentation."}
+{"question": "How can epigenetic drugs aid immunotherapy?", "answer": "They can upregulate tumor antigen expression and improve immune visibility."}
+{"question": "What is the FDA‑approved indication for nivolumab in melanoma?", "answer": "Treatment of unresectable or metastatic melanoma."}
+{"question": "What does “pseudoprogression” describe?", "answer": "An initial increase in tumor size on imaging due to immune cell infiltration, not true disease progression."}
+{"question": "How is pseudoprogression distinguished from true progression?", "answer": "By continued imaging, clinical assessment, and sometimes biopsy."}
+{"question": "What role does the gut microbiome play in immunotherapy efficacy?", "answer": "Certain microbial compositions correlate with better response to checkpoint inhibitors."}
+{"question": "Which dietary intervention has been studied to modulate the microbiome for immunotherapy?", "answer": "High‑fiber diet or probiotic supplementation."}
+{"question": "What is the concept of “cold” versus “hot” tumors?", "answer": "Cold tumors lack immune infiltration, while hot tumors have abundant active immune cells."}
+{"question": "Which approach converts a cold tumor to a hot tumor?", "answer": "Use of oncolytic viruses or STING agonists to stimulate innate immunity."}
+{"question": "What does STING stand for?", "answer": "Stimulator of Interferon Genes."}
+{"question": "How does a STING agonist work in cancer therapy?", "answer": "It activates innate immune pathways, leading to type I interferon production and T‑cell recruitment."}
+{"question": "What is the main safety concern with CAR‑T therapy?", "answer": "Cytokine release syndrome (CRS)."}
+{"question": "How is severe CRS managed?", "answer": "With anti‑IL‑6 receptor antibody tocilizumab and supportive care."}
+{"question": "What is the typical route of administration for checkpoint inhibitors?", "answer": "Intravenous infusion."}
+{"question": "Which cancer type showed the first durable responses to immunotherapy?", "answer": "Metastatic melanoma."}
+{"question": "What is “immune monitoring” in clinical trials?", "answer": "Assessing biomarkers like circulating T‑cell subsets to gauge treatment response."}
+{"question": "What future direction is emphasized for cancer immunotherapy?", "answer": "Developing personalized, multi‑modal regimens that integrate genetics, microbiome, and immune profiling."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses components of the immune system to fight cancer cells."}
+{"question": "How do antibodies work in cancer immunotherapy?", "answer": "They bind to cancer cell antigens and block signals that help the tumor grow."}
+{"question": "What is a checkpoint inhibitor?", "answer": "A drug that blocks proteins like PD-1 or CTLA-4, freeing T‑cells to attack tumors."}
+{"question": "Which body releases the 2025 Cancer Immunotherapy Insights report?", "answer": "The Cancer Research Institute (CRI)."}
+{"question": "What new form of personalized therapy improved outcomes for metastatic gastrointestinal cancers?", "answer": "Tumor infiltrating lymphocyte (TIL) therapy."}
+{"question": "Where can researchers find open‑access studies on tumor immunity?", "answer": "Frontiers in Immunology’s Cancer Immunity and Immunotherapy section."}
+{"question": "Which organization publishes a review of cancer immunotherapy evolution?", "answer": "The Cancer Research Institute (CRI)."}
+{"question": "What is the main goal of immunotherapy?", "answer": "To activate or enhance the immune system’s ability to recognize and destroy cancer cells."}
+{"question": "What is the difference between passive and active immunotherapy?", "answer": "Passive uses pre‑made antibodies; active stimulates the body’s own immune response."}
+{"question": "Which type of therapy uses patients’ own immune cells?", "answer": "Autologous cell therapies like CAR‑T or TIL therapy."}
+{"question": "What is a chimeric antigen receptor (CAR) T‑cell therapy?", "answer": "Engineered T‑cells that express receptors targeting specific tumor antigens."}
+{"question": "Which disease categories have seen recent immunotherapy breakthroughs?", "answer": "Hematologic cancers and solid tumors like melanoma and lung cancer."}
+{"question": "What does the acronym \"CRISPR\" stand for in immunotherapy research?", "answer": "Clustered Regularly Interspaced Short Palindromic Repeats, a gene‑editing tool."}
+{"question": "What role does the tumor microenvironment play in immunotherapy?", "answer": "It can suppress immune activity; therapies aim to reverse this suppression."}
+{"question": "Which online resource provides the latest cancer immunotherapy news?", "answer": "Nature’s Cancer Immunotherapy subject page."}
+{"question": "What is the primary safety concern with checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis or pneumonitis."}
+{"question": "How is the efficacy of immunotherapy measured?", "answer": "By tumor response rates, progression‑free survival, and overall survival."}
+{"question": "What is a biomarker in the context of cancer immunotherapy?", "answer": "A measurable indicator that predicts response or resistance."}
+{"question": "Which immunotherapy strategy targets the PD‑L1 ligand?", "answer": "Drugs that block PD‑L1 on tumor cells."}
+{"question": "What is the significance of the 2025 Cancer Research Institute report?", "answer": "It offers data‑driven insights into immunotherapy’s impact over a decade."}
+{"question": "Which type of cancer has seen dramatic improvement with TIL therapy?", "answer": "Metastatic gastrointestinal cancers."}
+{"question": "What does GLOBOCAN provide?", "answer": "Global cancer incidence and mortality estimates."}
+{"question": "What is the main advantage of personalized immunotherapy?", "answer": "Tailoring treatment to a patient’s unique tumor profile."}
+{"question": "Which drug class is used to treat multiple myeloma with immunotherapy?", "answer": "Bispecific T‑cell engagers (BiTEs)."}
+{"question": "What is the role of natural killer (NK) cells in cancer therapy?", "answer": "NK cells can recognize and kill tumor cells without prior sensitization."}
+{"question": "How does a bispecific antibody function?", "answer": "It simultaneously binds a tumor antigen and a T‑cell receptor."}
+{"question": "What does the term \"immune checkpoint\" refer to?", "answer": "Regulatory pathways that modulate T‑cell activation."}
+{"question": "Which therapy involves expanding tumor‑infiltrating lymphocytes in vitro?", "answer": "TIL therapy."}
+{"question": "What is a major challenge in solid tumor immunotherapy?", "answer": "Penetrating the dense tumor stroma to reach cancer cells."}
+{"question": "Which immunotherapy has been approved for melanoma?", "answer": "CTLA‑4 blocker ipilimumab and PD‑1 blockers like nivolumab."}
+{"question": "What is the purpose of the National Cancer Institute’s research page?", "answer": "To showcase ongoing trials and developments in cancer therapy."}
+{"question": "Which immunotherapy side effect requires steroid treatment?", "answer": "Severe immune‑related adverse events like colitis."}
+{"question": "What does \"CAR\" stand for in CAR‑T therapy?", "answer": "Chimeric Antigen Receptor."}
+{"question": "Which journal publishes open‑access research on tumor immunity?", "answer": "Frontiers in Immunology."}
+{"question": "What is the key feature of the 2025 CRI impact report?", "answer": "Data‑driven analysis of immunotherapy advances over ten years."}
+{"question": "Which therapy uses engineered antibodies to target HER2?", "answer": "Trastuzumab."}
+{"question": "What is the main mechanism of action for PD‑1 inhibitors?", "answer": "They block PD‑1 on T‑cells, preventing tumor‑induced inhibition."}
+{"question": "Which organization focuses on advancing immune‑based cancer treatments?", "answer": "The Cancer Research Institute (CRI)."}
+{"question": "What distinguishes a “biologic” from a small‑molecule drug in cancer therapy?", "answer": "Biologics are large, protein‑based molecules; small molecules are chemically synthesized."}
+{"question": "What is the typical onset of action for checkpoint inhibitors?", "answer": "Response can occur weeks to months after initiation."}
+{"question": "Which therapeutic approach uses a patient’s own immune cells?", "answer": "Autologous cell therapies like TIL and CAR‑T."}
+{"question": "What is the primary goal of immunotherapy research?", "answer": "To improve efficacy and reduce toxicity of cancer treatments."}
+{"question": "Which cell type is central to adaptive immunity in tumor recognition?", "answer": "T‑cells."}
+{"question": "How does a tumor evade immune detection?", "answer": "By expressing checkpoint ligands or suppressive cytokines."}
+{"question": "What does the National Cancer Institute list under cancer treatment research?", "answer": "Emerging therapies, including immunotherapies, targeted agents, and combinations."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that involves or uses components of the immune system to treat cancer."}
+{"question": "What are some types of cancer immunotherapies?", "answer": "They consist of antibodies that bind to and inhibit cancer cells."}
+{"question": "What is the purpose of the Cancer Research Institute's 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "To present an authoritative review of the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is tumor infiltrating lymphocyte (TIL) therapy?", "answer": "A new form of personalized cancer immunotherapy that improves treatment effectiveness."}
+{"question": "What is the Frontiers in Immunology journal section focused on?", "answer": "Cancer immunity and immunotherapy."}
+{"question": "What is GLOBOCAN?", "answer": "A global cancer statistics database that estimates incidence and mortality worldwide."}
+{"question": "What is the NCI's role in cancer treatment research?", "answer": "To advance cancer treatment research and improve patient outcomes."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To enhance the body's immune response against cancer cells."}
+{"question": "What are some examples of immunotherapy agents and strategies?", "answer": "Many agents and strategies have been developed to improve its effectiveness."}
+{"question": "What is the key to improving cancer immunotherapy?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What are some benefits of cancer immunotherapy?", "answer": "It has proven successful in treating cancer patients."}
+{"question": "What is the Cancer Research Institute's mission?", "answer": "To advance immune-based treatments for cancer."}
+{"question": "What is the main focus of the Cancer Research Institute's report?", "answer": "The evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "It provides valuable insights and impact data on cancer immunotherapy."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What are some challenges in developing effective cancer immunotherapies?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What is the main goal of the NCI's cancer treatment research?", "answer": "To improve patient outcomes and advance cancer treatment research."}
+{"question": "What is tumor microenvironment?", "answer": "A complex biological environment that affects cancer cell growth."}
+{"question": "What is the significance of the GLOBOCAN database?", "answer": "It provides global cancer statistics and estimates incidence and mortality worldwide."}
+{"question": "What is the main focus of the Frontiers in Immunology journal section?", "answer": "Cancer immunity and immunotherapy."}
+{"question": "What is the role of the Cancer Research Institute in advancing immunotherapy research?", "answer": "To advance immune-based treatments for cancer."}
+{"question": "What is the main goal of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "To provide valuable insights and impact data on cancer immunotherapy."}
+{"question": "What is the significance of the tumor microenvironment in cancer treatment?", "answer": "It affects cancer cell growth and immune response."}
+{"question": "What is the main challenge in developing effective cancer immunotherapies?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What is the role of the NCI in advancing cancer treatment research?", "answer": "To advance cancer treatment research and improve patient outcomes."}
+{"question": "What is the main focus of the GLOBOCAN database?", "answer": "Global cancer statistics and estimates incidence and mortality worldwide."}
+{"question": "What is the significance of the Frontiers in Immunology journal section?", "answer": "It provides open access research on immune-based cancer therapies."}
+{"question": "What is the main goal of the Cancer Research Institute's report?", "answer": "To present an authoritative review of the evolution of cancer immunotherapy."}
+{"question": "What is the role of the immune system in recognizing cancer cells?", "answer": "It plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What is the main challenge in developing effective cancer immunotherapies?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "It provides valuable insights and impact data on cancer immunotherapy."}
+{"question": "What is the main focus of the NCI's cancer treatment research?", "answer": "To improve patient outcomes and advance cancer treatment research."}
+{"question": "What is the role of the tumor microenvironment in cancer treatment?", "answer": "It affects cancer cell growth and immune response."}
+{"question": "What is the main goal of the GLOBOCAN database?", "answer": "To provide global cancer statistics and estimates incidence and mortality worldwide."}
+{"question": "What is the significance of the Frontiers in Immunology journal section?", "answer": "It provides open access research on immune-based cancer therapies."}
+{"question": "What is the main focus of the Cancer Research Institute's report?", "answer": "The evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What is the main challenge in developing effective cancer immunotherapies?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "It provides valuable insights and impact data on cancer immunotherapy."}
+{"question": "What is the main focus of the NCI's cancer treatment research?", "answer": "To improve patient outcomes and advance cancer treatment research."}
+{"question": "What is the role of the tumor microenvironment in cancer treatment?", "answer": "It affects cancer cell growth and immune response."}
+{"question": "What is the main goal of the GLOBOCAN database?", "answer": "To provide global cancer statistics and estimates incidence and mortality worldwide."}
+{"question": "What is the significance of the Frontiers in Immunology journal section?", "answer": "It provides open access research on immune-based cancer therapies."}
+{"question": "What is the main focus of the Cancer Research Institute's report?", "answer": "The evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What is the main challenge in developing effective cancer immunotherapies?", "answer": "Developing new and effective agents and strategies."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "It provides valuable insights and impact data on cancer immunotherapy."}
+{"question": "What is the main focus of the NCI's cancer treatment research?", "answer": "To improve patient outcomes and advance cancer treatment research."}
+{"question": "What is the role of the tumor microenvironment in cancer treatment?", "answer": "It affects cancer cell growth and immune response."}
+{"question": "What is the main goal of the GLOBOCAN database?", "answer": "To provide global cancer statistics and estimates incidence and mortality worldwide."}
