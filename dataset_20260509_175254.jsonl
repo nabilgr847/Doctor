@@ -1,0 +1,61 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses the patient’s immune system to recognize and destroy tumor cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins like PD-1 or CTLA-4 that restrain T‑cells, allowing an enhanced immune attack on cancer."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "CAR‑T therapy genetically engineers a patient’s T‑cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "Which cancers have FDA‑approved CAR‑T treatments?", "answer": "Relapsed/refractory B‑cell acute lymphoblastic leukemia and certain large‑B‑cell lymphomas."}
+{"question": "What is a tumor‑infiltrating lymphocyte (TIL) therapy?", "answer": "TIL therapy expands a patient’s own tumor‑infiltrating immune cells ex vivo and reinfuses them to fight the cancer."}
+{"question": "What are the common side effects of checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis, dermatitis, pneumonitis, hepatitis, and endocrinopathies."}
+{"question": "How is cytokine release syndrome (CRS) managed?", "answer": "CRS is treated with supportive care and cytokine‑blocking agents like tocilizumab and sometimes corticosteroids."}
+{"question": "What is the role of PD‑L1 testing in immunotherapy?", "answer": "PD‑L1 expression helps predict response to PD‑1/PD‑L1 inhibitors and guides treatment selection."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, many regimens pair checkpoint inhibitors with chemotherapy to improve response rates."}
+{"question": "What is the “abscopal effect”?", "answer": "It is a phenomenon where localized radiation leads to regression of distant, untreated tumors via immune activation."}
+{"question": "Which biomarkers besides PD‑L1 are used for immunotherapy selection?", "answer": "Tumor mutational burden (TMB), microsatellite instability (MSI‑high), and mismatch repair deficiency (dMMR)."}
+{"question": "What is an oncolytic virus therapy?", "answer": "A genetically modified virus that selectively infects and kills cancer cells while stimulating an anti‑tumor immune response."}
+{"question": "How does pembrolizumab differ from nivolumab?", "answer": "Both are PD‑1 inhibitors, but they have different dosing schedules and FDA‑approved indications."}
+{"question": "What is the typical duration of checkpoint inhibitor therapy?", "answer": "Treatment often continues until disease progression or unacceptable toxicity, sometimes up to 2 years."}
+{"question": "Are there immunotherapy options for solid tumors?", "answer": "Yes, checkpoint inhibitors, cancer vaccines, and adoptive cell therapies are being used for many solid cancers."}
+{"question": "What is a cancer vaccine?", "answer": "A therapeutic vaccine introduces tumor antigens to prime the immune system to recognize and attack cancer cells."}
+{"question": "How does the immune system normally recognize cancer?", "answer": "Through presentation of abnormal or neoantigen peptides on MHC molecules that are detected by T‑cells."}
+{"question": "What is “immune checkpoint”?", "answer": "A regulatory pathway that limits immune activation to prevent autoimmunity; tumors exploit it to evade immunity."}
+{"question": "What is the significance of the 2020 GLOBOCAN cancer statistics?", "answer": "They provide global incidence and mortality data for 36 cancers, informing public health and research priorities."}
+{"question": "Which cancer has the highest worldwide incidence?", "answer": "Lung cancer is the most commonly diagnosed cancer globally."}
+{"question": "What is the mechanism of action of ipilimumab?", "answer": "Ipilimumab blocks CTLA‑4, enhancing T‑cell activation and proliferation against tumor cells."}
+{"question": "Can immunotherapy cause long‑term remission?", "answer": "Yes, a subset of patients achieve durable responses lasting years after treatment cessation."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active immunotherapy stimulates the patient’s own immune response, while passive provides immune effectors like antibodies."}
+{"question": "How are monoclonal antibodies used in cancer treatment?", "answer": "They target specific tumor antigens, block growth signals, or deliver cytotoxic payloads."}
+{"question": "What is antibody‑drug conjugate (ADC) therapy?", "answer": "An ADC links a monoclonal antibody to a chemotherapy drug, delivering cytotoxicity directly to cancer cells."}
+{"question": "Which ADC is approved for HER2‑positive breast cancer?", "answer": "Trastuzumab emtansine (T‑DM1)."}
+{"question": "What is the role of tumor mutational burden (TMB) in immunotherapy?", "answer": "High TMB correlates with more neoantigens, increasing the likelihood of response to checkpoint inhibitors."}
+{"question": "How is TMB measured?", "answer": "By sequencing tumor DNA and counting somatic mutations per megabase."}
+{"question": "What is the typical dosing schedule for atezolizumab?", "answer": "1200 mg intravenously every 3 weeks."}
+{"question": "What is a “hyperprogressor” in immunotherapy?", "answer": "A patient whose tumor growth accelerates after starting checkpoint inhibitor treatment."}
+{"question": "How are immune‑related adverse events graded?", "answer": "Using the Common Terminology Criteria for Adverse Events (CTCAE) from grade 1 (mild) to grade 5 (death)."}
+{"question": "What is the first FDA‑approved checkpoint inhibitor?", "answer": "Ipilimumab, approved in 2011 for melanoma."}
+{"question": "Which cancer type showed the first major success with pembrolizumab?", "answer": "Metastatic melanoma."}
+{"question": "What is the concept of “immune editing”?", "answer": "The process by which the immune system shapes tumor immunogenicity through elimination, equilibrium, and escape phases."}
+{"question": "How does radiotherapy synergize with immunotherapy?", "answer": "Radiation can increase antigen release and up‑regulate MHC, enhancing immune recognition."}
+{"question": "What is the typical response rate of checkpoint inhibitors in melanoma?", "answer": "Approximately 40–45% achieve objective responses."}
+{"question": "What is the difference between PD‑1 and PD‑L1 inhibitors?", "answer": "PD‑1 inhibitors target the receptor on T‑cells; PD‑L1 inhibitors target the ligand on tumor or immune cells."}
+{"question": "What is the primary goal of neoadjuvant immunotherapy?", "answer": "To shrink tumors before surgery and stimulate systemic anti‑tumor immunity."}
+{"question": "Are there approved immunotherapies for colorectal cancer?", "answer": "Yes, pembrolizumab and nivolumab for MSI‑high/dMMR metastatic colorectal cancer."}
+{"question": "What is the mechanism of action of talimogene laherparepvec (T‑VEC)?", "answer": "T‑VEC is an oncolytic herpesvirus engineered to replicate in tumors and express GM‑CSF to boost immunity."}
+{"question": "What is the significance of microsatellite instability (MSI) in cancer?", "answer": "MSI‑high tumors have defective DNA repair, leading to high neoantigen loads and better immunotherapy responses."}
+{"question": "How is dMMR detected clinically?", "answer": "By immunohistochemistry for mismatch repair proteins or PCR‑based MSI testing."}
+{"question": "What is the role of cytokines like IL‑2 in immunotherapy?", "answer": "High‑dose IL‑2 can expand activated T‑cells, historically used for metastatic melanoma and renal cell carcinoma."}
+{"question": "What are immune checkpoint molecules besides PD‑1 and CTLA‑4?", "answer": "LAG‑3, TIM‑3, and TIGIT are emerging targets under investigation."}
+{"question": "What is the typical half‑life of monoclonal antibodies used in cancer?", "answer": "Approximately 2–3 weeks, allowing dosing intervals of 2–4 weeks."}
+{"question": "Can immunotherapy be used in pediatric oncology?", "answer": "Yes, agents like pembrolizumab are approved for certain pediatric cancers, and CAR‑T cells are approved for B‑ALL."}
+{"question": "What is the main challenge of CAR‑T therapy in solid tumors?", "answer": "Limited trafficking to tumor sites and an immunosuppressive tumor microenvironment."}
+{"question": "How does the tumor microenvironment affect immunotherapy?", "answer": "Factors like regulatory T‑cells, myeloid‑derived suppressor cells, and cytokines can inhibit immune responses."}
+{"question": "What is “immune checkpoint blockade resistance”?", "answer": "Tumors that fail to respond or progress despite checkpoint inhibitor therapy due to various biological mechanisms."}
+{"question": "What is the purpose of “biomarker‑driven” clinical trials in immunotherapy?", "answer": "To match patients with therapies based on predictive molecular or immunologic markers."}
+{"question": "What is the standard first‑line immunotherapy for advanced non‑small cell lung cancer (NSCLC) with high PD‑L1?", "answer": "Pembrolizumab monotherapy."}
+{"question": "How does atezolizumab differ from other PD‑L1 inhibitors?", "answer": "It is a humanized IgG1 antibody with a modified Fc region to reduce antibody‑dependent cellular cytotoxicity."}
+{"question": "What is “immune-related pneumonitis” and how is it treated?", "answer": "An inflammation of lung tissue caused by checkpoint inhibitors; managed with corticosteroids and drug interruption."}
+{"question": "What is the role of gut microbiome in immunotherapy efficacy?", "answer": "Certain bacterial species can enhance or diminish response to checkpoint inhibitors."}
+{"question": "What is the typical monitoring schedule for patients on checkpoint inhibitors?", "answer": "Baseline labs and imaging, followed by periodic assessments every 2–3 months or as clinically indicated."}
+{"question": "What is a “pseudo‑progression” in immunotherapy imaging?", "answer": "Apparent tumor enlargement due to immune cell infiltration before true tumor shrinkage occurs."}
+{"question": "How are “immune‑related response criteria” (irRC) different from RECIST?", "answer": "irRC account for new lesions and tumor enlargement due to inflammation, allowing continued treatment when appropriate."}
+{"question": "What is the approved immunotherapy for metastatic Merkel cell carcinoma?", "answer": "Avelumab, a PD‑L1 inhibitor."}
+{"question": "What is the concept of “personalized cancer vaccine”?", "answer": "Designing a vaccine based on a patient’s unique tumor neoantigens to stimulate a tailored immune response."}
+{"question": "Which immunotherapy is used for metastatic urothelial carcinoma after platinum chemotherapy?", "answer": "Atezolizumab or pembrolizumab, depending on PD‑L1 status."}
+{"question": "What is the primary mechanism of action of sipuleucel‑T?", "answer": "It autologously activates peripheral blood mononuclear cells with a prostate cancer antigen, then reinfuses them to target prostate tumors."}
