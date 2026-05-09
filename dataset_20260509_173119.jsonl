@@ -1,0 +1,160 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses or modifies the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "Checkpoint inhibitors block proteins (e.g., PD‑1, CTLA‑4) that restrain T‑cells, allowing them to attack tumors more effectively."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "CAR‑T therapy engineers a patient’s T‑cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "Which cancers have FDA‑approved CAR‑T therapies?", "answer": "FDA‑approved CAR‑T products exist for certain leukemias and lymphomas, including B‑cell acute lymphoblastic leukemia and diffuse large B‑cell lymphoma."}
+{"question": "What are common side effects of checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis, dermatitis, pneumonitis, hepatitis, and endocrinopathies."}
+{"question": "How is cytokine release syndrome (CRS) managed?", "answer": "CRS is treated with supportive care and cytokine‑targeted agents like tocilizumab and sometimes corticosteroids."}
+{"question": "What is the role of tumor mutational burden (TMB) in immunotherapy?", "answer": "High TMB often predicts better responses to checkpoint inhibitors because more neoantigens can be recognized by the immune system."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; chemo can increase tumor antigen release and modulate the microenvironment, enhancing immunotherapy efficacy."}
+{"question": "What is a tumor‑infiltrating lymphocyte (TIL) therapy?", "answer": "TIL therapy expands a patient’s own tumor‑infiltrating lymphocytes ex vivo and reinfuses them after lymphodepletion."}
+{"question": "What biomarkers predict response to PD‑1 inhibitors?", "answer": "PD‑L1 expression, TMB, microsatellite instability‑high (MSI‑H), and certain gene signatures."}
+{"question": "What is microsatellite instability (MSI) testing?", "answer": "MSI testing assesses DNA mismatch repair deficiency; MSI‑H tumors often respond well to PD‑1 blockade."}
+{"question": "How does a cancer vaccine differ from traditional vaccines?", "answer": "Cancer vaccines aim to stimulate immunity against tumor‑specific antigens rather than preventing infectious disease."}
+{"question": "What is the “abscopal effect”?", "answer": "A systemic anti‑tumor response observed at distant sites after localized radiation, thought to be immune‑mediated."}
+{"question": "Why might immunotherapy fail in “cold” tumors?", "answer": "Cold tumors lack immune cell infiltration and antigen presentation, limiting immune activation."}
+{"question": "What strategies convert cold tumors to hot?", "answer": "Radiation, oncolytic viruses, cytokine therapy, and combination with checkpoint blockade."}
+{"question": "What is the mechanism of PD‑L1 inhibitors?", "answer": "They block the interaction between PD‑L1 on tumor cells and PD‑1 on T‑cells, restoring T‑cell activity."}
+{"question": "Which checkpoint inhibitors target CTLA‑4?", "answer": "Ipilimumab is the primary CTLA‑4‑blocking antibody."}
+{"question": "What is immune‑related pneumonitis?", "answer": "An inflammation of lung tissue caused by an overactive immune response to checkpoint inhibition."}
+{"question": "How are immune‑related adverse events graded?", "answer": "Using the Common Terminology Criteria for Adverse Events (CTCAE) from grade 1 (mild) to grade 4 (life‑threatening)."}
+{"question": "What is the typical dosing schedule for pembrolizumab?", "answer": "Pembrolizumab is usually given 200 mg IV every 3 weeks or 400 mg every 6 weeks."}
+{"question": "Can patients receive immunotherapy during pregnancy?", "answer": "Generally contraindicated due to limited safety data and potential fetal immune effects."}
+{"question": "What is the purpose of lymphodepleting chemotherapy before CAR‑T infusion?", "answer": "It reduces regulatory cells and creates space for infused CAR‑T cells to expand."}
+{"question": "What is the difference between autologous and allogeneic cell therapy?", "answer": "Autologous uses the patient’s own cells; allogeneic uses donor cells."}
+{"question": "What is a “neoantigen”?", "answer": "A novel peptide arising from tumor‑specific mutations that can be recognized by the immune system."}
+{"question": "How does oncolytic virus therapy work?", "answer": "The virus selectively infects and lyses tumor cells while stimulating anti‑tumor immunity."}
+{"question": "What is the role of cytokines like IL‑2 in immunotherapy?", "answer": "IL‑2 can expand and activate T‑cells and NK cells, but high doses cause significant toxicity."}
+{"question": "Why is PD‑L1 testing important before prescribing atezolizumab?", "answer": "Atezolizumab efficacy correlates with PD‑L1 expression in certain cancers, guiding patient selection."}
+{"question": "What is “immune checkpoint blockade resistance”?", "answer": "Tumor mechanisms that prevent effective T‑cell activation despite checkpoint inhibition."}
+{"question": "Name a common laboratory test to monitor immune‑related hepatitis.", "answer": "Serum alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels."}
+{"question": "What is the significance of HLA typing in cancer vaccines?", "answer": "HLA molecules present antigens; matching ensures vaccine peptides are effectively displayed to T‑cells."}
+{"question": "How does radiation enhance immunotherapy?", "answer": "Radiation releases tumor antigens and up‑regulates MHC expression, priming immune responses."}
+{"question": "What is the typical onset time for immune‑related colitis?", "answer": "Usually within 6–8 weeks after starting checkpoint inhibition."}
+{"question": "What is a “biomarker” in the context of immunotherapy?", "answer": "A measurable indicator (e.g., PD‑L1, TMB) that predicts response or toxicity."}
+{"question": "Which immunotherapy is approved for metastatic melanoma?", "answer": "Both pembrolizumab and nivolumab (PD‑1 inhibitors) and ipilimumab (CTLA‑4 inhibitor) are approved."}
+{"question": "What is the “immune synapse”?", "answer": "The organized contact zone between a T‑cell receptor and an antigen‑presenting cell that initiates activation."}
+{"question": "How does a bispecific T‑cell engager (BiTE) function?", "answer": "It binds a tumor antigen on one arm and CD3 on T‑cells on the other, redirecting T‑cells to kill the tumor."}
+{"question": "What is the main advantage of subcutaneous immunotherapy administration?", "answer": "Greater patient convenience and potentially reduced infusion reactions."}
+{"question": "What is the role of myeloid‑derived suppressor cells (MDSCs) in immunotherapy resistance?", "answer": "MDSCs inhibit T‑cell activity, creating an immunosuppressive tumor microenvironment."}
+{"question": "Which cancer type shows the highest response rate to pembrolizumab monotherapy?", "answer": "MSI‑high colorectal cancer and certain head‑and‑neck squamous cell carcinomas."}
+{"question": "What is the principle behind adoptive cell transfer (ACT)?", "answer": "Infusing ex vivo expanded or engineered immune cells to target cancer."}
+{"question": "How are immune‑related adverse events typically treated?", "answer": "First‑line corticosteroids; escalation to infliximab or other immunosuppressants if refractory."}
+{"question": "What does “immune checkpoint” refer to?", "answer": "Regulatory pathways that maintain self‑tolerance and modulate the amplitude of immune responses."}
+{"question": "What is a “tumor microenvironment” (TME)?", "answer": "The surrounding cells, blood vessels, extracellular matrix, and signaling molecules that influence tumor growth and immunity."}
+{"question": "Why is PD‑1 expressed on exhausted T‑cells?", "answer": "Chronic antigen exposure up‑regulates PD‑1, leading to functional exhaustion."}
+{"question": "What is the significance of “immune hot” versus “immune cold” tumors?", "answer": "Hot tumors have abundant infiltrating lymphocytes and respond better to immunotherapy; cold tumors lack them."}
+{"question": "What is the typical duration of response monitoring after CAR‑T therapy?", "answer": "Patients are followed for at least 2 years for durability, late toxicities, and relapse."}
+{"question": "Which cytokine is most commonly associated with severe CRS?", "answer": "Interleukin‑6 (IL‑6)."}
+{"question": "What is the FDA‑approved indication for nivolumab in lung cancer?", "answer": "First‑line treatment for metastatic non‑small cell lung cancer with PD‑L1 ≥1% without EGFR/ALK mutations."}
+{"question": "How does an immune checkpoint inhibitor differ from a vaccine?", "answer": "Inhibitors release existing immune brakes; vaccines actively prime new immune responses against tumor antigens."}
+{"question": "What is the purpose of “immune monitoring” during therapy?", "answer": "To track biomarkers, detect early toxicity, and assess treatment efficacy."}
+{"question": "What is a “pseudoprogression” in immunotherapy imaging?", "answer": "Apparent tumor growth on scans due to immune cell infiltration, not true disease progression."}
+{"question": "Which laboratory assay measures PD‑L1 expression?", "answer": "Immunohistochemistry (IHC) staining of tumor tissue."}
+{"question": "What is the typical first‑line therapy for advanced renal cell carcinoma?", "answer": "Combination of a PD‑1/PD‑L1 inhibitor with a VEGF‑targeted tyrosine kinase inhibitor."}
+{"question": "How does the “immune checkpoint” PD‑1/PD‑L1 pathway protect normal tissue?", "answer": "It down‑regulates T‑cell activity to prevent autoimmunity and tissue damage."}
+{"question": "What is the recommended management for grade 3 immune‑related dermatitis?", "answer": "Hold immunotherapy, start high‑dose corticosteroids (≥1 mg/kg prednisone equivalent), and taper over 4–6 weeks."}
+{"question": "What is “immune priming” in the context of cancer treatment?", "answer": "Strategies that enhance antigen presentation and T‑cell activation before or alongside immunotherapy."}
+{"question": "Which immunotherapy modality uses viral vectors to deliver tumor antigens?", "answer": "Therapeutic cancer vaccines employing viral vectors (e.g., adenovirus‑based vaccines)."}
+{"question": "What is the role of “regulatory T‑cells” (Tregs) in cancer?", "answer": "Tregs suppress anti‑tumor immunity, facilitating tumor evasion."}
+{"question": "How is “immune checkpoint blockade” measured in clinical trials?", "answer": "By objective response rate (ORR), progression‑free survival (PFS), overall survival (OS), and duration of response."}
+{"question": "What is the main cause of neurotoxicity in CAR‑T therapy?", "answer": "On‑target, off‑tumor effects or cytokine‑mediated inflammation affecting the central nervous system."}
+{"question": "What is the significance of “HLA loss” in tumor cells?", "answer": "Loss of HLA reduces antigen presentation, leading to immune escape from T‑cell–mediated attack."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that involves using the immune system to treat cancer patients."}
+{"question": "What is immunotherapy?", "answer": "A type of treatment that uses the immune system to attack cancer cells."}
+{"question": "What is cancer immunotherapy used for?", "answer": "To treat various types of cancer by enhancing the immune system's ability to fight cancer."}
+{"question": "What are the latest research updates on cancer immunotherapy?", "answer": "Research is ongoing to improve cancer immunotherapy treatment options and effectiveness."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What are the benefits of cancer immunotherapy?", "answer": "Improved cancer treatment outcomes, reduced side effects, and enhanced quality of life."}
+{"question": "What are the potential risks of cancer immunotherapy?", "answer": "Side effects such as fatigue, nausea, and allergic reactions."}
+{"question": "How does cancer immunotherapy work?", "answer": "By stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What are the different types of cancer immunotherapy?", "answer": "Various methods, including checkpoint inhibitors, adoptive cell transfer, and cancer vaccines."}
+{"question": "What are checkpoint inhibitors in cancer immunotherapy?", "answer": "Medications that release the brakes on the immune system, allowing it to attack cancer cells."}
+{"question": "What is adoptive cell transfer in cancer immunotherapy?", "answer": "A method that involves transferring immune cells into the body to fight cancer."}
+{"question": "What is cancer vaccines in cancer immunotherapy?", "answer": "Vaccines designed to stimulate the immune system to recognize and attack cancer cells."}
+{"question": "What is the purpose of cancer vaccines in immunotherapy?", "answer": "To prevent cancer or treat existing cancer by boosting the immune system."}
+{"question": "What are the types of cancer vaccines?", "answer": "Various types, including prophylactic and therapeutic vaccines."}
+{"question": "What is the difference between prophylactic and therapeutic vaccines?", "answer": "Prophylactic vaccines are used to prevent cancer, while therapeutic vaccines are used to treat existing cancer."}
+{"question": "What are the benefits of cancer vaccines?", "answer": "Improved cancer prevention and treatment outcomes."}
+{"question": "What are the potential risks of cancer vaccines?", "answer": "Side effects such as pain, redness, and swelling at the injection site."}
+{"question": "How do cancer vaccines work?", "answer": "By stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What is the role of the immune system in cancer prevention?", "answer": "The immune system plays a crucial role in recognizing and attacking cancer cells."}
+{"question": "What are the benefits of cancer prevention?", "answer": "Reduced risk of developing cancer and improved overall health."}
+{"question": "What are the potential risks of cancer prevention?", "answer": "Side effects of preventive measures, such as increased risk of other health problems."}
+{"question": "How can cancer prevention be achieved?", "answer": "Through lifestyle changes, such as a healthy diet and regular exercise."}
+{"question": "What is the role of genetics in cancer prevention?", "answer": "Genetic factors can increase the risk of developing certain types of cancer."}
+{"question": "What are the benefits of genetic testing for cancer?", "answer": "Early detection and treatment of genetic mutations that increase cancer risk."}
+{"question": "What are the potential risks of genetic testing?", "answer": "Emotional distress and potential stigma associated with genetic mutations."}
+{"question": "How can genetic testing be used to prevent cancer?", "answer": "Through early detection and treatment of genetic mutations that increase cancer risk."}
+{"question": "What is the role of lifestyle in cancer prevention?", "answer": "A healthy diet, regular exercise, and avoidance of tobacco and other carcinogens."}
+{"question": "What are the benefits of lifestyle changes in cancer prevention?", "answer": "Reduced risk of developing cancer and improved overall health."}
+{"question": "What are the potential risks of lifestyle changes?", "answer": "Side effects of preventive measures, such as increased risk of other health problems."}
+{"question": "How can lifestyle changes be used to prevent cancer?", "answer": "Through a combination of a healthy diet, regular exercise, and avoidance of carcinogens."}
+{"question": "What is the role of environmental factors in cancer prevention?", "answer": "Exposure to carcinogens, such as pollution and radiation, can increase cancer risk."}
+{"question": "What are the benefits of reducing environmental exposure in cancer prevention?", "answer": "Reduced risk of developing cancer and improved overall health."}
+{"question": "What are the potential risks of reducing environmental exposure?", "answer": "Economic costs associated with reducing exposure to carcinogens."}
+{"question": "How can environmental exposure be reduced in cancer prevention?", "answer": "Through policies and practices that reduce exposure to carcinogens."}
+{"question": "What is the role of screening in cancer prevention?", "answer": "Early detection of cancer through regular screening tests."}
+{"question": "What are the benefits of screening in cancer prevention?", "answer": "Improved cancer outcomes and reduced mortality rates."}
+{"question": "What are the potential risks of screening?", "answer": "False positives and unnecessary treatments."}
+{"question": "How can screening be used to prevent cancer?", "answer": "Through regular testing and early detection of cancer."}
+{"question": "What is the role of cancer registries in cancer prevention?", "answer": "Tracking cancer incidence and mortality rates to identify trends and patterns."}
+{"question": "What are the benefits of cancer registries in cancer prevention?", "answer": "Improved understanding of cancer risk factors and development of effective prevention strategies."}
+{"question": "What are the potential risks of cancer registries?", "answer": "Confidentiality concerns and potential biases in data collection."}
+{"question": "How can cancer registries be used to prevent cancer?", "answer": "Through analysis of cancer data to identify trends and patterns."}
+{"question": "What is the role of public health policy in cancer prevention?", "answer": "Development and implementation of policies that promote cancer prevention."}
+{"question": "What are the benefits of public health policy in cancer prevention?", "answer": "Improved cancer outcomes and reduced mortality rates."}
+{"question": "What are the potential risks of public health policy?", "answer": "Economic costs associated with policy implementation."}
+{"question": "How can public health policy be used to prevent cancer?", "answer": "Through policies that promote healthy behaviors and reduce exposure to carcinogens."}
+{"question": "What is the role of education in cancer prevention?", "answer": "Raising awareness about cancer risk factors and promoting healthy behaviors."}
+{"question": "What are the benefits of education in cancer prevention?", "answer": "Improved understanding of cancer risk factors and development of effective prevention strategies."}
+{"question": "What are the potential risks of education?", "answer": "Misinformation and lack of knowledge about cancer risk factors."}
+{"question": "How can education be used to prevent cancer?", "answer": "Through public awareness campaigns and educational programs that promote healthy behaviors."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system to attack cancer cells."}
+{"question": "Which cells are primarily targeted by checkpoint inhibitors?", "answer": "T‑cells, particularly those expressing PD‑1 or CTLA‑4."}
+{"question": "Name a common side effect of checkpoint blockade.", "answer": "Immune‑mediated colitis."}
+{"question": "How does CAR‑T therapy work?", "answer": "T‑cells are engineered to express chimeric antigen receptors that recognize tumor antigens."}
+{"question": "Which cancer type has the highest approved CAR‑T therapy?", "answer": "B‑cell acute lymphoblastic leukemia (ALL)."}
+{"question": "What is the role of cytokines in immunotherapy?", "answer": "They activate and attract immune cells to the tumor microenvironment."}
+{"question": "Can immunotherapy be used for solid tumors?", "answer": "Yes, but response rates are generally lower than for hematologic malignancies."}
+{"question": "What is the function of the PD‑L1 protein?", "answer": "It binds PD‑1 on T‑cells to inhibit their activity."}
+{"question": "Which drug targets CTLA‑4?", "answer": "Ipilimumab."}
+{"question": "What is a major challenge in vaccine‑based cancer immunotherapy?", "answer": "Overcoming tumor antigen heterogeneity."}
+{"question": "What does “adoptive cell transfer” refer to?", "answer": "Infusing patients with immune cells that have been expanded or modified outside the body."}
+{"question": "Name a key biomarker for predicting immune checkpoint response.", "answer": "Tumor mutational burden (TMB)."}
+{"question": "How does the gut microbiome influence immunotherapy efficacy?", "answer": "Certain bacterial species can enhance T‑cell activation and drug response."}
+{"question": "What is the main concern with oncolytic virus therapy?", "answer": "Potential for off‑target viral replication and safety."}
+{"question": "Which organ typically suffers from radiation‑induced fibrosis after cancer treatment?", "answer": "Lungs (pulmonary fibrosis)."}
+{"question": "What does “immune‑related adverse event” (irAE) mean?", "answer": "An immune‑mediated side effect caused by immunotherapy."}
+{"question": "How often are cancer immunotherapy trials screened for PD‑L1 expression?", "answer": "Before enrollment, often using immunohistochemistry."}
+{"question": "What is the purpose of a “bridge therapy” in CAR‑T treatment?", "answer": "To control disease while CAR‑T cells are being manufactured."}
+{"question": "Which drug is used to treat melanoma with BRAF V600E mutation?", "answer": "Vemurafenib."}
+{"question": "What does the acronym “GLOBOCAN” stand for?", "answer": "Global Cancer Statistics database."}
+{"question": "As of 2021, which cancer had the highest incidence worldwide?", "answer": "Breast cancer."}
+{"question": "What is the estimated global mortality rate for lung cancer?", "answer": "Roughly 18% of all cancer deaths."}
+{"question": "Which organ is the most common site for metastasis in colorectal cancer?", "answer": "Liver."}
+{"question": "What is the typical age range for colorectal cancer diagnosis?", "answer": "50–75 years."}
+{"question": "Name a common side effect of cyclophosphamide.", "answer": "Nausea and myelosuppression."}
+{"question": "What does “neoadjuvant” therapy mean?", "answer": "Treatment given before the main therapy, usually surgery."}
+{"question": "What is a “biosimilar” drug?", "answer": "A biological product highly similar to an approved reference product."}
+{"question": "Which hormone therapy is standard for estrogen‑receptor‑positive breast cancer?", "answer": "Tamoxifen or aromatase inhibitors."}
+{"question": "What does “HER2‑positive” refer to in breast cancer?", "answer": "Overexpression of the HER2 protein on tumor cells."}
+{"question": "Which drug targets HER2 in breast cancer?", "answer": "Trastuzumab."}
+{"question": "What is the purpose of a “phase I” clinical trial?", "answer": "To assess safety and dosing."}
+{"question": "In phase II trials, what outcome is primarily measured?", "answer": "Efficacy signals, such as tumor response."}
+{"question": "What does “overall survival” (OS) measure?", "answer": "Time from randomization to death from any cause."}
+{"question": "What is “progression‑free survival” (PFS)?", "answer": "Time from treatment start until disease progression or death."}
+{"question": "Which imaging modality is commonly used to assess tumor response?", "answer": "Computed tomography (CT) scans."}
+{"question": "What is a “tumor‑locus” mutation?", "answer": "A genetic change within the cancer cells themselves."}
+{"question": "Name a major organ affected by chemotherapy‑induced cardiotoxicity.", "answer": "Heart (especially with anthracyclines)."}
+{"question": "What lifestyle factor significantly increases colorectal cancer risk?", "answer": "Poor diet high in red and processed meats."}
+{"question": "Which vitamin supplementation is controversially linked to breast cancer risk?", "answer": "High‑dose vitamin D."}
+{"question": "Which public health initiative aims to reduce smoking rates?", "answer": "National tobacco control programs."}
+{"question": "What is the WHO classification of “non‑small cell lung cancer” (NSCLC)?", "answer": "A group of lung cancers that are not small cell carcinoma, comprising adenocarcinoma, squamous cell carcinoma, and large cell carcinoma."}
+{"question": "What is the main advantage of targeted therapy over conventional chemotherapy?", "answer": "It selectively attacks cancer cells with specific molecular abnormalities, sparing normal tissue."}
+{"question": "What does “adjuvant therapy” refer to?", "answer": "Treatment given after primary therapy to reduce recurrence risk."}
+{"question": "Which clinical trial phase involves comparing a new therapy to standard care?", "answer": "Phase III."}
+{"question": "What does “molecular profiling” help determine in cancer care?", "answer": "Specific mutations to guide targeted therapy choices."}
+{"question": "Which drug class is used for androgen‑receptor‑positive prostate cancer?", "answer": "Androgen deprivation therapy (ADT)."}
+{"question": "What is the function of the BRCA1/2 genes?", "answer": "DNA repair; mutations increase breast and ovarian cancer risk."}
+{"question": "In breast cancer, what does “triple‑negative” mean?", "answer": "Lacks estrogen, progesterone, and HER2 receptors."}
+{"question": "Which immunotherapy agent is a PD‑1 inhibitor?", "answer": "Pembrolizumab."}
