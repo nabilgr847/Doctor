@@ -1,5 +1,5 @@
 import os, re, json, time
-from datetime import datetime
+from datetime import datetime, timedelta
 from agents.search_team import search_all_unrestricted, search_serpapi
 from agents.medical_team import query_all_medical_apis
 import pypdf
@@ -11,40 +11,34 @@ def ask_groq(text):
         print("❌ GROQ_API_KEY missing")
         return ""
     client = Groq(api_key=key)
-    prompt = f"Generate 10 medical Q&A pairs. Use exactly the format:\nQuestion: <question>\nAnswer: <answer>\n\nText:\n{text[:4000]}"
-    models = [
-        "openai/gpt-oss-120b",          # তোর curl-এ কাজ করেছে
-        "llama-3.1-8b-instant",
-        "llama3-8b-8192"
-    ]
+    models = ["openai/gpt-oss-120b", "llama-3.1-8b-instant", "llama3-8b-8192"]
     for model in models:
         for attempt in range(2):
             try:
                 chat = client.chat.completions.create(
                     model=model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.7
+                    messages=[{
+                        "role": "user",
+                        "content": f"Generate exactly 30 concise medical question-answer pairs. Keep each question under 30 words and each answer under 50 words. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:3500]}"
+                    }],
+                    temperature=0.7,
+                    max_tokens=4096
                 )
                 raw = chat.choices[0].message.content
-                print(f"✅ Groq success with {model}")
-                print(f"📝 Raw output preview: {raw[:300]}")
+                print(f"✅ Groq success with {model}, preview: {raw[:200]}")
                 return raw
             except Exception as e:
-                print(f"❌ Groq {model} attempt {attempt+1} error: {e}")
+                print(f"❌ Groq {model} error: {e}")
                 time.sleep(5)
     return ""
 
 def parse_qa_text(raw):
     if not raw: return []
-    # 1. "Question: ... Answer: ..." অথবা "Q: ... A: ..."
     matches = re.findall(r'(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
     qa = [{"question": q.strip(), "answer": a.strip()} for q, a in matches]
-    if qa:
-        return qa
-    # 2. সংখ্যাযুক্ত 1. Question ... Answer ... ধরতে
+    if qa: return qa
     matches2 = re.findall(r'\d+\.\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\d+\.\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
-    qa = [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
-    return qa
+    return [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
 
 def process_uploaded_books():
     book_text = ""
@@ -76,27 +70,46 @@ def get_output_file():
     return fname
 
 def main():
-    print(f"🚀 Doctor Run (Groq only) @ {datetime.now()}")
-    book = process_uploaded_books()
-    search_data = search_all_unrestricted()
-    medical_data = query_all_medical_apis()
-    hour = datetime.utcnow().hour
-    serp = search_serpapi() if hour in [0,8,16] else ""
-    combined = book + "\n" + search_data + "\n" + medical_data + "\n" + serp
-    print(f"📊 Total chars: {len(combined)}")
+    print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
+    end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
     
-    raw = ask_groq(combined)
-    entries = parse_qa_text(raw)
-    print(f"✅ Total entries extracted: {len(entries)}")
+    while datetime.utcnow() < end_time:
+        start_cycle = time.time()
+        
+        # 1. তথ্য সংগ্রহ
+        book = process_uploaded_books()
+        search_data = search_all_unrestricted()
+        medical_data = query_all_medical_apis()
+        hour = datetime.utcnow().hour
+        serp = search_serpapi() if hour in [0,8,16] else ""
+        combined = book + "\n" + search_data + "\n" + medical_data + "\n" + serp
+        print(f"📊 Data length: {len(combined)}")
+        
+        # 2. Groq কল (30 Q&A)
+        raw = ask_groq(combined)
+        entries = parse_qa_text(raw)
+        print(f"📝 {len(entries)} entries extracted")
+        
+        # 3. ফাইলে লেখা ও পুশ
+        if entries:
+            out_file = get_output_file()
+            with open(out_file, "a", encoding="utf-8") as f:
+                for e in entries:
+                    f.write(json.dumps(e, ensure_ascii=False) + "\n")
+            os.system("git config user.name 'God-Doctor-Bot'")
+            os.system("git config user.email 'bot@doctor.ai'")
+            os.system(f"git add {out_file}")
+            os.system(f"git commit -m 'Auto-update dataset {datetime.utcnow().strftime(\"%Y-%m-%d %H:%M\")}' || echo 'No changes'")
+            os.system("git push")
+            print(f"✅ {len(entries)} entries pushed to repo")
+        
+        # 4. অপেক্ষা
+        elapsed = time.time() - start_cycle
+        sleep_time = max(10, 15 - elapsed)
+        print(f"⏳ Sleeping {sleep_time:.1f}s...")
+        time.sleep(sleep_time)
     
-    if entries:
-        out = get_output_file()
-        with open(out, "a", encoding="utf-8") as f:
-            for e in entries:
-                f.write(json.dumps(e, ensure_ascii=False) + "\n")
-        print(f"📁 Written to {out}")
-    else:
-        print("⚠️ No entries generated. Check preview above.")
+    print("🏁 Non-stop run completed. Next scheduled run will take over.")
 
 if __name__ == "__main__":
     main()
