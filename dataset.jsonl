@@ -1713,3 +1713,36 @@
 {"question": "What does the Cancer Research Institute (CRI) report?", "answer": "CRI publishes data‑driven reviews highlighting advances, challenges, and impacts of immunotherapy over time, guiding research priorities."}
 {"question": "What stands for CRI?", "answer": "Cancer Research Institute, a nonprofit dedicated to advancing immune‑based cancer treatments."}
 {"question": "What is GLOBOCAN?", "answer": "An international database that estimates global cancer incidence, mortality, and prevalence for 36 cancer types"}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system—often by activating immune cells or blocking checkpoints—to target and destroy cancer cells."}
+{"question": "Which cells are primarily targeted by checkpoint inhibitors?", "answer": "T‑lymphocytes, specifically cytotoxic CD8+ T cells, whose activity is unleashed when checkpoints like PD‑1/PD‑L1 or CTLA‑4 are blocked."}
+{"question": "Name a common side effect of checkpoint blockade.", "answer": "Immune‑related adverse events such as colitis, dermatitis, hepatitis, or endocrinopathies due to over‑activation of the immune system."}
+{"question": "How does CAR‑T therapy differ from checkpoint inhibitors?", "answer": "CAR‑T cells are engineered T cells that express a chimeric antigen receptor to directly recognize and kill tumor cells, whereas checkpoint inhibitors unblock existing immune responses."}
+{"question": "What tumor antigen is targeted by CD19 CAR‑T cells?", "answer": "CD19, a protein expressed on B‑cell malignancies, enabling CAR‑T cells to identify and eliminate those cells."}
+{"question": "What is the role of the tumor microenvironment in immunotherapy?", "answer": "It can suppress immune responses through regulatory cells and cytokines, posing a barrier that therapies aim to remodel or overcome."}
+{"question": "What is “immunogenic cell death”?", "answer": "A form of tumor cell death that releases danger signals, promoting dendritic‑cell activation and a stronger antitumor immune response."}
+{"question": "Which cytokine is commonly used to boost immune cell proliferation in therapy?", "answer": "Interleukin‑2 (IL‑2), which stimulates T‑cell and NK‑cell growth and activity."}
+{"question": "What is the significance of PD‑L1 expression on tumor cells?", "answer": "High PD‑L1 can inhibit T‑cell activity; therapies blocking PD‑1/PD‑L1 can restore immune attack against the tumor."}
+{"question": "How does radiation therapy enhance immunotherapy?", "answer": "It can increase tumor antigen release and upregulate PD‑L1, making tumor cells more visible to immune cells when combined with checkpoint inhibitors."}
+{"question": "What is the “abscopal effect”?", "answer": "A phenomenon where local radiation leads to regression of distant metastatic lesions, likely through systemic immune activation."}
+{"question": "Which organ is most commonly affected by immune‑related colitis?", "answer": "The colon, presenting with diarrhea, abdominal pain, and sometimes bleeding."}
+{"question": "How is cytokine release syndrome managed in CAR‑T therapy?", "answer": "With corticosteroids and IL‑6 receptor antagonists (e.g., tocilizumab) to dampen the hyperinflammatory response."}
+{"question": "What is the FDA‑approved CAR‑T therapy for acute lymphoblastic leukemia?", "answer": "Tisagenlecleucel (Kymriah), targeting CD19 on B‑cell ALL cells."}
+{"question": "Why are clinical trials essential for new immunotherapies?", "answer": "They evaluate safety, dosing, efficacy, and identify patient subgroups that benefit most."}
+{"question": "What is the typical duration of a CAR‑T therapy infusion?", "answer": "Usually a single infusion, often administered within 24–48 hours after cell manufacturing."}
+{"question": "What is the difference between “hot” and “cold” tumors?", "answer": "Hot tumors have immune cell infiltration and inflamed microenvironments; cold tumors lack such infiltration and may resist immunotherapy."}
+{"question": "Which checkpoint inhibitor is used for metastatic melanoma?", "answer": "Pembrolizumab (Keytruda), targeting PD‑1 to reactivate T‑cell responses."}
+{"question": "What is a major limitation of checkpoint inhibitors?", "answer": "Not all patients respond; resistance mechanisms include low tumor mutational burden or immunosuppressive microenvironments."}
+{"question": "How does adoptive cell transfer differ from vaccination?", "answer": "Adoptive transfer infuses expanded immune cells; vaccination stimulates the body’s own immune system to produce anti‑cancer responses."}
+{"question": "What is the purpose of a clinical “biomarker” in immunotherapy?", "answer": "It predicts which patients are likely to respond or experience toxicity, guiding personalized treatment."}
+{"question": "Name a biomarker commonly measured before PD‑1 therapy.", "answer": "Tumor PD‑L1 expression level, assessed by immunohistochemistry."}
+{"question": "What is “tumor mutational burden” (TMB)?", "answer": "The total number of mutations per megabase of DNA; higher TMB can predict better response to checkpoint inhibitors."}
+{"question": "How does a vaccine‑based immunotherapy work?", "answer": "It introduces tumor antigens to prime T cells, encouraging them to recognize and attack cancer cells."}
+{"question": "What is a “biologic” drug in oncology?", "answer": "A protein‑based therapy, such as monoclonal antibodies or engineered cytokines, that targets specific molecules in cancer cells or the immune system."}
+{"question": "Which organ is most at risk for immune‑related thyroiditis?", "answer": "The thyroid, leading to hypo‑ or hyperthyroidism when impacted by checkpoint therapy."}
+{"question": "What is the typical first line immunotherapy for advanced non‑small cell lung cancer?", "answer": "Pembrolizumab or nivolumab, often combined with chemotherapy if PD‑L1 expression is high."}
+{"question": "How can obesity affect cancer immunotherapy outcomes?", "answer": "Obesity can alter immune cell function and cytokine profiles, potentially reducing efficacy and increasing toxicity."}
+{"question": "What is “immune checkpoint blockade” (ICB)?", "answer": "A strategy that blocks proteins like PD‑1 or CTLA‑4 to release the brakes on T‑cell activity against tumors."}
+{"question": "Name a checkpoint inhibitor approved for renal cell carcinoma.", "answer": "Atezolizumab (Tecentriq), targeting PD‑L1, often combined with bevacizumab."}
+{"question": "What is the role of B cells in cancer immunotherapy?", "answer": "B cells can present antigens, produce antibodies, and modulate T‑cell responses, influencing therapy outcomes."}
+{"question": "How is “personalized neoantigen vaccine” created?", "answer": "Sequencing a tumor’s genome, identifying unique mutations, and designing a vaccine that presents those neoantigens to the immune system."}
+{"question": "What is the main advantage of “off‑the‑shelf” immunotherapies?", "answer": "Ready availability and lower cost compared to autologous CAR‑"}
