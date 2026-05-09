@@ -1,0 +1,104 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins such as PD‑1, PD‑L1, or CTLA‑4, releasing the brakes on T‑cells so they can attack tumors."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "CAR‑T therapy engineers a patient’s T‑cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "Which cancer type was the first to be cured with CAR‑T cells?", "answer": "Pediatric acute lymphoblastic leukemia (ALL) was the first indication approved for CAR‑T therapy."}
+{"question": "What is a tumor‑infiltrating lymphocyte (TIL) therapy?", "answer": "TIL therapy expands a patient’s own lymphocytes that have entered the tumor and reinfuses them after activation."}
+{"question": "Why can immunotherapy cause autoimmune side effects?", "answer": "By enhancing immune activity, it may also target normal tissues, leading to immune‑related adverse events."}
+{"question": "What is the most common immune‑related adverse event with checkpoint inhibitors?", "answer": "Skin rash and pruritus are the most frequently reported toxicities."}
+{"question": "How is the response to immunotherapy evaluated?", "answer": "Response is assessed with RECIST criteria and immune‑related response criteria (irRC) that consider delayed tumor shrinkage."}
+{"question": "What biomarker predicts response to PD‑1 blockade in many cancers?", "answer": "High tumor mutational burden (TMB) or PD‑L1 expression on tumor cells."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; chemotherapy can increase antigen release and improve the efficacy of checkpoint inhibitors."}
+{"question": "What is a cytokine release syndrome (CRS)?", "answer": "CRS is a systemic inflammatory response caused by massive cytokine release, often seen after CAR‑T infusion."}
+{"question": "How is severe CRS managed?", "answer": "Administration of tocilizumab, an IL‑6 receptor antagonist, often resolves severe CRS."}
+{"question": "What is the role of dendritic cell vaccines in cancer?", "answer": "They present tumor antigens to T‑cells, priming an adaptive immune response against the cancer."}
+{"question": "Which viral vector is commonly used for oncolytic virotherapy?", "answer": "The modified herpes simplex virus (HSV) is frequently employed as an oncolytic agent."}
+{"question": "What is the FDA‑approved oncolytic virus for melanoma?", "answer": "Talimogene laherparepvec (T‑VEC) is approved for unresectable melanoma."}
+{"question": "What does “immune checkpoint” refer to?", "answer": "It refers to regulatory pathways that maintain self‑tolerance and modulate the intensity of immune responses."}
+{"question": "What is the significance of the “abscopal effect”?", "answer": "It describes tumor regression at distant sites after localized radiation, thought to be mediated by systemic immune activation."}
+{"question": "How does radiotherapy synergize with immunotherapy?", "answer": "Radiation can increase neoantigen release and up‑regulate PD‑L1, enhancing checkpoint inhibitor efficacy."}
+{"question": "What is a neoantigen?", "answer": "A neoantigen is a novel peptide arising from tumor‑specific mutations that can be recognized by the immune system."}
+{"question": "Why are patients with microsatellite instability‑high (MSI‑H) tumors responsive to PD‑1 inhibitors?", "answer": "MSI‑H tumors have many mutations, producing abundant neoantigens that stimulate T‑cell responses."}
+{"question": "What is the main limitation of CAR‑T therapy in solid tumors?", "answer": "Poor trafficking of CAR‑T cells into the tumor microenvironment and antigen heterogeneity."}
+{"question": "How can the tumor microenvironment suppress immunotherapy?", "answer": "It contains regulatory T‑cells, myeloid‑derived suppressor cells, and inhibitory cytokines that dampen immune activity."}
+{"question": "What is the purpose of combining anti‑angiogenic agents with immunotherapy?", "answer": "Anti‑angiogenic drugs normalize tumor vasculature, improving immune cell infiltration and checkpoint inhibitor effectiveness."}
+{"question": "What does the term “immune‑hot” tumor mean?", "answer": "An immune‑hot tumor has abundant infiltrating T‑cells and inflammatory signals, often responding better to immunotherapy."}
+{"question": "What is an “immune‑cold” tumor?", "answer": "An immune‑cold tumor lacks significant immune cell infiltration and typically shows limited response to immunotherapy."}
+{"question": "Which cytokine is commonly used to expand T‑cells ex vivo for adoptive cell therapy?", "answer": "Interleukin‑2 (IL‑2) is routinely used to stimulate T‑cell proliferation."}
+{"question": "What is the difference between PD‑1 and PD‑L1 inhibitors?", "answer": "PD‑1 inhibitors bind the receptor on T‑cells, while PD‑L1 inhibitors bind the ligand on tumor or immune cells; both block the same pathway."}
+{"question": "What is the most common site of metastasis for melanoma?", "answer": "The skin, subcutaneous tissue, and lymph nodes are frequent, but visceral sites like the lungs are also common."}
+{"question": "How does pembrolizumab differ from nivolumab?", "answer": "Both are PD‑1 inhibitors; they differ in molecular structure, dosing schedule, and specific FDA‑approved indications."}
+{"question": "What is the recommended monitoring for patients on checkpoint inhibitors?", "answer": "Regular assessment of organ function, endocrine panels, and symptom review to detect immune‑related toxicities early."}
+{"question": "Which endocrine organ is most often affected by checkpoint inhibitor therapy?", "answer": "The thyroid, leading to hypothyroidism or hyperthyroidism."}
+{"question": "What is the mechanism of action of ipilimumab?", "answer": "Ipilimumab blocks CTLA‑4, enhancing T‑cell activation and proliferation."}
+{"question": "Why is combination CTLA‑4 and PD‑1 blockade more toxic than monotherapy?", "answer": "Dual inhibition amplifies immune activation, increasing the frequency and severity of adverse events."}
+{"question": "What is the role of tumor mutational burden (TMB) in immunotherapy decision‑making?", "answer": "High TMB often predicts better responses to checkpoint inhibitors across multiple cancer types."}
+{"question": "How is TMB measured?", "answer": "By sequencing tumor DNA and counting the number of nonsynonymous mutations per megabase."}
+{"question": "What is a “biomarker” in the context of cancer treatment?", "answer": "A biological characteristic that can predict disease prognosis or response to therapy."}
+{"question": "Which immunotherapy is approved for triple‑negative breast cancer?", "answer": "Atezolizumab combined with nab‑paclitaxel is approved for PD‑L1‑positive metastatic triple‑negative breast cancer."}
+{"question": "What is the main advantage of personalized cancer vaccines?", "answer": "They target patient‑specific neoantigens, potentially generating a more precise immune response."}
+{"question": "What is “immune checkpoint blockade resistance”?", "answer": "The failure of tumors to respond or to sustain response despite checkpoint inhibitor therapy."}
+{"question": "Name one strategy to overcome checkpoint resistance.", "answer": "Combining checkpoint inhibitors with epigenetic modulators or targeted therapies can restore sensitivity."}
+{"question": "What is the significance of the “cGAS‑STING” pathway in cancer immunity?", "answer": "Activation of cGAS‑STING triggers type I interferon production, enhancing dendritic cell activation and T‑cell priming."}
+{"question": "Which viral infection is linked to increased risk of certain cancers and also informs oncolytic virotherapy?", "answer": "Human papillomavirus (HPV) is linked to cervical and other cancers and serves as a model for virus‑based therapies."}
+{"question": "What does “adoptive cell transfer” (ACT) entail?", "answer": "ACT involves isolating, expanding, and reinfusing autologous immune cells with antitumor activity."}
+{"question": "How does bispecific T‑cell engager (BiTE) therapy work?", "answer": "BiTEs bind simultaneously to a tumor antigen and CD3 on T‑cells, directing cytotoxic T‑cells to cancer cells."}
+{"question": "Which BiTE is approved for acute lymphoblastic leukemia?", "answer": "Blinatumomab targets CD19 on B‑cell ALL and CD3 on T‑cells."}
+{"question": "What is the primary goal of neoadjuvant immunotherapy?", "answer": "To shrink tumors before surgery and stimulate systemic immune memory."}
+{"question": "What is “immune‑related pneumonitis”?", "answer": "Inflammation of lung tissue caused by checkpoint inhibitor therapy, presenting with cough and dyspnea."}
+{"question": "How is immune‑related pneumonitis treated?", "answer": "High‑dose corticosteroids and, if severe, discontinuation of immunotherapy."}
+{"question": "What is the role of microbiome composition in immunotherapy efficacy?", "answer": "Certain gut bacteria enhance T‑cell responses and have been associated with better outcomes to checkpoint inhibitors."}
+{"question": "Which dietary component has been shown to modulate the gut microbiome favorably for immunotherapy?", "answer": "Dietary fiber promotes beneficial bacterial growth, potentially improving immunotherapy response."}
+{"question": "What is the typical duration of treatment with pembrolizumab for metastatic melanoma?", "answer": "Up to 24 months or until disease progression or unacceptable toxicity."}
+{"question": "What is the FDA’s “breakthrough therapy” designation?", "answer": "A regulatory status that expedites development and review of drugs showing substantial improvement over existing therapies."}
+{"question": "What is the most common cause of death in patients receiving CAR‑T therapy?", "answer": "Severe cytokine release syndrome or neurotoxicity, though mortality is low with prompt management."}
+{"question": "How does “immune editing” influence tumor evolution?", "answer": "The immune system eliminates susceptible cancer cells while selecting for resistant variants, shaping tumor heterogeneity."}
+{"question": "What is “immune checkpoint ligand” PD‑L2’s role?", "answer": "PD‑L2 binds PD‑1 to inhibit T‑cell activity, similar to PD‑L1, and may contribute to resistance."}
+{"question": "Which cancer type has the highest approved use of checkpoint inhibitors?", "answer": "Non‑small cell lung cancer (NSCLC) has multiple FDA‑approved checkpoint inhibitor indications."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system to fight cancer cells."}
+{"question": "Which antibodies are commonly used in cancer immunotherapy?", "answer": "Checkpoint inhibitors like pembrolizumab and nivolumab."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that suppress immune response, allowing T cells to attack tumors."}
+{"question": "What is tumor infiltrating lymphocyte (TIL) therapy?", "answer": "A personalized approach where a patient’s own tumor‑killing T cells are expanded and reinfused."}
+{"question": "What types of cancer have shown benefit from TIL therapy?", "answer": "Metastatic gastrointestinal cancers and melanoma."}
+{"question": "What is a CAR T‑cell therapy?", "answer": "T cells engineered to express a chimeric antigen receptor that targets tumor antigens."}
+{"question": "Which cancers are approved for CAR T therapy?", "answer": "Certain leukemias and lymphomas."}
+{"question": "What is the main side effect of CAR T‑cell therapy?", "answer": "Cytokine release syndrome."}
+{"question": "How is cytokine release syndrome managed?", "answer": "With cytokine‑blocking agents like tocilizumab."}
+{"question": "What is a “biomarker” in immunotherapy?", "answer": "A measurable substance indicating how well a treatment is working."}
+{"question": "Which biomarker predicts response to PD‑1 inhibitors?", "answer": "High PD‑L1 expression on tumor cells."}
+{"question": "What is the role of tumor mutational burden (TMB)?", "answer": "High TMB often correlates with better response to immunotherapy."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the body’s own immune response; passive administers ready‑made immune components."}
+{"question": "What does “off‑the‑shelf” immunotherapy refer to?", "answer": "Therapies that can be used across many patients without customization."}
+{"question": "What is the current trend in cancer immunotherapy research?", "answer": "Combining multiple immune‑based strategies to overcome resistance."}
+{"question": "What is a “checkpoint” in the immune system?", "answer": "A regulatory pathway that limits immune activation to prevent autoimmunity."}
+{"question": "Which checkpoints are targeted in cancer treatment?", "answer": "PD‑1/PD‑L1 and CTLA‑4."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights report?", "answer": "It reviews the decade’s progress and highlights emerging therapies."}
+{"question": "How do immune‑based treatments differ from chemotherapy?", "answer": "They aim to specifically activate immune cells rather than indiscriminately kill dividing cells."}
+{"question": "What is the main advantage of personalized immunotherapy?", "answer": "Tailored to a patient’s unique tumor profile for higher efficacy."}
+{"question": "Which organ is most often affected by immune‑related adverse events?", "answer": "The skin, causing rashes or dermatitis."}
+{"question": "How can clinicians monitor immune‑related adverse events?", "answer": "Regular clinical checks and blood tests for inflammatory markers."}
+{"question": "What is the purpose of a “combo” therapy in oncology?", "answer": "To attack cancer on multiple fronts, enhancing overall response rates."}
+{"question": "What does “neoadjuvant” immunotherapy mean?", "answer": "Treatment given before surgery to shrink tumors."}
+{"question": "When is adjuvant immunotherapy typically used?", "answer": "After surgery to eliminate residual disease."}
+{"question": "What is the role of the tumor microenvironment in immunotherapy?", "answer": "It can suppress or promote immune cell infiltration and activity."}
+{"question": "How is the tumor microenvironment altered by therapy?", "answer": "Treatments can reduce immunosuppressive cells and increase T‑cell presence."}
+{"question": "What is “immune checkpoint blockade” therapy?", "answer": "Therapies that inhibit checkpoints like PD‑1 to unleash T‑cell activity."}
+{"question": "What defines a “hot” tumor?", "answer": "A tumor with high immune cell infiltration and activity."}
+{"question": "What defines a “cold” tumor?", "answer": "A tumor with low immune infiltration and poor response to immunotherapy."}
+{"question": "How can “cold” tumors be converted to “hot”?", "answer": "With treatments that stimulate immune infiltration, such as radiation or oncolytic viruses."}
+{"question": "What are oncolytic viruses?", "answer": "Viruses engineered to selectively infect and kill cancer cells while stimulating immunity."}
+{"question": "What is the FDA approval status of oncolytic virotherapy?", "answer": "One agent, T-VEC, is approved for melanoma."}
+{"question": "What is the significance of the 2024 comprehensive oncology review?", "answer": "It consolidates current immunotherapy approaches and their efficacy."}
+{"question": "How do immunotherapies affect patient survival?", "answer": "They can extend overall survival and improve quality of life."}
+{"question": "What is the difference between “directed” and “broad” immunotherapy?", "answer": "Directed targets specific antigens; broad activates general immune pathways."}
+{"question": "Is immunotherapy suitable for all cancer patients?", "answer": "Not yet; eligibility depends on tumor type, biomarkers, and health status."}
+{"question": "What is the typical duration of checkpoint inhibitor therapy?", "answer": "Often 2–4 years or until disease progression or unacceptable toxicity."}
+{"question": "Can immunotherapy be combined with radiation therapy?", "answer": "Yes; radiation can enhance antigen release and immune visibility."}
+{"question": "What is “immune‑related pneumonitis”?", "answer": "Lung inflammation caused by immune activation, a potential side effect."}
+{"question": "How is immune‑related pneumonitis treated?", "answer": "With corticosteroids and sometimes discontinuation of therapy."}
+{"question": "What is “autoimmune colitis” in the context of immunotherapy?", "answer": "Inflammation of the colon triggered by immune activation."}
+{"question": "What are the key clinical trials shaping future immunotherapy?", "answer": "Trials exploring bispecific antibodies and neoantigen vaccines."}
+{"question": "What is a neoantigen vaccine?", "answer": "A vaccine targeting tumor‑specific mutated proteins to elicit T‑cell responses."}
+{"question": "How is a neoantigen vaccine personalized?", "answer": "By sequencing the patient’s tumor and selecting unique mutations."}
+{"question": "What is the main challenge in developing neoantigen vaccines?", "answer": "Identifying truly immunogenic mutations quickly and accurately."}
+{"question": "Why is the 2025 CRI report important for clinicians?", "answer": "It provides data‑driven insights into which immunotherapies have proven impact."}
+{"question": "What is the role of the National Cancer Institute in immunotherapy research?", "answer": "Funding and coordinating clinical trials to advance treatment options."}
