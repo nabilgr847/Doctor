@@ -676,3 +676,33 @@
 {"question": "What are the future challenges of immunotherapy?", "answer": "The future challenges of immunotherapy include the development of more effective treatments, managing side effects, and improving patient outcomes."}
 {"question": "What is the role of AI in immunotherapy?", "answer": "AI plays a crucial role in immunotherapy by analyzing large amounts of data and identifying new targets for treatment."}
 {"question": "What are the potential applications of AI in immunotherapy?", "answer": "AI has the potential to improve immunotherapy by predicting patient responses, identifying new targets, and optimizing treatment protocols."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses the immune system to fight cancer, involving components of the immune system."}
+{"question": "What is immunotherapy?", "answer": "A treatment approach that harnesses the body's immune system to fight diseases, including cancer."}
+{"question": "What does research on immunotherapy involve?", "answer": "Collaboration among experts in basic cancer biology, immune system function, statistics, data science, and more."}
+{"question": "What is cancer immunotherapy used for?", "answer": "To treat cancer patients, helping the immune system recognize and attack cancer cells."}
+{"question": "What is the latest news on cancer immunotherapy?", "answer": "Breakthroughs in treatments, including research on mechanics of programmed cell death."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system plays a crucial role in recognizing and targeting cancer cells."}
+{"question": "What is the difference between immunotherapy and traditional cancer treatment?", "answer": "Immunotherapy uses the immune system to fight cancer, while traditional treatment involves chemotherapy and radiation."}
+{"question": "What are the benefits of immunotherapy for cancer patients?", "answer": "Improved survival rates, reduced side effects, and enhanced quality of life."}
+{"question": "What are the side effects of immunotherapy?", "answer": "Fatigue, skin issues, and flu-like symptoms, but these are often temporary and manageable."}
+{"question": "Is immunotherapy suitable for all cancer patients?", "answer": "Immunotherapy is most effective for patients with certain types of cancer, such as melanoma and lung cancer."}
+{"question": "What is the cost of immunotherapy treatment?", "answer": "The cost varies depending on the specific treatment and location, but it can be expensive."}
+{"question": "Is immunotherapy a cure for cancer?", "answer": "While immunotherapy can be highly effective, it is not a guaranteed cure for cancer."}
+{"question": "What are the latest breakthroughs in immunotherapy research?", "answer": "Advances in checkpoint inhibitors, CAR-T cell therapy, and tumor vaccines."}
+{"question": "What is the role of the immune system in preventing cancer?", "answer": "The immune system helps to recognize and eliminate cancer cells before they develop."}
+{"question": "Can immunotherapy be used to prevent cancer?", "answer": "Researchers are exploring the potential of immunotherapy to prevent cancer in high-risk individuals."}
+{"question": "What is the relationship between hormones and breast cancer?", "answer": "Hormonal changes during menopause may increase the risk of developing breast cancer."}
+{"question": "What is the risk of breast cancer in postmenopausal women?", "answer": "The risk increases with age, but it can be reduced with early detection and treatment."}
+{"question": "What are the symptoms of breast cancer?", "answer": "A lump, change in breast size or shape, and nipple discharge or changes."}
+{"question": "What are the risk factors for breast cancer?", "answer": "Family history, genetics, and certain lifestyle factors, such as smoking and a poor diet."}
+{"question": "What is the most common type of breast cancer?", "answer": "Invasive ductal carcinoma, accounting for about 70% of all breast cancer cases."}
+{"question": "What is the prognosis for breast cancer patients?", "answer": "The prognosis varies depending on the stage and type of cancer, but early detection improves survival rates."}
+{"question": "What are the treatment options for breast cancer?", "answer": "Surgery, chemotherapy, radiation, and hormone therapy, either alone or in combination."}
+{"question": "What is the role of immunotherapy in breast cancer treatment?", "answer": "Researchers are exploring the potential of immunotherapy to improve treatment outcomes for breast cancer patients."}
+{"question": "What is the relationship between smoking and lung cancer?", "answer": "Smoking is the leading cause of lung cancer, responsible for about 80% of all cases."}
+{"question": "What are the symptoms of lung cancer?", "answer": "Coughing, chest pain, and shortness of breath, but these can be non-specific and may not appear until the disease is advanced."}
+{"question": "What are the risk factors for lung cancer?", "answer": "Smoking, exposure to secondhand smoke, and certain occupational exposures, such as asbestos."}
+{"question": "What are the treatment options for lung cancer?", "answer": "Surgery, chemotherapy, radiation, and targeted therapy, either alone or in combination."}
+{"question": "What is the role of immunotherapy in lung cancer treatment?", "answer": "Researchers are exploring the potential of immunotherapy to improve treatment outcomes for lung cancer patients."}
+{"question": "What is the prognosis for lung cancer patients?", "answer": "The prognosis varies depending on the stage and type of cancer, but early detection improves survival rates."}
+{"question": "What is the most effective way to prevent lung cancer?", "answer": "Quitting smoking and avoiding secondhand smoke are the most effective ways to prevent lung cancer."}
