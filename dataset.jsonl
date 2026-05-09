@@ -8,3 +8,33 @@
 {"question": "What was a key focus of the Siloam Oncology Summit 2026?", "answer": "The summit emphasized strengthening collaborations and advancing technology for cancer treatment, including discussions on emerging immunotherapy strategies."}
 {"question": "Which major scientific awards have supported recent advances in cancer immunotherapy research?", "answer": "Funding and recognition have come from sources such as the Burroughs Wellcome Fund Career Award, the Society for Immunotherapy of Cancer Steven A. Rosenberg Scholar Award, the V Foundation V Scholar Grant, and the National Cancer Institute."}
 {"question": "What is a major challenge currently limiting the broader success of cancer immunotherapy?", "answer": "Many patients do not respond to existing immunotherapies due to tumor resistance mechanisms, lack of predictive biomarkers, and insufficient activation of immune cells, prompting ongoing research to overcome these barriers."}
+{"question": "What is immunotherapy?", "answer": "Immunotherapy is a therapy that uses components of the immune system to treat cancer patients."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a type of immunotherapy used to treat cancer patients by enhancing the body's immune response."}
+{"question": "How does immunotherapy work?", "answer": "Immunotherapy works by stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What are the types of immunotherapy?", "answer": "Types of immunotherapy include checkpoint inhibitors, cancer vaccines, and adoptive T-cell therapy."}
+{"question": "What are checkpoint inhibitors?", "answer": "Checkpoint inhibitors are immunotherapies that release the brakes on the immune system, allowing it to attack cancer cells."}
+{"question": "What is cancer vaccine?", "answer": "A cancer vaccine is an immunotherapy that stimulates the immune system to produce antibodies against cancer cells."}
+{"question": "What is adoptive T-cell therapy?", "answer": "Adoptive T-cell therapy involves removing T-cells from the body, modifying them to attack cancer cells, and re-infusing them."}
+{"question": "What are the benefits of immunotherapy?", "answer": "Benefits of immunotherapy include improved survival rates, increased response rates, and reduced side effects."}
+{"question": "What are the side effects of immunotherapy?", "answer": "Common side effects of immunotherapy include fatigue, rash, and immune-related adverse events."}
+{"question": "How is immunotherapy administered?", "answer": "Immunotherapy can be administered via IV, injection, or orally."}
+{"question": "What are the types of cancer that can be treated with immunotherapy?", "answer": "Various types of cancer, including melanoma, lung cancer, and kidney cancer, can be treated with immunotherapy."}
+{"question": "What is CAR-T cell therapy?", "answer": "CAR-T cell therapy is a type of adoptive T-cell therapy that involves genetically modifying T-cells to recognize and attack cancer cells."}
+{"question": "What are the costs of immunotherapy?", "answer": "The costs of immunotherapy vary depending on the type of treatment and the specific therapy used."}
+{"question": "What are the risks of immunotherapy?", "answer": "Risks of immunotherapy include autoimmune reactions, immune-related adverse events, and allergic reactions."}
+{"question": "How does immunotherapy compare to traditional chemotherapy?", "answer": "Immunotherapy has shown improved response rates and survival rates compared to traditional chemotherapy in some cancer types."}
+{"question": "What is the future of immunotherapy?", "answer": "The future of immunotherapy includes the development of new therapies, combination therapies, and personalized treatments."}
+{"question": "What is checkpoint blockade?", "answer": "Checkpoint blockade is a type of immunotherapy that inhibits the PD-1/PD-L1 axis to enhance anti-tumor immunity."}
+{"question": "What are the current challenges in immunotherapy?", "answer": "Challenges in immunotherapy include toxicity, resistance, and limited accessibility."}
+{"question": "How does immunotherapy affect the tumor microenvironment?", "answer": "Immunotherapy can alter the tumor microenvironment by reducing immune suppressive cells and increasing immune activators."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system plays a critical role in cancer development and progression, and can be targeted for immunotherapy."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active immunotherapy involves stimulating the immune system to produce antibodies, while passive immunotherapy involves administering pre-formed antibodies."}
+{"question": "What is the history of immunotherapy?", "answer": "Immunotherapy has its roots in the 19th century and has evolved over the years to include various types of treatments."}
+{"question": "What is the mechanism of action of cancer vaccines?", "answer": "Cancer vaccines work by stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What is the role of T-cells in immunotherapy?", "answer": "T-cells play a critical role in immunotherapy, as they can be used to recognize and attack cancer cells."}
+{"question": "What is the difference between monotherapy and combination therapy in immunotherapy?", "answer": "Monotherapy involves using a single immunotherapy agent, while combination therapy involves using multiple agents."}
+{"question": "What is the significance of the tumor microenvironment in immunotherapy?", "answer": "The tumor microenvironment plays a critical role in immunotherapy, as it can affect the efficacy of treatments."}
+{"question": "What is the role of cytokines in immunotherapy?", "answer": "Cytokines play a critical role in immunotherapy, as they can enhance or suppress anti-tumor immunity."}
+{"question": "What is the difference between autologous and allogenic immunotherapy?", "answer": "Autologous immunotherapy involves using the patient's own cells, while allogenic immunotherapy involves using cells from a donor."}
+{"question": "What is the history of CAR-T cell therapy?", "answer": "CAR-T cell therapy was first developed in the 1990s and has since become a promising treatment for certain types of cancer."}
+{"question": "What are the current clinical trials for immunotherapy?", "answer": "There are numerous ongoing clinical trials for immunotherapy, exploring new treatments and combination therapies."}
