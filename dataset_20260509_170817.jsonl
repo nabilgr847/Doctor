@@ -1,0 +1,128 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses or modifies the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "Checkpoint inhibitors block proteins such as PD‑1, PD‑L1, or CTLA‑4 that normally restrain T‑cells, thereby reactivating immune attack on tumors."}
+{"question": "What are common side effects of CAR T‑cell therapy?", "answer": "Patients may experience cytokine release syndrome, neurotoxicity, fever, and low blood counts."}
+{"question": "What is the difference between passive and active immunotherapy?", "answer": "Passive immunotherapy delivers immune components (e.g., antibodies, CAR T cells) directly, while active immunotherapy stimulates the patient’s own immune response (e.g., vaccines, checkpoint inhibitors)."}
+{"question": "Which biomarkers predict response to immunotherapy?", "answer": "PD‑L1 expression, tumor mutational burden, microsatellite instability, and certain gene signatures are commonly used predictors."}
+{"question": "Why is breast cancer incidence still rising in some regions?", "answer": "Increased detection, lifestyle factors, hormonal changes, and aging populations contribute to the upward trend."}
+{"question": "How do hormones influence postmenopausal breast cancer risk?", "answer": "Declining estrogen levels alter breast tissue composition, and hormone replacement therapy can increase the risk of hormone‑receptor‑positive cancers."}
+{"question": "Are non‑smoking women at risk for lung cancer?", "answer": "Yes; factors such as secondhand smoke, radon exposure, genetic susceptibility, and hormonal influences raise risk even without personal smoking history."}
+{"question": "What screening is recommended for lung cancer in never‑smokers?", "answer": "Routine low‑dose CT is not universally recommended; screening is considered only for high‑risk individuals with significant occupational or environmental exposures."}
+{"question": "What are the main immunotherapy types approved for melanoma?", "answer": "PD‑1 inhibitors (nivolumab, pembrolizumab), CTLA‑4 inhibitor (ipilimumab), and combination regimens are approved for advanced melanoma."}
+{"question": "What is the mechanism of PD‑1 inhibitors?", "answer": "They bind to the PD‑1 receptor on T‑cells, preventing interaction with PD‑L1/PD‑L2 and restoring T‑cell activity against tumors."}
+{"question": "Why can immunotherapy cause cytokine release syndrome (CRS)?", "answer": "Rapid activation of immune cells releases large amounts of cytokines, leading to systemic inflammation and symptoms such as fever and hypotension."}
+{"question": "How is immune‑related colitis managed?", "answer": "First‑line treatment includes corticosteroids; refractory cases may require infliximab or vedolizumab."}
+{"question": "What is the rationale for combining immunotherapy with radiation?", "answer": "Radiation can increase tumor antigen presentation, potentially enhancing the immune response triggered by checkpoint blockade."}
+{"question": "What does tumor mutational burden (TMB) refer to?", "answer": "TMB quantifies the number of somatic mutations per megabase of tumor DNA, with higher values often correlating with better immunotherapy response."}
+{"question": "What advantage do personalized neoantigen vaccines offer?", "answer": "They target unique tumor‑specific mutations, prompting a highly specific T‑cell response with minimal off‑target effects."}
+{"question": "Which laboratory tests are commonly done before starting immunotherapy?", "answer": "Baseline complete blood count, liver and renal panels, thyroid function, and autoimmune serologies are typical."}
+{"question": "How does the gut microbiome affect immunotherapy efficacy?", "answer": "Certain bacterial species modulate immune activation, and dysbiosis can diminish treatment response."}
+{"question": "Why might older patients benefit from immunotherapy?", "answer": "Age‑related immune changes can make tumors more immunogenic, and immunotherapy often has a more favorable toxicity profile than chemotherapy for the elderly."}
+{"question": "What are the cost considerations of cancer immunotherapy?", "answer": "High drug acquisition costs, need for monitoring, and management of immune‑related adverse events contribute to substantial financial burden."}
+{"question": "How does a therapeutic cancer vaccine differ from a prophylactic vaccine?", "answer": "Therapeutic vaccines aim to treat existing cancer by stimulating an anti‑tumor immune response, whereas prophylactic vaccines prevent infection‑related cancers (e.g., HPV vaccine)."}
+{"question": "What is the significance of HER2 overexpression in breast cancer?", "answer": "HER2‑positive tumors grow aggressively but respond well to targeted agents like trastuzumab and pertuzumab."}
+{"question": "What endocrine therapy options exist for hormone‑receptor‑positive breast cancer?", "answer": "Aromatase inhibitors, selective estrogen receptor modulators (tamoxifen), and selective estrogen receptor degraders (fulvestrant) are commonly used."}
+{"question": "What side effects are associated with aromatase inhibitors?", "answer": "Joint pain, bone loss, hot flashes, and increased cardiovascular risk are typical adverse effects."}
+{"question": "At what age is routine mammography screening recommended?", "answer": "Most guidelines suggest starting biennial screening at age 50, with individualized decisions from 40‑49."}
+{"question": "How does obesity influence cancer risk?", "answer": "Excess adipose tissue creates chronic inflammation, insulin resistance, and hormonal changes that promote tumor development."}
+{"question": "What is an immune checkpoint?", "answer": "It is a regulatory pathway, such as PD‑1/PD‑L1 or CTLA‑4, that modulates immune activation to maintain self‑tolerance and prevent autoimmunity."}
+{"question": "Why can CTLA‑4 blockade cause hypophysitis?", "answer": "Enhanced T‑cell activity can target pituitary antigens, leading to inflammation of the gland."}
+{"question": "What role do natural killer (NK) cells play in cancer immunotherapy?", "answer": "NK cells can directly lyse tumor cells without prior sensitization and are being engineered for adoptive therapies."}
+{"question": "What is adoptive cell transfer beyond CAR T cells?", "answer": "It includes tumor‑infiltrating lymphocyte (TIL) therapy and engineered T‑cell receptor (TCR) T‑cells targeting intracellular antigens."}
+{"question": "How are oncolytic viruses used in cancer treatment?", "answer": "They selectively infect and kill tumor cells while stimulating systemic anti‑tumor immunity."}
+{"question": "Why do some patients develop resistance to immunotherapy?", "answer": "Tumors may lose antigen expression, up‑regulate alternative checkpoints, or create an immunosuppressive microenvironment."}
+{"question": "What strategies can overcome primary resistance to immunotherapy?", "answer": "Combination with targeted agents, radiation, epigenetic modulators, or dual checkpoint blockade are being explored."}
+{"question": "What is the “abscopal effect”?", "answer": "It is tumor regression at distant sites following localized radiation, thought to be mediated by systemic immune activation."}
+{"question": "Why are patient‑reported outcomes important in immunotherapy trials?", "answer": "They capture quality‑of‑life impacts and immune‑related toxicities that may not be reflected in clinical labs alone."}
+{"question": "How can clinicians differentiate tumor progression from pseudoprogression?", "answer": "Serial imaging, clinical stability, and sometimes biopsy are used; pseudoprogression often shows initial enlargement followed by shrinkage."}
+{"question": "What vaccination schedule is recommended for patients receiving immunotherapy?", "answer": "Inactivated vaccines (influenza, COVID‑19, pneumococcal) are safe; they should be administered before or during treatment as appropriate."}
+{"question": "Are live vaccines contraindicated during immunotherapy?", "answer": "Yes; live attenuated vaccines may cause infection in patients with altered immune function."}
+{"question": "How are steroids used to manage immune‑related adverse events (irAEs)?", "answer": "Low‑to‑moderate dose steroids are first‑line for most irAEs; tapering is done once symptoms improve."}
+{"question": "When does immune‑related dermatitis typically appear?", "answer": "Skin rash often develops within weeks to a few months after initiating therapy."}
+{"question": "How does smoking cessation affect lung cancer prognosis?", "answer": "Quitting improves overall survival, reduces treatment complications, and lowers the risk of secondary cancers."}
+{"question": "Which genetic mutations are most linked to lung adenocarcinoma in never‑smokers?", "answer": "EGFR, ALK rearrangements, and ROS1 fusions are frequently observed."}
+{"question": "Who benefits most from low‑dose CT lung cancer screening?", "answer": "Adults aged 50‑80 with a ≥20 pack‑year smoking history who currently smoke or have quit within 15 years; high‑risk never‑smokers may be considered based on occupational exposures."}
+{"question": "What is the significance of EGFR mutations in lung cancer therapy?", "answer": "EGFR‑mutated tumors respond well to EGFR‑tyrosine kinase inhibitors, providing a targeted treatment option."}
+{"question": "How does targeted therapy compare with immunotherapy for EGFR‑mutated NSCLC?", "answer": "First‑line EGFR inhibitors usually outperform immunotherapy, which has limited efficacy in this molecular subgroup."}
+{"question": "Why is PD‑L1 testing important for treatment selection?", "answer": "PD‑L1 expression helps identify patients who are more likely to benefit from PD‑1/PD‑L1 inhibitors."}
+{"question": "What are common side effects of pembrolizumab?", "answer": "Fatigue, rash, diarrhea, hypothyroidism, and occasional pneumonitis are typical."}
+{"question": "How should liver function be monitored during immunotherapy?", "answer": "Baseline and periodic liver enzyme tests (ALT, AST, bilirubin) are performed; elevations may signal hepatitis requiring intervention."}
+{"question": "What is the future direction of bispecific antibodies in oncology?", "answer": "They aim to simultaneously engage tumor antigens and immune cells, enhancing specificity and potency of anti‑cancer responses."}
+{"question": "What ethical considerations arise with gene‑edited immune cells?", "answer": "Issues include informed consent, long‑term safety, equitable access, and potential off‑target genetic effects."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy used to treat cancer patients that involves or uses components of the immune system."}
+{"question": "What does research on cancer immunotherapy involve?", "answer": "Collaboration among experts in basic cancer biology, immune system function, statistics, data science, bioengineering, and survivorship."}
+{"question": "What is the goal of immunotherapy research at Fred Hutch?", "answer": "To develop effective cancer treatments using the immune system."}
+{"question": "How does cancer immunotherapy work?", "answer": "By using components of the immune system to fight cancer cells."}
+{"question": "What is the latest news on cancer immunotherapy?", "answer": "Research explores mechanics of programmed cell death and advancements in cancer treatment."}
+{"question": "Where can I find the latest science news on cancer immunotherapy?", "answer": "Phys.org and Medical Xpress."}
+{"question": "What is the focus of immunotherapy research at Medical Xpress?", "answer": "Cancer immunotherapy and recent advances in immunotherapy treatments."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system is used to fight cancer cells."}
+{"question": "What is the name of the Norwegian cancer registry reporting on breast cancer?", "answer": "Kreftregisteret."}
+{"question": "What is the title of the article on breast cancer in Norway?", "answer": "Kreftregisteret : Brystkreft fortsetter å øke."}
+{"question": "Why do more women in Norway develop breast cancer?", "answer": "Hormones in relation to menopause may be a contributing factor."}
+{"question": "What is the main topic of the article on SETN?", "answer": "Lung cancer in non-smoking women."}
+{"question": "What is the statistic on lung cancer patients in Taiwan?", "answer": "Over 90% of women with lung cancer do not smoke."}
+{"question": "What is the title of the article on UDN?", "answer": "Non-smoking women have a higher risk of lung cancer."}
+{"question": "What is the main topic of the article on health.kompas.com?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the name of the summit in Indonesia?", "answer": "Siloam Oncology Summit 2026."}
+{"question": "What is the focus of the summit in Indonesia?", "answer": "Strengthening collaboration and technology in cancer treatment."}
+{"question": "What is the topic of the article on bt.no?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the title of the article on bt.no?", "answer": "Hormoner i forbindelse med overgangsalder vare en medvirkende årsak til at flere faar brystkreft."}
+{"question": "What is the term for the Norwegian cancer registry?", "answer": "Kreftregisteret."}
+{"question": "What is the main topic of the article on Kreftregisteret?", "answer": "Brystkreft."}
+{"question": "What is the focus of the article on SETN?", "answer": "Lung cancer in non-smoking women."}
+{"question": "What is the statistic on lung cancer patients in Taiwan?", "answer": "Over 90% of women with lung cancer do not smoke."}
+{"question": "What is the title of the article on UDN?", "answer": "Non-smoking women have a higher risk of lung cancer."}
+{"question": "What is the main topic of the article on health.kompas.com?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the name of the summit in Indonesia?", "answer": "Siloam Oncology Summit 2026."}
+{"question": "What is the focus of the summit in Indonesia?", "answer": "Strengthening collaboration and technology in cancer treatment."}
+{"question": "What is the topic of the article on bt.no?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the title of the article on bt.no?", "answer": "Hormoner i forbindelse med overgangsalder vare en medvirkende årsak til at flere faar brystkreft."}
+{"question": "What is the term for the Norwegian cancer registry?", "answer": "Kreftregisteret."}
+{"question": "What is the main topic of the article on Kreftregisteret?", "answer": "Brystkreft."}
+{"question": "What is the focus of the article on SETN?", "answer": "Lung cancer in non-smoking women."}
+{"question": "What is the statistic on lung cancer patients in Taiwan?", "answer": "Over 90% of women with lung cancer do not smoke."}
+{"question": "What is the title of the article on UDN?", "answer": "Non-smoking women have a higher risk of lung cancer."}
+{"question": "What is the main topic of the article on health.kompas.com?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the name of the summit in Indonesia?", "answer": "Siloam Oncology Summit 2026."}
+{"question": "What is the focus of the summit in Indonesia?", "answer": "Strengthening collaboration and technology in cancer treatment."}
+{"question": "What is the topic of the article on bt.no?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the title of the article on bt.no?", "answer": "Hormoner i forbindelse med overgangsalder vare en medvirkende årsak til at flere faar brystkreft."}
+{"question": "What is the term for the Norwegian cancer registry?", "answer": "Kreftregisteret."}
+{"question": "What is the main topic of the article on Kreftregisteret?", "answer": "Brystkreft."}
+{"question": "What is the focus of the article on SETN?", "answer": "Lung cancer in non-smoking women."}
+{"question": "What is the statistic on lung cancer patients in Taiwan?", "answer": "Over 90% of women with lung cancer do not smoke."}
+{"question": "What is the title of the article on UDN?", "answer": "Non-smoking women have a higher risk of lung cancer."}
+{"question": "What is the main topic of the article on health.kompas.com?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the name of the summit in Indonesia?", "answer": "Siloam Oncology Summit 2026."}
+{"question": "What is the focus of the summit in Indonesia?", "answer": "Strengthening collaboration and technology in cancer treatment."}
+{"question": "What is the topic of the article on bt.no?", "answer": "Hormones in relation to menopause and breast cancer."}
+{"question": "What is the title of the article on bt.no?", "answer": "Hormoner i forbindelse med overgangsalder vare en medvirkende årsak til at flere faar brystkreft."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To use the immune system to fight and treat cancer."}
+{"question": "** What is cancer immunotherapy?", "answer": "** A treatment that uses the body’s immune system to fight cancer cells."}
+{"question": "** Which journal reported new cancer immunotherapy studies in September 2025?", "answer": "** The British Journal of Cancer."}
+{"question": "** Where can I find the latest cancer immunotherapy news from Nature?", "answer": "** On Nature’s “Cancer immunotherapy” page (https://www.nature.com/subjects/cancer-immunotherapy)."}
+{"question": "** What topics does Fred Hutch’s immunotherapy research cover?", "answer": "** Basic cancer biology, immune function, statistics, data science, bioengineering, and survivorship."}
+{"question": "** Where can I read Fred Hutch’s latest immunotherapy updates?", "answer": "** On their research page: https://www.fredhutch.org/en/research/research-areas/immunotherapy.html."}
+{"question": "** Which site aggregates the newest cancer immunotherapy breakthroughs?", "answer": "** Phys.org’s “Cancer + Immunotherapy” tag page."}
+{"question": "** Where can I find recent medical press releases on immunotherapy?", "answer": "** Medical Xpress’s “Cancer + Immunotherapy” section."}
+{"question": "** Which website highlights innovative immunotherapy research?", "answer": "** IGMinResearch’s immunotherapy page: https://www.igminresearch.com/medicine/immunotherapy."}
+{"question": "** How does physical force influence cancer treatment?", "answer": "** Research explores mechanics that trigger programmed cell death in tumors."}
+{"question": "** What is the main research focus at Fred Hutch’s immunotherapy center?", "answer": "** Integrating biology with data science to improve treatment outcomes."}
+{"question": "** What is a key advancement in cancer immunotherapy reported recently?", "answer": "** New studies showing immune cells can be redirected to recognize tumor antigens more effectively."}
+{"question": "** Which country’s breast‑cancer registry reports rising incidence?", "answer": "** Norway, as noted by Aftenposten."}
+{"question": "** What trend is highlighted in Norwegian breast‑cancer statistics?", "answer": "** A continued increase in breast‑cancer cases."}
+{"question": "** Where can I read about the rising breast‑cancer numbers in Norway?", "answer": "** https://www.aftenposten.no/norge/i/5p3A8z/kreftregisteret-brystkreft-fortsetter-aa-oeke."}
+{"question": "** What issue does the SETN article discuss regarding women and lung cancer?", "answer": "** Over 90 % of female lung‑cancer patients do not smoke."}
+{"question": "** What action does the SETN article call for concerning female lung‑cancer patients?", "answer": "** Strengthened public health responses."}
+{"question": "** Where can I view the SETN article on non‑smoking female lung cancer?", "answer": "** https://www.setn.com/News.aspx?NewsID=1835904."}
+{"question": "** Which news outlet reported on the Siloam Oncology Summit 2026?", "answer": "** Kompas Health (https://health.kompas.com/read/26E07083434568/siloam-oncology-summit-2026-siap-digelar-perkuat-kolaborasi-dan-teknologi)."}
+{"question": "** What is the focus of the Siloam Oncology Summit 2026?", "answer": "** Enhancing collaboration and technology in oncology care."}
+{"question": "** What does the BT news article link breast cancer to?", "answer": "** Hormone levels linked to menopause."}
+{"question": "** How might hormone changes influence breast‑cancer risk?", "answer": "** They can be a contributing factor to increased incidence."}
+{"question": "** Where can I read the BT article on hormones and breast cancer?", "answer": "** https://www.bt.no/innenriks/i/aJGXdL/hormoner-i-forbindelse-med-overgangsalder-vaere-en-medvirkende-aarsak-til-at-flere-faar-brystkreft."}
+{"question": "** What type of cancer is the primary focus of the provided immunotherapy sources?", "answer": "** Solid tumors, especially breast and lung cancers."}
+{"question": "** Which resource provides data on immunotherapy’s role in survivorship?", "answer": "** Fred Hutch’s research overview."}
+{"question": "** How does data science contribute to cancer immunotherapy?", "answer": "** By analyzing patient outcomes and optimizing treatment protocols."}
+{"question": "** What is a major challenge in cancer immunotherapy research?", "answer": "** Identifying effective targets that distinguish cancer cells from healthy tissue."}
+{"question": "** Where can I find the latest research on immune cell engineering?", "answer": "** Phys.org’s cancer immunotherapy news feed."}
+{"question": "** How does mechanical stress affect tumor cells?", "answer": "** It can trigger apoptosis (programmed cell death)."}
