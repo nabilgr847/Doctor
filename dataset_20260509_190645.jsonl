@@ -1,0 +1,50 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that uses or modifies the patient’s immune system to target and destroy cancer cells."}
+{"question": "How does checkpoint inhibition work in immunotherapy?", "answer": "Checkpoint inhibitors block proteins like PD‑1 or CTLA‑4, releasing the brakes on T‑cells so they can attack tumors."}
+{"question": "What are CAR‑T cells?", "answer": "CAR‑T cells are a patient’s T‑cells genetically engineered to express chimeric antigen receptors that recognize specific cancer antigens."}
+{"question": "Which cancers have FDA‑approved CAR‑T therapies?", "answer": "FDA‑approved CAR‑T therapies exist for certain leukemias, lymphomas, and multiple myeloma."}
+{"question": "What role do cytokines play in immunotherapy?", "answer": "Cytokines such as interleukin‑2 stimulate immune cells to proliferate and enhance anti‑tumor activity."}
+{"question": "What is a cancer vaccine?", "answer": "A cancer vaccine introduces tumor antigens to prime the immune system to recognize and kill cancer cells."}
+{"question": "How does adoptive cell transfer differ from vaccines?", "answer": "Adoptive cell transfer infuses activated immune cells directly, whereas vaccines aim to stimulate the patient’s own immune response."}
+{"question": "What is the significance of the 2025 British Journal of Cancer article mentioned?", "answer": "It reports recent advances in immunotherapy mechanisms and clinical outcomes up to September 2025."}
+{"question": "Why is multidisciplinary collaboration important in immunotherapy research?", "answer": "Combining expertise in biology, data science, bioengineering, and survivorship accelerates development and translation of therapies."}
+{"question": "What is the main challenge of immune‑related adverse events (irAEs)?", "answer": "irAEs can cause inflammation in healthy tissues, requiring careful monitoring and management."}
+{"question": "How are biomarkers used in immunotherapy?", "answer": "Biomarkers such as PD‑L1 expression help predict which patients are likely to respond to checkpoint inhibitors."}
+{"question": "What is the role of the tumor microenvironment in immunotherapy success?", "answer": "A suppressive microenvironment can limit immune cell infiltration, reducing therapy effectiveness."}
+{"question": "How does physical force influence cancer treatment, as noted in recent research?", "answer": "Mechanical stress can trigger programmed cell death pathways, potentially enhancing immunotherapy efficacy."}
+{"question": "What is the purpose of the Fred Hutch immunotherapy program?", "answer": "To conduct collaborative research that integrates basic science and clinical trials for novel immunotherapies."}
+{"question": "What are bispecific antibodies?", "answer": "Engineered antibodies that bind both a tumor antigen and a T‑cell receptor, linking immune cells to cancer cells."}
+{"question": "How does tumor mutational burden (TMB) affect immunotherapy response?", "answer": "Higher TMB often creates more neoantigens, increasing the likelihood of immune recognition."}
+{"question": "What is the difference between passive and active immunotherapy?", "answer": "Passive immunotherapy provides ready‑made immune components (e.g., antibodies), while active immunotherapy stimulates the patient’s own immune system."}
+{"question": "What is an immune checkpoint?", "answer": "A regulatory pathway that modulates T‑cell activity to prevent autoimmunity; tumors exploit it to evade immunity."}
+{"question": "Why are combination therapies being explored?", "answer": "Combining modalities (e.g., checkpoint inhibitors with chemotherapy) can overcome resistance and improve outcomes."}
+{"question": "What is the significance of GLOBOCAN 2020 data for immunotherapy?", "answer": "Global cancer incidence and mortality statistics help prioritize immunotherapy development for high‑burden cancers."}
+{"question": "How does neoantigen targeting improve specificity?", "answer": "Neoantigens are unique to tumor cells, allowing immune responses that spare normal tissue."}
+{"question": "What is the typical timeline for developing an immunotherapy from bench to bedside?", "answer": "It can take 10–15 years, encompassing preclinical studies, multiple clinical trial phases, and regulatory review."}
+{"question": "How does the gut microbiome influence immunotherapy efficacy?", "answer": "Certain microbial compositions enhance T‑cell activation and improve response rates."}
+{"question": "What is the role of data science in immunotherapy research?", "answer": "It enables analysis of large genomic and clinical datasets to identify predictive markers and optimize trial design."}
+{"question": "What are immune‑related response criteria (irRC)?", "answer": "Guidelines for evaluating tumor response in patients receiving immunotherapy, accounting for atypical patterns like pseudoprogression."}
+{"question": "What is pseudoprogression?", "answer": "An apparent increase in tumor size on imaging due to immune cell infiltration rather than true disease progression."}
+{"question": "How are nanocarriers used in immunotherapy delivery?", "answer": "Nanoparticles can encapsulate drugs or antigens, improving targeting and reducing systemic toxicity."}
+{"question": "What is the concept of “cold” versus “hot” tumors?", "answer": "“Hot” tumors have abundant immune infiltration and respond better to immunotherapy; “cold” tumors lack such infiltration."}
+{"question": "How can radiation therapy synergize with immunotherapy?", "answer": "Radiation can release tumor antigens and increase inflammation, priming the immune system for checkpoint blockade."}
+{"question": "What is the FDA’s breakthrough therapy designation?", "answer": "A regulatory pathway that expedites development of drugs showing substantial improvement over existing therapies."}
+{"question": "Why is patient survivorship research important in immunotherapy?", "answer": "To understand long‑term quality of life, late effects, and psychosocial outcomes after treatment."}
+{"question": "What is an oncolytic virus?", "answer": "A virus engineered to selectively infect and lyse cancer cells while stimulating an anti‑tumor immune response."}
+{"question": "How does the PD‑L1 assay guide treatment decisions?", "answer": "It measures PD‑L1 protein on tumor cells; higher levels often indicate benefit from PD‑1/PD‑L1 inhibitors."}
+{"question": "What is the main advantage of personalized cancer vaccines?", "answer": "They are tailored to each patient’s unique tumor neoantigens, enhancing specificity."}
+{"question": "What safety monitoring is required during checkpoint inhibitor therapy?", "answer": "Routine assessment of organ function, endocrine panels, and symptom checklists to detect irAEs early."}
+{"question": "How does tumor heterogeneity affect immunotherapy?", "answer": "Diverse cell populations can harbor resistant clones, reducing overall treatment efficacy."}
+{"question": "What is the role of regulatory T cells (Tregs) in cancer?", "answer": "Tregs suppress anti‑tumor immunity, and their depletion can improve immunotherapy responses."}
+{"question": "What is the significance of the 2025 research on programmed cell death mechanics?", "answer": "It reveals how mechanical cues can be harnessed to trigger apoptosis in resistant tumors."}
+{"question": "How do immune checkpoint inhibitors differ from cancer vaccines?", "answer": "Inhibitors release existing immune responses, while vaccines generate new tumor‑specific immunity."}
+{"question": "What is the purpose of phase I clinical trials in immunotherapy?", "answer": "To assess safety, dosing, and early signs of efficacy in a small cohort."}
+{"question": "What is cytokine release syndrome (CRS)?", "answer": "A rapid, systemic inflammatory response often seen after CAR‑T cell infusion, requiring prompt management."}
+{"question": "How does bioengineering contribute to immunotherapy advances?", "answer": "It designs novel delivery platforms, synthetic receptors, and tissue models for testing."}
+{"question": "What is the concept of “immune editing” in cancer?", "answer": "The process by which the immune system shapes tumor immunogenicity, leading to immune escape."}
+{"question": "Why are real‑world evidence studies valuable for immunotherapy?", "answer": "They capture outcomes in broader, more diverse patient populations outside controlled trials."}
+{"question": "What is the role of interferon‑gamma (IFN‑γ) in anti‑tumor immunity?", "answer": "IFN‑γ activates macrophages and enhances antigen presentation, boosting T‑cell responses."}
+{"question": "How does epigenetic modulation improve immunotherapy?", "answer": "Drugs that alter DNA methylation can increase tumor antigen expression, making cells more visible to the immune system."}
+{"question": "What are immune checkpoint ligands?", "answer": "Molecules like PD‑L1 that bind to receptors on T‑cells to inhibit their activity."}
+{"question": "How does age affect immunotherapy efficacy?", "answer": "Older patients may have diminished immune vigor, influencing response rates and toxicity profiles."}
+{"question": "What is the importance of longitudinal monitoring in immunotherapy trials?", "answer": "It tracks durability of response, emergence of resistance, and late adverse events over time."}
+{"question": "What future direction is highlighted by current immunotherapy research?", "answer": "Integrating multi‑omics data and engineered cell platforms to create highly personalized, effective cancer treatments."}
