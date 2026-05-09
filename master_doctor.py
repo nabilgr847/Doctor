@@ -43,7 +43,45 @@ def ask_ollamafree(text):
         return OllamaFreeAPI().chat(model="llama3.1:latest", prompt=f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}")
     except: return ""
 
-# ---------- পার্সার ----------
+# ---------- DeepSeek (লিমিট ফিরলে অটো চালু) ----------
+def ask_deepseek(text):
+    key = os.getenv("DEEPSEEK_API_KEY")
+    if not key: return ""
+    headers = {"Authorization": f"Bearer {key}", "Content-Type":"application/json"}
+    payload = {"model":"deepseek-chat","messages":[{"role":"user","content":f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}"}]}
+    try:
+        r = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload, timeout=90)
+        if r.status_code == 200: return r.json()["choices"][0]["message"]["content"]
+    except: pass
+    return ""
+
+# ---------- Gemini (লিমিট ফিরলে অটো চালু) ----------
+def ask_gemini(text):
+    key = os.getenv("GEMINI_API_KEY")
+    if not key: return ""
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=key)
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        response = model.generate_content(f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}")
+        return response.text
+    except: return ""
+
+# ---------- Hugging Face (ফ্রি, ধীরে চলবে) ----------
+def ask_huggingface(text):
+    url = "https://api-inference.huggingface.co/models/google/flan-t5-large"
+    for _ in range(2):
+        try:
+            r = requests.post(url, json={"inputs": f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}"}, timeout=90)
+            if r.status_code == 200:
+                data = r.json()
+                if isinstance(data, dict) and 'generated_text' in data: return data['generated_text']
+                elif isinstance(data, list) and len(data)>0: return data[0].get('generated_text', '')
+        except: pass
+        time.sleep(20)
+    return ""
+
+# ---------- উন্নত পার্সার ----------
 def parse_qa_text(raw):
     if not raw: return []
     matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
@@ -86,15 +124,27 @@ def main():
         combined = book + "\n" + search_data + "\n" + medical_data + "\n" + serp
         print(f"📊 Data length: {len(combined)}")
         all_raws = []
-        with ThreadPoolExecutor(max_workers=5) as executor:
+        # সর্বোচ্চ ৮টি সমান্তরাল কল
+        with ThreadPoolExecutor(max_workers=8) as executor:
             futures = []
+            # Groq (2 keys)
             for key in [os.getenv("GROQ_API_KEY"), os.getenv("GROQ_API_KEY_2")]:
                 if key: futures.append(executor.submit(try_groq_with_key, key, combined))
+            # Pollinations (2 calls)
             for _ in range(2): futures.append(executor.submit(ask_pollinations_account, combined))
+            # OllamaFreeAPI (1)
             futures.append(executor.submit(ask_ollamafree, combined))
+            # DeepSeek (1)
+            futures.append(executor.submit(ask_deepseek, combined))
+            # Gemini (1)
+            futures.append(executor.submit(ask_gemini, combined))
+            # Hugging Face (1)
+            futures.append(executor.submit(ask_huggingface, combined))
+            
             for future in as_completed(futures):
                 res = future.result()
                 if res: all_raws.append(res)
+        
         entries = []
         for raw in all_raws: entries.extend(parse_qa_text(raw))
         print(f"📝 Total entries: {len(entries)}")
@@ -108,7 +158,8 @@ def main():
             os.system("git config user.name 'God-Doctor-Bot'")
             os.system("git config user.email 'bot@doctor.ai'")
             os.system(f"git add {out_file}")
-            os.system(f"git commit -m 'Dataset {datetime.utcnow().strftime(\"%Y-%m-%d %H:%M\")}' || echo 'No changes'")
+            ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+            os.system(f"git commit -m 'Dataset {ts}' || echo 'No changes'")
             os.system(f"git remote set-url origin {remote_url}")
             os.system("git push")
             print(f"✅ {len(entries)} entries pushed in {out_file}")
