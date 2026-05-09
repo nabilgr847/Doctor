@@ -1,0 +1,6 @@
+requests
+duckduckgo_search
+serpapi
+gdeltdoc
+google-generativeai
+PyPDF2
