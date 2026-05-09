@@ -2209,3 +2209,53 @@
 {"question": "Which antiviral medication is first‑line for chronic hepatitis C genotype 1?", "answer": "Sofosbuvir/ledipasvir combination."}
 {"question": "What is the clinical significance of a positive ANA test?", "answer": "It suggests an autoimmune process but is not diagnostic without specific clinical correlation."}
 {"question": "How does vitamin D deficiency affect bone health?", "answer": "It impairs calcium absorption, leading to osteomalacia in adults and rickets in children."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the body's immune system to fight cancer."}
+{"question": "What is the goal of immunotherapy?", "answer": "To stimulate the immune system to attack and destroy cancer cells."}
+{"question": "What are multispecific antibodies?", "answer": "Complex antibodies that can target multiple cancer cells at once."}
+{"question": "What is STING-induced regulatory B cell expansion?", "answer": "A condition where regulatory B cells are activated by STING, contributing to immunotherapy resistance."}
+{"question": "What is the role of PI3Kγ signaling in B cells?", "answer": "Inhibiting PI3Kγ signaling in B cells can help overcome immunotherapy resistance."}
+{"question": "What is the significance of STING agonism?", "answer": "STING agonism can help activate the immune system to fight cancer."}
+{"question": "What is the role of Fc-FcγR disulfide-linked complexes?", "answer": "They can be used for modular delivery of diverse payloads in cancer treatment."}
+{"question": "What is the potential benefit of combining immunotherapy with radiation?", "answer": "Boosting response rates and improving treatment outcomes."}
+{"question": "What is the importance of timing in immunotherapy treatment?", "answer": "Early treatment may lead to better outcomes."}
+{"question": "What is the role of ultrasound in cancer treatment?", "answer": "Ultrasound can be used to enhance the effectiveness of immunotherapy."}
+{"question": "What is a liquid biopsy approach?", "answer": "A non-invasive method for profiling the tumor microenvironment."}
+{"question": "What can liquid biopsy predict in melanoma patients?", "answer": "Immunotherapy response."}
+{"question": "What is the significance of the tumor microenvironment in cancer treatment?", "answer": "It can predict treatment response and outcomes."}
+{"question": "What is the role of biomarkers in cancer treatment?", "answer": "Biomarkers can help identify patients who will respond to immunotherapy."}
+{"question": "What is the potential benefit of using a practical liquid biopsy approach?", "answer": "Improved accuracy and reduced costs."}
+{"question": "What is IL-15 and its role in cancer treatment?", "answer": "IL-15 can \"wake up\" NK cells to re-enable their anti-tumor activity."}
+{"question": "What is NK cell activation?", "answer": "The process by which NK cells are stimulated to attack tumor cells."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "NK cells play a crucial role in anti-tumor immunity."}
+{"question": "What is the potential benefit of stimulating NK cells?", "answer": "Improved treatment outcomes and reduced tumor growth."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system can be harnessed to fight cancer."}
+{"question": "What is the significance of immunotherapy in cancer treatment?", "answer": "Immunotherapy offers a promising approach to treating cancer."}
+{"question": "What is the potential benefit of combining immunotherapy with other treatments?", "answer": "Improved treatment outcomes and reduced side effects."}
+{"question": "What is the role of tumor biology in cancer treatment?", "answer": "Understanding tumor biology can help develop more effective treatments."}
+{"question": "What is the significance of biomarkers in tumor biology?", "answer": "Biomarkers can help identify patients who will respond to treatment."}
+{"question": "What is the potential benefit of using biomarkers in cancer treatment?", "answer": "Improved treatment outcomes and reduced costs."}
+{"question": "What is the role of the tumor microenvironment in cancer treatment?", "answer": "The tumor microenvironment can affect treatment response and outcomes."}
+{"question": "What is the significance of the tumor microenvironment in cancer treatment?", "answer": "It can predict treatment response and outcomes."}
+{"question": "What is the potential benefit of using a liquid biopsy approach?", "answer": "Improved accuracy and reduced costs."}
+{"question": "What is the role of IL-15 in cancer treatment?", "answer": "IL-15 can stimulate NK cells to attack tumor cells."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "NK cells play a crucial role in anti-tumor immunity."}
+{"question": "What is the potential benefit of stimulating NK cells?", "answer": "Improved treatment outcomes and reduced tumor growth."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system can be harnessed to fight cancer."}
+{"question": "What is the significance of immunotherapy in cancer treatment?", "answer": "Immunotherapy offers a promising approach to treating cancer."}
+{"question": "What is the potential benefit of combining immunotherapy with other treatments?", "answer": "Improved treatment outcomes and reduced side effects."}
+{"question": "What is the role of tumor biology in cancer treatment?", "answer": "Understanding tumor biology can help develop more effective treatments."}
+{"question": "What is the significance of biomarkers in tumor biology?", "answer": "Biomarkers can help identify patients who will respond to treatment."}
+{"question": "What is the potential benefit of using biomarkers in cancer treatment?", "answer": "Improved treatment outcomes and reduced costs."}
+{"question": "What is the role of the tumor microenvironment in cancer treatment?", "answer": "The tumor microenvironment can affect treatment response and outcomes."}
+{"question": "What is the significance of the tumor microenvironment in cancer treatment?", "answer": "It can predict treatment response and outcomes."}
+{"question": "What is the potential benefit of using a liquid biopsy approach?", "answer": "Improved accuracy and reduced costs."}
+{"question": "What is the role of IL-15 in cancer treatment?", "answer": "IL-15 can stimulate NK cells to attack tumor cells."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "NK cells play a crucial role in anti-tumor immunity."}
+{"question": "What is the potential benefit of stimulating NK cells?", "answer": "Improved treatment outcomes and reduced tumor growth."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "The immune system can be harnessed to fight cancer."}
+{"question": "What is the significance of immunotherapy in cancer treatment?", "answer": "Immunotherapy offers a promising approach to treating cancer."}
+{"question": "What is the potential benefit of combining immunotherapy with other treatments?", "answer": "Improved treatment outcomes and reduced side effects."}
+{"question": "What is the role of tumor biology in cancer treatment?", "answer": "Understanding tumor biology can help develop more effective treatments."}
+{"question": "What is the significance of biomarkers in tumor biology?", "answer": "Biomarkers can help identify patients who will respond to treatment."}
+{"question": "What is the potential benefit of using biomarkers in cancer treatment?", "answer": "Improved treatment outcomes and reduced costs."}
+{"question": "What is the role of researchers in advancing cancer treatment?", "answer": "Researchers are working to develop new and more effective treatments for cancer."}
