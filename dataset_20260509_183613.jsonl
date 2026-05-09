@@ -1,0 +1,97 @@
+{"question": "What is cancer immunotherapy?", "answer": "A type of therapy that uses the immune system to treat cancer."}
+{"question": "What is the goal of cancer immunotherapy?", "answer": "To help the immune system recognize and destroy cancer cells."}
+{"question": "What are some types of cancer immunotherapies?", "answer": "Antibodies, vaccines, and cytokines are some examples."}
+{"question": "How does chimeric antigen receptor (CAR) T-cell therapy work?", "answer": "It involves modifying T-cells to recognize and attack cancer cells."}
+{"question": "What is tumor infiltrating lymphocyte (TIL) therapy?", "answer": "A form of personalized cancer immunotherapy that involves using a patient's own T-cells."}
+{"question": "What is the purpose of the Cancer Research Institute's report on cancer immunotherapy?", "answer": "To review the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the key finding of the Cancer Research Institute's report on cancer immunotherapy?", "answer": "Dramatic improvement in effectiveness of TIL therapy in patients with metastatic gastrointestinal cancers."}
+{"question": "What are the benefits of cancer immunotherapy?", "answer": "It can be more effective than traditional treatments and has fewer side effects."}
+{"question": "What are the challenges of cancer immunotherapy?", "answer": "It can be expensive and may not work for everyone."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system can help recognize and destroy cancer cells."}
+{"question": "How does the immune system recognize cancer cells?", "answer": "Through the presence of specific proteins or antigens."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active immunotherapy involves stimulating the immune system, while passive immunotherapy involves introducing pre-formed antibodies."}
+{"question": "What is checkpoint inhibition?", "answer": "A type of immunotherapy that blocks the immune system's \"brake\" to allow it to attack cancer cells."}
+{"question": "What is monoclonal antibody therapy?", "answer": "A type of immunotherapy that involves introducing antibodies that target specific cancer cells."}
+{"question": "How does cancer develop resistance to immunotherapy?", "answer": "Through various mechanisms such as mutations or changes in the tumor microenvironment."}
+{"question": "What is the role of the tumor microenvironment in cancer?", "answer": "It can affect the growth and spread of cancer cells."}
+{"question": "How does cancer spread to other parts of the body?", "answer": "Through the lymphatic or circulatory systems."}
+{"question": "What is the difference between benign and malignant tumors?", "answer": "Benign tumors are non-cancerous, while malignant tumors are cancerous."}
+{"question": "What is the risk of cancer recurrence?", "answer": "It depends on various factors such as the type and stage of cancer."}
+{"question": "What are the symptoms of cancer?", "answer": "They can vary depending on the type and location of the cancer."}
+{"question": "How is cancer diagnosed?", "answer": "Through imaging tests, biopsies, and laboratory tests."}
+{"question": "What are the types of cancer treatment?", "answer": "Surgery, chemotherapy, radiation therapy, and immunotherapy."}
+{"question": "What is the role of nutrition in cancer treatment?", "answer": "A healthy diet can help support the immune system and improve treatment outcomes."}
+{"question": "How does stress affect cancer treatment?", "answer": "Chronic stress can weaken the immune system and affect treatment outcomes."}
+{"question": "What is the role of exercise in cancer treatment?", "answer": "Regular exercise can improve physical function and reduce the risk of recurrence."}
+{"question": "How does smoking affect cancer risk?", "answer": "Smoking increases the risk of developing various types of cancer."}
+{"question": "What are the benefits of cancer screening?", "answer": "Early detection and treatment can improve outcomes and save lives."}
+{"question": "What are the challenges of cancer screening?", "answer": "It can be expensive and may not be effective for everyone."}
+{"question": "What is the role of genetic testing in cancer?", "answer": "It can help identify genetic mutations that increase cancer risk."}
+{"question": "How does genetic testing affect cancer treatment?", "answer": "It can help guide treatment decisions and improve outcomes."}
+{"question": "What is the difference between genetic and environmental factors in cancer?", "answer": "Genetic factors are inherited, while environmental factors are external."}
+{"question": "What are the environmental factors that increase cancer risk?", "answer": "Smoking, UV radiation, and certain chemicals."}
+{"question": "How does UV radiation increase cancer risk?", "answer": "It can cause DNA damage and lead to skin cancer."}
+{"question": "What are the benefits of sunscreen?", "answer": "It can help prevent skin cancer and protect against UV radiation."}
+{"question": "What is the role of hormones in cancer?", "answer": "Hormones can stimulate the growth of certain types of cancer."}
+{"question": "How does hormone replacement therapy affect cancer risk?", "answer": "It can increase the risk of certain cancers such as breast and endometrial cancer."}
+{"question": "What are the benefits of hormone replacement therapy?", "answer": "It can relieve symptoms of menopause and improve quality of life."}
+{"question": "What is the difference between primary and secondary cancer?", "answer": "Primary cancer is the original cancer, while secondary cancer is a new cancer that develops in a different part of the body."}
+{"question": "What are the symptoms of secondary cancer?", "answer": "They can vary depending on the location and type of cancer."}
+{"question": "How is secondary cancer diagnosed?", "answer": "Through imaging tests, biopsies, and laboratory tests."}
+{"question": "What are the treatments for secondary cancer?", "answer": "Surgery, chemotherapy, radiation therapy, and immunotherapy."}
+{"question": "What is the role of palliative care in cancer?", "answer": "It can help relieve symptoms and improve quality of life."}
+{"question": "How does palliative care differ from curative care?", "answer": "Palliative care focuses on symptom relief, while curative care aims to cure the cancer."}
+{"question": "What are the benefits of hospice care?", "answer": "It can provide comfort, support, and end-of-life care for patients with advanced cancer."}
+{"question": "What is the role of family members in cancer care?", "answer": "They can provide emotional support and help with daily care."}
+{"question": "How does cancer affect relationships?", "answer": "It can cause emotional distress and affect relationships with family and friends."}
+{"question": "What are the financial challenges of cancer treatment?", "answer": "It can be expensive and may lead to financial burden."}
+{"question": "How does cancer treatment affect employment?", "answer": "It can cause absenteeism and affect career advancement."}
+{"question": "What are the social challenges of cancer treatment?", "answer": "It can affect social relationships and cause feelings of isolation."}
+{"question": "How can cancer patients access support services?", "answer": "Through non-profit organizations, support groups, and online resources."}
+{"question": "What is cancer immunotherapy?", "answer": "It uses the immune system to target and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that silence immune responses, allowing T cells to attack tumors."}
+{"question": "What is CAR‑T cell therapy?", "answer": "Patient T cells are engineered to express chimeric antigen receptors that recognize tumor antigens."}
+{"question": "Can immunotherapy treat solid tumors?", "answer": "Yes, but effectiveness varies; ongoing trials aim to improve responses."}
+{"question": "What is a tumor‑infiltrating lymphocyte (TIL) therapy?", "answer": "Autologous T cells extracted from a tumor are expanded and reinfused to attack cancer."}
+{"question": "Are there side effects of checkpoint inhibitors?", "answer": "Commonly, immune‑related adverse events like colitis, dermatitis, or thyroiditis."}
+{"question": "How long does CAR‑T therapy last?", "answer": "Persistence varies; some patients maintain T cells for years, others months."}
+{"question": "What cancers are approved for CAR‑T therapy?", "answer": "Primarily B‑cell leukemias and lymphomas (e.g., ALL, CLL, DLBCL)."}
+{"question": "Can immunotherapy replace chemotherapy?", "answer": "In some cases it offers durable remission with less toxicity, but it’s not a universal replacement."}
+{"question": "What is a cancer vaccine?", "answer": "It stimulates the immune system to recognize tumor‑specific antigens."}
+{"question": "How do oncolytic viruses work?", "answer": "They selectively infect and lyse cancer cells while activating immune responses."}
+{"question": "What is adoptive cell transfer?", "answer": "Transfer of immune cells (TIL, CAR‑T, NK cells) to boost anti‑tumor activity."}
+{"question": "Are there biomarkers for immunotherapy response?", "answer": "PD‑L1 expression, tumor mutational burden, and MSI status help predict benefit."}
+{"question": "What is MSI‑H?", "answer": "Microsatellite instability‑high tumors often respond well to checkpoint inhibitors."}
+{"question": "How is immunotherapy combined with radiation?", "answer": "Radiation can release tumor antigens, enhancing immune recognition."}
+{"question": "What is the role of the gut microbiome in immunotherapy?", "answer": "Certain bacteria improve response rates and reduce toxicity."}
+{"question": "Can immunotherapy be used in early‑stage cancer?", "answer": "Emerging trials show promise, but most data are in advanced disease."}
+{"question": "What is the cost of CAR‑T therapy?", "answer": "Prices can reach several hundred thousand dollars, though costs are decreasing."}
+{"question": "How is toxicity managed in CAR‑T therapy?", "answer": "Steroids and cytokine‑blocking agents treat cytokine release syndrome and neurotoxicity."}
+{"question": "What is the difference between monoclonal antibodies and checkpoint inhibitors?", "answer": "Antibodies target specific tumor antigens; checkpoint inhibitors block inhibitory pathways."}
+{"question": "Are there vaccines for prostate cancer?", "answer": "Sipuleucel‑T and PROSTVAC are investigational vaccines targeting prostate antigens."}
+{"question": "What is “immune checkpoint blockade”?", "answer": "Therapeutic inhibition of proteins that restrain T‑cell activity, such as PD‑1/PD‑L1."}
+{"question": "Does smoking affect immunotherapy efficacy?", "answer": "Smoking can lower response rates and increase adverse events."}
+{"question": "What is a bispecific T‑cell engager (BiTE)?", "answer": "It links T cells to tumor cells, directing immune attack."}
+{"question": "How do NK cell therapies differ from T‑cell therapies?", "answer": "NK cells kill via innate mechanisms and can be used without HLA matching."}
+{"question": "What is the main challenge in treating pancreatic cancer with immunotherapy?", "answer": "The dense stroma and low mutational burden limit immune infiltration."}
+{"question": "Can immunotherapy treat brain metastases?", "answer": "Checkpoint inhibitors can penetrate the CNS and show activity in some patients."}
+{"question": "What is the impact of age on immunotherapy?", "answer": "Elderly patients often tolerate treatment well, but data vary by drug."}
+{"question": "Is immunotherapy effective for melanoma?", "answer": "Yes, it has dramatically improved survival in metastatic melanoma."}
+{"question": "What is a neoantigen vaccine?", "answer": "A personalized vaccine made from patient‑specific tumor mutations."}
+{"question": "How long do patients need to stay on immunotherapy?", "answer": "Duration varies; some stop after a fixed cycle count, others continue until progression."}
+{"question": "What is the role of cytokines in cancer therapy?", "answer": "Cytokines like IL‑2 can boost T‑cell growth but have significant toxicity."}
+{"question": "How do therapies target PD‑L1 on tumor cells?", "answer": "Antibodies bind PD‑L1, preventing it from inhibiting T‑cell activity."}
+{"question": "What is “hot” vs. “cold” tumors?", "answer": "Hot tumors have immune infiltration; cold tumors lack it and are less responsive."}
+{"question": "Can immunotherapy treat infections?", "answer": "Primarily cancer-specific; not a general antimicrobial strategy."}
+{"question": "What is the significance of T‑cell exhaustion?", "answer": "Exhausted T cells express inhibitory receptors and may need checkpoint blockade to reactivate."}
+{"question": "How do doctors monitor immunotherapy response?", "answer": "Imaging, biomarkers, and functional assays assess tumor shrinkage and immune activity."}
+{"question": "What are the key safety concerns with CAR‑T?", "answer": "Cytokine release syndrome and neurotoxicity are primary risks."}
+{"question": "Does diet influence immunotherapy outcomes?", "answer": "Some studies suggest diets high in fiber may enhance response, but evidence is limited."}
+{"question": "What is the future of combination immunotherapies?", "answer": "Combining checkpoints, vaccines, and cellular therapies aims to increase efficacy."}
+{"question": "How do scientists identify new immunotherapy targets?", "answer": "Genomic profiling and proteomics reveal tumor‑specific antigens."}
+{"question": "What is the regulatory status of off‑label immunotherapy use?", "answer": "Off‑label use is common but must follow institutional and legal guidelines."}
+{"question": "Can immunotherapy treat childhood cancers?", "answer": "Certain pediatric leukemias and solid tumors are being approached with CAR‑T and vaccines."}
+{"question": "What is the role of myeloid‑derived suppressor cells?", "answer": "They dampen immune responses and can hinder immunotherapy effectiveness."}
+{"question": "Are there gender differences in immunotherapy response?", "answer": "Some data show women may have slightly better outcomes, but more research is needed."}
+{"question": "What is the typical administration route for checkpoint inhibitors?", "answer": "Intravenous infusion every 2–3 weeks."}
+{"question": "How does immunotherapy affect quality of life?", "answer": "Many"}
