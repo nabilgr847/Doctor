@@ -1,0 +1,102 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses or modifies components of the immune system to recognize and destroy cancer cells."}
+{"question": "How do antibody‑based immunotherapies work?", "answer": "They bind to specific targets on cancer cells or immune checkpoints, blocking inhibitory signals and activating immune attack."}
+{"question": "What are immune checkpoints?", "answer": "Regulatory pathways, such as PD‑1/PD‑L1, that limit immune activation to prevent autoimmunity, which tumors exploit to evade detection."}
+{"question": "Name a common checkpoint inhibitor used clinically.", "answer": "Pembrolizumab, an anti‑PD‑1 antibody."}
+{"question": "What proportion of patients currently respond to existing immunotherapies?", "answer": "Less than 50 % of treated patients show a durable response."}
+{"question": "What recent discovery aims to improve response rates?", "answer": "A new pathway identified in Nature Immunology that can be targeted to “supercharge” immunotherapy effectiveness."}
+{"question": "What are AbLecs?", "answer": "Engineered molecules that block immune checkpoints, shown to provoke strong anti‑tumor immunity across multiple cancer types."}
+{"question": "Which institutions developed the AbLec approach?", "answer": "MIT (Jessica Stark) and Stanford (Carolyn Bertozzi)."}
+{"question": "How does the Cancer Research Institute (CRI) contribute to immunotherapy?", "answer": "It publishes data‑driven reports, like the 2025 Cancer Immunotherapy Insights, tracking progress and guiding research."}
+{"question": "What is the primary goal of the 2025 CRI report?", "answer": "To review a decade of immunotherapy evolution and highlight emerging trends and impact."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "A personalized treatment where a patient’s T cells are engineered to express chimeric antigen receptors that target tumor antigens."}
+{"question": "Which cancer type was the first approved for CAR‑T therapy?", "answer": "Relapsed or refractory B‑cell acute lymphoblastic leukemia."}
+{"question": "What is the main limitation of CAR‑T therapy?", "answer": "Severe toxicities such as cytokine release syndrome and neurotoxicity."}
+{"question": "How do cancer vaccines differ from checkpoint inhibitors?", "answer": "Vaccines aim to prime the immune system against tumor antigens, while checkpoint inhibitors release existing immune suppression."}
+{"question": "What is the significance of tumor mutational burden (TMB)?", "answer": "High TMB often predicts better responses to checkpoint blockade because more neoantigens are present."}
+{"question": "Define “neoantigen.”", "answer": "A novel peptide derived from tumor‑specific mutations that can be recognized by T cells."}
+{"question": "What role does the microbiome play in immunotherapy efficacy?", "answer": "Certain gut bacteria enhance immune activation and improve patient responses to checkpoint inhibitors."}
+{"question": "What is an immune‑related adverse event (irAE)?", "answer": "An off‑target immune attack on healthy tissue caused by heightened immune activation from therapy."}
+{"question": "Give an example of a common irAE.", "answer": "Colitis presenting as diarrhea and abdominal pain."}
+{"question": "How are irAEs typically managed?", "answer": "With corticosteroids or other immunosuppressants, while balancing anti‑tumor efficacy."}
+{"question": "What is the purpose of combination immunotherapy?", "answer": "To target multiple mechanisms simultaneously, increasing response rates and durability."}
+{"question": "Provide an example of a successful combination regimen.", "answer": "Nivolumab (PD‑1 inhibitor) plus ipilimumab (CTLA‑4 inhibitor) for melanoma."}
+{"question": "What is the “cold tumor” phenotype?", "answer": "Tumors lacking immune cell infiltration, making them less responsive to immunotherapy."}
+{"question": "Name a strategy to convert cold tumors into “hot” ones.", "answer": "Radiation therapy that induces immunogenic cell death and attracts T cells."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "Infusion of ex vivo expanded or engineered immune cells, such as tumor‑infiltrating lymphocytes, into the patient."}
+{"question": "How does PD‑L1 expression guide therapy selection?", "answer": "Tumors with high PD‑L1 are more likely to respond to anti‑PD‑1/PD‑L1 agents."}
+{"question": "What imaging technique helps assess immunotherapy response?", "answer": "PET scans using radiolabeled antibodies to visualize immune activation."}
+{"question": "Why can conventional RECIST criteria be insufficient for immunotherapy?", "answer": "Immunotherapy may cause initial tumor enlargement (pseudoprogression) before shrinkage."}
+{"question": "What is pseudoprogression?", "answer": "Apparent tumor growth on imaging due to immune cell infiltration rather than true disease progression."}
+{"question": "What biomarker besides PD‑L1 is under investigation for predicting response?", "answer": "Gene‑expression signatures of interferon‑γ signaling."}
+{"question": "How does the FDA regulate new immunotherapy agents?", "answer": "Through accelerated approval pathways based on surrogate endpoints like response rates."}
+{"question": "What is an “off‑the‑shelf” immunotherapy?", "answer": "A non‑personalized product, such as a monoclonal antibody, that can be administered to any patient with the target."}
+{"question": "Define “immune checkpoint blockade.”", "answer": "Therapeutic inhibition of checkpoint proteins to restore T‑cell activity against cancer."}
+{"question": "What is the mechanism of action of CTLA‑4 inhibitors?", "answer": "They block CTLA‑4 on T cells, enhancing early activation in lymph nodes."}
+{"question": "How does PD‑1 blockade differ mechanistically from CTLA‑4 blockade?", "answer": "PD‑1 inhibition restores exhausted T cells within the tumor microenvironment, while CTLA‑4 acts earlier in T‑cell priming."}
+{"question": "What is the role of cytokines in immunotherapy?", "answer": "They can stimulate immune cells; for example, IL‑2 therapy expands cytotoxic lymphocytes."}
+{"question": "Why is IL‑2 therapy limited clinically?", "answer": "High‑dose IL‑2 causes severe vascular leak syndrome and other toxicities."}
+{"question": "What is a bispecific T‑cell engager (BiTE)?", "answer": "An antibody construct that simultaneously binds a tumor antigen and CD3 on T cells, redirecting cytotoxicity."}
+{"question": "Name an FDA‑approved BiTE.", "answer": "Blinatumomab for B‑cell acute lymphoblastic leukemia."}
+{"question": "How does tumor heterogeneity affect immunotherapy?", "answer": "Diverse subclones may escape immune detection, reducing overall efficacy."}
+{"question": "What is “immune editing”?", "answer": "The process by which the immune system shapes tumor antigenicity, leading to selection of immune‑evading variants."}
+{"question": "Which signaling pathway is commonly up‑regulated to suppress immunity in tumors?", "answer": "The IDO (indoleamine 2,3‑dioxygenase) pathway, which depletes tryptophan."}
+{"question": "What experimental approach targets IDO?", "answer": "Small‑molecule IDO inhibitors combined with checkpoint blockade."}
+{"question": "How do oncolytic viruses assist immunotherapy?", "answer": "They selectively infect tumor cells, causing lysis and releasing antigens that stimulate immunity."}
+{"question": "Provide an example of an FDA‑approved oncolytic virus.", "answer": "Talimogene laherparepvec (T‑VEC) for melanoma."}
+{"question": "What is the significance of the “2025 Cancer Immunotherapy Insights” report?", "answer": "It benchmarks progress, identifies gaps, and informs policy and funding priorities."}
+{"question": "Which federal agencies commonly fund immunotherapy research?", "answer": "NIH, NCI, and DARPA."}
+{"question": "What ethical considerations arise with gene‑edited immune cells?", "answer": "Potential off‑target effects, long‑term safety, and equitable access."}
+{"question": "How is personalized neoantigen vaccine development performed?", "answer": "By sequencing a patient’s tumor, identifying neoantigens, and synthesizing peptides for vaccination."}
+{"question": "What future direction is highlighted for expanding immunotherapy reach?", "answer": "Designing universal, off‑the‑shelf cellular therapies that can treat multiple cancers without individualized manufacturing."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy used to treat cancer patients that involves or uses components of the immune system."}
+{"question": "What is the goal of cancer immunotherapy?", "answer": "To stimulate the immune system to recognize and attack cancer cells."}
+{"question": "What type of cancer can be treated with immunotherapy?", "answer": "Various types, including melanoma, lung cancer, and kidney cancer."}
+{"question": "What is an immune checkpoint?", "answer": "A protein that helps regulate the immune response and prevent autoimmunity."}
+{"question": "What is the role of AbLecs in cancer immunotherapy?", "answer": "Blocking immune checkpoints to stimulate a strong anti-tumor immune response."}
+{"question": "What is the primary limitation of current cancer immunotherapies?", "answer": "They work in less than half of patients who receive them."}
+{"question": "What is the purpose of the Cancer Research Institute's 2025 report?", "answer": "To review the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the main focus of the report on cancer immunotherapy?", "answer": "The evolution of cancer immunotherapy over the past decade."}
+{"question": "What type of molecule is used in the new immunotherapy approach?", "answer": "Molecules called AbLecs."}
+{"question": "What is the key benefit of the new immunotherapy approach?", "answer": "It could work for many types of cancer."}
+{"question": "What is the primary mechanism of cancer immunotherapy?", "answer": "Stimulating the immune system to recognize and attack cancer cells."}
+{"question": "What is the main limitation of current cancer immunotherapies?", "answer": "They have limited efficacy in treating various types of cancer."}
+{"question": "What is the role of the immune system in cancer?", "answer": "To recognize and attack cancer cells."}
+{"question": "What is the main challenge in cancer immunotherapy?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What is the significance of cancer immunotherapy research?", "answer": "It offers new pathways to design treatments that help more patients."}
+{"question": "What type of protein is involved in immune checkpoint regulation?", "answer": "Proteins such as PD-1 and CTLA-4."}
+{"question": "What is the main advantage of cancer immunotherapy?", "answer": "It can provide long-term responses and potentially cure cancer."}
+{"question": "What is the primary mechanism of action of cancer immunotherapy?", "answer": "Stimulating the immune system to attack cancer cells."}
+{"question": "What type of cancer has shown significant response to immunotherapy?", "answer": "Melanoma, lung cancer, and kidney cancer."}
+{"question": "What is the main focus of cancer immunotherapy research?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What is the significance of the new pathway to design treatments?", "answer": "It offers a new approach to develop treatments that help more patients."}
+{"question": "What is the main challenge in cancer immunotherapy development?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What type of molecule is used in the new immunotherapy approach?", "answer": "Molecules called AbLecs."}
+{"question": "What is the primary mechanism of action of AbLecs?", "answer": "Blocking immune checkpoints."}
+{"question": "What is the significance of the new immunotherapy approach?", "answer": "It could work for many types of cancer."}
+{"question": "What type of protein is involved in immune checkpoint regulation?", "answer": "Proteins such as PD-1 and CTLA-4."}
+{"question": "What is the main advantage of cancer immunotherapy?", "answer": "It can provide long-term responses and potentially cure cancer."}
+{"question": "What is the primary mechanism of action of cancer immunotherapy?", "answer": "Stimulating the immune system to attack cancer cells."}
+{"question": "What type of cancer has shown significant response to immunotherapy?", "answer": "Melanoma, lung cancer, and kidney cancer."}
+{"question": "What is the main focus of cancer immunotherapy research?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What is the significance of the new pathway to design treatments?", "answer": "It offers a new approach to develop treatments that help more patients."}
+{"question": "What is the main challenge in cancer immunotherapy development?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What type of molecule is used in the new immunotherapy approach?", "answer": "Molecules called AbLecs."}
+{"question": "What is the primary mechanism of action of AbLecs?", "answer": "Blocking immune checkpoints."}
+{"question": "What is the significance of the new immunotherapy approach?", "answer": "It could work for many types of cancer."}
+{"question": "What type of protein is involved in immune checkpoint regulation?", "answer": "Proteins such as PD-1 and CTLA-4."}
+{"question": "What is the main advantage of cancer immunotherapy?", "answer": "It can provide long-term responses and potentially cure cancer."}
+{"question": "What is the primary mechanism of action of cancer immunotherapy?", "answer": "Stimulating the immune system to attack cancer cells."}
+{"question": "What type of cancer has shown significant response to immunotherapy?", "answer": "Melanoma, lung cancer, and kidney cancer."}
+{"question": "What is the main focus of cancer immunotherapy research?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What is the significance of the new pathway to design treatments?", "answer": "It offers a new approach to develop treatments that help more patients."}
+{"question": "What is the main challenge in cancer immunotherapy development?", "answer": "Developing effective treatments that work in a wide range of patients."}
+{"question": "What type of molecule is used in the new immunotherapy approach?", "answer": "Molecules called AbLecs."}
+{"question": "What is the primary mechanism of action of AbLecs?", "answer": "Blocking immune checkpoints."}
+{"question": "What is the significance of the new immunotherapy approach?", "answer": "It could work for many types of cancer."}
+{"question": "What type of protein is involved in immune checkpoint regulation?", "answer": "Proteins such as PD-1 and CTLA-4."}
+{"question": "What is the main advantage of cancer immunotherapy?", "answer": "It can provide long-term responses and potentially cure cancer."}
+{"question": "What is the primary mechanism of action of cancer immunotherapy?", "answer": "Stimulating the immune system to attack cancer cells."}
+{"question": "What type of cancer has shown significant response to immunotherapy?", "answer": "Melanoma, lung cancer, and kidney cancer."}
+{"question": "What is the main focus of cancer immunotherapy research?", "answer": "Developing effective treatments that work in a wide range of patients.\n\nThese Q&A pairs cover a variety of topics related to cancer immunotherapy, including the definition, mechanisms, advantages, and challenges of the treatment."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to fight cancer."}
+{"question": "Which cells are targeted by antibody-based immunotherapies?", "answer": "Antibodies bind to cancer cell"}
