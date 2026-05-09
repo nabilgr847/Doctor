@@ -1807,3 +1807,44 @@
 {"question": "What is the impact of tumor mutational burden on immunotherapy?", "answer": "High tumor mutational burden increases neoantigen production, often correlating with better responses to checkpoint inhibitors, though exceptions exist."}
 {"question": "How is immunotherapy tailored for individual patients?", "answer": "Precision immunotherapy uses genomic, proteomic, and immunologic profiling to select agents that align with a patient’s tumor biology and immune landscape."}
 {"question": "What is the typical duration of immunotherapy treatment?", "answer": ""}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system to target and destroy cancer cells, using approaches like checkpoint inhibitors, CAR‑T cells, and cancer vaccines."}
+{"question": "Which organization leads cancer immunotherapy research?", "answer": "Fred Hutchinson Cancer Research Center collaborates across biology, data science, and engineering to advance immunotherapy."}
+{"question": "Where can I find the latest cancer immunotherapy breakthroughs?", "answer": "Phys.org and Medical Xpress regularly publish updates on new studies, trials, and mechanistic insights."}
+{"question": "What does the 2020 GLOBOCAN report provide?", "answer": "Global incidence and mortality estimates for 36 cancers across 185 countries, offering baseline data for researchers and policymakers."}
+{"question": "How does mechanical force influence cancer treatment?", "answer": "Recent studies show that physical stress can trigger programmed cell death, offering a potential adjunct to immunotherapy."}
+{"question": "What are checkpoint inhibitors?", "answer": "Drugs that block proteins like PD‑1 or CTLA‑4, freeing T cells to attack tumors."}
+{"question": "Which cancers benefit most from CAR‑T therapy?", "answer": "Blood cancers such as acute lymphoblastic leukemia and certain lymphomas have shown high response rates."}
+{"question": "Can immunotherapy cure solid tumors?", "answer": "Some solid tumors respond partially; ongoing trials aim to improve efficacy and durability."}
+{"question": "What side effects are common with checkpoint inhibitors?", "answer": "Immune‑related adverse events like colitis, dermatitis, and pneumonitis can occur and require monitoring."}
+{"question": "How is a cancer vaccine produced?", "answer": "It uses tumor antigens to stimulate an immune response, often combined with adjuvants to enhance effectiveness."}
+{"question": "What role does bioengineering play in immunotherapy research?", "answer": "It helps design delivery systems, such as nanoparticles, to target immune cells to tumors."}
+{"question": "Are immunotherapy trials open to all cancer patients?", "answer": "Eligibility varies by trial, but many require specific biomarkers or disease stages."}
+{"question": "What is the significance of the \"diamond\" OA status?", "answer": "It indicates the article is freely available without subscription or paywall."}
+{"question": "How are cancer statistics used in clinical practice?", "answer": "They guide screening recommendations, resource allocation, and clinical trial design."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the body’s own immune system; passive delivers ready‑made immune components like antibodies."}
+{"question": "What are TIL therapies?", "answer": "Tumor‑infiltrating lymphocyte therapy expands a patient’s own immune cells from a tumor to reinfuse them after activation."}
+{"question": "How does the immune system normally fight cancer?", "answer": "It recognizes abnormal proteins on tumor cells, then mounts a targeted response that can eliminate them."}
+{"question": "Why do some patients not respond to immunotherapy?", "answer": "Tumors may lack target antigens, have immunosuppressive microenvironments, or patients may have immune deficiencies."}
+{"question": "What is the role of data science in immunotherapy?", "answer": "It analyzes complex biological data to identify predictive biomarkers and optimize treatment regimens."}
+{"question": "How is survivorship studied in immunotherapy research?", "answer": "Researchers track long‑term outcomes, quality of life, and late side effects in patients who complete therapy."}
+{"question": "What is a biomarker?", "answer": "A measurable indicator, such as PD‑L1 expression, that predicts response to a particular therapy."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, combination regimens can enhance tumor killing and improve survival in some cancers."}
+{"question": "What is the FDA’s role in approving immunotherapies?", "answer": "The FDA evaluates safety, efficacy, and manufacturing quality before granting approval."}
+{"question": "Are there any approved immunotherapies for lung cancer?", "answer": "Yes, checkpoint inhibitors like pembrolizumab are standard for certain non‑small cell lung cancers."}
+{"question": "How does CAR‑T therapy work?", "answer": "A patient’s T cells are engineered to express a chimeric antigen receptor that targets tumor antigens, then re‑infused."}
+{"question": "What are the risks of CAR‑T therapy?", "answer": "Cytokine release syndrome and neurotoxicity are notable risks that require specialized management."}
+{"question": "What is the global burden of cancer in 2020?", "answer": "Over 19 million new cases and 10 million deaths worldwide, per GLOBOCAN 2020."}
+{"question": "How can patients find clinical trials for immunotherapy?", "answer": "Use clinicaltrials.gov or consult oncologists for matching protocols."}
+{"question": "What is the role of host organization in research articles?", "answer": "It indicates the publisher (e.g., Wiley) responsible for the journal’s content and access."}
+{"question": "What is “mechanics of programmed cell death”?", "answer": "The study of how physical forces influence apoptosis pathways in cancer cells."}
+{"question": "Does immunotherapy work for all age groups?", "answer": "Most trials include adults; pediatric immunotherapy is emerging but less common."}
+{"question": "What is the importance of open access for cancer research?", "answer": "It allows wider dissemination of findings, accelerating scientific progress and patient care."}
+{"question": "How does the immune system detect tumor cells?", "answer": "Through pattern‑recognition receptors that sense abnormal proteins or DNA damage signatures."}
+{"question": "What is a checkpoint inhibitor’s mechanism of action?", "answer": "It blocks inhibitory signals that dampen T‑cell activity, restoring immune surveillance."}
+{"question": "How is immunotherapy tailored to individual patients?", "answer": "Personalized approaches consider genomic, proteomic, and immune profiling data."}
+{"question": "What is the difference between immunotherapy and targeted therapy?", "answer": "Immunotherapy mobilizes the immune system, while targeted therapy directly inhibits tumor‑specific molecules."}
+{"question": "What are the latest advances in immunotherapy research?", "answer": "Combining mechanical cues, engineered nanoparticles, and synthetic biology to enhance delivery and efficacy."}
+{"question": "How long does an immunotherapy treatment last?", "answer": "Duration varies; some therapies are single‑dose, others require multiple infusions over weeks."}
+{"question": "What is the role of statistics in immunotherapy studies?", "answer": "Statistical analysis validates clinical outcomes and supports regulatory approvals."}
+{"question": "Can immunotherapy prevent cancer recurrence?", "answer": "In some cases, it reduces relapse risk, but long‑term data are still accumulating."}
+{"question": "What is the significance of “PD‑L1 expression” in tumors?", "answer": "High PD‑L1 levels often predict better responses to"}
