@@ -1,0 +1,172 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to target and destroy cancer cells."}
+{"question": "What are the most common types of immunotherapy?", "answer": "Checkpoint inhibitors, CAR‑T cell therapy, monoclonal antibodies, and cancer vaccines."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that normally keep T cells from attacking tumors, reactivating the immune response."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "T cells are engineered to express chimeric antigen receptors that bind specific tumor markers."}
+{"question": "What role does IL‑27 play in immunotherapy?", "answer": "IL‑27 boosts T‑cell activity against tumors, especially when combined with STUB1 inhibition."}
+{"question": "What is the STUB1 protein?", "answer": "A protein that dampens T‑cell signaling; disabling it strengthens immune responses to cancer."}
+{"question": "Which recent study highlighted STUB1 as a target?", "answer": "Harvard Medical School's 2025 research showing STUB1 inhibition improves T‑cell response to IL‑27."}
+{"question": "What are the main side effects of checkpoint inhibitors?", "answer": "Fatigue, skin rash, diarrhea, and immune‑mediated inflammation of organs."}
+{"question": "Are CAR‑T cells used for solid tumors?", "answer": "Mostly for blood cancers; research is ongoing for solid tumor applications."}
+{"question": "What funding sources supported MIT’s new immunotherapy research?", "answer": "Burroughs Wellcome, Society for Immunotherapy of Cancer, V Foundation, NIH, and Merck SEEDS."}
+{"question": "What is the goal of the Cancer Research Institute's 2025 Insight Report?", "answer": "To review the evolution and impact of cancer immunotherapy over the past decade."}
+{"question": "How does a monoclonal antibody work against cancer?", "answer": "It binds to tumor surface proteins, marking cells for immune attack or blocking growth signals."}
+{"question": "What is a cancer vaccine?", "answer": "A therapy that stimulates the immune system to recognize and attack specific tumor antigens."}
+{"question": "Can immunotherapy be combined with traditional chemotherapy?", "answer": "Yes; combinations often improve efficacy and reduce resistance."}
+{"question": "What is the significance of the MIT article on December 16, 2025?", "answer": "It announced a versatile immunotherapy approach potentially effective across many cancer types."}
+{"question": "What does the term “immune‑boosting molecule” refer to in this context?", "answer": "A cytokine or protein, like IL‑27, that enhances T‑cell activation and tumor killing."}
+{"question": "How is the safety profile of new immunotherapies evaluated?", "answer": "Through phased clinical trials measuring efficacy, toxicity, and immune-related adverse events."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the patient’s own immune system; passive provides externally produced immune components."}
+{"question": "What are the key biomarkers for predicting immunotherapy response?", "answer": "PD‑L1 expression, tumor mutational burden, and T‑cell infiltration levels."}
+{"question": "What is the role of the National Cancer Institute in immunotherapy research?", "answer": "Funding, coordinating clinical trials, and publishing guidelines."}
+{"question": "How do scientists identify new targets like STUB1?", "answer": "Through genomic, proteomic screens and functional assays in cell and animal models."}
+{"question": "What is the mechanism of action for monoclonal antibodies that inhibit PD‑1?", "answer": "They block the PD‑1 receptor on T cells, preventing tumor-induced inhibition."}
+{"question": "What are the benefits of combining CAR‑T therapy with checkpoint inhibitors?", "answer": "Potentially stronger, more sustained anti‑tumor activity and overcoming resistance."}
+{"question": "How does the immune system recognize cancer cells?", "answer": "By detecting abnormal proteins or mismatched antigens on tumor cells."}
+{"question": "What is the typical timeline for a new immunotherapy to reach clinical use?", "answer": "Roughly 10–15 years from discovery to approved therapy."}
+{"question": "What is the role of the Society for Immunotherapy of Cancer (SITC)?", "answer": "Promoting research, education, and collaboration in cancer immunotherapy."}
+{"question": "Why is IL‑27 considered a promising cytokine in cancer therapy?", "answer": "It promotes T‑cell proliferation and cytotoxic activity against tumors."}
+{"question": "What does “STUB1 weakens the cancer‑killing power of immune T cells” mean?", "answer": "STUB1 interferes with signals that activate T cells, reducing their ability to destroy cancer."}
+{"question": "What is the impact of disabling STUB1 in animal models?", "answer": "Enhanced T‑cell response, slower tumor growth, and improved survival in mice."}
+{"question": "What are the challenges of delivering immunotherapy to solid tumors?", "answer": "Physical barriers, immunosuppressive microenvironment, and heterogeneity of tumor cells."}
+{"question": "How do researchers measure the effectiveness of a new immunotherapy?", "answer": "Tumor size reduction, progression‑free survival, and overall survival metrics."}
+{"question": "What is the difference between “immune checkpoint blockade” and “immune activation”?", "answer": "Blockade removes inhibitory signals; activation stimulates immune cell proliferation and function."}
+{"question": "How do researchers ensure that immunotherapies do not attack healthy tissues?", "answer": "By targeting tumor‑specific antigens and using precision delivery methods."}
+{"question": "What is the significance of the “Cancer Immunotherapy Insights and Impact Report”?", "answer": "It provides data‑driven analysis of trends, outcomes, and future directions in the field."}
+{"question": "What are the main research priorities in cancer immunotherapy today?", "answer": "Enhancing efficacy, reducing toxicity, expanding to new cancer types, and personalizing treatments."}
+{"question": "How does the immune system’s memory factor into cancer immunotherapy?", "answer": "Memory T cells can recognize and attack cancer cells upon recurrence."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to target and destroy cancer cells."}
+{"question": "What are the most common types of immunotherapy?", "answer": "Checkpoint inhibitors, CAR‑T cell therapy, monoclonal antibodies, and cancer vaccines."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that normally keep T cells from attacking tumors, reactivating the immune response."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "T cells are engineered to express chimeric antigen receptors that bind specific tumor markers."}
+{"question": "What role does IL‑27 play in immunotherapy?", "answer": "IL‑27 boosts T‑cell activity against tumors, especially when combined with STUB1 inhibition."}
+{"question": "What is the STUB1 protein?", "answer": "A protein that dampens T‑cell signaling; disabling it strengthens immune responses to cancer."}
+{"question": "Which recent study highlighted STUB1 as a target?", "answer": "Harvard Medical School's 2025 research showing STUB1 inhibition improves T‑cell response to IL‑27."}
+{"question": "What are the main side effects of checkpoint inhibitors?", "answer": "Fatigue, skin rash, diarrhea, and immune‑mediated inflammation of organs."}
+{"question": "Are CAR‑T cells used for solid tumors?", "answer": "Mostly for blood cancers; research is ongoing for solid tumor applications."}
+{"question": "What funding sources supported MIT’s new immunotherapy research?", "answer": "Burroughs Wellcome, Society for Immunotherapy of Cancer, V Foundation, NIH, and Merck SEEDS."}
+{"question": "What is the goal of the Cancer Research Institute's 2025 Insight Report?", "answer": "To review the evolution and impact of cancer immunotherapy over the past decade."}
+{"question": "How does a monoclonal antibody work against cancer?", "answer": "It binds to tumor surface proteins, marking cells for immune attack or blocking growth signals."}
+{"question": "What is a cancer vaccine?", "answer": "A therapy that stimulates the immune system to recognize and attack specific tumor antigens."}
+{"question": "Can immunotherapy be combined with traditional chemotherapy?", "answer": "Yes; combinations often improve efficacy and reduce resistance."}
+{"question": "What is the significance of the MIT article on December 16, 2025?", "answer": "It announced a versatile immunotherapy approach potentially effective across many cancer types."}
+{"question": "What does the term “immune‑boosting molecule” refer to in this context?", "answer": "A cytokine or protein, like IL‑27, that enhances T‑cell activation and tumor killing."}
+{"question": "How is the safety profile of new immunotherapies evaluated?", "answer": "Through phased clinical trials measuring efficacy, toxicity, and immune-related adverse events."}
+{"question": "What is the difference between active and passive immunotherapy?", "answer": "Active stimulates the patient’s own immune system; passive provides externally produced immune components."}
+{"question": "What are the key biomarkers for predicting immunotherapy response?", "answer": "PD‑L1 expression, tumor mutational burden, and T‑cell infiltration levels."}
+{"question": "What is the role of the National Cancer Institute in immunotherapy research?", "answer": "Funding, coordinating clinical trials, and publishing guidelines."}
+{"question": "How do scientists identify new targets like STUB1?", "answer": "Through genomic, proteomic screens and functional assays in cell and animal models."}
+{"question": "What is the mechanism of action for monoclonal antibodies that inhibit PD‑1?", "answer": "They block the PD‑1 receptor on T cells, preventing tumor-induced inhibition."}
+{"question": "What are the benefits of combining CAR‑T therapy with checkpoint inhibitors?", "answer": "Potentially stronger, more sustained anti‑tumor activity and overcoming resistance."}
+{"question": "How does the immune system recognize cancer cells?", "answer": "By detecting abnormal proteins or mismatched antigens on tumor cells."}
+{"question": "What is the typical timeline for a new immunotherapy to reach clinical use?", "answer": "Roughly 10–15 years from discovery to approved therapy."}
+{"question": "What is the role of the Society for Immunotherapy of Cancer (SITC)?", "answer": "Promoting research, education, and collaboration in cancer immunotherapy."}
+{"question": "Why is IL‑27 considered a promising cytokine in cancer therapy?", "answer": "It promotes T‑cell proliferation and cytotoxic activity against tumors."}
+{"question": "What does “STUB1 weakens the cancer‑killing power of immune T cells” mean?", "answer": "STUB1 interferes with signals that activate T cells, reducing their ability to destroy cancer."}
+{"question": "What is the impact of disabling STUB1 in animal models?", "answer": "Enhanced T‑cell response, slower tumor growth, and improved survival in mice."}
+{"question": "What are the challenges of delivering immunotherapy to solid tumors?", "answer": "Physical barriers, immunosuppressive microenvironment, and heterogeneity of tumor cells."}
+{"question": "How do researchers measure the effectiveness of a new immunotherapy?", "answer": "Tumor size reduction, progression‑free survival, and overall survival metrics."}
+{"question": "What is the difference between “immune checkpoint blockade” and “immune activation”?", "answer": "Blockade removes inhibitory signals; activation stimulates immune cell proliferation and function."}
+{"question": "How do researchers ensure that immunotherapies do not attack healthy tissues?", "answer": "By targeting tumor‑specific antigens and using precision delivery methods."}
+{"question": "What is the significance of the “Cancer Immunotherapy Insights and Impact Report”?", "answer": "It provides data‑driven analysis of trends, outcomes, and future directions in the field."}
+{"question": "What are the main research priorities in cancer immunotherapy today?", "answer": "Enhancing efficacy, reducing toxicity, expanding to new cancer types, and personalizing treatments."}
+{"question": "How does the immune system’s memory factor into cancer immunotherapy?", "answer": "Memory T cells can recognize and attack cancer cells upon recurrence."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses the patient’s immune system to target and eliminate cancer cells."}
+{"question": "Which immune components are commonly used in cancer immunotherapy?", "answer": "Antibodies, engineered T cells, cytokines, and cancer vaccines are typical immune components."}
+{"question": "What are checkpoint inhibitors?", "answer": "Checkpoint inhibitors are drugs that block inhibitory pathways such as PD‑1, PD‑L1, or CTLA‑4 to reactivate T‑cell activity against tumors."}
+{"question": "Name a widely used checkpoint inhibitor drug.", "answer": "Pembrolizumab, a PD‑1 inhibitor, is widely used for several solid tumors."}
+{"question": "How do CAR‑T cells differ from regular T cells?", "answer": "CAR‑T cells are genetically engineered to express chimeric antigen receptors that recognize specific tumor antigens independent of MHC."}
+{"question": "Which cancer was the first to be treated successfully with CAR‑T therapy?", "answer": "Relapsed or refractory B‑cell acute lymphoblastic leukemia."}
+{"question": "What is the role of IL‑27 in cancer immunotherapy research?", "answer": "IL‑27 can stimulate T‑cells, and recent studies show that disabling STUB1 enhances T‑cell response to IL‑27, improving tumor control."}
+{"question": "What protein was identified as a negative regulator of T‑cell activity in recent research?", "answer": "STUB1 (also known as CHIP) was found to weaken T‑cell anti‑tumor function."}
+{"question": "How might inhibiting STUB1 improve immunotherapy outcomes?", "answer": "Inhibiting STUB1 restores key signaling in T‑cells, boosting their response to cytokines like IL‑27 and slowing tumor growth."}
+{"question": "What is a cancer vaccine?", "answer": "A cancer vaccine introduces tumor antigens to the immune system to provoke a targeted anti‑tumor response."}
+{"question": "Give an example of an FDA‑approved cancer vaccine.", "answer": "Sipuleucel‑T, approved for metastatic prostate cancer."}
+{"question": "What is the significance of the 2025 Cancer Immunotherapy Insights report?", "answer": "It provides a data‑driven review of immunotherapy advances and trends over the past decade."}
+{"question": "Which organization released the 2025 Cancer Immunotherapy Insights report?", "answer": "The Cancer Research Institute (CRI)."}
+{"question": "What are tumor‑infiltrating lymphocytes (TILs)?", "answer": "TILs are immune cells extracted from a tumor, expanded ex vivo, and reinfused to attack cancer."}
+{"question": "What advantage do TIL therapies have over checkpoint inhibitors?", "answer": "TILs can target a broader repertoire of tumor antigens, including those not recognized by checkpoint blockade."}
+{"question": "What is the primary side effect of checkpoint inhibitors?", "answer": "Immune‑related adverse events, such as colitis, dermatitis, or endocrinopathies."}
+{"question": "How are immune‑related adverse events managed?", "answer": "Typically with corticosteroids or other immunosuppressants while monitoring tumor response."}
+{"question": "What does \"immune checkpoint\" refer to?", "answer": "Molecular pathways that normally limit immune activation to prevent autoimmunity."}
+{"question": "Why might combination immunotherapy be more effective?", "answer": "Combining agents can target multiple pathways, overcoming resistance and enhancing anti‑tumor immunity."}
+{"question": "Name a common immunotherapy combination being studied.", "answer": "Anti‑PD‑1 therapy combined with anti‑CTLA‑4 or with an oncolytic virus."}
+{"question": "What is an oncolytic virus?", "answer": "A virus engineered to selectively infect and kill cancer cells while stimulating an immune response."}
+{"question": "How does the tumor microenvironment affect immunotherapy?", "answer": "Immunosuppressive cells, cytokines, and metabolic conditions can blunt immune activation."}
+{"question": "What cell type often suppresses anti‑tumor immunity?", "answer": "Myeloid‑derived suppressor cells (MDSCs) and regulatory T cells (Tregs)."}
+{"question": "What biomarker is used to predict response to PD‑1 blockade?", "answer": "High tumor mutational burden (TMB) or PD‑L1 expression."}
+{"question": "How does high tumor mutational burden aid immunotherapy?", "answer": "More mutations generate neoantigens that make tumors more recognizable to T‑cells."}
+{"question": "What is the purpose of adoptive cell transfer (ACT)?", "answer": "To infuse patients with ex vivo‑expanded or engineered immune cells that can target cancer."}
+{"question": "Which cytokine is commonly used to support T‑cell growth in ACT?", "answer": "Interleukin‑2 (IL‑2)."}
+{"question": "What risk is associated with high‑dose IL‑2 therapy?", "answer": "Severe capillary leak syndrome and hypotension."}
+{"question": "What is the mechanism of action of bispecific T‑cell engagers (BiTEs)?", "answer": "They bind both a tumor antigen and CD3 on T‑cells, bringing them into proximity to trigger killing."}
+{"question": "Name an FDA‑approved BiTE.", "answer": "Blinatumomab for B‑cell acute lymphoblastic leukemia."}
+{"question": "How does cancer immunotherapy differ from traditional chemotherapy?", "answer": "Immunotherapy mobilizes the immune system rather than directly killing dividing cells."}
+{"question": "Can immunotherapy be curative?", "answer": "In some patients, especially with hematologic malignancies, durable remission or cure has been achieved."}
+{"question": "What is \"immune checkpoint blockade resistance\"?", "answer": "The failure of tumors to respond due to lack of antigen presentation, alternative inhibitory pathways, or an immunosuppressive microenvironment."}
+{"question": "Which recent strategy aims to overcome checkpoint resistance?", "answer": "Targeting intracellular negative regulators like STUB1 or using epigenetic modulators to increase antigen expression."}
+{"question": "What role do neoantigens play in personalized cancer vaccines?", "answer": "Neoantigens derived from a patient’s tumor are used to create vaccines that elicit a tailored T‑cell response."}
+{"question": "What technology enables rapid identification of neoantigens?", "answer": "Next‑generation sequencing combined with bioinformatic prediction algorithms."}
+{"question": "How is the efficacy of a cancer vaccine measured in trials?", "answer": "By assessing immune response (e.g., T‑cell activation) and clinical endpoints such as progression‑free survival."}
+{"question": "What is the typical timeline for an immune response after checkpoint inhibitor administration?", "answer": "Responses can occur weeks to months, with some patients experiencing delayed tumor shrinkage."}
+{"question": "What does the term “immune‑hot” tumor refer to?", "answer": "A tumor with abundant infiltrating immune cells and high inflammatory signaling."}
+{"question": "What is an “immune‑cold” tumor?", "answer": "A tumor lacking immune cell infiltration and often resistant to immunotherapy."}
+{"question": "Which approach can convert an immune‑cold tumor to immune‑hot?", "answer": "Radiation or oncolytic viruses that induce local inflammation and antigen release."}
+{"question": "What is the significance of the Burroughs Wellcome Fund in immunotherapy research?", "answer": "It provides career awards that support innovative studies, such as novel immunotherapy approaches."}
+{"question": "What is a common method to assess PD‑L1 expression in tumors?", "answer": "Immunohistochemistry (IHC) staining."}
+{"question": "Why is patient selection important for immunotherapy?", "answer": "Because biomarkers like PD‑L1, TMB, and microsatellite instability influence likelihood of benefit."}
+{"question": "What is microsatellite instability‑high (MSI‑H) status?", "answer": "A condition of deficient DNA mismatch repair leading to many mutations, often responsive to PD‑1 blockade."}
+{"question": "Which FDA‑approved drug is indicated for MSI‑H solid tumors regardless of origin?", "answer": "Pembrolizumab."}
+{"question": "How does radiation therapy synergize with immunotherapy?", "answer": "Radiation can release tumor antigens and increase MHC expression, enhancing immune recognition."}
+{"question": "What safety monitoring is essential during CAR‑T therapy?", "answer": "Observation for cytokine release syndrome (CRS) and neurotoxicity."}
+{"question": "What is cytokine release syndrome?", "answer": "A systemic inflammatory response characterized by fever, hypotension, and organ dysfunction after immune activation."}
+{"question": "What future direction is highlighted by recent research in cancer immunotherapy?", "answer": "Targeting intracellular regulators like STUB1 to boost T‑cell signaling and expand the range of treatable cancers."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses components of the immune system to treat cancer."}
+{"question": "What type of antibodies are used in some cancer immunotherapies?", "answer": "Antibodies that bind to and inhibit cancer cells."}
+{"question": "What is the purpose of the Cancer Research Institute's 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "To review the evolution of cancer immunotherapy over the past decade."}
+{"question": "What are some funding sources for research in cancer immunotherapy?", "answer": "The National Cancer Institute, the National Institute of General Medical Sciences, and the Burroughs Wellcome Fund."}
+{"question": "What is the role of STUB1 in cancer immunotherapy?", "answer": "A protein that weakens the cancer-killing power of immune T cells."}
+{"question": "What is IL-27 in cancer immunotherapy?", "answer": "An immune-boosting molecule that can slow tumor growth."}
+{"question": "What is the goal of new approaches in cancer immunotherapy?", "answer": "To make cancer immunotherapy work for more patients."}
+{"question": "What type of grant funded research in cancer immunotherapy?", "answer": "A Merck Discovery Biologics SEEDS grant and a V Foundation V Scholar Grant."}
+{"question": "What organization published the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "The Cancer Research Institute."}
+{"question": "What is the main focus of the article \"Innovations in cancer immunotherapy\"?", "answer": "A comprehensive overview of current immunotherapy approaches."}
+{"question": "What is the title of the article \"Research Identifies New Ways To Supercharge Cancer Immunotherapy\"?", "answer": "Research Identifies New Ways To Supercharge Cancer Immunotherapy."}
+{"question": "Who funded the research on a new immunotherapy approach?", "answer": "The National Cancer Institute, the National Institute of General Medical Sciences, and Burroughs Wellcome Fund."}
+{"question": "What is the name of the new immunotherapy approach that could work for many types of cancer?", "answer": "A new immunotherapy approach."}
+{"question": "What is the title of the article \"A new immunotherapy approach could work for many types of cancer\"?", "answer": "A new immunotherapy approach could work for many types of cancer."}
+{"question": "What is the publication date of the article \"A new immunotherapy approach could work for many types of cancer\"?", "answer": "December 16, 2025."}
+{"question": "What is the title of the publication where the article \"Innovations in cancer immunotherapy\" is published?", "answer": "ScienceDirect."}
+{"question": "What is the publication date of the article \"Innovations in cancer immunotherapy\"?", "answer": "February 1, 2025."}
+{"question": "What is the title of the publication where the article \"Research Identifies New Ways To Supercharge Cancer Immunotherapy\" is published?", "answer": "HMS Harvard News."}
+{"question": "What is the publication date of the article \"Research Identifies New Ways To Supercharge Cancer Immunotherapy\"?", "answer": "August 12, 2025."}
+{"question": "What is the title of the publication where the article \"A new immunotherapy approach could work for many types of cancer\" is published?", "answer": "MIT News."}
+{"question": "What is the role of STUB1 in cancer immunotherapy?", "answer": "Weakening the cancer-killing power of immune T cells."}
+{"question": "What is the immune-boosting molecule that can slow tumor growth?", "answer": "IL-27."}
+{"question": "What is the purpose of the article \"Innovations in cancer immunotherapy\"?", "answer": "To present a comprehensive overview of current immunotherapy approaches."}
+{"question": "What type of awards funded research in cancer immunotherapy?", "answer": "The Society for Immunotherapy of Cancer Steven A. Rosenberg Scholar Award."}
+{"question": "What is the name of the nonprofit organization dedicated to advancing immune-based treatments for cancer?", "answer": "The Cancer Research Institute."}
+{"question": "What is the title of the publication where the 2025 Cancer Immunotherapy Insights and Impact report is published?", "answer": "Cancer Research Institute."}
+{"question": "What is the purpose of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "To present an authoritative, data-driven review of the evolution of cancer immunotherapy over the past decade."}
+{"question": "What are some funding sources for research in cancer immunotherapy?", "answer": "The National Cancer Institute and the National Institute of General Medical Sciences."}
+{"question": "What is the role of IL-27 in cancer immunotherapy?", "answer": "To slow tumor growth."}
+{"question": "What is the title of the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\"?", "answer": "Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report."}
+{"question": "What is the publication date of the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\"?", "answer": "June 4, 2025."}
+{"question": "What is the title of the publication where the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\" is published?", "answer": "Cancer Research Institute."}
+{"question": "What is the main focus of the article \"Research Identifies New Ways To Supercharge Cancer Immunotherapy\"?", "answer": "Discovering new ways to supercharge cancer immunotherapy."}
+{"question": "What is the role of STUB1 in cancer immunotherapy?", "answer": "Weakening the cancer-killing power of immune T cells."}
+{"question": "What is the purpose of the article \"Innovations in cancer immunotherapy\"?", "answer": "To present a comprehensive overview of current immunotherapy approaches."}
+{"question": "What type of grants funded research in cancer immunotherapy?", "answer": "A Merck Discovery Biologics SEEDS grant."}
+{"question": "What is the name of the organization that published the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "The Cancer Research Institute."}
+{"question": "What is the main focus of the article \"A new immunotherapy approach could work for many types of cancer\"?", "answer": "A new immunotherapy approach that could work for many types of cancer."}
+{"question": "What is the publication date of the article \"A new immunotherapy approach could work for many types of cancer\"?", "answer": "December 16, 2025."}
+{"question": "What is the title of the publication where the article \"A new immunotherapy approach could work for many types of cancer\" is published?", "answer": "MIT News."}
+{"question": "What is the role of IL-27 in cancer immunotherapy?", "answer": "To slow tumor growth."}
+{"question": "What is the purpose of the article \"Research Identifies New Ways To Supercharge Cancer Immunotherapy\"?", "answer": "To present new ways to supercharge cancer immunotherapy."}
+{"question": "What is the main focus of the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\"?", "answer": "The inaugural 2025 Cancer Immunotherapy Insights and Impact report."}
+{"question": "What is the publication date of the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\"?", "answer": "June 4, 2025."}
+{"question": "What is the title of the publication where the article \"Cancer Research Institute Publishes Inaugural 2025 Cancer Immunotherapy Insights and Impact Report\" is published?", "answer": "Cancer Research Institute."}
+{"question": "What is the role of STUB1 in cancer immunotherapy?", "answer": "Weakening the cancer-killing power of immune T cells."}
+{"question": "What is the purpose of the article \"Innovations in cancer immunotherapy\"?", "answer": "To present a comprehensive overview of current immunotherapy approaches."}
+{"question": "What type of awards funded research in cancer immunotherapy?", "answer": "The Society for Immunotherapy of Cancer Steven A. Rosenberg Scholar Award."}
+{"question": "What is the name of the nonprofit organization dedicated to advancing immune-based treatments for cancer?", "answer": "The Cancer Research Institute."}
+{"question": "What is the purpose of the 2025 Cancer Immunotherapy Insights and Impact report?", "answer": "To present an authoritative, data-driven review of the evolution of cancer immunotherapy over the past decade."}
