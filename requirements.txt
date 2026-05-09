@@ -5,3 +5,4 @@ gdeltdoc
 google-genai
 pypdf
 groq
+ollamafreeapi
