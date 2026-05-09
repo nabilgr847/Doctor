@@ -1746,3 +1746,41 @@
 {"question": "What is the role of B cells in cancer immunotherapy?", "answer": "B cells can present antigens, produce antibodies, and modulate T‑cell responses, influencing therapy outcomes."}
 {"question": "How is “personalized neoantigen vaccine” created?", "answer": "Sequencing a tumor’s genome, identifying unique mutations, and designing a vaccine that presents those neoantigens to the immune system."}
 {"question": "What is the main advantage of “off‑the‑shelf” immunotherapies?", "answer": "Ready availability and lower cost compared to autologous CAR‑"}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system—often antibodies, vaccines, or engineered cells—to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins like PD‑1 or CTLA‑4 that normally dampen immune responses, freeing T cells to attack tumors."}
+{"question": "What are CAR‑T cells?", "answer": "Patient T cells modified to express chimeric antigen receptors, allowing them to target specific tumor antigens and kill cancer cells."}
+{"question": "Which cancers respond best to CAR‑T therapy?", "answer": "Blood cancers such as acute lymphoblastic leukemia, diffuse large B‑cell lymphoma, and multiple myeloma show high response rates."}
+{"question": "Can solid tumors be treated with CAR‑T cells?", "answer": "Research is ongoing; challenges include antigen heterogeneity and the tumor microenvironment, but early trials show promise in pancreatic and glioblastoma cases."}
+{"question": "What are cytokine release syndrome symptoms?", "answer": "Fever, hypotension, tachycardia, hypoxia, and organ dysfunction; typically occurs within days of CAR‑T infusion."}
+{"question": "How is cytokine release syndrome managed?", "answer": "With supportive care, steroids, and IL‑6 inhibitors like tocilizumab; early intervention reduces severity."}
+{"question": "What are the main side effects of checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis, hepatitis, dermatitis, endocrinopathies, and pneumonitis; most are reversible with steroids."}
+{"question": "Are there biomarkers for immunotherapy response?", "answer": "PD‑L1 expression, tumor mutational burden, and MSI status help predict which patients benefit most."}
+{"question": "What is tumor mutational burden?", "answer": "The number of mutations per megabase of DNA; high levels often correlate with better checkpoint inhibitor responses."}
+{"question": "Does MSI status affect immunotherapy efficacy?", "answer": "Yes, microsatellite instability‑high tumors respond strongly to PD‑1/PD‑L1 blockade."}
+{"question": "What is the difference between monoclonal antibodies and immune checkpoint inhibitors?", "answer": "Monoclonal antibodies target specific tumor antigens; checkpoint inhibitors target regulatory pathways that suppress T‑cell activity."}
+{"question": "How might vaccines be used in cancer immunotherapy?", "answer": "Cancer vaccines present tumor antigens to the immune system, priming T cells to attack cancer cells."}
+{"question": "What are neoantigens?", "answer": "New peptides arising from tumor mutations that can be targeted by the immune system."}
+{"question": "Are there any approved cancer vaccines?", "answer": "Sipuleucel‑T for prostate cancer and an HPV vaccine for cervical cancer prevention; therapeutic vaccines are still investigational."}
+{"question": "What is a bispecific T‑cell engager (BiTE)?", "answer": "A protein that simultaneously binds a tumor antigen and CD3 on T cells, redirecting T cells to kill cancer cells."}
+{"question": "How does adoptive cell transfer differ from CAR‑T therapy?", "answer": "Adoptive transfer includes various engineered or expanded T cells, not limited to CAR‑T; examples include tumor‑infiltrating lymphocytes (TILs)."}
+{"question": "What is the role of the tumor microenvironment in immunotherapy?", "answer": "It can suppress immune activity through regulatory cells, cytokines, and metabolic barriers, hindering treatment efficacy."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, certain regimens use chemo to reduce tumor burden and release antigens, enhancing immune responses."}
+{"question": "What is a “hot” tumor?", "answer": "A tumor with high immune cell infiltration, often more responsive to immunotherapy."}
+{"question": "What is a “cold” tumor?", "answer": "Lacks significant immune infiltration; may require combination strategies to recruit immune cells."}
+{"question": "How long do checkpoint inhibitors typically last?", "answer": "Responses can be durable, sometimes lasting years, but the optimal duration varies; many patients stop after 2‑4 years if stable."}
+{"question": "Can patients develop resistance to immunotherapy?", "answer": "Yes, through antigen loss, upregulation of alternate checkpoints, or changes in the tumor microenvironment."}
+{"question": "What is the significance of PD‑L1 expression?", "answer": "Higher expression on tumor cells often predicts better response to PD‑1/PD‑L1 inhibitors."}
+{"question": "Are there side effects specific to CAR‑T therapy?", "answer": "In addition to cytokine release syndrome, neurotoxicity can occur, presenting as confusion or seizures."}
+{"question": "What is neurotoxicity in CAR‑T patients?", "answer": "A syndrome of cerebral edema, seizures, or encephalopathy, managed with steroids and supportive care."}
+{"question": "How is CAR‑T therapy administered?", "answer": "Typically via intravenous infusion after a lymphodepleting chemotherapy pre‑conditioning."}
+{"question": "What is the purpose of lymphodepletion before CAR‑T therapy?", "answer": "It reduces regulatory cells and improves CAR‑T expansion and persistence."}
+{"question": "What is the cost of CAR‑T therapy?", "answer": "High, often exceeding $400,000, but costs may decrease with new manufacturing technologies."}
+{"question": "Are there off‑label uses for immunotherapy?", "answer": "Investigational uses include treating autoimmune diseases and chronic infections, but evidence is limited."}
+{"question": "How does the FDA regulate immunotherapy approvals?", "answer": "Through standard drug approval pathways, requiring clinical trials showing safety and efficacy."}
+{"question": "What are the main challenges in solid tumor immunotherapy?", "answer": "Antigen heterogeneity, immunosuppressive microenvironment, and physical barriers to T‑cell infiltration."}
+{"question": "What are T‑cell exhaustion markers?", "answer": "PD‑1, LAG‑3, TIM‑3; their expression indicates T‑cell dysfunction in the tumor."}
+{"question": "Can blocking multiple checkpoints improve outcomes?", "answer": "Combination of PD‑1 and CTLA‑4 inhibitors can enhance efficacy but increases adverse events."}
+{"question": "What is the role of gut microbiota in immunotherapy?", "answer": "Certain bacterial profiles correlate with better responses, suggesting microbiome modulation might enhance therapy."}
+{"question": "What is the current status of personalized cancer vaccines?", "answer": "Still experimental; early trials show immune activation but limited clinical benefit."}
+{"question": "How are biomarkers discovered for immunotherapy?", "answer": "Through genomic, transcriptomic, proteomic analyses, and clinical correlation studies."}
+{"question": "What is a tumor infiltrating lymphocyte (TIL) therapy?", "answer": "Ex vivo expansion of patient TILs, then reinfusion to attack the tumor."}
