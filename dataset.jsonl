@@ -281,3 +281,33 @@
 {"question": "What is the recommended treatment for colorectal cancer?", "answer": "Surgery and chemotherapy are the recommended treatments for colorectal cancer."}
 {"question": "What is the estimated survival rate for colorectal cancer patients?", "answer": "The estimated 5-year survival rate is around 60-70%."}
 {"question": "What is the relationship between physical activity and breast cancer?", "answer": "Regular physical activity reduces the risk of breast cancer.\n\nNote: These questions and answers are based on general medical knowledge and may not reflect the most up-to-date information."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses the immune system to treat cancer, involving components like T-cells and antibodies."}
+{"question": "What is the role of T-cells in cancer immunotherapy?", "answer": "To recognize and kill cancer cells, using their ability to recognize and target specific proteins on cancer cells."}
+{"question": "What is CAR-T cell therapy?", "answer": "A type of immunotherapy that involves modifying T-cells to recognize and kill cancer cells."}
+{"question": "What is the benefit of cancer immunotherapy?", "answer": "It can be more effective than traditional treatments and has fewer side effects."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To stimulate the immune system to attack and kill cancer cells."}
+{"question": "What is checkpoint inhibitor therapy?", "answer": "A type of immunotherapy that blocks proteins that help cancer cells evade the immune system."}
+{"question": "What is the role of antibodies in cancer immunotherapy?", "answer": "To target and kill cancer cells by binding to specific proteins on their surface."}
+{"question": "What is the difference between cancer immunotherapy and chemotherapy?", "answer": "Cancer immunotherapy targets the immune system, while chemotherapy targets cancer cells directly."}
+{"question": "What are the potential side effects of cancer immunotherapy?", "answer": "Fatigue, skin rash, and flu-like symptoms, but these are usually mild and temporary."}
+{"question": "Can cancer immunotherapy be used for different types of cancer?", "answer": "Yes, it has been effective in treating various types of cancer, including melanoma and lung cancer."}
+{"question": "What is the cost of cancer immunotherapy?", "answer": "It can be expensive, but many insurance plans cover the treatment."}
+{"question": "How is cancer immunotherapy administered?", "answer": "Through injections, infusions, or tablets, depending on the type of treatment."}
+{"question": "What are the long-term effects of cancer immunotherapy?", "answer": "The long-term effects are not well understood, but research is ongoing to assess the risks and benefits."}
+{"question": "Can cancer immunotherapy be used in combination with other treatments?", "answer": "Yes, it is often used in combination with chemotherapy, radiation, or surgery."}
+{"question": "What is the current state of cancer immunotherapy research?", "answer": "Research is ongoing to improve the effectiveness and safety of cancer immunotherapy."}
+{"question": "Who are the candidates for cancer immunotherapy?", "answer": "Patients with certain types of cancer, such as melanoma or lung cancer, may be eligible for cancer immunotherapy."}
+{"question": "What is the prognosis for patients receiving cancer immunotherapy?", "answer": "The prognosis varies depending on the type of cancer and the individual patient, but many patients experience significant improvement."}
+{"question": "Can cancer immunotherapy prevent cancer recurrence?", "answer": "Some studies suggest that cancer immunotherapy may help prevent cancer recurrence, but more research is needed."}
+{"question": "What is the role of the immune system in cancer development?", "answer": "The immune system can recognize and attack cancer cells, but sometimes it fails to do so."}
+{"question": "What is the difference between cancer immunotherapy and gene therapy?", "answer": "Cancer immunotherapy targets the immune system, while gene therapy targets the genetic material of cancer cells."}
+{"question": "Can cancer immunotherapy be used for prevention?", "answer": "Some researchers are exploring the use of cancer immunotherapy for cancer prevention, but more research is needed."}
+{"question": "What are the potential risks of cancer immunotherapy?", "answer": "The potential risks include severe side effects, such as autoimmune disorders or organ damage."}
+{"question": "How is cancer immunotherapy monitored?", "answer": "Patients receiving cancer immunotherapy are closely monitored for side effects and treatment response."}
+{"question": "Can cancer immunotherapy be used for rare cancers?", "answer": "Some cancer immunotherapies may be effective for rare cancers, but more research is needed."}
+{"question": "What is the role of the tumor microenvironment in cancer immunotherapy?", "answer": "The tumor microenvironment can affect the effectiveness of cancer immunotherapy by influencing the immune response."}
+{"question": "Can cancer immunotherapy be used in combination with targeted therapies?", "answer": "Yes, some cancer immunotherapies may be used in combination with targeted therapies."}
+{"question": "What is the difference between cancer immunotherapy and adoptive cell transfer?", "answer": "Cancer immunotherapy targets the immune system, while adoptive cell transfer involves transferring immune cells into the patient."}
+{"question": "Can cancer immunotherapy be used for brain tumors?", "answer": "Some cancer immunotherapies may be effective for brain tumors, but more research is needed."}
+{"question": "What is the role of the gut microbiome in cancer immunotherapy?", "answer": "The gut microbiome may influence the effectiveness of cancer immunotherapy by affecting the immune response."}
+{"question": "Can cancer immunotherapy be used for pancreatic cancer?", "answer": "Some cancer immunotherapies may be effective for pancreatic cancer, but more research is needed."}
