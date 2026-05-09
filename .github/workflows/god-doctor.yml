@@ -20,6 +20,10 @@ jobs:
         with:
           python-version: '3.10'
       - run: pip install -r requirements.txt
+      # Clean up any leftover rebase state from previous runs
+      - run: |
+          git rebase --abort 2>/dev/null || true
+          rm -rf .git/rebase-merge
       - name: Run Master Doctor
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
