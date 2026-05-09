@@ -1,0 +1,108 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to identify and destroy cancer cells."}
+{"question": "How do antibody therapies work in immunotherapy?", "answer": "Antibodies bind to cancer‑specific proteins and block signals"}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to identify and destroy cancer cells."}
+{"question": "How do antibody therapies work in immunotherapy?", "answer": "Antibodies bind to cancer‑specific proteins and block signals"}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses or modifies the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "How do checkpoint inhibitor antibodies work?", "answer": "They block proteins like PD‑1 or CTLA‑4 that suppress T‑cell activity, thereby re‑activating immune attacks on tumors."}
+{"question": "What is a tumor‑infiltrating lymphocyte (TIL) therapy?", "answer": "TIL therapy expands a patient’s own lymphocytes that have entered the tumor, then reinfuses them to boost anti‑cancer immunity."}
+{"question": "Which cancers have shown high response rates to checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, renal cell carcinoma, and Hodgkin lymphoma often respond well."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "CAR‑T therapy genetically engineers a patient’s T cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "Can immunotherapy cause autoimmune side effects?", "answer": "Yes; immune‑related adverse events can affect the skin, gut, liver, endocrine glands, and other organs."}
+{"question": "What is the most common immune‑related adverse event?", "answer": "Dermatologic reactions such as rash and pruritus are the most frequently observed."}
+{"question": "How is the efficacy of immunotherapy typically monitored?", "answer": "Imaging (CT, PET), tumor markers, and clinical assessment of symptom improvement are used."}
+{"question": "What does “immune checkpoint blockade” refer to?", "answer": "It refers to the inhibition of checkpoint proteins that normally down‑regulate immune responses, thereby enhancing T‑cell activity against cancer."}
+{"question": "Are there biomarkers that predict response to immunotherapy?", "answer": "High tumor mutational burden, PD‑L1 expression, and microsatellite instability are commonly associated with better responses."}
+{"question": "What is the role of PD‑L1 testing in cancer treatment?", "answer": "PD‑L1 testing helps determine whether a patient may benefit from PD‑1/PD‑L1 inhibitor therapy."}
+{"question": "How does combination immunotherapy improve outcomes?", "answer": "Combining agents (e.g., PD‑1 inhibitor + CTLA‑4 inhibitor) can target multiple pathways, increasing response rates but also toxicity."}
+{"question": "What is the difference between therapeutic cancer vaccines and prophylactic vaccines?", "answer": "Therapeutic vaccines aim to treat existing cancer by stimulating immunity, whereas prophylactic vaccines prevent infection‑related cancers (e.g., HPV vaccine)."}
+{"question": "What is an oncolytic virus therapy?", "answer": "It uses genetically engineered viruses that selectively infect and kill cancer cells while stimulating an anti‑tumor immune response."}
+{"question": "Can immunotherapy be used in early‑stage disease?", "answer": "Yes; adjuvant immunotherapy after surgery is approved for melanoma, lung cancer, and other malignancies to reduce recurrence."}
+{"question": "What is “immune‑related pneumonitis”?", "answer": "An inflammation of lung tissue caused by immune checkpoint inhibitors, presenting with cough, dyspnea, and infiltrates on imaging."}
+{"question": "How are severe immune‑related adverse events managed?", "answer": "High‑dose corticosteroids are the first line; other immunosuppressants may be added if steroids fail."}
+{"question": "What is the typical duration of checkpoint inhibitor therapy?", "answer": "Treatment often continues until disease progression or unacceptable toxicity, commonly up to 2 years in trials."}
+{"question": "Why are women at higher risk for certain cancers after menopause?", "answer": "Hormonal changes, especially reduced estrogen, can influence breast tissue biology and increase susceptibility to malignancy."}
+{"question": "How do hormone replacement therapies affect breast cancer risk?", "answer": "Combined estrogen‑progestogen therapy modestly raises breast cancer risk, while estrogen‑only therapy has a smaller effect."}
+{"question": "What is HER2‑positive breast cancer?", "answer": "A subtype where cancer cells overexpress the HER2 protein, making them amenable to targeted therapies like trastuzumab."}
+{"question": "What is the standard first‑line therapy for HER2‑positive metastatic breast cancer?", "answer": "Combination of chemotherapy with HER2‑targeted agents such as trastuzumab and pertuzumab."}
+{"question": "How does a BRCA mutation influence breast cancer treatment?", "answer": "BRCA‑mutated tumors are sensitive to PARP inhibitors and may respond well to platinum‑based chemotherapy."}
+{"question": "What is a sentinel lymph node biopsy?", "answer": "A surgical procedure that removes the first lymph node(s) draining a tumor to assess metastatic spread."}
+{"question": "Why is mammographic screening recommended for women over 40?", "answer": "Early detection through mammography reduces mortality by identifying cancers before they become clinically apparent."}
+{"question": "What lifestyle factors lower breast cancer risk?", "answer": "Maintaining a healthy weight, regular physical activity, limiting alcohol, and breastfeeding."}
+{"question": "How does chronic inflammation contribute to cancer development?", "answer": "Inflammatory cytokines can promote DNA damage, angiogenesis, and tumor cell survival."}
+{"question": "What is the “abscopal effect” in radiotherapy?", "answer": "A phenomenon where localized radiation leads to regression of distant, untreated tumors, often mediated by immune activation."}
+{"question": "Can diet influence immunotherapy effectiveness?", "answer": "Emerging data suggest gut microbiome composition, affected by diet, may modulate response to checkpoint inhibitors."}
+{"question": "What is the purpose of the Cancer Immunotherapy Insights and Impact report?", "answer": "To provide a data‑driven review of the evolution, efficacy, and future directions of cancer immunotherapy."}
+{"question": "What are “immune‑engaging bispecific antibodies”?", "answer": "Antibodies engineered to bind both a tumor antigen and a T‑cell receptor (CD3), physically linking immune cells to cancer cells."}
+{"question": "How does adoptive cell transfer differ from CAR‑T therapy?", "answer": "Adoptive cell transfer can include TILs or engineered T cells without a chimeric receptor, whereas CAR‑T specifically uses synthetic receptors."}
+{"question": "What is the role of cytokine release syndrome (CRS) in CAR‑T therapy?", "answer": "CRS is a systemic inflammatory response caused by massive cytokine release; it can be life‑threatening and requires prompt management."}
+{"question": "Which medication is commonly used to treat CRS?", "answer": "Tocilizumab, an IL‑6 receptor antagonist, is the first‑line treatment for severe CRS."}
+{"question": "What is a “neoantigen” in cancer immunology?", "answer": "A novel peptide arising from tumor‑specific mutations that can be recognized as foreign by the immune system."}
+{"question": "How are neoantigen vaccines personalized?", "answer": "By sequencing a patient’s tumor, identifying unique mutations, and creating a vaccine targeting those neoantigens."}
+{"question": "What is the significance of microsatellite instability (MSI‑high) in cancer?", "answer": "MSI‑high tumors have many mutations, making them more likely to respond to checkpoint inhibitors."}
+{"question": "Which cancer type is most commonly associated with MSI‑high status?", "answer": "Colorectal cancer, though it also occurs in endometrial and gastric cancers."}
+{"question": "What is the typical first‑line treatment for metastatic non‑small cell lung cancer with high PD‑L1?", "answer": "Pembrolizumab monotherapy is often used when PD‑L1 expression ≥50%."}
+{"question": "How does smoking affect immunotherapy outcomes?", "answer": "Current smokers may have lower response rates and higher toxicity compared to never‑smokers."}
+{"question": "What is “immune checkpoint inhibitor‑induced colitis”?", "answer": "Inflammation of the colon caused by checkpoint blockade, presenting with diarrhea and abdominal pain."}
+{"question": "How is checkpoint inhibitor‑induced colitis treated?", "answer": "Initial management includes corticosteroids; refractory cases may need infliximab or vedolizumab."}
+{"question": "What is the difference between “progression‑free survival” (PFS) and “overall survival” (OS)?", "answer": "PFS measures time until disease progression or death, while OS measures time until death from any cause."}
+{"question": "Why is “pseudoprogression” a concern with immunotherapy imaging?", "answer": "Tumor size may initially increase due to immune cell infiltration, mimicking progression despite eventual response."}
+{"question": "What imaging criteria are used to assess immunotherapy response?", "answer": "iRECIST (immune RECIST) guidelines account for pseudoprogression and delayed responses."}
+{"question": "How does age affect eligibility for immunotherapy?", "answer": "Older adults can benefit, but comorbidities and immune senescence may influence risk‑benefit decisions."}
+{"question": "What is the role of “immune‑related response criteria” (irRC)?", "answer": "irRC provide alternative metrics for evaluating tumor burden changes specific to immunotherapy."}
+{"question": "Can immunotherapy be combined with targeted therapy?", "answer": "Yes; combining checkpoint inhibitors with agents like BRAF inhibitors can enhance efficacy in certain cancers."}
+{"question": "What is the main mechanism of action of pembrolizumab?", "answer": "It blocks the PD‑1 receptor on T cells, preventing interaction with PD‑L1 and restoring T‑cell activity."}
+{"question": "What safety monitoring is required during CAR‑T therapy?", "answer": "Frequent neurologic assessments, cytokine level checks, and vital sign monitoring for CRS."}
+{"question": "How does hormone‑driven breast cancer differ from triple‑negative breast cancer?", "answer": "Hormone‑driven cancers express estrogen or progesterone receptors and respond to endocrine therapy; triple‑negative lack these receptors and HER2, limiting targeted options."}
+{"question": "What endocrine therapy is standard for estrogen‑receptor‑positive breast cancer?", "answer": "Aromatase inhibitors (e.g., letrozole) are commonly used in postmenopausal women."}
+{"question": "What is the purpose of the sentinel lymph node mapping in breast cancer surgery?", "answer": "To determine whether cancer has spread to the lymphatic system while minimizing extensive node removal."}
+{"question": "How does chronic use of immunosuppressive drugs affect cancer risk?", "answer": "Long‑term immunosuppression can increase the incidence of certain malignancies, such as lymphomas and skin cancers."}
+{"question": "What is cancer immunotherapy?", "answer": "A therapy that uses the immune system to fight cancer."}
+{"question": "What are the main components of cancer immunotherapy?", "answer": "Antibodies, vaccines, and checkpoint inhibitors."}
+{"question": "What is the purpose of cancer immunotherapy?", "answer": "To attack and destroy cancer cells."}
+{"question": "What are the different types of immunotherapy?", "answer": "Monoclonal antibodies, CAR-T cell therapy, and adoptive T cell therapy."}
+{"question": "What is the goal of CAR-T cell therapy?", "answer": "To produce cancer-fighting T cells."}
+{"question": "What is tumor infiltrating lymphocyte (TIL) therapy?", "answer": "A type of personalized cancer immunotherapy."}
+{"question": "What does TIL therapy involve?", "answer": "Removing cancer-fighting T cells from the patient's body."}
+{"question": "What are the benefits of TIL therapy?", "answer": "Improved treatment effectiveness and fewer side effects."}
+{"question": "What is the main advantage of adoptive T cell therapy?", "answer": "Enhanced immune response against cancer cells."}
+{"question": "What is the purpose of cancer research?", "answer": "To develop new and effective treatments for cancer."}
+{"question": "What is the Cancer Research Institute (CRI)?", "answer": "A nonprofit organization dedicated to cancer research."}
+{"question": "What does the CRI's 2025 Cancer Immunotherapy Insights and Impact report cover?", "answer": "The evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the main focus of the CRI's report?", "answer": "The impact of cancer immunotherapy on patient outcomes."}
+{"question": "What is the current state of cancer treatment research?", "answer": "New forms of personalized cancer immunotherapy are being developed."}
+{"question": "What is the role of the National Cancer Institute (NCI) in cancer research?", "answer": "To fund and conduct cancer research and develop new treatments."}
+{"question": "What is the purpose of the NCI's Cancer Treatment Research program?", "answer": "To develop new and effective cancer treatments."}
+{"question": "What is the main goal of the NCI's program?", "answer": "To improve cancer patient outcomes."}
+{"question": "What is the significance of the NCI's research on TIL therapy?", "answer": "Improved treatment effectiveness in patients with metastatic cancer."}
+{"question": "What is the current understanding of cancer immunology?", "answer": "Cancer immunology is a rapidly evolving field."}
+{"question": "What is the role of the immune system in cancer?", "answer": "The immune system can help fight cancer."}
+{"question": "What is the main challenge in cancer immunotherapy?", "answer": "Developing effective treatments with minimal side effects."}
+{"question": "What is the current state of cancer immunotherapy research?", "answer": "New and innovative approaches are being developed."}
+{"question": "What is the purpose of the Frontiers in Immunology journal?", "answer": "To publish open access research on immune-based cancer therapies."}
+{"question": "What is the main focus of the journal's section on cancer immunity and immunotherapy?", "answer": "Tumor immunology breakthroughs and immune-based cancer therapies."}
+{"question": "What is the significance of the journal's research on cancer immunology?", "answer": "Improved understanding of the immune system's role in cancer."}
+{"question": "What is the main challenge in cancer immunotherapy?", "answer": "Developing effective treatments with minimal side effects."}
+{"question": "What is the current understanding of cancer immunotherapy?", "answer": "Cancer immunotherapy is a promising approach to cancer treatment."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To attack and destroy cancer cells."}
+{"question": "What are the different types of cancer immunotherapy?", "answer": "Monoclonal antibodies, CAR-T cell therapy, and adoptive T cell therapy."}
+{"question": "What is the main advantage of CAR-T cell therapy?", "answer": "Enhanced immune response against cancer cells."}
+{"question": "What is the significance of the CRI's report on cancer immunotherapy?", "answer": "The report highlights the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the main focus of the NCI's research on cancer treatment?", "answer": "Developing new and effective cancer treatments."}
+{"question": "What is the role of the NCI in cancer research?", "answer": "To fund and conduct cancer research and develop new treatments."}
+{"question": "What is the main challenge in cancer treatment?", "answer": "Developing effective treatments with minimal side effects."}
+{"question": "What is the current state of cancer treatment research?", "answer": "New forms of personalized cancer immunotherapy are being developed."}
+{"question": "What is the significance of the NCI's research on TIL therapy?", "answer": "Improved treatment effectiveness in patients with metastatic cancer."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To attack and destroy cancer cells."}
+{"question": "What are the different types of cancer immunotherapy?", "answer": "Monoclonal antibodies, CAR-T cell therapy, and adoptive T cell therapy."}
+{"question": "What is the main advantage of adoptive T cell therapy?", "answer": "Enhanced immune response against cancer cells."}
+{"question": "What is the significance of the CRI's report on cancer immunotherapy?", "answer": "The report highlights the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the main focus of the NCI's research on cancer treatment?", "answer": "Developing new and effective cancer treatments."}
+{"question": "What is the role of the NCI in cancer research?", "answer": "To fund and conduct cancer research and develop new treatments."}
+{"question": "What is the main challenge in cancer treatment?", "answer": "Developing effective treatments with minimal side effects."}
+{"question": "What is the current state of cancer treatment research?", "answer": "New forms of personalized cancer immunotherapy are being developed."}
+{"question": "What is the significance of the NCI's research on TIL therapy?", "answer": "Improved treatment effectiveness in patients with metastatic cancer."}
+{"question": "What is the main goal of cancer immunotherapy?", "answer": "To attack and destroy cancer cells."}
+{"question": "What are the different types of cancer immunotherapy?", "answer": "Monoclonal antibodies, CAR-T cell therapy, and adoptive T cell therapy."}
+{"question": "What is the main advantage of CAR-T cell therapy?", "answer": "Enhanced immune response against cancer cells."}
+{"question": "What is the significance of the CRI's report on cancer immunotherapy?", "answer": "The report highlights the evolution of cancer immunotherapy over the past decade."}
+{"question": "What is the main focus of the NCI's research on cancer treatment?", "answer": "Developing new and effective cancer treatments."}
