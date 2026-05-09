@@ -90,7 +90,7 @@ def main():
         entries = parse_qa_text(raw)
         print(f"📝 {len(entries)} entries extracted")
         
-        # 3. ফাইলে লেখা ও পুশ (সিনট্যাক্স এরর ফিক্স করা হয়েছে)
+        # 3. ফাইলে লেখা ও পুশ (fix: টোকেন ও রেপো সেট করে পুশ)
         if entries:
             out_file = get_output_file()
             with open(out_file, "a", encoding="utf-8") as f:
@@ -102,7 +102,14 @@ def main():
             os.system("git config user.email 'bot@doctor.ai'")
             os.system(f"git add {out_file}")
             os.system(f"git commit -m 'Auto-update dataset {timestamp}' || echo 'No changes'")
+            
+            # 🔧 পুশের আগে টোকেন ও রেপো সেট করা
+            token = os.environ["GH_TOKEN"]
+            repo = os.environ["REPOSITORY"]
+            remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
+            os.system(f"git remote set-url origin {remote_url}")
             os.system("git push")
+            
             print(f"✅ {len(entries)} entries pushed to repo")
         
         # 4. অপেক্ষা
