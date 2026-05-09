@@ -2,5 +2,5 @@ requests
 ddgs
 google-search-results
 gdeltdoc
-google-genei
+google-genai
 PyPDF2
