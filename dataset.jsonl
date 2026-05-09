@@ -1993,3 +1993,42 @@
 {"question": "What is the role of the FDA’s “accelerated approval” pathway?", "answer": "It allows earlier market access for drugs that treat serious conditions based on surrogate endpoints, with post‑marketing confirmation required."}
 {"question": "Can immunotherapy be curative?", "answer": "In some patients, especially with melanoma or certain hematologic malignancies, durable complete responses suggest potential cure, though long‑term data are still accruing."}
 {"question": "What is the future direction of cancer immunotherapy research?", "answer": "Focus areas include novel checkpoints, metabolic reprogramming, microbiome modulation, personalized neoantigen vaccines, and overcoming resistance mechanisms."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the immune system to recognize and kill cancer cells, using vaccines, checkpoint inhibitors, or engineered T‑cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that normally restrain T‑cells, freeing the immune response to attack tumor cells."}
+{"question": "What is CAR‑T therapy?", "answer": "A personalized treatment where a patient’s T‑cells are genetically altered to express chimeric antigen receptors that target cancer cells."}
+{"question": "Are there side effects to CAR‑T therapy?", "answer": "Yes, cytokine release syndrome, neurotoxicity, and on‑target off‑organ damage can occur, requiring careful monitoring."}
+{"question": "What cancers are approved for CAR‑T therapy?", "answer": "Certain leukemias and lymphomas, such as acute lymphoblastic leukemia and diffuse large B‑cell lymphoma."}
+{"question": "What are checkpoint inhibitors approved for?", "answer": "Melanoma, non‑small cell lung cancer, bladder cancer, renal cell carcinoma, head and neck squamous cell carcinoma, and others."}
+{"question": "Can immunotherapy cure cancer?", "answer": "In some cases it leads to complete remission, but many patients experience partial response or relapse, requiring combination treatments."}
+{"question": "Why do some patients not respond to immunotherapy?", "answer": "Tumors may lack antigen presentation, have immunosuppressive microenvironments, or have mutations that evade immune detection."}
+{"question": "What role does tumor mutational burden play?", "answer": "Higher mutational burden often correlates with better response to checkpoint inhibitors due to more neoantigens."}
+{"question": "How is tumor mutational burden measured?", "answer": "Sequencing tumor DNA to count nonsynonymous mutations per megabase of genome."}
+{"question": "What is a cancer vaccine?", "answer": "A treatment that introduces tumor antigens to stimulate an immune response against cancer cells."}
+{"question": "Are cancer vaccines effective?", "answer": "Some, like HPV vaccines, prevent cancer; therapeutic vaccines show promise but often need combination with other therapies."}
+{"question": "What is the difference between prophylactic and therapeutic vaccines?", "answer": "Prophylactic vaccines prevent cancer by targeting oncogenic viruses; therapeutic vaccines aim to treat existing tumors."}
+{"question": "What is a bi‑specific T‑cell engager (BiTE)?", "answer": "A fusion protein that links T‑cells to tumor cells, redirecting immune attack to the cancer."}
+{"question": "What is the role of the tumor microenvironment?", "answer": "It can suppress immune activity through regulatory cells, cytokines, and metabolic constraints."}
+{"question": "Can diet influence immunotherapy outcomes?", "answer": "Emerging evidence suggests diet and microbiome composition may affect response, but definitive guidelines are still evolving."}
+{"question": "What is the significance of PD‑L1 expression?", "answer": "Tumors expressing PD‑L1 may respond better to PD‑1/PD‑L1 inhibitors; testing guides therapy selection."}
+{"question": "How is PD‑L1 tested?", "answer": "Immunohistochemistry on tumor tissue; results reported as a percentage of positive cells or staining intensity."}
+{"question": "What is a “hot” tumor?", "answer": "A tumor with high immune infiltration, typically responding better to immunotherapy."}
+{"question": "What is a “cold” tumor?", "answer": "Low immune infiltration; often requires strategies to recruit immune cells before immunotherapy."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes; chemotherapy can release tumor antigens and modulate the microenvironment, enhancing immunotherapy efficacy."}
+{"question": "What about combining immunotherapy with radiation?", "answer": "Radiation can increase antigen presentation and attract immune cells, synergizing with checkpoint blockade."}
+{"question": "What is adoptive cell transfer?", "answer": "A broader term encompassing CAR‑T, T‑cell receptor therapy, and tumor-infiltrating lymphocyte therapy."}
+{"question": "Are there biomarkers beyond PD‑L1?", "answer": "Tumor mutational burden, microsatellite instability, and gene expression signatures are also used."}
+{"question": "What is microsatellite instability-high (MSI‑H)?", "answer": "A genetic condition where tumors have defective mismatch repair, often responding well to checkpoint inhibitors."}
+{"question": "How is MSI‑H detected?", "answer": "PCR or next‑generation sequencing of microsatellite loci in tumor DNA."}
+{"question": "What is the side effect profile of checkpoint inhibitors?", "answer": "Immune‑related adverse events include colitis, dermatitis, hepatitis, endocrinopathies, and pneumonitis."}
+{"question": "How are checkpoint inhibitor side effects managed?", "answer": "With corticosteroids or other immunosuppressants, and by temporarily or permanently discontinuing therapy."}
+{"question": "Does immunotherapy work in metastatic disease?", "answer": "Yes, it has shown durable responses in several metastatic cancers, extending survival."}
+{"question": "Are immunotherapies covered by insurance?", "answer": "Coverage varies; many insurers now cover approved immunotherapies but may require prior authorization."}
+{"question": "What is the cost of CAR‑T therapy?", "answer": "Often exceeds $400,000 USD per treatment, with additional costs for hospitalization and supportive care."}
+{"question": "How long does CAR‑T therapy take from start to finish?", "answer": "Typically 2–4 weeks for cell collection, manufacturing, and infusion."}
+{"question": "What is a “memory” T‑cell?", "answer": "A long‑lasting T‑cell capable of rapid response upon re‑encounter with its antigen."}
+{"question": "Does immunotherapy eliminate all tumor cells?", "answer": "Complete eradication is rare; residual disease can persist, necessitating ongoing surveillance."}
+{"question": "What is the role of the gut microbiome?", "answer": "Certain bacterial species correlate with better immunotherapy responses; modulation may improve outcomes."}
+{"question": "Can antibiotics affect immunotherapy?", "answer": "Broad‑spectrum antibiotics can disrupt the microbiome and potentially reduce treatment efficacy."}
+{"question": "What is the typical age range for immunotherapy trials?", "answer": "Usually adults 18–70, though pediatric trials are expanding for certain cancers."}
+{"question": "Are there immunotherapy options for pediatric cancers?", "answer": "Yes, including CAR‑T for leukemia and checkpoint inhibitors for some solid tumors."}
+{"question": "What is the FDA approval status of immunotherapy for melanoma?", "answer": "Multiple checkpoint inhibitors and"}
