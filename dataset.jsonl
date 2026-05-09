@@ -1848,3 +1848,36 @@
 {"question": "What is the role of statistics in immunotherapy studies?", "answer": "Statistical analysis validates clinical outcomes and supports regulatory approvals."}
 {"question": "Can immunotherapy prevent cancer recurrence?", "answer": "In some cases, it reduces relapse risk, but long‑term data are still accumulating."}
 {"question": "What is the significance of “PD‑L1 expression” in tumors?", "answer": "High PD‑L1 levels often predict better responses to"}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses the body’s immune system to recognize and attack cancer cells, using antibodies, checkpoint inhibitors, or engineered T‑cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that silence T‑cells, allowing the immune system to attack tumor cells more effectively."}
+{"question": "What recent breakthrough helped colon cancer patients stay cancer‑free?", "answer": "A new therapy improved immune response, keeping patients disease‑free for almost three years."}
+{"question": "How long can colon cancer patients remain cancer‑free with the new therapy?", "answer": "Nearly three years, according to a 2026 study."}
+{"question": "Why is breast cancer rising in Norway?", "answer": "Rising incidence may be linked to lifestyle changes, improved screening, and increased hormone exposure."}
+{"question": "What lifestyle factors increase breast cancer risk?", "answer": "Obesity, late pregnancy, limited physical activity, and high alcohol intake raise risk."}
+{"question": "How do hormones during menopause affect breast cancer risk?", "answer": "Rising estrogen and progesterone levels during menopause can stimulate breast tissue growth, increasing cancer risk."}
+{"question": "Why do non‑smoking women develop lung cancer?", "answer": "Exposure to radon, air pollution, genetic factors, and hormonal changes can cause lung cancer in non‑smokers."}
+{"question": "What are key risk factors for lung cancer in non‑smokers?", "answer": "Radon exposure, second‑hand smoke, occupational carcinogens, chronic lung disease, and family history."}
+{"question": "What is the focus of the Siloam Oncology Summit 2026?", "answer": "Strengthening collaboration and technology in cancer treatment, with a spotlight on immunotherapy advances."}
+{"question": "Who organizes the Siloam Oncology Summit?", "answer": "Siloam Health, partnering with research institutions and tech firms."}
+{"question": "What new technology was highlighted at the summit?", "answer": "AI‑driven diagnostics and personalized immunotherapy protocols."}
+{"question": "How do AI diagnostics improve cancer care?", "answer": "They analyze imaging and genomic data faster, aiding early detection and tailored treatment plans."}
+{"question": "What role does data science play in immunotherapy research?", "answer": "It identifies biomarkers, predicts responses, and optimizes clinical trial design."}
+{"question": "What is the latest in breast cancer screening in Norway?", "answer": "Implementation of digital mammography and risk‑based screening intervals."}
+{"question": "How does digital mammography improve detection?", "answer": "It provides higher resolution images, reducing false positives and missed cancers."}
+{"question": "What is the impact of early detection on breast cancer outcomes?", "answer": "Earlier diagnosis leads to less aggressive treatment and better survival rates."}
+{"question": "What is the main challenge in treating colon cancer?", "answer": "Late diagnosis and resistance to standard therapies."}
+{"question": "How does immunotherapy address therapy resistance?", "answer": "It activates immune cells to target residual tumor cells that conventional drugs miss."}
+{"question": "What is the significance of the “mechanics of programmed cell death” study?", "answer": "It explores how physical forces influence apoptosis, offering new therapeutic angles."}
+{"question": "How might mechanical forces be used therapeutically?", "answer": "By applying targeted pressure or shear stress to induce cancer cell death."}
+{"question": "What is the role of bioengineering in cancer treatment?", "answer": "It creates biomimetic systems to deliver drugs and modulate the tumor microenvironment."}
+{"question": "What are survivorship programs in oncology?", "answer": "They support patients’ long‑term physical, emotional, and social health after treatment."}
+{"question": "How do survivorship programs improve quality of life?", "answer": "Through counseling, exercise plans, and monitoring for late side effects."}
+{"question": "What is the main goal of cancer biology research?", "answer": "To understand tumor initiation, progression, and immune evasion mechanisms."}
+{"question": "How does the tumor microenvironment suppress immunity?", "answer": "It secretes immunosuppressive cytokines and recruits regulatory T‑cells."}
+{"question": "What is the significance of the British Journal of Cancer article?", "answer": "It reviews current immunotherapy strategies and future directions."}
+{"question": "What is a common side effect of checkpoint inhibitors?", "answer": "Immune‑related adverse events, such as colitis or dermatitis."}
+{"question": "How are immune‑related adverse events managed?", "answer": "With corticosteroids or other immunosuppressants to control inflammation."}
+{"question": "What is the difference between CAR‑T and TCR therapy?", "answer": "CAR‑T targets surface antigens; TCR targets intracellular peptides presented on MHC."}
+{"question": "What cancers have FDA‑approved CAR‑T therapies?", "answer": "Certain leukemias and lymphomas."}
+{"question": "What emerging targets are being explored in CAR‑T research?", "answer": "Solid‑tumor antigens like HER2 and mesothelin."}
+{"question": "What are checkpoint inhibitors targeting?", "answer": "PD‑1/PD‑L1, CTLA‑4"}
