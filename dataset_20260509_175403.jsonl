@@ -1,0 +1,49 @@
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a treatment that harnesses or modifies the patient’s immune system to recognize and destroy tumor cells."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block inhibitory pathways (e.g., PD‑1, CTLA‑4) on T cells, restoring immune attack against cancer."}
+{"question": "What is CAR T‑cell therapy?", "answer": "It involves engineering a patient’s T cells to express chimeric antigen receptors that target specific tumor antigens."}
+{"question": "What are common side effects of immunotherapy?", "answer": "Immune‑related adverse events such as dermatitis, colitis, hepatitis, endocrinopathies, and cytokine release syndrome."}
+{"question": "Which biomarkers predict response to checkpoint blockade?", "answer": "PD‑L1 expression, tumor mutational burden, microsatellite instability, and certain gene signatures."}
+{"question": "Why combine immunotherapy with chemotherapy?", "answer": "Chemotherapy can increase antigen release and modulate the tumor microenvironment, enhancing immune activation."}
+{"question": "How does PD‑1 differ from PD‑L1 inhibitors?", "answer": "PD‑1 inhibitors block the receptor on T cells; PD‑L1 inhibitors block the ligand on tumor or immune cells—both restore T‑cell function."}
+{"question": "What is the role of CTLA‑4 inhibition?", "answer": "CTLA‑4 blockade amplifies early T‑cell activation in lymph nodes, leading to a broader anti‑tumor response."}
+{"question": "What is tumor mutational burden (TMB)?", "answer": "TMB quantifies the number of somatic mutations per megabase of DNA; high TMB often correlates with better immunotherapy response."}
+{"question": "What are neoantigens?", "answer": "Neoantigens are novel peptide sequences arising from tumor‑specific mutations that can be recognized by the immune system."}
+{"question": "What is cytokine release syndrome (CRS)?", "answer": "CRS is a systemic inflammatory response caused by massive cytokine release, commonly seen after CAR T‑cell or bispecific antibody therapy."}
+{"question": "How are immune‑related adverse events (irAEs) managed?", "answer": "Early detection, corticosteroids, and, if needed, immunosuppressants such as infliximab for refractory cases."}
+{"question": "Which cancers have FDA‑approved checkpoint inhibitors?", "answer": "Melanoma, non‑small cell lung cancer, renal cell carcinoma, Hodgkin lymphoma, urothelial carcinoma, and others."}
+{"question": "Why is immunotherapy effective in melanoma?", "answer": "Melanoma has high mutational load and abundant tumor‑infiltrating lymphocytes, making it immunogenic."}
+{"question": "What checkpoint inhibitors are used for NSCLC?", "answer": "Pembrolizumab, nivolumab, atezolizumab, and durvalumab, often guided by PD‑L1 expression."}
+{"question": "Which hematologic malignancies are treated with CAR T‑cells?", "answer": "Relapsed/refractory B‑cell acute lymphoblastic leukemia and certain diffuse large B‑cell lymphomas."}
+{"question": "How do cancer vaccines work?", "answer": "They introduce tumor antigens to prime the immune system, aiming to generate a targeted T‑cell response."}
+{"question": "What are oncolytic viruses?", "answer": "Genetically engineered viruses that selectively infect and lyse tumor cells while stimulating anti‑tumor immunity."}
+{"question": "What is adoptive cell transfer (ACT)?", "answer": "Infusion of ex vivo expanded or modified immune cells, such as tumor‑infiltrating lymphocytes, to attack cancer."}
+{"question": "How do bispecific antibodies function?", "answer": "They bind simultaneously to a tumor antigen and CD3 on T cells, redirecting T‑cell cytotoxicity toward cancer cells."}
+{"question": "What causes resistance to checkpoint inhibitors?", "answer": "Loss of antigen presentation, interferon‑γ pathway defects, immunosuppressive myeloid cells, and alternative inhibitory receptors."}
+{"question": "How does the gut microbiome influence immunotherapy?", "answer": "Certain bacterial species enhance T‑cell activation and improve response rates, while dysbiosis can diminish efficacy."}
+{"question": "What is the typical dosing schedule for pembrolizumab?", "answer": "200 mg intravenously every 3 weeks or 400 mg every 6 weeks, depending on the indication."}
+{"question": "Can imaging predict immunotherapy response?", "answer": "PET/CT metabolic changes and radiomics signatures early after treatment can correlate with outcomes."}
+{"question": "Why is immunotherapy often expensive?", "answer": "Complex biologic manufacturing, personalized cell therapies, and extensive clinical development drive high costs."}
+{"question": "What are the phases of an immunotherapy clinical trial?", "answer": "Phase I (safety/dose), Phase II (efficacy signal), Phase III (comparative effectiveness), and Phase IV (post‑marketing)."}
+{"question": "What does FDA accelerated approval mean for immunotherapies?", "answer": "Approval based on surrogate endpoints (e.g., response rate) with a requirement for confirmatory trials."}
+{"question": "How does real‑world effectiveness differ from trial efficacy?", "answer": "Real‑world data capture broader patient populations, comorbidities, and varied practice patterns, often showing modestly lower response rates."}
+{"question": "What factors guide patient selection for checkpoint blockade?", "answer": "PD‑L1 status, TMB, MSI‑high/dMMR, performance status, and organ function."}
+{"question": "How does immunotherapy affect quality of life?", "answer": "It can improve symptom control and prolong survival, but irAEs may temporarily reduce quality of life."}
+{"question": "Are long‑term survivors seen after immunotherapy?", "answer": "Yes; a subset of patients achieve durable responses lasting years beyond treatment cessation."}
+{"question": "Is CAR T‑cell therapy approved for children?", "answer": "Yes; tisagenlecleucel and brexucabtagene autoleucel are FDA‑approved for pediatric B‑ALL and certain lymphomas."}
+{"question": "Can patients with autoimmune disease receive checkpoint inhibitors?", "answer": "They may be treated with caution; pre‑existing autoimmunity increases risk of severe irAEs."}
+{"question": "What is the rationale for combining immunotherapy with radiation?", "answer": "Radiation can increase antigen release and up‑regulate PD‑L1, synergizing with checkpoint blockade."}
+{"question": "What is neoadjuvant immunotherapy?", "answer": "Administration of immunotherapy before surgical resection to shrink tumors and stimulate systemic immunity."}
+{"question": "How is adjuvant immunotherapy used?", "answer": "Given after definitive surgery or chemoradiation to eradicate microscopic residual disease and reduce recurrence."}
+{"question": "Which liquid biopsy markers help monitor immunotherapy?", "answer": "Circulating tumor DNA, tumor‑derived exosomes, and immune cell repertoire profiling."}
+{"question": "Are organ transplant recipients candidates for checkpoint inhibitors?", "answer": "Generally avoided due to high risk of graft rejection; case‑by‑case evaluation is required."}
+{"question": "What is immunotherapy re‑challenge?", "answer": "Re‑initiating the same or a different immunotherapy after disease progression, sometimes with added agents."}
+{"question": "Is immunotherapy safe during pregnancy?", "answer": "Data are limited; potential fetal risks exist, so use is typically avoided unless benefits outweigh risks."}
+{"question": "What emerging checkpoint targets are under investigation?", "answer": "LAG‑3, TIM‑3, TIGIT, and VISTA are being explored as next‑generation inhibitory receptors."}
+{"question": "How are next‑generation CARs improving therapy?", "answer": "Incorporating dual antigens, safety switches, and cytokine secretion modules to enhance specificity and control."}
+{"question": "What are “off‑the‑shelf” allogeneic CAR products?", "answer": "Donor‑derived CAR T cells or NK cells engineered for universal use, reducing manufacturing time."}
+{"question": "How can regulatory T cells (Tregs) be modulated in cancer?", "answer": "Strategies include low‑dose cyclophosphamide, anti‑CTLA‑4 antibodies, and selective depletion to boost anti‑tumor immunity."}
+{"question": "Why combine epigenetic drugs with immunotherapy?", "answer": "Epigenetic agents can up‑regulate tumor antigen expression and improve immune recognition."}
+{"question": "What is metabolic reprogramming in the tumor microenvironment?", "answer": "Tumors alter glucose, amino acid, and lipid metabolism to suppress immune cells; targeting these pathways can restore immunity."}
+{"question": "How does data science accelerate immunotherapy development?", "answer": "Machine learning identifies predictive biomarkers, optimizes trial design, and personalizes treatment algorithms."}
+{"question": "What is included in survivorship care for immunotherapy patients?", "answer": "Monitoring for late irAEs, endocrine dysfunction, psychosocial support, and lifestyle counseling."}
+{"question": "What are key future directions for cancer immunotherapy?", "answer": "Development of multiplexed cellular therapies, personalized neoantigen vaccines, and integration of AI‑driven biomarker discovery."}
