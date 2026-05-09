@@ -2459,3 +2459,53 @@
 {"question": "What is the role of clinical trials in cancer immunotherapy for melanoma?", "answer": "Clinical trials play a crucial role in cancer immunotherapy for melanoma, as they help test new treatments and determine their safety and effectiveness."}
 {"question": "What is the importance of biomarkers in cancer immunotherapy for melanoma clinical trials?", "answer": "Biomarkers are important in cancer immunotherapy for melanoma clinical trials as they can help predict treatment response and guide treatment decisions."}
 {"question": "What is the new wave of cancer immunotherapy for melanoma clinical trials?", "answer": "The new wave of cancer immunotherapy for melanoma clinical trials includes the use of combination therapies and the development of new treatments."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy is a type of treatment that uses the body's immune system to fight cancer."}
+{"question": "What is the purpose of immunotherapy in cancer treatment?", "answer": "Immunotherapy aims to stimulate the immune system to attack and eliminate cancer cells."}
+{"question": "What are multispecific antibodies?", "answer": "Multispecific antibodies are antibodies that can bind to multiple targets, enhancing their therapeutic potential."}
+{"question": "How are multispecific antibodies engineered?", "answer": "Complex engineering is required to manufacture multispecific antibodies."}
+{"question": "What is Fc-FcγR disulfide-linked complex?", "answer": "Fc-FcγR disulfide-linked complex is a type of modular delivery system for diverse payloads."}
+{"question": "What is the benefit of Fc-FcγR disulfide-linked complex?", "answer": "It can be used for modular delivery of diverse payloads."}
+{"question": "What is STING-induced regulatory B cell expansion?", "answer": "STING-induced regulatory B cell expansion is a process that confers immunotherapy resistance."}
+{"question": "What is the relationship between STING and immunotherapy resistance?", "answer": "STING-induced regulatory B cell expansion can lead to immunotherapy resistance in pancreatic adenocarcinoma."}
+{"question": "What is the potential solution to STING-induced regulatory B cell expansion?", "answer": "Combining STING agonism with inhibition of PI3Kγ signaling in B cells may overcome immunotherapy resistance."}
+{"question": "What is immunotherapy resistance in pancreatic adenocarcinoma?", "answer": "Immunotherapy resistance in pancreatic adenocarcinoma is a significant challenge in cancer treatment."}
+{"question": "What is the timing of immunotherapy treatment important for?", "answer": "The timing of immunotherapy treatment may affect the patient's response to the treatment."}
+{"question": "What is the optimal time for immunotherapy treatment?", "answer": "Recent research hints that patients dosed early in the day may fare better."}
+{"question": "What is the combination of immunotherapy with other cancer treatments?", "answer": "Combining immunotherapy with radiation or ultrasound may boost response rates."}
+{"question": "What is the benefit of combining immunotherapy with other cancer treatments?", "answer": "It may increase the effectiveness of immunotherapy."}
+{"question": "What is liquid biopsy approach?", "answer": "Liquid biopsy approach is a practical method to profile the tumor microenvironment."}
+{"question": "What is the benefit of liquid biopsy approach?", "answer": "It can predict immunotherapy response in melanoma patients."}
+{"question": "What is tumor microenvironment?", "answer": "Tumor microenvironment refers to the cellular and molecular environment surrounding a tumor."}
+{"question": "What is the significance of tumor microenvironment in cancer treatment?", "answer": "Tumor microenvironment plays a crucial role in determining the effectiveness of cancer treatment."}
+{"question": "What is IL-15?", "answer": "IL-15 is an interleukin that stimulates the immune system."}
+{"question": "What is the effect of IL-15 on NK cells?", "answer": "IL-15 can 'wake up' NK cells inside tumors, re-enabling their function."}
+{"question": "What is NK cell?", "answer": "NK cell is a type of immune cell that plays a crucial role in cancer immunotherapy."}
+{"question": "What is the benefit of stimulating NK cells in cancer treatment?", "answer": "Stimulating NK cells can enhance cancer immunotherapy."}
+{"question": "What is cancer immunotherapy breakthrough?", "answer": "Cancer immunotherapy breakthrough refers to a significant advancement in cancer treatment using the immune system."}
+{"question": "What is the significance of cancer immunotherapy breakthrough?", "answer": "Cancer immunotherapy breakthrough offers new hope for cancer patients."}
+{"question": "What is the benefit of cancer immunotherapy breakthrough?", "answer": "It may lead to more effective cancer treatment and better patient outcomes."}
+{"question": "What is Mayo Clinic researchers' presentation at AACR 2026?", "answer": "Mayo Clinic researchers presented advances in immunotherapy, biomarkers, and tumor biology."}
+{"question": "What is the significance of Mayo Clinic researchers' presentation?", "answer": "It highlights the progress made in cancer immunotherapy and its potential applications."}
+{"question": "What is the benefit of Mayo Clinic researchers' presentation?", "answer": "It may lead to improved cancer treatment and better patient outcomes."}
+{"question": "What is the relationship between immunotherapy and biomarkers?", "answer": "Biomarkers can predict immunotherapy response and guide treatment decisions."}
+{"question": "What is the significance of biomarkers in cancer treatment?", "answer": "Biomarkers play a crucial role in identifying patients who may benefit from immunotherapy."}
+{"question": "What is tumor biology?", "answer": "Tumor biology refers to the study of the biological processes that occur within a tumor."}
+{"question": "What is the significance of tumor biology in cancer treatment?", "answer": "Tumor biology informs cancer treatment strategies and helps predict patient outcomes."}
+{"question": "What is the benefit of understanding tumor biology?", "answer": "It may lead to more effective cancer treatment and better patient outcomes."}
+{"question": "What is the relationship between immunotherapy and tumor biology?", "answer": "Immunotherapy is influenced by tumor biology, and understanding tumor biology is crucial for immunotherapy success."}
+{"question": "What is the significance of immunotherapy research?", "answer": "Immunotherapy research offers new hope for cancer patients and may lead to more effective cancer treatment."}
+{"question": "What is the benefit of immunotherapy research?", "answer": "It may lead to improved cancer treatment and better patient outcomes."}
+{"question": "What is the relationship between cancer and the immune system?", "answer": "The immune system plays a crucial role in recognizing and eliminating cancer cells."}
+{"question": "What is the significance of the immune system in cancer treatment?", "answer": "The immune system is a key component of cancer immunotherapy."}
+{"question": "What is the benefit of using the immune system in cancer treatment?", "answer": "It may lead to more effective cancer treatment and better patient outcomes."}
+{"question": "What is the relationship between cancer cells and the immune system?", "answer": "Cancer cells can evade the immune system, leading to immunotherapy resistance."}
+{"question": "What is immunotherapy resistance?", "answer": "Immunotherapy resistance refers to the ability of cancer cells to evade the immune system."}
+{"question": "What is the significance of immunotherapy resistance?", "answer": "Immunotherapy resistance is a significant challenge in cancer treatment."}
+{"question": "What is the benefit of overcoming immunotherapy resistance?", "answer": "It may lead to more effective cancer treatment and better patient outcomes."}
+{"question": "What is the relationship between PI3Kγ signaling and immunotherapy resistance?", "answer": "PI3Kγ signaling is involved in immunotherapy resistance in B cells."}
+{"question": "What is the significance of PI3Kγ signaling in cancer treatment?", "answer": "PI3Kγ signaling plays a crucial role in cancer treatment and may be a target for therapy."}
+{"question": "What is the benefit of inhibiting PI3Kγ signaling in B cells?", "answer": "It may overcome immunotherapy resistance and improve cancer treatment outcomes."}
+{"question": "What is the relationship between STING agonism and immunotherapy resistance?", "answer": "STING agonism may overcome immunotherapy resistance by stimulating the immune system."}
+{"question": "What is the significance of STING agonism in cancer treatment?", "answer": "STING agonism is a potential therapeutic strategy for cancer treatment."}
+{"question": "What is the benefit of combining STING agonism with PI3Kγ inhibition?", "answer": "It may lead to more effective cancer treatment and better patient outcomes."}
+{"question": "What is the future of cancer immunotherapy?", "answer": "The future of cancer immunotherapy holds promise for more effective cancer treatment and better patient outcomes."}
