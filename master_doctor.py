@@ -33,17 +33,23 @@ def ask_groq(text):
     return ""
 
 def parse_qa_text(raw):
-    if not raw: return []
-    matches = re.findall(r'(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
+    if not raw:
+        return []
+    # প্রধান প্যাটার্ন: Question/Answer বা Q/A (ঐচ্ছিক নম্বর সহ)
+    matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
     qa = [{"question": q.strip(), "answer": a.strip()} for q, a in matches]
-    if qa: return qa
-    matches2 = re.findall(r'\d+\.\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\d+\.\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
-    return [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
+    if qa:
+        return qa
+    # ব্যাকআপ: যদি কোনো কারণে ভিন্ন ফরম্যাটে আসে (যেমন **Question:** বা **Answer:**)
+    matches2 = re.findall(r'\*?\*?(?:Question|Q)\*?\*?:\s*(.*?)\n\s*\*?\*?(?:Answer|A)\*?\*?:\s*(.*?)(?=\n\s*\*?\*?(?:Question|Q)|$)', raw, re.DOTALL | re.IGNORECASE)
+    qa2 = [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
+    return qa2
 
 def process_uploaded_books():
     book_text = ""
     folder = "upload_books"
-    if not os.path.exists(folder): return book_text
+    if not os.path.exists(folder):
+        return book_text
     for filename in os.listdir(folder):
         if filename.endswith(".pdf"):
             filepath = os.path.join(folder, filename)
@@ -90,7 +96,7 @@ def main():
         entries = parse_qa_text(raw)
         print(f"📝 {len(entries)} entries extracted")
         
-        # 3. ফাইলে লেখা ও পুশ (fix: টোকেন ও রেপো সেট করে পুশ)
+        # 3. ফাইলে লেখা ও পুশ
         if entries:
             out_file = get_output_file()
             with open(out_file, "a", encoding="utf-8") as f:
@@ -103,7 +109,7 @@ def main():
             os.system(f"git add {out_file}")
             os.system(f"git commit -m 'Auto-update dataset {timestamp}' || echo 'No changes'")
             
-            # 🔧 পুশের আগে টোকেন ও রেপো সেট করা
+            # 🔧 পুশের আগে টোকেন ও রেপো সেট (এনভায়রনমেন্ট থেকে)
             token = os.environ["GH_TOKEN"]
             repo = os.environ["REPOSITORY"]
             remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
@@ -111,8 +117,10 @@ def main():
             os.system("git push")
             
             print(f"✅ {len(entries)} entries pushed to repo")
+        else:
+            print("⚠️ No entries to push this cycle.")
         
-        # 4. অপেক্ষা
+        # 4. বিরতি
         elapsed = time.time() - start_cycle
         sleep_time = max(10, 15 - elapsed)
         print(f"⏳ Sleeping {sleep_time:.1f}s...")
