@@ -1,29 +1,38 @@
 name: God-Doctor-Continuous
+
 on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: doctor-nonstop
-  cancel-in-progress: false
+  cancel-in-progress: true   # 🔥 IMPORTANT FIX
+
 jobs:
   train:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          fetch-depth: 0   # 🔥 IMPORTANT (full history needed)
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+
       - run: pip install -r requirements.txt
-      # Clean up any leftover rebase state from previous runs
+
+      # optional cleanup (good practice)
       - run: |
           git rebase --abort 2>/dev/null || true
           rm -rf .git/rebase-merge
+
       - name: Run Master Doctor
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
