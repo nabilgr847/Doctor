@@ -1,209 +1,292 @@
-import os, re, json, time, random
-from datetime import datetime, timedelta
+import os, re, json, time, threading
+from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 import pypdf
 from groq import Groq
 
-from agents.search_team import search_all_unrestricted, search_serpapi
+from agents.search_team import search_all_unrestricted
 from agents.medical_team import query_all_medical_apis
 
+
 # =========================
-# 🔧 DEDUP MEMORY
+# 🔒 GLOBAL MEMORY
 # =========================
 seen_questions = set()
+lock = threading.Lock()
+
 
 # =========================
-# 🔥 SAFE GROQ CALL
+# 🧠 HELPERS
 # =========================
-def try_groq_with_key(key, text):
-    client = Groq(api_key=key)
+def hash_q(q):
+    return q.lower().strip()
 
-    models = [
-        "llama-3.1-8b-instant",
-        "openai/gpt-oss-120b"
-    ]
 
-    prompt = f"""
-Generate 50 HIGH-QUALITY medical Q&A pairs.
+def split_text(text, size=2000):
+    return [text[i:i+size] for i in range(0, len(text), size)]
 
+
+# =========================
+# ⚛️ NUCLEUS MEDICAL PROMPT
+# =========================
+PROMPT = """
+You are an advanced medical research intelligence system (PhD-level biomedical scientist + drug discovery AI).
+
+TASK:
+Generate EXACTLY 50 high-level medical research entries.
+
+Each entry must be deep research-level (not simple Q&A).
+
+========================
+STRICT OUTPUT FORMAT (JSON ONLY):
+========================
+[
+  {
+    "question": "...",
+    "answer": "...",
+    "mechanism": "...",
+    "drug_insight": "...",
+    "future_innovation": "..."
+  }
+]
+
+========================
+REQUIREMENTS:
+========================
+- Identify disease nucleus (root cause)
+- Explain molecular + cellular mechanism step-by-step
+- Explain drug mechanism in detail
+- Explain why current treatments fail (resistance, mutation, bypass)
+- Suggest future biomedical innovation or technology
+
+========================
+QUESTION STYLE:
+========================
+- Why does disease X develop at molecular level?
+- How does pathway Y control disease progression?
+- Why do drugs fail in condition Z?
+- What new therapy could solve this disease?
+
+========================
 RULES:
-- No repeated questions
-- No generic definitions
-- Focus on clinical mechanisms, biomarkers, drug resistance, pathways
-- Each question must be unique and medically meaningful
-
-FORMAT:
-Question: ...
-Answer: ...
+========================
+- EXACTLY 50 entries
+- No repetition
+- No generic textbook answers
+- No extra text outside JSON
+- Focus: oncology, neurology, immunology, pharmacology, molecular biology
 
 TEXT:
-{text[:2000]}
+{text}
 """
 
-    for model in models:
-        try:
-            chat = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.8,
-                max_tokens=3000
-            )
-            return chat.choices[0].message.content
-        except Exception as e:
-            print(f"❌ Groq error: {e}")
-            time.sleep(3)
-
-    return ""
 
 # =========================
-# 🧠 PARSE QA
+# 🤖 GROQ
 # =========================
-def parse_qa_text(raw):
-    if not raw:
-        return []
+def groq_worker(key, text):
+    try:
+        client = Groq(api_key=key)
 
-    matches = re.findall(
-        r'(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n(?:Question|Q):|$)',
-        raw,
-        re.DOTALL | re.IGNORECASE
-    )
+        chat = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": PROMPT.format(text=text[:5000])}],
+            temperature=0.7,
+            max_tokens=6000
+        )
 
-    result = []
-    for q, a in matches:
-        q = q.strip()
-        a = a.strip()
+        return chat.choices[0].message.content
+    except:
+        return ""
 
-        # ❌ DUPLICATE FILTER
-        if q.lower() in seen_questions:
-            continue
-
-        seen_questions.add(q.lower())
-        result.append({"question": q, "answer": a})
-
-    return result
 
 # =========================
-# 📄 PDF PROCESS
+# 🌐 APIs
 # =========================
-def process_uploaded_books():
-    text = ""
+def pollinations(text):
+    try:
+        r = requests.post(
+            "https://text.pollinations.ai/openai/v1/chat/completions",
+            json={"messages":[{"role":"user","content":text[:2000]}], "model":"openai"},
+            timeout=60
+        )
+        return r.json()["choices"][0]["message"]["content"]
+    except:
+        return ""
+
+
+def deepseek(text):
+    try:
+        r = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            json={
+                "model":"deepseek-chat",
+                "messages":[{"role":"user","content":text[:2000]}]
+            },
+            headers={"Authorization":f"Bearer {os.getenv('DEEPSEEK_API_KEY')}"},
+            timeout=60
+        )
+        return r.json()["choices"][0]["message"]["content"]
+    except:
+        return ""
+
+
+def gemini(text):
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        return model.generate_content(text[:2000]).text
+    except:
+        return ""
+
+
+def hf(text):
+    try:
+        r = requests.post(
+            "https://api-inference.huggingface.co/models/google/flan-t5-large",
+            json={"inputs":text[:1500]},
+            timeout=90
+        )
+        return r.json()[0]["generated_text"]
+    except:
+        return ""
+
+
+def ollama(text):
+    try:
+        from ollamafreeapi import OllamaFreeAPI
+        return OllamaFreeAPI().chat(
+            model="llama3.1:latest",
+            prompt=text[:2000]
+        )
+    except:
+        return ""
+
+
+# =========================
+# 📄 PDF
+# =========================
+def pdf_text():
     folder = "upload_books"
+    text = ""
 
     if not os.path.exists(folder):
-        return text
+        return ""
 
-    for file in os.listdir(folder):
-        if file.endswith(".pdf"):
+    for f in os.listdir(folder):
+        if f.endswith(".pdf"):
             try:
-                path = os.path.join(folder, file)
-                reader = pypdf.PdfReader(path)
-
-                pages = [p.extract_text() for p in reader.pages[:5] if p.extract_text()]
-                text += "\n".join(pages)
-
-                os.makedirs(f"{folder}/processed", exist_ok=True)
-                os.replace(path, f"{folder}/processed/{file}")
-
-            except Exception as e:
-                print(f"PDF error: {e}")
+                r = pypdf.PdfReader(os.path.join(folder, f))
+                for p in r.pages[:3]:
+                    t = p.extract_text()
+                    if t:
+                        text += t
+            except:
+                pass
 
     return text
 
-# =========================
-# 📁 OUTPUT FILE
-# =========================
-def get_output_file():
-    return f"dataset_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.jsonl"
 
 # =========================
-# 🚀 MAIN LOOP
+# 🧠 PARSER (JSON SAFE)
+# =========================
+def parse(raw):
+    if not raw:
+        return []
+
+    try:
+        data = json.loads(raw)
+    except:
+        return []
+
+    out = []
+
+    for item in data:
+        q = item.get("question","").strip()
+        a = item.get("answer","").strip()
+
+        if not q or not a:
+            continue
+
+        key = hash_q(q)
+
+        with lock:
+            if key in seen_questions:
+                continue
+            seen_questions.add(key)
+
+        out.append({
+            "question": q,
+            "answer": a,
+            "mechanism": item.get("mechanism",""),
+            "drug_insight": item.get("drug_insight",""),
+            "future_innovation": item.get("future_innovation","")
+        })
+
+    return out
+
+
+# =========================
+# 🚀 MAIN ENGINE
 # =========================
 def main():
-    print("🚀 Doctor AI Pipeline started")
+    print("🚀 NUCLEUS MEDICAL RESEARCH ENGINE STARTED")
 
-    end_time = datetime.utcnow() + timedelta(hours=5)
+    while True:
 
-    while datetime.utcnow() < end_time:
+        start = time.time()
 
-        cycle_start = time.time()
+        base = (pdf_text() + search_all_unrestricted() + query_all_medical_apis())
 
-        # -------- DATA SOURCES --------
-        book = process_uploaded_books()
-        search_data = search_all_unrestricted()
-        medical_data = query_all_medical_apis()
+        results = []
 
-        combined_sources = random.choice([
-            book,
-            search_data,
-            medical_data
-        ])
-
-        print(f"📊 Input size: {len(combined_sources)}")
-
-        # -------- PARALLEL AI CALLS --------
-        all_raws = []
-
-        with ThreadPoolExecutor(max_workers=6) as executor:
+        with ThreadPoolExecutor(max_workers=8) as ex:
             futures = []
 
-            for key in [
-                os.getenv("GROQ_API_KEY"),
-                os.getenv("GROQ_API_KEY_2")
-            ]:
+            for key in [os.getenv("GROQ_API_KEY"), os.getenv("GROQ_API_KEY_2")]:
                 if key:
-                    futures.append(executor.submit(try_groq_with_key, key, combined_sources))
+                    futures.append(ex.submit(groq_worker, key, base))
 
-            for future in as_completed(futures):
-                res = future.result()
-                if res:
-                    all_raws.append(res)
+            futures.append(ex.submit(pollinations, base))
+            futures.append(ex.submit(deepseek, base))
+            futures.append(ex.submit(gemini, base))
+            futures.append(ex.submit(hf, base))
+            futures.append(ex.submit(ollama, base))
 
-        # -------- PARSE --------
-        entries = []
-        for raw in all_raws:
-            entries.extend(parse_qa_text(raw))
+            for f in as_completed(futures):
+                r = f.result()
+                if r:
+                    results.append(r)
 
-        print(f"📝 Clean entries: {len(entries)}")
+        # =========================
+        # MERGE
+        # =========================
+        final = []
+        for r in results:
+            final.extend(parse(r))
 
-        # -------- SAVE --------
-        if entries:
-            file = get_output_file()
+        print("📝 OUTPUT:", len(final))
+
+        # =========================
+        # SAVE
+        # =========================
+        if final:
+            file = f"dataset_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.jsonl"
 
             with open(file, "w", encoding="utf-8") as f:
-                for e in entries:
-                    f.write(json.dumps(e, ensure_ascii=False) + "\n")
+                for i in final:
+                    f.write(json.dumps(i, ensure_ascii=False) + "\n")
 
-            # -------- GIT PUSH --------
-            token = os.environ["GH_TOKEN"]
-            repo = os.environ["REPOSITORY"]
-
-            os.system("git config user.name 'God-Doctor-Bot'")
-            os.system("git config user.email 'bot@doctor.ai'")
-
-            os.system(f"git add {file}")
-            os.system(f"git commit -m 'Dataset {datetime.utcnow()}' || echo 'No changes'")
-
-            remote = f"https://x-access-token:{token}@github.com/{repo}.git"
-            os.system(f"git remote set-url origin {remote}")
-            os.system("git push")
-
-            print(f"✅ Saved: {file}")
-
-        else:
-            print("⚠️ No entries generated")
+            print("✅ SAVED:", file)
 
         # =========================
-        # ⏳ FIXED SLEEP TIME (5 sec)
+        # SPEED CYCLE
         # =========================
-        elapsed = time.time() - cycle_start
-        sleep_time = max(5, 5 - elapsed)
+        time.sleep(1.5)
 
-        print(f"⏳ Sleeping {sleep_time:.1f}s...")
-        time.sleep(sleep_time)
-
-    print("🏁 Finished run")
 
 if __name__ == "__main__":
     main()
