@@ -3,4 +3,4 @@ ddgs
 google-search-results
 gdeltdoc
 google-genai
-PyPDF2
+pypdf
