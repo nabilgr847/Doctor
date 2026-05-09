@@ -1,0 +1,97 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses components of the immune system to target and destroy cancer cells."}
+{"question": "How does a checkpoint inhibitor work?", "answer": "It blocks proteins that restrain T‑cells, allowing them to attack tumors."}
+{"question": "Name two common checkpoint inhibitors.", "answer": "Pembrolizumab and nivolumab."}
+{"question": "What type of therapy uses engineered viruses to kill cancer cells?", "answer": "Oncolytic virus therapy."}
+{"question": "What is CAR‑T cell therapy?", "answer": "A personalized treatment where a patient’s T‑cells are modified to express chimeric antigen receptors that recognize cancer antigens."}
+{"question": "Which cancer was the first to receive FDA approval for CAR‑T therapy?", "answer": "B‑cell acute lymphoblastic leukemia."}
+{"question": "What side effect is most associated with checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis or dermatitis."}
+{"question": "How are cytokine release syndrome (CRS) symptoms managed?", "answer": "With supportive care and agents like tocilizumab that block IL‑6."}
+{"question": "What is the role of PD‑L1 in tumor immune evasion?", "answer": "Tumor cells express PD‑L1 to bind PD‑1 on T‑cells, inhibiting their activity."}
+{"question": "Which biomarker predicts response to PD‑1 inhibitors?", "answer": "High tumor mutational burden or PD‑L1 expression."}
+{"question": "What is a cancer vaccine?", "answer": "A preparation that stimulates the immune system to recognize tumor‑specific antigens."}
+{"question": "Name a therapeutic cancer vaccine approved by the FDA.", "answer": "Sipuleucel‑T for prostate cancer."}
+{"question": "How does adoptive cell transfer differ from CAR‑T?", "answer": "Adoptive transfer can use tumor‑infiltrating lymphocytes without genetic modification."}
+{"question": "What is the typical administration route for checkpoint inhibitors?", "answer": "Intravenous infusion."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, combination can enhance tumor response and is FDA‑approved for several cancers."}
+{"question": "What is the main advantage of immunotherapy over conventional chemotherapy?", "answer": "Potential for durable, long‑term remission due to immune memory."}
+{"question": "What is an immune‑related adverse event (irAE)?", "answer": "An off‑target inflammation caused by activated immune cells attacking normal tissue."}
+{"question": "Which organ systems are most commonly affected by irAEs?", "answer": "Skin, gastrointestinal tract, liver, and endocrine glands."}
+{"question": "How is steroid therapy used in managing irAEs?", "answer": "High‑dose corticosteroids suppress inflammation and are tapered as symptoms improve."}
+{"question": "What does the term “tumor microenvironment” refer to?", "answer": "The surrounding cells, vessels, and signaling molecules that influence tumor growth and immune response."}
+{"question": "Why is tumor infiltrating lymphocyte (TIL) density important?", "answer": "Higher TILs often correlate with better prognosis and response to immunotherapy."}
+{"question": "What is the significance of the 2025 British Journal of Cancer article mentioned?", "answer": "It likely reports recent advances in cancer immunotherapy research."}
+{"question": "How does bioengineering contribute to immunotherapy development?", "answer": "By designing novel delivery systems, synthetic receptors, and biomaterials that improve efficacy."}
+{"question": "What role does data science play in immunotherapy research?", "answer": "Analyzing large genomic and clinical datasets to identify predictive biomarkers."}
+{"question": "What is the principle behind oncolytic virotherapy?", "answer": "Viruses selectively infect and lyse cancer cells while stimulating anti‑tumor immunity."}
+{"question": "Name an FDA‑approved oncolytic virus.", "answer": "Talimogene laherparepvec (T‑VEC) for melanoma."}
+{"question": "What is the typical time frame for observing a response to checkpoint inhibitors?", "answer": "Responses can occur weeks to months after treatment initiation."}
+{"question": "Can immunotherapy be used in pediatric cancers?", "answer": "Yes, certain CAR‑T therapies are approved for pediatric acute lymphoblastic leukemia."}
+{"question": "What is a “neoantigen”?", "answer": "A novel peptide arising from tumor mutations that can be recognized by the immune system."}
+{"question": "How are neoantigens identified for personalized vaccines?", "answer": "Through tumor sequencing and computational prediction of peptide‑MHC binding."}
+{"question": "What is the difference between passive and active immunotherapy?", "answer": "Passive uses pre‑formed immune agents (e.g., antibodies), while active stimulates the patient’s own immune response."}
+{"question": "What is a monoclonal antibody in cancer treatment?", "answer": "A lab‑produced protein that binds a specific tumor antigen to block growth signals or recruit immune cells."}
+{"question": "Give an example of a monoclonal antibody targeting HER2.", "answer": "Trastuzumab."}
+{"question": "Why is combination immunotherapy sometimes more effective?", "answer": "It can target multiple immune pathways, reducing tumor escape mechanisms."}
+{"question": "What is the “abscopal effect”?", "answer": "Regression of distant, untreated tumors following localized radiation, thought to be immune‑mediated."}
+{"question": "How is the efficacy of immunotherapy measured clinically?", "answer": "Using response criteria like RECIST, progression‑free survival, and overall survival."}
+{"question": "What is “immune checkpoint blockade” commonly abbreviated as?", "answer": "ICB."}
+{"question": "Which cytokine is most associated with T‑cell activation?", "answer": "Interleukin‑2 (IL‑2)."}
+{"question": "What safety monitoring is required during CAR‑T therapy?", "answer": "Frequent assessment for CRS, neurotoxicity, and cytopenias."}
+{"question": "What is the purpose of a “washout period” before starting immunotherapy after chemotherapy?", "answer": "To reduce overlapping toxicities and allow immune recovery."}
+{"question": "How does the gut microbiome influence immunotherapy response?", "answer": "Certain bacterial species modulate systemic immunity and can enhance or diminish efficacy."}
+{"question": "What dietary recommendation may support immunotherapy outcomes?", "answer": "A balanced diet rich in fiber to promote a healthy microbiome."}
+{"question": "What is the role of PD‑1 in normal physiology?", "answer": "It maintains peripheral tolerance by limiting T‑cell activation."}
+{"question": "Why might patients develop resistance to checkpoint inhibitors?", "answer": "Tumor can down‑regulate antigen presentation or up‑regulate alternative immune checkpoints."}
+{"question": "What is a “biomarker” in the context of immunotherapy?", "answer": "A measurable indicator, such as PD‑L1 expression, that predicts treatment response."}
+{"question": "How often are patients typically screened for irAEs during treatment?", "answer": "At each infusion visit and with routine laboratory tests."}
+{"question": "What is the primary goal of survivorship care after immunotherapy?", "answer": "To monitor late toxicities and maintain quality of life."}
+{"question": "Which imaging modality is useful for assessing immune‑related inflammation?", "answer": "PET‑CT with FDG uptake can reveal inflammatory lesions."}
+{"question": "What is the significance of the GLOBOCAN 2020 report?", "answer": "It provides worldwide cancer incidence and mortality data, guiding research priorities including immunotherapy."}
+{"question": "How does interdisciplinary collaboration enhance immunotherapy research?", "answer": "Combining expertise in biology, engineering, statistics, and survivorship accelerates innovation and translation to patients."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to fight cancer cells."}
+{"question": "Which body parts are targeted by immunotherapy?", "answer": "Tumor cells and their microenvironment."}
+{"question": "Name a common immunotherapy drug class.", "answer": "Checkpoint inhibitors."}
+{"question": "How do checkpoint inhibitors work?", "answer": "They block proteins that suppress immune cell activity."}
+{"question": "Which cancers first approved checkpoint inhibitors?", "answer": "Melanoma and lung cancer."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "Genetically engineered T cells that attack cancer cells."}
+{"question": "Which blood cancers have approved CAR‑T therapies?", "answer": "Acute lymphoblastic leukemia and certain lymphomas."}
+{"question": "What is the main side effect of checkpoint inhibitors?", "answer": "Immune‑related adverse events like colitis or dermatitis."}
+{"question": "How is immunotherapy combined with chemotherapy?", "answer": "It can enhance overall response rates."}
+{"question": "What does “adoptive cell transfer” mean?", "answer": "Infusing patients with expanded immune cells."}
+{"question": "How long does a typical immunotherapy cycle last?", "answer": "Usually 2–3 weeks between infusions."}
+{"question": "What is a cancer vaccine?", "answer": "A vaccine that trains the immune system to target tumor antigens."}
+{"question": "Which organ’s function is critical for immunotherapy success?", "answer": "The thymus for T‑cell maturation."}
+{"question": "What is “tumor mutation burden”?", "answer": "The number of mutations in a tumor’s DNA."}
+{"question": "Why is high tumor mutation burden advantageous?", "answer": "It produces more neoantigens that immune cells can recognize."}
+{"question": "What role does bioinformatics play in immunotherapy research?", "answer": "It identifies target antigens and predicts responses."}
+{"question": "Name a key statistic from Global Cancer Statistics 2020.", "answer": "Over 19 million new cancer cases worldwide."}
+{"question": "Which cancer had the highest global incidence in 2020?", "answer": "Breast cancer."}
+{"question": "What is the leading cause of cancer mortality worldwide?", "answer": "Lung cancer."}
+{"question": "How is “immune checkpoint blockade” different from vaccines?", "answer": "Blockade releases brakes on existing immune cells; vaccines teach new ones."}
+{"question": "What is “tumor microenvironment”?", "answer": "The surrounding cells, signals, and blood vessels around a tumor."}
+{"question": "How does the tumor microenvironment affect therapy?", "answer": "It can suppress immune activity and reduce treatment efficacy."}
+{"question": "What is a “biomarker” in immunotherapy?", "answer": "A measurable indicator predicting treatment response."}
+{"question": "Give an example of an immunotherapy biomarker.", "answer": "PD‑L1 expression levels."}
+{"question": "What is the purpose of “clinical trials” in immunotherapy?", "answer": "To test safety, dosage, and effectiveness."}
+{"question": "What phase of trials tests safety in a small group?", "answer": "Phase I."}
+{"question": "In which phase are larger efficacy studies conducted?", "answer": "Phase II."}
+{"question": "When is a drug considered for approval?", "answer": "After successful Phase III trials."}
+{"question": "What does “off‑label use” mean?", "answer": "Using a drug outside its approved indication."}
+{"question": "How can immunotherapy be tailored to a patient?", "answer": "By analyzing tumor genetics and immune profile."}
+{"question": "What is “adjuvant immunotherapy”?", "answer": "Treatment given after primary therapy to prevent recurrence."}
+{"question": "Name a common side effect of CAR‑T therapy.", "answer": "Cytokine release syndrome."}
+{"question": "How is cytokine release syndrome managed?", "answer": "With anti‑IL‑6 antibodies or steroids."}
+{"question": "What is “immune checkpoint inhibitor toxicity”?", "answer": "Autoimmune reactions affecting organs like the gut or liver."}
+{"question": "Which organ is most at risk from checkpoint inhibitor toxicity?", "answer": "The colon (colitis)."}
+{"question": "What is a “biomarker panel” in cancer care?", "answer": "A set of multiple markers used for diagnosis or monitoring."}
+{"question": "How does immunotherapy differ from targeted therapy?", "answer": "Immunotherapy mobilizes the immune system; targeted therapy blocks specific proteins."}
+{"question": "What is the “abscopal effect”?", "answer": "Local treatment leading to regression of distant tumors."}
+{"question": "Which imaging technique helps assess immunotherapy response?", "answer": "PET/CT scans."}
+{"question": "What is “pseudoprogression” in immunotherapy?", "answer": "Tumor swelling that later shrinks, mimicking progression."}
+{"question": "Which year did the first FDA approval of a checkpoint inhibitor occur?", "answer": "2011 for ipilimumab."}
+{"question": "What is a “tumor neoantigen”?", "answer": "A new antigen formed by tumor mutations."}
+{"question": "Which cell type is central to checkpoint inhibitor action?", "answer": "Cytotoxic T lymphocytes."}
+{"question": "How are “immune cells” delivered in adoptive therapy?", "answer": "Ex vivo expansion and reinfusion into the patient."}
+{"question": "What does “PD‑L1” stand for?", "answer": "Programmed death‑ligand 1."}
+{"question": "Which immune cell subset is often engineered in CAR‑T therapy?", "answer": "CD19‑specific T cells."}
+{"question": "What is a “phase I/II trial”?", "answer": "A combined safety and early efficacy study."}
