@@ -2063,3 +2063,36 @@
 {"question": "Is immunotherapy suitable for all cancer patients?", "answer": "Suitability depends on tumor type, genetic markers, and overall health; not all patients respond."}
 {"question": "What is \"survivorship\" in cancer care?", "answer": "Survivorship refers to the phase after treatment, focusing on ongoing health, monitoring, and quality of life."}
 {"question": "How does the Fred Hutch team approach statistics?", "answer": "They apply advanced statistical models to interpret clinical trial data and real‑world evidence."}
+{"question": "What is cancer immunotherapy?", "answer": "Cancer immunotherapy uses components of the immune system—like antibodies or cells—to target and destroy cancer cells, offering a treatment alternative to surgery, chemo, or radiation."}
+{"question": "How do antibody‑based immunotherapies work?", "answer": "They bind to specific proteins on cancer cells or immune checkpoints, blocking signals that protect tumors and enabling immune cells to attack the malignancy."}
+{"question": "What are immune checkpoints?", "answer": "Immune checkpoints are proteins that regulate T‑cell activity; tumors exploit them to avoid immune detection. Blocking these checkpoints reactivates T‑cells against cancer."}
+{"question": "What are AbLecs?", "answer": "AbLecs are engineered molecules that block immune checkpoints, shown by MIT and Stanford researchers to stimulate strong anti‑tumor responses across multiple cancer types."}
+{"question": "Which universities contributed to the AbLec discovery?", "answer": "The MIT team, led by Jessica Stark, and Stanford’s Carolyn Bertozzi collaborated on developing AbLecs as a novel immunotherapy platform."}
+{"question": "What percentage of patients benefit from current immunotherapies?", "answer": "Less than half of patients receiving existing immunotherapies experience a therapeutic response, highlighting the need for more effective strategies."}
+{"question": "What new pathway did Harvard researchers identify?", "answer": "Harvard scientists revealed a method to enhance immunotherapy efficacy, potentially enabling a broader range of patients to benefit from immune‑based treatments."}
+{"question": "When was the Harvard immunotherapy study published?", "answer": "The study appeared in Nature Immunology on August 12, 2025."}
+{"question": "What is the focus of the Cancer Research Institute’s 2025 report?", "answer": "The report reviews the past decade’s progress in cancer immunotherapy, offering data‑driven insights and future directions."}
+{"question": "Where can one find the CRI 2025 report online?", "answer": "It is available on the CRI website under the “Cancer Immunotherapy Insights and Impact” section."}
+{"question": "What does the Nature article say about antibody therapy?", "answer": "It explains that antibodies can bind to cancer cells or inhibit their protective signals, forming a core component of many immunotherapies."}
+{"question": "Are there ongoing clinical trials for AbLecs?", "answer": "Yes, early‑phase trials are underway to assess safety and efficacy of AbLecs in various solid tumors."}
+{"question": "What types of cancers might benefit from AbLecs?", "answer": "Preliminary data suggest potential effectiveness across multiple solid tumor types, though specific indications are still under investigation."}
+{"question": "How does the MIT study address checkpoint resistance?", "answer": "By blocking checkpoints with AbLecs, the study aims to overcome resistance that limits traditional checkpoint inhibitors."}
+{"question": "What is the main advantage of combining checkpoint blockade with AbLecs?", "answer": "It amplifies the immune response, potentially turning “cold” tumors into “hot” ones that are more immunogenic."}
+{"question": "What challenges remain in cancer immunotherapy?", "answer": "Limited response rates, adverse immune reactions, and high costs remain significant hurdles for widespread adoption."}
+{"question": "How does the Harvard pathway differ from existing therapies?", "answer": "It introduces a novel design approach that could increase patient response rates beyond current benchmarks."}
+{"question": "What role do federal funds play in immunotherapy research?", "answer": "Federal funding supports foundational studies, such as Harvard’s work, facilitating translation of discoveries into clinical applications."}
+{"question": "What is a key takeaway from the CRI 2025 report?", "answer": "That the field has progressed, yet less than half of patients benefit, underscoring the necessity for innovative treatments."}
+{"question": "What is the significance of the 2025 MIT study’s publication date?", "answer": "It reflects ongoing advances in immunotherapy research and the rapid pace of new therapeutic development."}
+{"question": "What evidence supports the effectiveness of AbLecs?", "answer": "MIT and Stanford researchers reported a strong anti‑tumor immune response in preclinical models using AbLecs to block checkpoints."}
+{"question": "How might AbLecs change patient outcomes?", "answer": "By enhancing immune activation, they could increase the proportion of patients who respond to immunotherapy."}
+{"question": "What is the typical duration of benefit from checkpoint inhibitors?", "answer": "Benefits vary; some patients experience long‑term remission, while others have transient responses or develop resistance."}
+{"question": "What safety concerns accompany checkpoint blockade?", "answer": "Immune‑related adverse events can affect organs such as skin, gut, liver, and endocrine glands, requiring careful monitoring."}
+{"question": "What is the role of the FDA in approving new immunotherapies?", "answer": "The FDA evaluates clinical trial data for safety, efficacy, and manufacturing standards before granting approval."}
+{"question": "How do researchers measure immunotherapy success?", "answer": "Success is gauged by objective response rates, progression‑free survival, overall survival, and quality‑of‑life metrics."}
+{"question": "What is the function of the tumor microenvironment in immunotherapy?", "answer": "It influences immune cell infiltration and activity; targeting it can improve therapy effectiveness."}
+{"question": "Can immunotherapy be combined with chemotherapy?", "answer": "Yes, combination regimens are explored to enhance tumor cell kill and immune activation."}
+{"question": "What novel strategies are emerging in cancer immunotherapy?", "answer": "Approaches include engineered T‑cells, bispecific antibodies, tumor vaccines, and metabolic modulators."}
+{"question": "How do bispecific antibodies work?", "answer": "They simultaneously bind a tumor antigen and a T‑cell receptor, directing immune cells to the cancer site."}
+{"question": "What is CAR‑T cell therapy?", "answer": "CAR‑T cells are genetically modified T‑cells engineered to recognize specific tumor antigens, providing targeted immune attack."}
+{"question": "What limitations affect CAR‑T therapy?", "answer": "Toxicity, manufacturing complexity, and limited efficacy in solid tumors remain challenges."}
+{"question": "Are there biomarkers predicting immunotherapy response?", "answer": "Biomarkers such as PD‑L1 expression, tumor mutational burden,"}
