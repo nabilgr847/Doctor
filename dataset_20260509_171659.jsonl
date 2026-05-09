@@ -1,0 +1,100 @@
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that harnesses the patient’s immune system to recognize and destroy cancer cells."}
+{"question": "How do multispecific antibodies work in immunotherapy?", "answer": "They bind multiple targets simultaneously, enhancing tumor cell recognition and immune activation."}
+{"question": "What role does the Fc‑FcγR disulfide‑linked complex play?", "answer": "It serves as a modular platform to deliver diverse therapeutic payloads to immune cells."}
+{"question": "What is a common mechanism of resistance to immunotherapy in pancreatic cancer?", "answer": "Expansion of STING‑induced regulatory B cells that suppress anti‑tumor immunity."}
+{"question": "How can STING agonism improve immunotherapy response?", "answer": "By activating innate immunity and, when combined with PI3Kγ inhibition, reducing suppressive B‑cell activity."}
+{"question": "Why might treatment timing affect immunotherapy outcomes?", "answer": "Circadian rhythms influence immune cell activity, with early‑day dosing often enhancing efficacy."}
+{"question": "What benefit does combining immunotherapy with radiation provide?", "answer": "Radiation can increase tumor antigen release, boosting immune recognition and response."}
+{"question": "How does ultrasound enhance immunotherapy?", "answer": "It can improve drug delivery and modulate the tumor microenvironment to favor immune activation."}
+{"question": "What is a liquid biopsy?", "answer": "A minimally invasive test that analyzes circulating tumor DNA or cells to assess tumor characteristics."}
+{"question": "How can liquid biopsies predict immunotherapy response in melanoma?", "answer": "By profiling immune‑related biomarkers in the blood that reflect the tumor microenvironment."}
+{"question": "What is the significance of IL‑15 in cancer treatment?", "answer": "IL‑15 stimulates natural killer (NK) cells, enhancing their ability to attack tumor cells."}
+{"question": "How does IL‑15 “wake up” NK cells within tumors?", "answer": "It promotes NK cell proliferation and activation, overcoming tumor‑induced suppression."}
+{"question": "What are checkpoint inhibitors?", "answer": "Drugs that block inhibitory pathways (e.g., PD‑1, CTLA‑4) to unleash T‑cell activity against cancer."}
+{"question": "Which checkpoint inhibitor targets PD‑1?", "answer": "Pembrolizumab (Keytruda) and nivolumab (Opdivo)."}
+{"question": "What is a CAR‑T cell therapy?", "answer": "A personalized treatment where a patient’s T cells are engineered to express chimeric antigen receptors that target cancer cells."}
+{"question": "Which cancer type was the first approved for CAR‑T therapy?", "answer": "Relapsed or refractory B‑cell acute lymphoblastic leukemia."}
+{"question": "What is the tumor microenvironment (TME)?", "answer": "The surrounding cells, blood vessels, signaling molecules, and extracellular matrix that interact with the tumor."}
+{"question": "Why is the TME important for immunotherapy success?", "answer": "It can either support or hinder immune cell infiltration and activity."}
+{"question": "What does PI3Kγ signaling do in B cells?", "answer": "It promotes immunosuppressive functions that can dampen anti‑tumor immunity."}
+{"question": "How does inhibiting PI3Kγ improve immunotherapy?", "answer": "It reduces regulatory B‑cell activity, allowing stronger T‑cell responses."}
+{"question": "What is a biomarker in cancer immunotherapy?", "answer": "A measurable indicator, such as PD‑L1 expression, that predicts treatment response."}
+{"question": "How is PD‑L1 expression assessed?", "answer": "By immunohistochemistry staining of tumor tissue samples."}
+{"question": "What is the advantage of modular antibody platforms?", "answer": "They allow rapid swapping of therapeutic payloads to target different cancers."}
+{"question": "What is a disulfide bond’s role in antibody engineering?", "answer": "It stabilizes the linkage between antibody components, ensuring functional integrity."}
+{"question": "How does radiation therapy synergize with checkpoint inhibitors?", "answer": "Radiation increases neoantigen load, making tumors more visible to activated T cells."}
+{"question": "What is the concept of “immune checkpoint blockade”?", "answer": "Blocking inhibitory pathways to reactivate exhausted T cells against tumors."}
+{"question": "Which immune cells are primarily targeted by IL‑15?", "answer": "Natural killer (NK) cells and memory CD8+ T cells."}
+{"question": "What is a regulatory B cell (Breg)?", "answer": "A B‑cell subset that secretes immunosuppressive cytokines, hindering anti‑tumor immunity."}
+{"question": "How can STING agonists be used therapeutically?", "answer": "By stimulating innate immune pathways to enhance tumor antigen presentation."}
+{"question": "What is the purpose of combining PI3Kγ inhibitors with STING agonists?", "answer": "To simultaneously activate immunity and remove B‑cell–mediated suppression."}
+{"question": "What does “multispecific” mean in antibody design?", "answer": "The ability to bind two or more distinct antigens or epitopes."}
+{"question": "What is the clinical relevance of early‑day dosing for immunotherapy?", "answer": "It may align treatment with peak immune activity, improving efficacy."}
+{"question": "What is a common side effect of checkpoint inhibitors?", "answer": "Immune‑related adverse events such as colitis, dermatitis, or hepatitis."}
+{"question": "How are adverse events from immunotherapy managed?", "answer": "With corticosteroids or other immunosuppressants to control inflammation."}
+{"question": "What is the role of tumor‑infiltrating lymphocytes (TILs)?", "answer": "They represent immune cells that have entered the tumor and can mediate anti‑cancer effects."}
+{"question": "How can TIL therapy be applied?", "answer": "By extracting, expanding, and reinfusing a patient’s own tumor‑specific lymphocytes."}
+{"question": "What does “personalized immunotherapy” refer to?", "answer": "Tailoring treatment based on an individual’s tumor genetics and immune profile."}
+{"question": "Why is antigen heterogeneity a challenge for immunotherapy?", "answer": "Diverse tumor antigens can allow some cancer cells to escape immune detection."}
+{"question": "What is a neoantigen?", "answer": "A novel peptide arising from tumor mutations that can be recognized by the immune system."}
+{"question": "How does ultrasound‑mediated drug delivery work?", "answer": "Acoustic waves increase cell membrane permeability, enhancing therapeutic uptake."}
+{"question": "What is the significance of the 2026 AACR meeting for immunotherapy?", "answer": "It highlighted advances in biomarkers, liquid biopsies, and combination strategies."}
+{"question": "What is the primary goal of combining immunotherapy with other modalities?", "answer": "To overcome resistance and achieve synergistic anti‑tumor effects."}
+{"question": "How does the Fc region of an antibody influence therapy?", "answer": "It interacts with Fcγ receptors on immune cells, modulating effector functions."}
+{"question": "What does “Fc‑γR” stand for?", "answer": "Fc gamma receptor, a protein on immune cells that binds the Fc portion of antibodies."}
+{"question": "What is a “modular delivery system” in immunotherapy?", "answer": "A flexible platform that can attach different therapeutic agents for targeted treatment."}
+{"question": "How does tumor microenvironment profiling aid treatment?", "answer": "It identifies immune signatures that predict response to specific immunotherapies."}
+{"question": "What is the impact of circadian rhythm on immune cells?", "answer": "Immune cell trafficking and cytokine production vary throughout the day."}
+{"question": "Which cytokine is commonly measured to assess immune activation?", "answer": "Interferon‑gamma (IFN‑γ)."}
+{"question": "What is the therapeutic potential of targeting B cells in cancer?", "answer": "Reducing immunosuppressive B‑cell subsets can enhance T‑cell–mediated tumor killing."}
+{"question": "How does engineering disulfide‑linked Fc complexes improve therapy?", "answer": "It creates stable, multifunctional antibodies that can simultaneously engage multiple immune pathways."}
+{"question": "What is cancer immunotherapy?", "answer": "A treatment that uses the immune system to fight cancer."}
+{"question": "What is the purpose of immunotherapy in cancer treatment?", "answer": "To enhance the body's natural defenses against cancer cells."}
+{"question": "What is the role of Fc-FcγR disulfide-linked complexes in immunotherapy?", "answer": "They can be used for modular delivery of diverse payloads."}
+{"question": "What is the significance of STING agonism in immunotherapy?", "answer": "It can help overcome immunotherapy resistance in certain cancers."}
+{"question": "What is the function of PI3Kγ signaling in B cells?", "answer": "Inhibiting PI3Kγ signaling can enhance immunotherapy response."}
+{"question": "What is the potential benefit of combining immunotherapy with radiation or ultrasound?", "answer": "Boosting response rates in cancer treatment."}
+{"question": "Can the timing of immunotherapy treatment matter?", "answer": "Research suggests that dosing early in the day may improve outcomes."}
+{"question": "What is a liquid biopsy approach in cancer treatment?", "answer": "A practical method to profile the tumor microenvironment."}
+{"question": "How can a liquid biopsy approach predict immunotherapy response?", "answer": "By profiling the tumor microenvironment."}
+{"question": "What is the significance of the tumor microenvironment in cancer treatment?", "answer": "It can predict immunotherapy response and guide treatment."}
+{"question": "What is the role of IL-15 in cancer immunotherapy?", "answer": "It can \"wake up\" NK cells inside tumors."}
+{"question": "What is the potential benefit of a new immunotherapy approach?", "answer": "It could make cancer immunotherapy work for many more patients."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "They can attack tumor cells and help eliminate cancer."}
+{"question": "Can immunotherapy be used to treat multiple types of cancer?", "answer": "Researchers are developing strategies to make it effective for various cancers."}
+{"question": "What is the purpose of biomarkers in cancer treatment?", "answer": "They can help predict treatment response and guide patient care."}
+{"question": "How can biomarkers be used to guide treatment?", "answer": "By identifying patients who are most likely to benefit from immunotherapy."}
+{"question": "What is the significance of tumor biology in cancer treatment?", "answer": "Understanding tumor biology can help develop effective treatments."}
+{"question": "Can immunotherapy be used to treat melanoma?", "answer": "Researchers are developing new approaches to make it effective for melanoma patients."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It can attack and eliminate cancer cells."}
+{"question": "Can the immune system be \"tricked\" to attack cancer cells?", "answer": "Researchers are developing strategies to make this possible."}
+{"question": "What is the significance of the immune checkpoint in cancer treatment?", "answer": "It can help regulate the immune response and eliminate cancer cells."}
+{"question": "Can immunotherapy be used to treat pancreatic cancer?", "answer": "Researchers are developing new approaches to make it effective for pancreatic cancer patients."}
+{"question": "What is the role of STING-induced regulatory B cells in immunotherapy?", "answer": "They can confer resistance to immunotherapy in certain cancers."}
+{"question": "Can STING agonism overcome immunotherapy resistance?", "answer": "Yes, by inhibiting PI3Kγ signaling in B cells."}
+{"question": "What is the significance of the tumor microenvironment in pancreatic cancer?", "answer": "It can predict immunotherapy response and guide treatment."}
+{"question": "Can a liquid biopsy approach be used to profile the tumor microenvironment?", "answer": "Yes, to predict immunotherapy response and guide treatment."}
+{"question": "What is the potential benefit of combining immunotherapy with other cancer treatments?", "answer": "Boosting response rates and improving patient outcomes."}
+{"question": "Can immunotherapy be used to treat other types of cancer besides melanoma?", "answer": "Researchers are developing new approaches to make it effective for various cancers."}
+{"question": "What is the role of IL-15 in cancer immunotherapy?", "answer": "It can \"wake up\" NK cells inside tumors."}
+{"question": "Can IL-15 be used to stimulate the immune system to attack tumor cells?", "answer": "Yes, to make cancer immunotherapy more effective."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "They can attack and eliminate cancer cells."}
+{"question": "Can NK cells be \"woken up\" to attack tumor cells?", "answer": "Researchers are developing strategies to make this possible."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It can attack and eliminate cancer cells."}
+{"question": "Can the immune system be \"tricked\" to attack cancer cells?", "answer": "Researchers are developing strategies to make this possible."}
+{"question": "What is the significance of the immune checkpoint in cancer treatment?", "answer": "It can help regulate the immune response and eliminate cancer cells."}
+{"question": "Can immunotherapy be used to treat pancreatic cancer?", "answer": "Researchers are developing new approaches to make it effective for pancreatic cancer patients."}
+{"question": "What is the role of STING-induced regulatory B cells in immunotherapy?", "answer": "They can confer resistance to immunotherapy in certain cancers."}
+{"question": "Can STING agonism overcome immunotherapy resistance?", "answer": "Yes, by inhibiting PI3Kγ signaling in B cells."}
+{"question": "What is the significance of the tumor microenvironment in pancreatic cancer?", "answer": "It can predict immunotherapy response and guide treatment."}
+{"question": "Can a liquid biopsy approach be used to profile the tumor microenvironment?", "answer": "Yes, to predict immunotherapy response and guide treatment."}
+{"question": "What is the potential benefit of combining immunotherapy with other cancer treatments?", "answer": "Boosting response rates and improving patient outcomes."}
+{"question": "Can immunotherapy be used to treat other types of cancer besides melanoma?", "answer": "Researchers are developing new approaches to make it effective for various cancers."}
+{"question": "What is the role of IL-15 in cancer immunotherapy?", "answer": "It can \"wake up\" NK cells inside tumors."}
+{"question": "Can IL-15 be used to stimulate the immune system to attack tumor cells?", "answer": "Yes, to make cancer immunotherapy more effective."}
+{"question": "What is the significance of NK cells in cancer treatment?", "answer": "They can attack and eliminate cancer cells."}
+{"question": "Can NK cells be \"woken up\" to attack tumor cells?", "answer": "Researchers are developing strategies to make this possible."}
+{"question": "What is the role of the immune system in cancer treatment?", "answer": "It can attack and eliminate cancer cells."}
+{"question": "Can the immune system be \"tricked\" to attack cancer cells?", "answer": "Researchers are developing strategies to make this possible."}
+{"question": "What is the significance of the immune checkpoint in cancer treatment?", "answer": "It can help regulate the immune response and eliminate cancer cells."}
+{"question": "Can immunotherapy be used to treat various types of cancer?", "answer": "Researchers are developing new approaches to make it effective for various cancers."}
