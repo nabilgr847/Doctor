@@ -5,61 +5,107 @@ from agents.medical_team import query_all_medical_apis
 import pypdf
 from groq import Groq
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-def ask_groq(text):
-    key = os.getenv("GROQ_API_KEY")
-    if not key:
-        print("❌ GROQ_API_KEY missing")
-        return ""
+# ---------- Groq (এক Key দিয়ে চেষ্টা) ----------
+def try_groq_with_key(key, text):
     client = Groq(api_key=key)
-    models = ["openai/gpt-oss-120b", "llama-3.1-8b-instant", "llama3-8b-8192"]
+    models = ["openai/gpt-oss-120b", "llama-3.1-8b-instant"]
     for model in models:
-        for attempt in range(2):
+        for _ in range(2):
             try:
                 chat = client.chat.completions.create(
                     model=model,
                     messages=[{
                         "role": "user",
-                        "content": f"Generate exactly 50 concise medical question-answer pairs. Keep each question under 30 words and each answer under 50 words. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:3500]}"
+                        "content": f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}"
                     }],
                     temperature=0.7,
-                    max_tokens=6144
+                    max_tokens=4096
                 )
                 raw = chat.choices[0].message.content
-                print(f"✅ Groq success with {model}, preview: {raw[:200]}")
+                print(f"✅ Groq (key ending ...{key[-4:]}) success with {model}")
                 return raw
             except Exception as e:
-                print(f"❌ Groq {model} error: {e}")
+                print(f"❌ Groq key ending ...{key[-4:]} model {model} error: {e}")
                 time.sleep(5)
     return ""
 
-def ask_pollinations(text):
+# ---------- Groq (দুটি Key প্যারালাল) ----------
+def ask_groq_parallel(text):
+    keys = [os.getenv("GROQ_API_KEY"), os.getenv("GROQ_API_KEY_2")]
+    valid_keys = [k for k in keys if k]
+    results = []
+    with ThreadPoolExecutor(max_workers=len(valid_keys)) as executor:
+        futures = {executor.submit(try_groq_with_key, key, text): key for key in valid_keys}
+        for future in as_completed(futures):
+            res = future.result()
+            if res:
+                results.append(res)
+    return results
+
+# ---------- Pollinations (অ্যাকাউন্ট Key ব্যবহার করে, 2টি প্যারালাল কল) ----------
+def ask_pollinations_account(text):
+    key = os.getenv("POLLINATIONS_API_KEY")
+    if not key:
+        return ""
+    headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+    data = {
+        "messages": [{"role": "user", "content": f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}"}],
+        "model": "openai",
+        "temperature": 0.7
+    }
     try:
-        r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions", json={
-            "messages": [{"role": "user", "content": f"Generate exactly 50 concise medical question-answer pairs. Keep each question under 30 words and each answer under 50 words. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:3500]}"}],
-            "model": "openai",
-            "temperature": 0.7
-        })
+        r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions", headers=headers, json=data, timeout=90)
         if r.status_code == 200:
-            raw = r.json()["choices"][0]["message"]["content"]
-            print(f"✅ Pollinations success, preview: {raw[:200]}")
-            return raw
+            content = r.json()["choices"][0]["message"]["content"]
+            print(f"✅ Pollinations (account) success")
+            return content
+        else:
+            print(f"❌ Pollinations error {r.status_code}: {r.text[:100]}")
     except Exception as e:
-        print(f"❌ Pollinations error: {e}")
+        print(f"❌ Pollinations exception: {e}")
     return ""
 
+# ---------- Pollinations (2টি কল প্যারালাল) ----------
+def ask_pollinations_parallel(text):
+    results = []
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        futures = [executor.submit(ask_pollinations_account, text) for _ in range(2)]
+        for future in as_completed(futures):
+            res = future.result()
+            if res:
+                results.append(res)
+    return results
+
+# ---------- OllamaFreeAPI ----------
+def ask_ollamafree(text):
+    try:
+        from ollamafreeapi import OllamaFreeAPI
+        client = OllamaFreeAPI()
+        res = client.chat(
+            model="llama3.1:latest",
+            prompt=f"Generate exactly 50 concise medical Q&A pairs. Use format:\nQuestion: ...\nAnswer: ...\n\nText:\n{text[:2500]}"
+        )
+        if res:
+            print(f"✅ OllamaFreeAPI success")
+            return res
+    except Exception as e:
+        print(f"❌ OllamaFreeAPI error: {e}")
+    return ""
+
+# ---------- উন্নত পার্সার ----------
 def parse_qa_text(raw):
     if not raw:
         return []
-    # প্রধান: সংখ্যাসহ বা ছাড়া Question/Answer বা Q/A
     matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
     qa = [{"question": q.strip(), "answer": a.strip()} for q, a in matches]
     if qa:
         return qa
-    # ব্যাকআপ: **Question:** / **Answer:**
     matches2 = re.findall(r'\*?\*?(?:Question|Q)\*?\*?:\s*(.*?)\n\s*\*?\*?(?:Answer|A)\*?\*?:\s*(.*?)(?=\n\s*\*?\*?(?:Question|Q)|$)', raw, re.DOTALL | re.IGNORECASE)
     return [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
 
+# ---------- পিডিএফ ----------
 def process_uploaded_books():
     book_text = ""
     folder = "upload_books"
@@ -97,7 +143,7 @@ def main():
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         
-        # 1. তথ্য সংগ্রহ
+        # তথ্য সংগ্রহ
         book = process_uploaded_books()
         search_data = search_all_unrestricted()
         medical_data = query_all_medical_apis()
@@ -106,21 +152,26 @@ def main():
         combined = book + "\n" + search_data + "\n" + medical_data + "\n" + serp
         print(f"📊 Data length: {len(combined)}")
         
-        # 2. Groq + Pollinations
-        raw_groq = ask_groq(combined)
-        raw_poll = ask_pollinations(combined)
+        # সব API প্যারালাল
+        all_raws = []
+        # Groq (2 keys) parallel
+        all_raws.extend(ask_groq_parallel(combined))
+        # Pollinations (2 calls) parallel
+        all_raws.extend(ask_pollinations_parallel(combined))
+        # OllamaFreeAPI (1 call)
+        olla = ask_ollamafree(combined)
+        if olla:
+            all_raws.append(olla)
         
-        entries_groq = parse_qa_text(raw_groq)
-        entries_poll = parse_qa_text(raw_poll)
+        entries = []
+        for raw in all_raws:
+            entries.extend(parse_qa_text(raw))
+        print(f"📝 Total entries: {len(entries)}")
         
-        all_entries = entries_groq + entries_poll
-        print(f"📝 Groq: {len(entries_groq)}, Poll: {len(entries_poll)} → Total: {len(all_entries)}")
-        
-        # 3. ফাইল লেখা ও পুশ
-        if all_entries:
+        if entries:
             out_file = get_output_file()
             with open(out_file, "a", encoding="utf-8") as f:
-                for e in all_entries:
+                for e in entries:
                     f.write(json.dumps(e, ensure_ascii=False) + "\n")
             
             timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
@@ -129,19 +180,17 @@ def main():
             os.system(f"git add {out_file}")
             os.system(f"git commit -m 'Auto-update dataset {timestamp}' || echo 'No changes'")
             
-            # টোকেন সেট করে pull --rebase তারপর push
             token = os.environ["GH_TOKEN"]
             repo = os.environ["REPOSITORY"]
             remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
             os.system(f"git remote set-url origin {remote_url}")
-            os.system("git pull --rebase origin main")   # নতুন লাইন
+            os.system("git pull --rebase origin main")
             os.system("git push")
             
-            print(f"✅ {len(all_entries)} entries pushed to repo")
+            print(f"✅ {len(entries)} entries pushed to repo")
         else:
             print("⚠️ No entries this cycle.")
         
-        # 4. বিরতি
         elapsed = time.time() - start_cycle
         sleep_time = max(10, 15 - elapsed)
         print(f"⏳ Sleeping {sleep_time:.1f}s...")
