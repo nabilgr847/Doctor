@@ -2,34 +2,36 @@ name: God-Doctor-Continuous
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'          # প্রতি ১ ঘণ্টায় অটোমেটিক রান
+  workflow_dispatch:              # ম্যানুয়ালি রান করার জন্য
 
 permissions:
-  contents: write
+  contents: write                 # রিপোজিটরিতে পুশ করতে দরকার
 
 concurrency:
   group: doctor-nonstop
-  cancel-in-progress: true   # 🔥 IMPORTANT FIX
+  cancel-in-progress: true        # আগের রান চলতে থাকলে বাতিল করে নতুন রান শুরু করবে
 
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 360          # সর্বোচ্চ ৬ ঘণ্টা চলবে
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 🔥 IMPORTANT (full history needed)
+          fetch-depth: 0           # সম্পূর্ণ গিট হিস্টরি প্রয়োজন (pull/rebase এর জন্য)
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      # optional cleanup (good practice)
-      - run: |
+      # পূর্ববর্তী রানের কোনো ঝুলন্ত রিবেস অবস্থা পরিষ্কার করা
+      - name: Cleanup stale rebase state
+        run: |
           git rebase --abort 2>/dev/null || true
           rm -rf .git/rebase-merge
 
@@ -43,4 +45,4 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           REPOSITORY: ${{ github.repository }}
-        run: python master_doctor.py
+        run: python master_doctor.py   # কোনো অতিরিক্ত ডট (..) যেন না থাকে
