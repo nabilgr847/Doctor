@@ -2,25 +2,25 @@ name: God-Doctor-Continuous
 
 on:
   schedule:
-    - cron: '0 * * * *'          # প্রতি ১ ঘণ্টায় অটোমেটিক রান
-  workflow_dispatch:              # ম্যানুয়ালি রান করার জন্য
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write                 # রিপোজিটরিতে পুশ করতে দরকার
+  contents: write
 
 concurrency:
   group: doctor-nonstop
-  cancel-in-progress: true        # আগের রান চলতে থাকলে বাতিল করে নতুন রান শুরু করবে
+  cancel-in-progress: false
 
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 360          # সর্বোচ্চ ৬ ঘণ্টা চলবে
+    timeout-minutes: 360
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0           # সম্পূর্ণ গিট হিস্টরি প্রয়োজন (pull/rebase এর জন্য)
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -29,7 +29,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # পূর্ববর্তী রানের কোনো ঝুলন্ত রিবেস অবস্থা পরিষ্কার করা
       - name: Cleanup stale rebase state
         run: |
           git rebase --abort 2>/dev/null || true
@@ -44,5 +43,6 @@ jobs:
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           REPOSITORY: ${{ github.repository }}
-        run: python master_doctor.py   # কোনো অতিরিক্ত ডট (..) যেন না থাকে
+        run: python master_doctor.py
