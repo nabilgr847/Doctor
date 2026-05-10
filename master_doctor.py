@@ -20,7 +20,6 @@ SYSTEM_MESSAGE = (
 )
 
 # ======================== USER PROMPT (টপিক + ফরম্যাট) ========================
-# সরাসরি f‑string ব্যবহার করব, যাতে text ধরণের সমস্যা না হয়
 TOPICS = (
     "Molecular Biology, Genetics, Cancer, Immunology, Pharmacology, Cardiology, Neurology, Psychiatry, "
     "Infectious Diseases, Endocrinology, Gastroenterology, Nephrology, Pulmonology, Hematology, "
@@ -131,6 +130,33 @@ def ask_mistral(text, count=30):
         update_tracker("Mistral", False, err=str(e))
     return ""
 
+# ---------- npmai (সম্পূর্ণ ফ্রি, কোনো API Key লাগে না) ----------
+def ask_npmai(text, count=30):
+    try:
+        from npmai import Ollama
+        llm = Ollama()
+        prompt = make_user_prompt(count, text)
+        res = llm.invoke(prompt, model="llama3.2")
+        if res:
+            return res
+    except Exception as e:
+        update_tracker("npmai", False, err=str(e))
+    return ""
+
+# ---------- DevToolBox API (সম্পূর্ণ ফ্রি REST API, কোনো Key লাগে না) ----------
+def ask_devtoolbox(text, count=30):
+    try:
+        prompt = make_user_prompt(count, text)
+        r = requests.post("https://devtoolbox-api.devtoolbox-api.workers.dev/ai/generate",
+                         json={"prompt": prompt}, timeout=90)
+        if r.status_code == 200:
+            data = r.json()
+            if isinstance(data, dict):
+                return data.get("response", "")
+    except Exception as e:
+        update_tracker("DevToolBox", False, err=str(e))
+    return ""
+
 # ---------- পার্সার ----------
 def parse_qa_text(raw, source="unknown"):
     if not raw: return []
@@ -165,7 +191,7 @@ def get_output_file():
 def main():
     print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
     end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
-    qa_per_call = 30  # প্রতি API কলে 30 Q&A
+    qa_per_call = 30
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         book = process_uploaded_books()
@@ -177,7 +203,7 @@ def main():
         print(f"📊 Data length: {len(combined)}")
 
         all_raws = []
-        with ThreadPoolExecutor(max_workers=6) as executor:  # 2 Groq + 2 Pollinations + 1 Mistral = 5, একটু বেশি রাখা
+        with ThreadPoolExecutor(max_workers=8) as executor:
             futures = []
             # Groq (2 keys)
             groq_keys = [
@@ -195,6 +221,12 @@ def main():
             # Mistral
             futures.append(executor.submit(
                 lambda: ("Mistral", ask_mistral(combined, qa_per_call))))
+            # npmai (ফ্রি, কোনো API Key না)
+            futures.append(executor.submit(
+                lambda: ("npmai", ask_npmai(combined, qa_per_call))))
+            # DevToolBox (ফ্রি REST API)
+            futures.append(executor.submit(
+                lambda: ("DevToolBox", ask_devtoolbox(combined, qa_per_call))))
 
             for future in as_completed(futures):
                 source_name, raw = future.result()
