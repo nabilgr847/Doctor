@@ -39,17 +39,14 @@ def update_tracker(name, ok, count=0, err=""):
         t["status"] = "failed"
         t["last_error"] = err[:200] if err else "Unknown"
 
-# ---------- Groq (2 keys, আলাদা লেবেল) ----------
+# ---------- Groq (2 keys, আলাদা লেবেল, TPM-বান্ধব মডেল) ----------
 def try_groq_with_key(key, text, count=25, label="Groq"):
     client = Groq(api_key=key)
+    # ছোট-মাঝারি মডেলগুলিই রাখা হল, বড়গুলো TPM শেষ করে ফেলছিল
     models = [
         "openai/gpt-oss-120b",
         "llama-3.1-8b-instant",
-        "llama-3.2-8b-instant",
-        "llama-3.3-70b-versatile",
-        "mixtral-8x7b-32768",
-        "gemma2-9b-it",
-        "gemma-2-2b-it"
+        "llama-3.2-8b-instant"
     ]
     user_prompt = USER_PROMPT_TEMPLATE.format(count=count, text=text[:2500])
     for model in models:
@@ -62,7 +59,7 @@ def try_groq_with_key(key, text, count=25, label="Groq"):
                         {"role": "user", "content": user_prompt}
                     ],
                     temperature=0.9,
-                    max_tokens=6144 if count <= 25 else 8192
+                    max_tokens=8192   # 25 Q&A-র জন্য পর্যাপ্ত
                 )
                 return chat.choices[0].message.content
             except Exception as e:
@@ -110,7 +107,7 @@ def ask_mistral(text, count=25):
             {"role": "user", "content": user_prompt}
         ],
         "temperature": 0.9,
-        "max_tokens": 6144
+        "max_tokens": 8192
     }
     try:
         r = requests.post("https://api.mistral.ai/v1/chat/completions",
@@ -217,12 +214,10 @@ def ask_huggingface(text, count=25):
 # ---------- পার্সার ----------
 def parse_qa_text(raw, source="unknown"):
     if not raw: return []
-    # প্রথমে Question: ... Answer: ... ধরো (সংখ্যাসহ বা ছাড়া)
     matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
     qa = [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches]
     if qa:
         return qa
-    # ব্যাকআপ: **Question:** / **Answer:**
     matches2 = re.findall(r'\*?\*?(?:Question|Q)\*?\*?:\s*(.*?)\n\s*\*?\*?(?:Answer|A)\*?\*?:\s*(.*?)(?=\n\s*\*?\*?(?:Question|Q)|$)', raw, re.DOTALL | re.IGNORECASE)
     return [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches2]
 
@@ -265,7 +260,6 @@ def main():
         all_raws = []
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = []
-            # Groq (2 separate keys)
             groq_keys = [
                 ("Groq-1", os.getenv("GROQ_API_KEY")),
                 ("Groq-2", os.getenv("GROQ_API_KEY_2"))
@@ -273,20 +267,13 @@ def main():
             for label, key in groq_keys:
                 if key:
                     futures.append(executor.submit(lambda l=label, k=key: (l, try_groq_with_key(k, combined, qa_per_call, l))))
-            # Pollinations (2 calls)
             for _ in range(2):
                 futures.append(executor.submit(lambda: ("Pollinations", ask_pollinations(combined, qa_per_call))))
-            # Mistral
             futures.append(executor.submit(lambda: ("Mistral", ask_mistral(combined, qa_per_call))))
-            # g4f
             futures.append(executor.submit(lambda: ("g4f", ask_g4f(combined, qa_per_call))))
-            # OllamaFreeAPI
             futures.append(executor.submit(lambda: ("OllamaFreeAPI", ask_ollamafree(combined, qa_per_call))))
-            # DeepSeek
             futures.append(executor.submit(lambda: ("DeepSeek", ask_deepseek(combined, qa_per_call))))
-            # Gemini
             futures.append(executor.submit(lambda: ("Gemini", ask_gemini(combined, qa_per_call))))
-            # HuggingFace
             futures.append(executor.submit(lambda: ("HuggingFace", ask_huggingface(combined, qa_per_call))))
 
             for future in as_completed(futures):
