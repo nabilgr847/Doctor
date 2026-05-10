@@ -6,3 +6,4 @@ google-genai
 pypdf
 groq
 ollamafreeapi
+g4f
