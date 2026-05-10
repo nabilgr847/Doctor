@@ -52,14 +52,14 @@ def update_tracker(name, ok, count=0, err=""):
 # ---------- Groq (2 keys, শুধু একটিভ মডেল) ----------
 def try_groq_with_key(key, text, count=30, label="Groq"):
     client = Groq(api_key=key)
-    # শুধু Groq-এ সক্রিয় মডেল (ডিকমিশন হওয়া কোনো মডেল নেই)
+    # ✅ শুধু Groq-এ অ্যাক্টিভ ও নির্ভরযোগ্য মডেল
     models = [
-        "openai/gpt-oss-120b",
-        "llama-3.1-8b-instant",
         "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
         "llama-3.3-70b-specdec",
-        "meta-llama/llama-4-scout-17b-16e-instruct",
-        "meta-llama/llama-4-maverick-17b-128e-instruct"
+        "mixtral-8x7b-32768",
+        "gemma2-9b-it",
+        "qwen-2.5-32b"
     ]
     user_prompt = make_user_prompt(count, text)
     for model in models:
@@ -96,7 +96,6 @@ def ask_pollinations(text, count=30):
         r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions", headers=headers, json=data, timeout=90)
         if r.status_code == 200:
             resp = r.json()
-            # Pollinations মাঝে মাঝে 'content' সরাসরি দেয়
             if "choices" in resp and len(resp["choices"]) > 0:
                 return resp["choices"][0].get("message", {}).get("content", "")
             elif "content" in resp:
@@ -181,7 +180,8 @@ def get_output_file():
 def main():
     print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
     end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
-    qa_per_call = 30  # প্রতি API কলে 30 Q&A
+    qa_per_call = 50   # ⬅️ আগে 30 ছিল, এখন 50 (প্রতি API-কে বলা হচ্ছে 50 টি Q&A দিতে)
+
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         book = process_uploaded_books()
@@ -242,6 +242,8 @@ def main():
             remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
             os.system("git config user.name 'God-Doctor-Bot'")
             os.system("git config user.email 'bot@doctor.ai'")
+            # ✅ Git pull first to avoid non-fast-forward
+            os.system("git pull --rebase origin main")
             os.system(f"git add {out_file}")
             ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
             os.system(f"git commit -m 'Dataset {ts}' || echo 'No changes'")
