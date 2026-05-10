@@ -7,7 +7,7 @@ from groq import Groq
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# ======================== SYSTEM MESSAGE (গভীরতা নিশ্চিত) ========================
+# ======================== SYSTEM MESSAGE (গভীর উত্তর) ========================
 SYSTEM_MESSAGE = (
     "You are a PhD‑level medical researcher writing for a medical textbook. "
     "Generate question‑answer pairs that are extremely detailed, explanatory, and 150–300 words each. "
@@ -16,7 +16,7 @@ SYSTEM_MESSAGE = (
     "Answers must NEVER be one‑liners or simple definitions. "
     "Questions must be deep, analytical, and varied – rotate between What, How, Why, Compare, Discuss, "
     "Evaluate, Investigate, Elucidate, Explain the mechanism, and What is the role of [X] in [Y]. "
-    "Every question‑answer pair MUST be UNIQUE and not repeat any previous pair in the dataset."
+    "Every question‑answer pair MUST be UNIQUE."
 )
 
 # ======================== USER PROMPT (টপিক + ফরম্যাট) ========================
@@ -49,106 +49,96 @@ def update_tracker(name, ok, count=0, err=""):
         t["status"] = "failed"
         t["last_error"] = err[:200] if err else "Unknown"
 
-# ---------- Groq (2 keys, আলাদা, নির্ভরযোগ্য মডেল) ----------
+# ---------- Groq (2 keys, শুধু একটিভ মডেল) ----------
 def try_groq_with_key(key, text, count=30, label="Groq"):
     client = Groq(api_key=key)
+    # শুধু Groq-এ সক্রিয় মডেল (ডিকমিশন হওয়া কোনো মডেল নেই)
     models = [
         "openai/gpt-oss-120b",
         "llama-3.1-8b-instant",
         "llama-3.3-70b-versatile",
-        "mixtral-8x7b-32768"
+        "llama-3.3-70b-specdec",
+        "meta-llama/llama-4-scout-17b-16e-instruct",
+        "meta-llama/llama-4-maverick-17b-128e-instruct"
     ]
     user_prompt = make_user_prompt(count, text)
     for model in models:
+        print(f"🔄 {label} trying `{model}`...")
         for _ in range(2):
             try:
                 chat = client.chat.completions.create(
                     model=model,
-                    messages=[
-                        {"role": "system", "content": SYSTEM_MESSAGE},
-                        {"role": "user", "content": user_prompt}
-                    ],
-                    temperature=0.9,
-                    max_tokens=8192
-                )
+                    messages=[{"role":"system","content":SYSTEM_MESSAGE},{"role":"user","content":user_prompt}],
+                    temperature=0.9, max_tokens=8192)
+                print(f"✅ {label} success with `{model}`")
                 return chat.choices[0].message.content
             except Exception as e:
                 err = str(e)
-                if "413" not in err:
+                if "413" in err:
+                    print(f"⏳ {label} `{model}` TPM limit, trying next...")
+                else:
+                    print(f"❌ {label} `{model}` error: {err[:150]}")
                     update_tracker(label, False, err=err)
                 time.sleep(3)
+    print(f"❌ {label} all models failed.")
     return ""
 
-# ---------- Pollinations ----------
+# ---------- Pollinations (পার্সিং ইম্প্রুভড) ----------
 def ask_pollinations(text, count=30):
     key = os.getenv("POLLINATIONS_API_KEY")
-    if not key: return ""
+    if not key:
+        print("⚠️ Pollinations: no API key")
+        return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     user_prompt = make_user_prompt(count, text)
-    data = {
-        "messages": [
-            {"role": "system", "content": SYSTEM_MESSAGE},
-            {"role": "user", "content": user_prompt}
-        ],
-        "model": "openai",
-        "temperature": 0.9
-    }
+    data = {"messages":[{"role":"system","content":SYSTEM_MESSAGE},{"role":"user","content":user_prompt}],"model":"openai","temperature":0.9}
     try:
-        r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions",
-                          headers=headers, json=data, timeout=90)
+        r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions", headers=headers, json=data, timeout=90)
         if r.status_code == 200:
-            return r.json()["choices"][0]["message"]["content"]
+            resp = r.json()
+            # Pollinations মাঝে মাঝে 'content' সরাসরি দেয়
+            if "choices" in resp and len(resp["choices"]) > 0:
+                return resp["choices"][0].get("message", {}).get("content", "")
+            elif "content" in resp:
+                return resp["content"]
+            else:
+                print(f"⚠️ Pollinations unexpected format: {str(resp)[:150]}")
+                return ""
         else:
+            print(f"❌ Pollinations HTTP {r.status_code}")
             update_tracker("Pollinations", False, err=f"HTTP {r.status_code}")
     except Exception as e:
+        print(f"❌ Pollinations exception: {e}")
         update_tracker("Pollinations", False, err=str(e))
     return ""
 
 # ---------- Mistral ----------
 def ask_mistral(text, count=30):
     key = os.getenv("MISTRAL_API_KEY")
-    if not key: return ""
+    if not key:
+        print("⚠️ Mistral: no API key")
+        return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     user_prompt = make_user_prompt(count, text)
-    data = {
-        "model": "mistral-small",
-        "messages": [
-            {"role": "system", "content": SYSTEM_MESSAGE},
-            {"role": "user", "content": user_prompt}
-        ],
-        "temperature": 0.9,
-        "max_tokens": 8192
-    }
+    data = {"model":"mistral-small","messages":[{"role":"system","content":SYSTEM_MESSAGE},{"role":"user","content":user_prompt}],"temperature":0.9,"max_tokens":8192}
     try:
-        r = requests.post("https://api.mistral.ai/v1/chat/completions",
-                          headers=headers, json=data, timeout=90)
+        r = requests.post("https://api.mistral.ai/v1/chat/completions", headers=headers, json=data, timeout=90)
         if r.status_code == 200:
+            print("✅ Mistral success")
             return r.json()["choices"][0]["message"]["content"]
         else:
+            print(f"❌ Mistral HTTP {r.status_code}")
             update_tracker("Mistral", False, err=f"HTTP {r.status_code}")
     except Exception as e:
+        print(f"❌ Mistral exception: {e}")
         update_tracker("Mistral", False, err=str(e))
     return ""
 
-# ---------- npmai (সম্পূর্ণ ফ্রি, কোনো API Key লাগে না) ----------
-def ask_npmai(text, count=30):
-    try:
-        from npmai import Ollama
-        llm = Ollama()
-        prompt = make_user_prompt(count, text)
-        res = llm.invoke(prompt, model="llama3.2")
-        if res:
-            return res
-    except Exception as e:
-        update_tracker("npmai", False, err=str(e))
-    return ""
-
-# ---------- DevToolBox API (সম্পূর্ণ ফ্রি REST API, কোনো Key লাগে না) ----------
+# ---------- DevToolBox (ব্যাকআপ) ----------
 def ask_devtoolbox(text, count=30):
     try:
         prompt = make_user_prompt(count, text)
-        r = requests.post("https://devtoolbox-api.devtoolbox-api.workers.dev/ai/generate",
-                         json={"prompt": prompt}, timeout=90)
+        r = requests.post("https://devtoolbox-api.devtoolbox-api.workers.dev/ai/generate", json={"prompt": prompt}, timeout=90)
         if r.status_code == 200:
             data = r.json()
             if isinstance(data, dict):
@@ -161,10 +151,10 @@ def ask_devtoolbox(text, count=30):
 def parse_qa_text(raw, source="unknown"):
     if not raw: return []
     matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
-    qa = [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches]
+    qa = [{"question":q.strip(),"answer":a.strip(),"source":source} for q,a in matches]
     if qa: return qa
     matches2 = re.findall(r'\*?\*?(?:Question|Q)\*?\*?:\s*(.*?)\n\s*\*?\*?(?:Answer|A)\*?\*?:\s*(.*?)(?=\n\s*\*?\*?(?:Question|Q)|$)', raw, re.DOTALL | re.IGNORECASE)
-    return [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches2]
+    return [{"question":q.strip(),"answer":a.strip(),"source":source} for q,a in matches2]
 
 # ---------- পিডিএফ ----------
 def process_uploaded_books():
@@ -191,7 +181,7 @@ def get_output_file():
 def main():
     print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
     end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
-    qa_per_call = 30
+    qa_per_call = 30  # প্রতি API কলে 30 Q&A
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         book = process_uploaded_books()
@@ -205,7 +195,6 @@ def main():
         all_raws = []
         with ThreadPoolExecutor(max_workers=8) as executor:
             futures = []
-            # Groq (2 keys)
             groq_keys = [
                 ("Groq-1", os.getenv("GROQ_API_KEY")),
                 ("Groq-2", os.getenv("GROQ_API_KEY_2"))
@@ -214,17 +203,11 @@ def main():
                 if key:
                     futures.append(executor.submit(
                         lambda l=label, k=key: (l, try_groq_with_key(k, combined, qa_per_call, l))))
-            # Pollinations (2 calls)
             for _ in range(2):
                 futures.append(executor.submit(
                     lambda: ("Pollinations", ask_pollinations(combined, qa_per_call))))
-            # Mistral
             futures.append(executor.submit(
                 lambda: ("Mistral", ask_mistral(combined, qa_per_call))))
-            # npmai (ফ্রি, কোনো API Key না)
-            futures.append(executor.submit(
-                lambda: ("npmai", ask_npmai(combined, qa_per_call))))
-            # DevToolBox (ফ্রি REST API)
             futures.append(executor.submit(
                 lambda: ("DevToolBox", ask_devtoolbox(combined, qa_per_call))))
 
