@@ -26,8 +26,8 @@ Answer: ...
 
 Text: {text}"""
 
-# ---------- Groq (এক Key, count=20) ----------
-def try_groq_with_key(key, text, count=20):
+# ---------- Groq (এক Key, count=25) ----------
+def try_groq_with_key(key, text, count=25):
     client = Groq(api_key=key)
     models = ["openai/gpt-oss-120b", "llama-3.1-8b-instant"]
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
@@ -38,7 +38,7 @@ def try_groq_with_key(key, text, count=20):
                     model=model,
                     messages=[{"role":"user","content": prompt}],
                     temperature=0.9,
-                    max_tokens=4096)
+                    max_tokens=6144)   # বাড়ানো হয়েছে ২৫ জোড়ার জন্য
                 return chat.choices[0].message.content
             except Exception as e:
                 print(f"❌ Groq error: {e}")
@@ -46,7 +46,7 @@ def try_groq_with_key(key, text, count=20):
     return ""
 
 # ---------- Pollinations ----------
-def ask_pollinations_account(text, count=20):
+def ask_pollinations_account(text, count=25):
     key = os.getenv("POLLINATIONS_API_KEY")
     if not key: return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type":"application/json"}
@@ -59,7 +59,7 @@ def ask_pollinations_account(text, count=20):
     return ""
 
 # ---------- OllamaFreeAPI ----------
-def ask_ollamafree(text, count=20):
+def ask_ollamafree(text, count=25):
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
     try:
         from ollamafreeapi import OllamaFreeAPI
@@ -67,7 +67,7 @@ def ask_ollamafree(text, count=20):
     except: return ""
 
 # ---------- DeepSeek ----------
-def ask_deepseek(text, count=20):
+def ask_deepseek(text, count=25):
     key = os.getenv("DEEPSEEK_API_KEY")
     if not key: return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type":"application/json"}
@@ -80,7 +80,7 @@ def ask_deepseek(text, count=20):
     return ""
 
 # ---------- Gemini ----------
-def ask_gemini(text, count=20):
+def ask_gemini(text, count=25):
     key = os.getenv("GEMINI_API_KEY")
     if not key: return ""
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
@@ -93,7 +93,7 @@ def ask_gemini(text, count=20):
     except: return ""
 
 # ---------- Hugging Face ----------
-def ask_huggingface(text, count=20):
+def ask_huggingface(text, count=25):
     url = "https://api-inference.huggingface.co/models/google/flan-t5-large"
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
     for _ in range(2):
@@ -139,7 +139,7 @@ def get_output_file():
 def main():
     print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
     end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
-    qa_per_call = 20  # Groq TPM ঠিক রাখতে
+    qa_per_call = 25  # বাড়ানো হলো
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         book = process_uploaded_books()
@@ -151,23 +151,17 @@ def main():
         print(f"📊 Data length: {len(combined)}")
 
         # প্যারালাল API কল (source সহ টাপল)
-        all_raws = []  # (source_name, raw_text)
+        all_raws = []
         with ThreadPoolExecutor(max_workers=8) as executor:
             futures = []
-            # Groq (2 keys)
             for key in [os.getenv("GROQ_API_KEY"), os.getenv("GROQ_API_KEY_2")]:
                 if key:
                     futures.append(executor.submit(lambda k=key: ("Groq", try_groq_with_key(k, combined, qa_per_call))))
-            # Pollinations (2 calls)
             for _ in range(2):
                 futures.append(executor.submit(lambda: ("Pollinations", ask_pollinations_account(combined, qa_per_call))))
-            # OllamaFreeAPI
             futures.append(executor.submit(lambda: ("OllamaFreeAPI", ask_ollamafree(combined, qa_per_call))))
-            # DeepSeek
             futures.append(executor.submit(lambda: ("DeepSeek", ask_deepseek(combined, qa_per_call))))
-            # Gemini
             futures.append(executor.submit(lambda: ("Gemini", ask_gemini(combined, qa_per_call))))
-            # Hugging Face
             futures.append(executor.submit(lambda: ("HuggingFace", ask_huggingface(combined, qa_per_call))))
 
             for future in as_completed(futures):
@@ -175,11 +169,16 @@ def main():
                 if raw:
                     all_raws.append((source_name, raw))
 
-        # পার্সিং (source সহ)
+        # পার্সিং এবং প্রতি API-র এন্ট্রি গণনা
         entries = []
+        entries_per_source = {}
         for source_name, raw in all_raws:
-            entries.extend(parse_qa_text(raw, source=source_name))
+            parsed = parse_qa_text(raw, source=source_name)
+            entries.extend(parsed)
+            entries_per_source[source_name] = entries_per_source.get(source_name, 0) + len(parsed)
+
         print(f"📝 Total entries: {len(entries)}")
+        print(f"📊 Sources: {entries_per_source}")   # কীভাবে ভাগ হয়েছে তা লগে দেখাবে
 
         if entries:
             out_file = get_output_file()
