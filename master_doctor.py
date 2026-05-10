@@ -7,68 +7,27 @@ from groq import Groq
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# ======================== মাস্টার প্রম্পট (গবেষণামূলক, ব্যাখ্যামূলক, মেডিকেলের সব শাখা) ========================
-PROMPT_TEMPLATE = """Generate exactly {count} UNIQUE, research-grade medical question-answer pairs. 
-You MUST cover DIFFERENT topics from the ENTIRE medical and biological sciences domain. 
-Include at least all of these areas, rotating each time:
-1. Molecular biology (DNA/RNA, gene editing, CRISPR, epigenetics)
-2. Cancer biology (specific cancers: breast, lung, colorectal, pancreatic; mechanisms: metastasis, angiogenesis, tumor microenvironment)
-3. Immunology (innate & adaptive immunity, checkpoint inhibitors, CAR-T, vaccines, autoimmune diseases)
-4. Pharmacology (drug mechanisms, pharmacokinetics, adverse effects, drug-drug interactions)
-5. Cardiology (atherosclerosis, heart failure, arrhythmias, hypertension)
-6. Neurology (Alzheimer's, Parkinson's, stroke, neuroimaging, synapses)
-7. Infectious diseases (antibiotics, antiviral, vaccines, emerging pathogens)
-8. Endocrinology (diabetes, thyroid, hormonal regulation)
-9. Genetics (inheritance patterns, GWAS, gene therapy)
-10. Rare diseases (orphan drugs, case studies)
-11. Diagnostic imaging (MRI, CT, PET, ultrasound principles)
-12. Clinical trials (phases, blinding, endpoints, ethics)
-13. Surgery (techniques, complications, perioperative care)
-14. Pathology (histology, biomarkers, immunohistochemistry)
-15. Bioinformatics (sequence alignment, protein structure prediction, omics data)
-16. Epidemiology (study designs, bias, meta-analysis)
-17. Public health (vaccination policies, outbreak investigation)
-18. Regenerative medicine (stem cells, tissue engineering)
-19. Nanomedicine (drug delivery, nanoparticles)
-20. Psychiatry (depression, schizophrenia, psychotherapy)
-21. Pediatrics (neonatology, growth disorders)
-22. Dermatology (psoriasis, melanoma, skin infections)
-23. Ophthalmology (retinal diseases, glaucoma)
-24. Hematology (anemia, leukemia, transfusion)
-25. Nephrology (kidney function, dialysis)
-26. Gastroenterology (IBD, liver cirrhosis, microbiome)
-27. Pulmonology (COPD, asthma, pneumonia)
-28. Urology (prostate cancer, kidney stones)
-29. Obstetrics & Gynecology (pregnancy, endometriosis)
-30. Anesthesiology (types of anesthesia, pain management)
-31. Emergency medicine (trauma, triage)
-32. Radiology (X-ray, radiation therapy)
-33. Medical ethics (informed consent, confidentiality)
-34. Medical education (clinical reasoning, OSCE)
-35. Healthcare systems (policy, insurance models)
+# ======================== সংক্ষিপ্ত প্রম্পট (Groq TPM <= 8000) ========================
+PROMPT_TEMPLATE = """Generate exactly {count} UNIQUE medical question-answer pairs covering diverse medical fields.
+Rotate topics each call (e.g., molecular biology, cancer, immunology, pharmacology, cardiology, neurology, infectious diseases, genetics, radiology, psychiatry, etc.).
 
-CRITICAL INSTRUCTIONS FOR ANSWERS:
-- Answers MUST be extremely detailed, comprehensive, and explanatory (like a PhD dissertation or a medical textbook).
-- NEVER give one-liner answers. Each answer should develop the reasoning, mechanisms, clinical implications, and where relevant, mention research studies or guidelines.
-- Structure complex answers logically: define key terms, explain the underlying biology/mechanism, discuss clinical relevance, mention any controversies or open questions, and end with a concise summary.
-- For each answer, aim for at least 150-300 words. Go deeper if the topic demands it.
-- Include references to specific genes, proteins, pathways, diagnostic criteria, staging systems, or clinical trial names when appropriate.
-- You may use the collected text as a starting point, but you may enrich the answer with your internal medical knowledge.
+ANSWERS must be:
+- Extremely detailed, explanatory, PhD-level, 150-300 words
+- Include mechanisms, genes/proteins, clinical relevance, research findings
+- Never one-liners
 
-Important rules for questions:
-- Every question MUST BE UNIQUE and NOT repeat any previous question.
-- Vary question starters: What, How, Why, Which, Compare, Describe, Discuss, Explain the mechanism, What is the role of, How does [X] affect [Y], etc.
-- Questions should invite detailed, analytical answers.
+QUESTIONS must be:
+- Unique and varied (What, How, Why, Compare, Describe, Explain mechanism)
+- Rotate topics each call
 
-Use format EXACTLY:
+Format EXACTLY:
 Question: ...
 Answer: ...
 
-Now, based on the following collected medical information, generate {count} pairs.
 Text: {text}"""
 
-# ---------- Groq (এক Key দিয়ে চেষ্টা) ----------
-def try_groq_with_key(key, text, count=50):
+# ---------- Groq (এক Key, count=20) ----------
+def try_groq_with_key(key, text, count=20):
     client = Groq(api_key=key)
     models = ["openai/gpt-oss-120b", "llama-3.1-8b-instant"]
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
@@ -78,7 +37,8 @@ def try_groq_with_key(key, text, count=50):
                 chat = client.chat.completions.create(
                     model=model,
                     messages=[{"role":"user","content": prompt}],
-                    temperature=0.9, max_tokens=8192 if count>=50 else 4096)
+                    temperature=0.9,
+                    max_tokens=4096)
                 return chat.choices[0].message.content
             except Exception as e:
                 print(f"❌ Groq error: {e}")
@@ -86,7 +46,7 @@ def try_groq_with_key(key, text, count=50):
     return ""
 
 # ---------- Pollinations ----------
-def ask_pollinations_account(text, count=50):
+def ask_pollinations_account(text, count=20):
     key = os.getenv("POLLINATIONS_API_KEY")
     if not key: return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type":"application/json"}
@@ -99,7 +59,7 @@ def ask_pollinations_account(text, count=50):
     return ""
 
 # ---------- OllamaFreeAPI ----------
-def ask_ollamafree(text, count=50):
+def ask_ollamafree(text, count=20):
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
     try:
         from ollamafreeapi import OllamaFreeAPI
@@ -107,7 +67,7 @@ def ask_ollamafree(text, count=50):
     except: return ""
 
 # ---------- DeepSeek ----------
-def ask_deepseek(text, count=50):
+def ask_deepseek(text, count=20):
     key = os.getenv("DEEPSEEK_API_KEY")
     if not key: return ""
     headers = {"Authorization": f"Bearer {key}", "Content-Type":"application/json"}
@@ -120,7 +80,7 @@ def ask_deepseek(text, count=50):
     return ""
 
 # ---------- Gemini ----------
-def ask_gemini(text, count=50):
+def ask_gemini(text, count=20):
     key = os.getenv("GEMINI_API_KEY")
     if not key: return ""
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
@@ -133,7 +93,7 @@ def ask_gemini(text, count=50):
     except: return ""
 
 # ---------- Hugging Face ----------
-def ask_huggingface(text, count=50):
+def ask_huggingface(text, count=20):
     url = "https://api-inference.huggingface.co/models/google/flan-t5-large"
     prompt = PROMPT_TEMPLATE.format(count=count, text=text[:2500])
     for _ in range(2):
@@ -146,14 +106,14 @@ def ask_huggingface(text, count=50):
         time.sleep(20)
     return ""
 
-# ---------- পার্সার ----------
-def parse_qa_text(raw):
+# ---------- উন্নত পার্সার (source সহ) ----------
+def parse_qa_text(raw, source="unknown"):
     if not raw: return []
     matches = re.findall(r'\d*\.?\s*(?:Question|Q):\s*(.*?)\n\s*(?:Answer|A):\s*(.*?)(?=\n\s*\d*\.?\s*(?:Question|Q):|$)', raw, re.DOTALL | re.IGNORECASE)
-    qa = [{"question": q.strip(), "answer": a.strip()} for q, a in matches]
+    qa = [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches]
     if qa: return qa
     matches2 = re.findall(r'\*?\*?(?:Question|Q)\*?\*?:\s*(.*?)\n\s*\*?\*?(?:Answer|A)\*?\*?:\s*(.*?)(?=\n\s*\*?\*?(?:Question|Q)|$)', raw, re.DOTALL | re.IGNORECASE)
-    return [{"question": q.strip(), "answer": a.strip()} for q, a in matches2]
+    return [{"question": q.strip(), "answer": a.strip(), "source": source} for q, a in matches2]
 
 # ---------- পিডিএফ ----------
 def process_uploaded_books():
@@ -179,7 +139,7 @@ def get_output_file():
 def main():
     print(f"🚀 Doctor Non-Stop Run started @ {datetime.now()}")
     end_time = datetime.utcnow() + timedelta(hours=5, minutes=50)
-    qa_per_call = 50
+    qa_per_call = 20  # Groq TPM ঠিক রাখতে
     while datetime.utcnow() < end_time:
         start_cycle = time.time()
         book = process_uploaded_books()
@@ -189,22 +149,38 @@ def main():
         serp = search_serpapi() if hour in [0,8,16] else ""
         combined = book + "\n" + search_data + "\n" + medical_data + "\n" + serp
         print(f"📊 Data length: {len(combined)}")
-        all_raws = []
+
+        # প্যারালাল API কল (source সহ টাপল)
+        all_raws = []  # (source_name, raw_text)
         with ThreadPoolExecutor(max_workers=8) as executor:
             futures = []
+            # Groq (2 keys)
             for key in [os.getenv("GROQ_API_KEY"), os.getenv("GROQ_API_KEY_2")]:
-                if key: futures.append(executor.submit(try_groq_with_key, key, combined, qa_per_call))
-            for _ in range(2): futures.append(executor.submit(ask_pollinations_account, combined, qa_per_call))
-            futures.append(executor.submit(ask_ollamafree, combined, qa_per_call))
-            futures.append(executor.submit(ask_deepseek, combined, qa_per_call))
-            futures.append(executor.submit(ask_gemini, combined, qa_per_call))
-            futures.append(executor.submit(ask_huggingface, combined, qa_per_call))
+                if key:
+                    futures.append(executor.submit(lambda k=key: ("Groq", try_groq_with_key(k, combined, qa_per_call))))
+            # Pollinations (2 calls)
+            for _ in range(2):
+                futures.append(executor.submit(lambda: ("Pollinations", ask_pollinations_account(combined, qa_per_call))))
+            # OllamaFreeAPI
+            futures.append(executor.submit(lambda: ("OllamaFreeAPI", ask_ollamafree(combined, qa_per_call))))
+            # DeepSeek
+            futures.append(executor.submit(lambda: ("DeepSeek", ask_deepseek(combined, qa_per_call))))
+            # Gemini
+            futures.append(executor.submit(lambda: ("Gemini", ask_gemini(combined, qa_per_call))))
+            # Hugging Face
+            futures.append(executor.submit(lambda: ("HuggingFace", ask_huggingface(combined, qa_per_call))))
+
             for future in as_completed(futures):
-                res = future.result()
-                if res: all_raws.append(res)
+                source_name, raw = future.result()
+                if raw:
+                    all_raws.append((source_name, raw))
+
+        # পার্সিং (source সহ)
         entries = []
-        for raw in all_raws: entries.extend(parse_qa_text(raw))
+        for source_name, raw in all_raws:
+            entries.extend(parse_qa_text(raw, source=source_name))
         print(f"📝 Total entries: {len(entries)}")
+
         if entries:
             out_file = get_output_file()
             with open(out_file, "w", encoding="utf-8") as f:
@@ -220,7 +196,9 @@ def main():
             os.system(f"git remote set-url origin {remote_url}")
             os.system("git push")
             print(f"✅ {len(entries)} entries pushed in {out_file}")
-        else: print("⚠️ No entries this cycle.")
+        else:
+            print("⚠️ No entries this cycle.")
+
         elapsed = time.time() - start_cycle
         sleep_time = max(5, 15 - elapsed)
         print(f"⏳ Sleeping {sleep_time:.1f}s...")
