@@ -54,12 +54,13 @@ def try_groq_with_key(key, text, count=30, label="Groq"):
     client = Groq(api_key=key)
     # Groq-তে বর্তমানে সক্রিয় ও নির্ভরযোগ্য মডেলগুলোর তালিকা
     models = [
-        "llama-3.3-70b-versatile",
-        "llama-3.1-8b-instant",
-        "llama-4-scout-17b-16e-instruct",
-        "qwen-3-32b",
-        "deepseek-r1-distill-qwen-32b",
-        "llama-3.2-90b-vision-preview"
+    "llama-3.3-70b-versatile",
+    "llama-3.1-8b-instant",
+    "meta-llama/llama-4-scout-17b-16e-instruct",  # ✅ প্রিফিক্স ঠিক করা হয়েছে
+    "qwen/qwen3-32b",                              # ✅ প্রিফিক্স ঠিক করা হয়েছে
+    "deepseek-r1-distill-qwen-32b",
+    ]
+        
     ]
     user_prompt = make_user_prompt(count, text)
     for model in models:
