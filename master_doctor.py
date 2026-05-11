@@ -52,14 +52,14 @@ def update_tracker(name, ok, count=0, err=""):
 # ---------- Groq (2 keys, শুধু একটিভ মডেল) ----------
 def try_groq_with_key(key, text, count=30, label="Groq"):
     client = Groq(api_key=key)
-    # শুধু Groq-এ সক্রিয় মডেল (ডিকমিশন হওয়া কোনো মডেল নেই)
+    # Groq-তে বর্তমানে সক্রিয় ও নির্ভরযোগ্য মডেলগুলোর তালিকা
     models = [
-        "openai/gpt-oss-120b",
-        "llama-3.1-8b-instant",
         "llama-3.3-70b-versatile",
-        "llama-3.3-70b-specdec",
-        "meta-llama/llama-4-scout-17b-16e-instruct",
-        "meta-llama/llama-4-maverick-17b-128e-instruct"
+        "llama-3.1-8b-instant",
+        "llama-4-scout-17b-16e-instruct",
+        "qwen-3-32b",
+        "deepseek-r1-distill-qwen-32b",
+        "llama-3.2-90b-vision-preview"
     ]
     user_prompt = make_user_prompt(count, text)
     for model in models:
@@ -96,7 +96,6 @@ def ask_pollinations(text, count=30):
         r = requests.post("https://text.pollinations.ai/openai/v1/chat/completions", headers=headers, json=data, timeout=90)
         if r.status_code == 200:
             resp = r.json()
-            # Pollinations মাঝে মাঝে 'content' সরাসরি দেয়
             if "choices" in resp and len(resp["choices"]) > 0:
                 return resp["choices"][0].get("message", {}).get("content", "")
             elif "content" in resp:
@@ -258,4 +257,4 @@ def main():
     print("🏁 Non-stop run completed.")
 
 if __name__ == "__main__":
-    main() 
+    main()
