@@ -60,8 +60,6 @@ def try_groq_with_key(key, text, count=30, label="Groq"):
     "qwen/qwen3-32b",                              # ✅ প্রিফিক্স ঠিক করা হয়েছে
     "deepseek-r1-distill-qwen-32b",
     ]
-        
-    ]
     user_prompt = make_user_prompt(count, text)
     for model in models:
         print(f"🔄 {label} trying `{model}`...")
