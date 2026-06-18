@@ -1,0 +1,4 @@
+{"question": "What is the primary function of the PD-1 protein in cancer cells?", "answer": "The PD-1 protein is a checkpoint protein that inhibits the immune response, allowing cancer cells to evade the immune system.", "source": "DevToolBox"}
+{"question": "How do cancer immunotherapies work?", "answer": "Cancer immunotherapies harness the immune system to fight cancer cells by targeting proteins expressed by cancer cells, such as PD-1, and activating immune cells like T cells.", "source": "DevToolBox"}
+{"question": "What is the difference between a vaccine and a T cell infusion?", "answer": "A vaccine is a type of cancer immunotherapy that introduces a small piece of a virus or bacteria to the body to stimulate an immune response, while a T cell infusion involves infusing live T cells into the body to attack cancer cells.", "source": "DevToolBox"}
+{"question": "What is the role of CD8⁺ T cells in cancer immunotherapy?", "answer": "CD8", "source": "DevToolBox"}
