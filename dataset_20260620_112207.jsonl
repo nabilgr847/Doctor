@@ -1,0 +1,4 @@
+{"question": "What is the primary function of checkpoint proteins in cancer immunotherapy?", "answer": "Checkpoint proteins, such as PD-1, inhibit the immune response to prevent autoimmunity and cancer.", "source": "DevToolBox"}
+{"question": "How does cancer immunotherapy work?", "answer": "Cancer immunotherapy harnesses the immune system to fight cancer cells by targeting specific proteins expressed by cancer cells.", "source": "DevToolBox"}
+{"question": "What is the difference between a tumor-infiltrating lymphocyte (TIL) and a circulating tumor cell (CTC)?", "answer": "A TIL is a lymphocyte that has infiltrated a tumor, while a CTC is a cancer cell that has broken away from a tumor and entered the bloodstream.", "source": "DevToolBox"}
+{"question": "What is the role of CD8+ T cells in cancer immunotherapy?", "answer": "CD8+ T cells, also known as killer T cells, play a crucial role in attacking and killing cancer cells.\n\n5", "source": "DevToolBox"}
