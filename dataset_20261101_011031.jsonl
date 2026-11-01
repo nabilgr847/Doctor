@@ -1,0 +1,4 @@
+{"question": "What is the primary function of the PD-1/PD-L1 axis in cancer immunotherapy?", "answer": "The PD-1/PD-L1 axis is a checkpoint that inhibits the immune response, allowing cancer cells to evade immune detection.", "source": "DevToolBox"}
+{"question": "How does immunotherapy work in treating cancer?", "answer": "Immunotherapy works by inducing, enhancing, or suppressing an immune response to target and kill cancer cells.", "source": "DevToolBox"}
+{"question": "What is the difference between activation and suppression immunotherapy?", "answer": "Activation immunotherapy amplifies an immune response, while suppression immunotherapy reduces or suppresses an immune response.", "source": "DevToolBox"}
+{"question": "What is the role of Fc glycoengineering in cancer immunotherapy?", "answer": "Fc glycoengineering enhances NK cell-mediated antibody-dependent cellular cytotoxicity by increasing FcγRIIIa binding.", "source": "DevToolBox"}
